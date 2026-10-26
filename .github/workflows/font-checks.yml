@@ -40,12 +40,20 @@ jobs:
         run: python -B tests/check_project.py
       - name: Verify chart fixture source and font access
         run: python -B tests/check_chart_pilot.py
+      - name: Verify complete character guide and exact copy routes
+        run: python -B tests/check_character_guide.py
       - name: Verify chart renderer syntax
         run: node --check demo/chart-pilot/assets/app.js
       - name: Verify chart fixture script syntax
         run: node --check demo/chart-pilot/assets/fixtures.js
       - name: Verify browser audit syntax
         run: node --check tooling/chart-audit.js
+      - name: Verify character guide renderer syntax
+        run: node --check guide/assets/app.js
+      - name: Verify character guide data script syntax
+        run: node --check guide/assets/catalog.js
+      - name: Verify character guide audit syntax
+        run: node --check tooling/guide-audit.js
       - name: Verify native Windows font intake
         if: runner.os == 'Windows'
         run: python -B native_smoke.py

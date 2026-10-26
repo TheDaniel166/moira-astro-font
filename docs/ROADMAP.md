@@ -12,7 +12,15 @@ The [pilot](../demo/chart-pilot/index.html) presents a complete wheel and compan
 
 The implementation provides light/dark themes, font-format selection, keyboard-accessible scrolling and a three-page Letter-landscape print folio. Independent fixture, browser and PDF checks are documented in [the pilot guide](CHART_PILOT.md). The pilot exposes presentation conventions for owner review; it does not change approved drawings. Keep that review distinct from automated validation.
 
-## Next: public beta preparation
+## Character guide and picker
+
+The [guide](../guide/index.html) covers all 725 usable forms with name/alias/category/source searches, Unicode and exact-token copying, Word aliases, variant links and model/witness notes. Feature-only slashed zero and blank spacing retain their actual encoding behavior. The font binaries, drawing history and native model remain unchanged. Generation and regression commands are recorded in [the guide documentation](CHARACTER_GUIDE.md).
+
+## Next: website symbol-font adoption
+
+The owner has confirmed Moira Astro should become the primary font for astrological symbols and notation, while the website retains its prose typography. [The adoption plan](WEBSITE_ADOPTION_PLAN.md) records a read-only consumer/export audit, legacy-code collisions, ownership boundaries and a staged migration. Implement the identity-aware route adapter and one public chart with its SVG/PNG/PDF lane before expanding to the remaining public surfaces and Workspace authoring source.
+
+## Public beta preparation
 
 Prepare a versioned release with TTF/WOFF2, editable source, OFL/Unicode notices, reproducible build instructions, a searchable character guide and copyable token examples. Publish the tested-application matrix and known limitations. Tagging, release uploads, hosted specimens and a visibility change are maintainer publication actions.
 

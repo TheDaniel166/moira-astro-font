@@ -6,6 +6,7 @@ Current development baseline: **0.13.2-alpha.1** — 726 glyphs, 225 mapped char
 
 ## Try the font
 
+- [Searchable character guide and picker](guide/index.html) — all 725 usable forms, meanings, related variants and exact copy routes. See [the guide documentation](docs/CHARACTER_GUIDE.md).
 - [TrueType font](fonts/MoiraAstro-Regular.ttf)
 - [WOFF2 webfont](fonts/MoiraAstro-Regular.woff2)
 - [Browser specimen](index.html) — open this file locally after cloning, or serve the repository with `python -m http.server 8000` and visit `http://localhost:8000/`.
@@ -30,6 +31,7 @@ python -m pip install -r requirements.txt
 python -B validate.py
 python -B tests/check_project.py
 python -B tests/check_chart_pilot.py
+python -B tests/check_character_guide.py
 ```
 
 `validate.py` builds twice from source in temporary directories and compares both builds with the shipped TTF/WOFF2. It checks licensing, outlines, glyph order, hinting, metrics, mappings, OpenType tables, all token routes and default behavior. Run this before rebuilding committed binaries so a stale font cannot be silently hidden by a build.
@@ -42,7 +44,7 @@ python -B build.py
 
 For a separate output directory, use `python -B build.py --output build/fonts`. On Windows, `python -B native_smoke.py` additionally tests process-private font intake and removes the font resource afterward. Reports go into ignored `build/`.
 
-GitHub Actions runs font/source, chart-fixture and JavaScript syntax checks on Windows and Linux for pushes and pull requests. Windows also runs the native intake check. Local browser/PDF review commands are documented in the pilot guide. The workflow does not publish releases or deploy a website.
+GitHub Actions runs font/source, chart-fixture, character-guide and JavaScript syntax checks on Windows and Linux for pushes and pull requests. Windows also runs the native intake check. Local browser/PDF review commands are documented in the pilot and guide documentation. The workflow does not publish releases or deploy a website.
 
 ## Source of truth
 
@@ -60,4 +62,4 @@ Glyph appearance does not select a native calculation, a lunar model, a zodiac s
 
 Copyright 2026 Moira Astro contributors. Original glyph designs. With Reserved Font Name Moira. Font Software is licensed under [SIL OFL 1.1](OFL.txt); see [NOTICE.md](NOTICE.md) for source-data and dependency boundaries. Licensing is embedded in both font containers.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md), [CHECKS.md](CHECKS.md) and [the roadmap](docs/ROADMAP.md). Review the chart pilot's presentation choices and findings before preparing a documented public beta.
+Read [CONTRIBUTING.md](CONTRIBUTING.md), [CHECKS.md](CHECKS.md) and [the roadmap](docs/ROADMAP.md). The next planned product milestone is [website adoption](docs/WEBSITE_ADOPTION_PLAN.md) as the primary font for astrological symbols and notation. The website's prose typography is retained.

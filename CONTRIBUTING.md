@@ -24,4 +24,4 @@ Do not add external font contours, proprietary font files, local working-tree ob
 
 ## Review and release
 
-Explain the visible behavior, meaning/encoding impact and checks run in change descriptions. This initial repository has no prior commit convention or PR template. Public releases and repository visibility changes are separate maintainer actions. The current next milestone is [the chart pilot](docs/ROADMAP.md).
+Explain the visible behavior, meaning/encoding impact and checks run in change descriptions. The repository has no prescribed commit convention or PR template. Public releases and repository visibility changes are separate maintainer actions. Review [the chart pilot](docs/CHART_PILOT.md) before [public beta preparation](docs/ROADMAP.md).

@@ -38,6 +38,13 @@ jobs:
         run: python -B validate.py
       - name: Verify project archives, sources and documentation
         run: python -B tests/check_project.py
+      - name: Verify chart fixture source and font access
+        run: python -B tests/check_chart_pilot.py
+      - name: Verify chart JavaScript syntax
+        run: |
+          node --check demo/chart-pilot/assets/app.js
+          node --check demo/chart-pilot/assets/fixtures.js
+          node --check tooling/chart-audit.js
       - name: Verify native Windows font intake
         if: runner.os == 'Windows'
         run: python -B native_smoke.py

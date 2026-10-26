@@ -32,7 +32,9 @@ def run():
         check('Archived packet exists '+group['path'],(ROOT/group['path']).is_dir())
     required=['OFL.txt','UNICODE-LICENSE.txt','source/MoiraAstro-Regular.ttx','source/baseline-contract.json',
               'fonts/MoiraAstro-Regular.ttf','fonts/MoiraAstro-Regular.woff2','inventory/inventory.json',
-              '.github/workflows/font-checks.yml','entry-map.json','aliases.json','build.py','validate.py']
+              '.github/workflows/font-checks.yml','entry-map.json','aliases.json','build.py','validate.py',
+              'demo/chart-pilot/index.html','demo/chart-pilot/assets/app.js','demo/chart-pilot/assets/fixtures.json',
+              'demo/chart-pilot/assets/fixtures.js','tests/check_chart_pilot.py']
     for name in required:check('Required project file '+name,(ROOT/name).is_file())
     registry=json.loads((ROOT/'entry-map.json').read_text('utf-8'))
     check('Current OFL registry',registry['version']=='0.13.2-alpha.1' and registry['license']=='OFL-1.1')
@@ -43,7 +45,7 @@ def run():
         def handle_starttag(self,tag,attrs):
             for k,v in attrs:
                 if k in {'href','src'}:self.links.append(v)
-    documents=[ROOT/n for n in ['README.md','CONTRIBUTING.md','AGENTS.md','NOTICE.md','CHECKS.md','index.html']]+sorted((ROOT/'docs').glob('*.md'))
+    documents=[ROOT/n for n in ['README.md','CONTRIBUTING.md','AGENTS.md','NOTICE.md','CHECKS.md','index.html','demo/chart-pilot/index.html','demo/chart-pilot/README.md']]+sorted((ROOT/'docs').glob('*.md'))
     link_count=0
     for doc in documents:
         text=doc.read_text('utf-8')

@@ -1,0 +1,5 @@
+# Copyright 2026 Moira Astro contributors. Licensed under SIL OFL 1.1; see OFL.txt.
+# Optional local browser/PDF review tooling; normal font CI uses requirements.txt.
+-r requirements.txt
+Pillow==13.0.0
+PyMuPDF==1.28.0

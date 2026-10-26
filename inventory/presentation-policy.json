@@ -1,0 +1,949 @@
+{
+  "version": "1.0.0-review",
+  "font_version": "0.13.0-alpha.1",
+  "glyph_changes": 0,
+  "native_model_changes": 0,
+  "default_symbol_em": 18,
+  "dense_symbol_em": 24,
+  "stress_size_em": 14,
+  "dense_symbols": [
+    "smallbody.fortuna",
+    "smallbody.makemake",
+    "smallbody.quaoar"
+  ],
+  "fixed_star_chart_em": 24,
+  "historical_star_em": 32,
+  "fixed_star_name_and_witness_required": true,
+  "same_shape_contexts": [
+    "Septile / Stationary",
+    "Decile / Direct",
+    "Fire / Trine"
+  ],
+  "semantic_context_required": true,
+  "minimum_gap_px": 6,
+  "label_gap_px": 6,
+  "collision_rule": "Measure each complete advance, add its label and gap, then wrap whole entries; never scale a wide composition into a one-em cell.",
+  "model_labels": [
+    {
+      "id": "lunar.ascending.mean",
+      "name": "Mean ascending node",
+      "symbol": "☊",
+      "label": "Mean ascending node",
+      "accessible_label": "Mean ascending node",
+      "required_model_id": "lunar.ascending.mean",
+      "font_feature_selects_model": false
+    },
+    {
+      "id": "lunar.descending.mean",
+      "name": "Mean descending node",
+      "symbol": "☋",
+      "label": "Mean descending node",
+      "accessible_label": "Mean descending node",
+      "required_model_id": "lunar.descending.mean",
+      "font_feature_selects_model": false
+    },
+    {
+      "id": "lunar.ascending.true",
+      "name": "True ascending node",
+      "symbol": "☊",
+      "label": "True ascending node",
+      "accessible_label": "True ascending node",
+      "required_model_id": "lunar.ascending.true",
+      "font_feature_selects_model": false
+    },
+    {
+      "id": "lunar.descending.true",
+      "name": "True descending node",
+      "symbol": "☋",
+      "label": "True descending node",
+      "accessible_label": "True descending node",
+      "required_model_id": "lunar.descending.true",
+      "font_feature_selects_model": false
+    },
+    {
+      "id": "lunar.apogee.mean",
+      "name": "Mean lunar apogee / mean Lilith",
+      "symbol": "⚸",
+      "label": "Mean lunar apogee / mean Lilith",
+      "accessible_label": "Mean lunar apogee / mean Lilith",
+      "required_model_id": "lunar.apogee.mean",
+      "font_feature_selects_model": false
+    },
+    {
+      "id": "lunar.apogee.osculating",
+      "name": "Osculating lunar apogee / true Lilith",
+      "symbol": "⚸",
+      "label": "Osculating lunar apogee / true Lilith",
+      "accessible_label": "Osculating lunar apogee / true Lilith",
+      "required_model_id": "lunar.apogee.osculating",
+      "font_feature_selects_model": false
+    }
+  ],
+  "satellite_layouts": [
+    {
+      "id": "satellite.mars.phobos",
+      "name": "Phobos (Mars I)",
+      "parent": "Mars",
+      "roman": "I",
+      "parent_text": "♂",
+      "plain_text": "♂ I",
+      "accessible_label": "Phobos (Mars I)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 32.096,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Mars",
+        "satellite_designation": "I",
+        "naif_id": 401
+      },
+      "glyphs": [
+        {
+          "text": "♂",
+          "size": 24,
+          "advance": 21.6
+        },
+        {
+          "text": "I",
+          "size": 14,
+          "advance": 6.496
+        }
+      ]
+    },
+    {
+      "id": "satellite.mars.deimos",
+      "name": "Deimos (Mars II)",
+      "parent": "Mars",
+      "roman": "II",
+      "parent_text": "♂",
+      "plain_text": "♂ II",
+      "accessible_label": "Deimos (Mars II)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 38.592,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Mars",
+        "satellite_designation": "II",
+        "naif_id": 402
+      },
+      "glyphs": [
+        {
+          "text": "♂",
+          "size": 24,
+          "advance": 21.6
+        },
+        {
+          "text": "II",
+          "size": 14,
+          "advance": 12.992
+        }
+      ]
+    },
+    {
+      "id": "satellite.jupiter.io",
+      "name": "Io (Jupiter I)",
+      "parent": "Jupiter",
+      "roman": "I",
+      "parent_text": "♃",
+      "plain_text": "♃ I",
+      "accessible_label": "Io (Jupiter I)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 30.8,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Jupiter",
+        "satellite_designation": "I",
+        "naif_id": 501
+      },
+      "glyphs": [
+        {
+          "text": "♃",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "I",
+          "size": 14,
+          "advance": 6.496
+        }
+      ]
+    },
+    {
+      "id": "satellite.jupiter.europa",
+      "name": "Europa (Jupiter II)",
+      "parent": "Jupiter",
+      "roman": "II",
+      "parent_text": "♃",
+      "plain_text": "♃ II",
+      "accessible_label": "Europa (Jupiter II)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 37.296,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Jupiter",
+        "satellite_designation": "II",
+        "naif_id": 502
+      },
+      "glyphs": [
+        {
+          "text": "♃",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "II",
+          "size": 14,
+          "advance": 12.992
+        }
+      ]
+    },
+    {
+      "id": "satellite.jupiter.ganymede",
+      "name": "Ganymede (Jupiter III)",
+      "parent": "Jupiter",
+      "roman": "III",
+      "parent_text": "♃",
+      "plain_text": "♃ III",
+      "accessible_label": "Ganymede (Jupiter III)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 43.792,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Jupiter",
+        "satellite_designation": "III",
+        "naif_id": 503
+      },
+      "glyphs": [
+        {
+          "text": "♃",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "III",
+          "size": 14,
+          "advance": 19.488
+        }
+      ]
+    },
+    {
+      "id": "satellite.jupiter.callisto",
+      "name": "Callisto (Jupiter IV)",
+      "parent": "Jupiter",
+      "roman": "IV",
+      "parent_text": "♃",
+      "plain_text": "♃ IV",
+      "accessible_label": "Callisto (Jupiter IV)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 41.384,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Jupiter",
+        "satellite_designation": "IV",
+        "naif_id": 504
+      },
+      "glyphs": [
+        {
+          "text": "♃",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "IV",
+          "size": 14,
+          "advance": 17.08
+        }
+      ]
+    },
+    {
+      "id": "satellite.saturn.mimas",
+      "name": "Mimas (Saturn I)",
+      "parent": "Saturn",
+      "roman": "I",
+      "parent_text": "♄",
+      "plain_text": "♄ I",
+      "accessible_label": "Mimas (Saturn I)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 30.8,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Saturn",
+        "satellite_designation": "I",
+        "naif_id": 601
+      },
+      "glyphs": [
+        {
+          "text": "♄",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "I",
+          "size": 14,
+          "advance": 6.496
+        }
+      ]
+    },
+    {
+      "id": "satellite.saturn.enceladus",
+      "name": "Enceladus (Saturn II)",
+      "parent": "Saturn",
+      "roman": "II",
+      "parent_text": "♄",
+      "plain_text": "♄ II",
+      "accessible_label": "Enceladus (Saturn II)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 37.296,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Saturn",
+        "satellite_designation": "II",
+        "naif_id": 602
+      },
+      "glyphs": [
+        {
+          "text": "♄",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "II",
+          "size": 14,
+          "advance": 12.992
+        }
+      ]
+    },
+    {
+      "id": "satellite.saturn.tethys",
+      "name": "Tethys (Saturn III)",
+      "parent": "Saturn",
+      "roman": "III",
+      "parent_text": "♄",
+      "plain_text": "♄ III",
+      "accessible_label": "Tethys (Saturn III)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 43.792,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Saturn",
+        "satellite_designation": "III",
+        "naif_id": 603
+      },
+      "glyphs": [
+        {
+          "text": "♄",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "III",
+          "size": 14,
+          "advance": 19.488
+        }
+      ]
+    },
+    {
+      "id": "satellite.saturn.dione",
+      "name": "Dione (Saturn IV)",
+      "parent": "Saturn",
+      "roman": "IV",
+      "parent_text": "♄",
+      "plain_text": "♄ IV",
+      "accessible_label": "Dione (Saturn IV)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 41.384,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Saturn",
+        "satellite_designation": "IV",
+        "naif_id": 604
+      },
+      "glyphs": [
+        {
+          "text": "♄",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "IV",
+          "size": 14,
+          "advance": 17.08
+        }
+      ]
+    },
+    {
+      "id": "satellite.saturn.rhea",
+      "name": "Rhea (Saturn V)",
+      "parent": "Saturn",
+      "roman": "V",
+      "parent_text": "♄",
+      "plain_text": "♄ V",
+      "accessible_label": "Rhea (Saturn V)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 34.888,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Saturn",
+        "satellite_designation": "V",
+        "naif_id": 605
+      },
+      "glyphs": [
+        {
+          "text": "♄",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "V",
+          "size": 14,
+          "advance": 10.584
+        }
+      ]
+    },
+    {
+      "id": "satellite.saturn.titan",
+      "name": "Titan (Saturn VI)",
+      "parent": "Saturn",
+      "roman": "VI",
+      "parent_text": "♄",
+      "plain_text": "♄ VI",
+      "accessible_label": "Titan (Saturn VI)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 41.384,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Saturn",
+        "satellite_designation": "VI",
+        "naif_id": 606
+      },
+      "glyphs": [
+        {
+          "text": "♄",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "VI",
+          "size": 14,
+          "advance": 17.08
+        }
+      ]
+    },
+    {
+      "id": "satellite.saturn.hyperion",
+      "name": "Hyperion (Saturn VII)",
+      "parent": "Saturn",
+      "roman": "VII",
+      "parent_text": "♄",
+      "plain_text": "♄ VII",
+      "accessible_label": "Hyperion (Saturn VII)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 47.88,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Saturn",
+        "satellite_designation": "VII",
+        "naif_id": 607
+      },
+      "glyphs": [
+        {
+          "text": "♄",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "VII",
+          "size": 14,
+          "advance": 23.576
+        }
+      ]
+    },
+    {
+      "id": "satellite.saturn.iapetus",
+      "name": "Iapetus (Saturn VIII)",
+      "parent": "Saturn",
+      "roman": "VIII",
+      "parent_text": "♄",
+      "plain_text": "♄ VIII",
+      "accessible_label": "Iapetus (Saturn VIII)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 54.376,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Saturn",
+        "satellite_designation": "VIII",
+        "naif_id": 608
+      },
+      "glyphs": [
+        {
+          "text": "♄",
+          "size": 24,
+          "advance": 20.304
+        },
+        {
+          "text": "VIII",
+          "size": 14,
+          "advance": 30.072
+        }
+      ]
+    },
+    {
+      "id": "satellite.uranus.ariel",
+      "name": "Ariel (Uranus I)",
+      "parent": "Uranus",
+      "roman": "I",
+      "parent_text": "♅",
+      "plain_text": "♅ I",
+      "accessible_label": "Ariel (Uranus I)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 29.384,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Uranus",
+        "satellite_designation": "I",
+        "naif_id": 701
+      },
+      "glyphs": [
+        {
+          "text": "♅",
+          "size": 24,
+          "advance": 18.888
+        },
+        {
+          "text": "I",
+          "size": 14,
+          "advance": 6.496
+        }
+      ]
+    },
+    {
+      "id": "satellite.uranus.umbriel",
+      "name": "Umbriel (Uranus II)",
+      "parent": "Uranus",
+      "roman": "II",
+      "parent_text": "♅",
+      "plain_text": "♅ II",
+      "accessible_label": "Umbriel (Uranus II)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 35.88,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Uranus",
+        "satellite_designation": "II",
+        "naif_id": 702
+      },
+      "glyphs": [
+        {
+          "text": "♅",
+          "size": 24,
+          "advance": 18.888
+        },
+        {
+          "text": "II",
+          "size": 14,
+          "advance": 12.992
+        }
+      ]
+    },
+    {
+      "id": "satellite.uranus.titania",
+      "name": "Titania (Uranus III)",
+      "parent": "Uranus",
+      "roman": "III",
+      "parent_text": "♅",
+      "plain_text": "♅ III",
+      "accessible_label": "Titania (Uranus III)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 42.376,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Uranus",
+        "satellite_designation": "III",
+        "naif_id": 703
+      },
+      "glyphs": [
+        {
+          "text": "♅",
+          "size": 24,
+          "advance": 18.888
+        },
+        {
+          "text": "III",
+          "size": 14,
+          "advance": 19.488
+        }
+      ]
+    },
+    {
+      "id": "satellite.uranus.oberon",
+      "name": "Oberon (Uranus IV)",
+      "parent": "Uranus",
+      "roman": "IV",
+      "parent_text": "♅",
+      "plain_text": "♅ IV",
+      "accessible_label": "Oberon (Uranus IV)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 39.968,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Uranus",
+        "satellite_designation": "IV",
+        "naif_id": 704
+      },
+      "glyphs": [
+        {
+          "text": "♅",
+          "size": 24,
+          "advance": 18.888
+        },
+        {
+          "text": "IV",
+          "size": 14,
+          "advance": 17.08
+        }
+      ]
+    },
+    {
+      "id": "satellite.uranus.miranda",
+      "name": "Miranda (Uranus V)",
+      "parent": "Uranus",
+      "roman": "V",
+      "parent_text": "♅",
+      "plain_text": "♅ V",
+      "accessible_label": "Miranda (Uranus V)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 33.472,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Uranus",
+        "satellite_designation": "V",
+        "naif_id": 705
+      },
+      "glyphs": [
+        {
+          "text": "♅",
+          "size": 24,
+          "advance": 18.888
+        },
+        {
+          "text": "V",
+          "size": 14,
+          "advance": 10.584
+        }
+      ]
+    },
+    {
+      "id": "satellite.neptune.triton",
+      "name": "Triton (Neptune I)",
+      "parent": "Neptune",
+      "roman": "I",
+      "parent_text": "♆",
+      "plain_text": "♆ I",
+      "accessible_label": "Triton (Neptune I)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 31.88,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Neptune",
+        "satellite_designation": "I",
+        "naif_id": 801
+      },
+      "glyphs": [
+        {
+          "text": "♆",
+          "size": 24,
+          "advance": 21.384
+        },
+        {
+          "text": "I",
+          "size": 14,
+          "advance": 6.496
+        }
+      ]
+    },
+    {
+      "id": "satellite.neptune.nereid",
+      "name": "Nereid (Neptune II)",
+      "parent": "Neptune",
+      "roman": "II",
+      "parent_text": "♆",
+      "plain_text": "♆ II",
+      "accessible_label": "Nereid (Neptune II)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 38.376,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Neptune",
+        "satellite_designation": "II",
+        "naif_id": 802
+      },
+      "glyphs": [
+        {
+          "text": "♆",
+          "size": 24,
+          "advance": 21.384
+        },
+        {
+          "text": "II",
+          "size": 14,
+          "advance": 12.992
+        }
+      ]
+    },
+    {
+      "id": "satellite.neptune.proteus",
+      "name": "Proteus (Neptune VIII)",
+      "parent": "Neptune",
+      "roman": "VIII",
+      "parent_text": "♆",
+      "plain_text": "♆ VIII",
+      "accessible_label": "Proteus (Neptune VIII)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 55.456,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Neptune",
+        "satellite_designation": "VIII",
+        "naif_id": 808
+      },
+      "glyphs": [
+        {
+          "text": "♆",
+          "size": 24,
+          "advance": 21.384
+        },
+        {
+          "text": "VIII",
+          "size": 14,
+          "advance": 30.072
+        }
+      ]
+    },
+    {
+      "id": "satellite.pluto.charon",
+      "name": "Charon (Pluto I)",
+      "parent": "Pluto",
+      "roman": "I",
+      "parent_text": "♇",
+      "plain_text": "♇ I",
+      "accessible_label": "Charon (Pluto I)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 26.792,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Pluto",
+        "satellite_designation": "I",
+        "naif_id": 901
+      },
+      "glyphs": [
+        {
+          "text": "♇",
+          "size": 24,
+          "advance": 16.296
+        },
+        {
+          "text": "I",
+          "size": 14,
+          "advance": 6.496
+        }
+      ]
+    },
+    {
+      "id": "satellite.pluto.nix",
+      "name": "Nix (Pluto II)",
+      "parent": "Pluto",
+      "roman": "II",
+      "parent_text": "♇",
+      "plain_text": "♇ II",
+      "accessible_label": "Nix (Pluto II)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 33.288,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Pluto",
+        "satellite_designation": "II",
+        "naif_id": 902
+      },
+      "glyphs": [
+        {
+          "text": "♇",
+          "size": 24,
+          "advance": 16.296
+        },
+        {
+          "text": "II",
+          "size": 14,
+          "advance": 12.992
+        }
+      ]
+    },
+    {
+      "id": "satellite.pluto.hydra",
+      "name": "Hydra (Pluto III)",
+      "parent": "Pluto",
+      "roman": "III",
+      "parent_text": "♇",
+      "plain_text": "♇ III",
+      "accessible_label": "Hydra (Pluto III)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 39.784,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Pluto",
+        "satellite_designation": "III",
+        "naif_id": 903
+      },
+      "glyphs": [
+        {
+          "text": "♇",
+          "size": 24,
+          "advance": 16.296
+        },
+        {
+          "text": "III",
+          "size": 14,
+          "advance": 19.488
+        }
+      ]
+    },
+    {
+      "id": "satellite.pluto.kerberos",
+      "name": "Kerberos (Pluto IV)",
+      "parent": "Pluto",
+      "roman": "IV",
+      "parent_text": "♇",
+      "plain_text": "♇ IV",
+      "accessible_label": "Kerberos (Pluto IV)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 37.376,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Pluto",
+        "satellite_designation": "IV",
+        "naif_id": 904
+      },
+      "glyphs": [
+        {
+          "text": "♇",
+          "size": 24,
+          "advance": 16.296
+        },
+        {
+          "text": "IV",
+          "size": 14,
+          "advance": 17.08
+        }
+      ]
+    },
+    {
+      "id": "satellite.pluto.styx",
+      "name": "Styx (Pluto V)",
+      "parent": "Pluto",
+      "roman": "V",
+      "parent_text": "♇",
+      "plain_text": "♇ V",
+      "accessible_label": "Styx (Pluto V)",
+      "parent_em": 24,
+      "label_em": 14,
+      "gap_px": 4,
+      "baseline_rule": "Common baseline; ordinary Roman label; no superscript or ligature.",
+      "advance_px": 30.88,
+      "standalone_emblem": false,
+      "exact_native_identity": {
+        "parent": "Pluto",
+        "satellite_designation": "V",
+        "naif_id": 905
+      },
+      "glyphs": [
+        {
+          "text": "♇",
+          "size": 24,
+          "advance": 16.296
+        },
+        {
+          "text": "V",
+          "size": 14,
+          "advance": 10.584
+        }
+      ]
+    }
+  ],
+  "small_size_note": "14 px is a stress proof, not the default. Size choices are local review policy, not universal recognition guarantees."
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-23",
+  "source": "User instruction in this conversation",
+  "decision": "Keep the letter family as the minor-aspect default, with the alternatives retained.",
+  "source_batch": "C:/dev/outputs/moira-astro-design-batch-02-minor-aspects-20261023",
+  "default_letter_forms": [
+    "quintile",
+    "biquintile",
+    "septile",
+    "biseptile",
+    "triseptile",
+    "novile",
+    "binovile",
+    "quadnovile",
+    "decile",
+    "tredecile",
+    "undecile",
+    "quindecile",
+    "vigintile"
+  ],
+  "alternate_forms_retained": true,
+  "prior_files_modified": false,
+  "font_integration_performed": false
+}

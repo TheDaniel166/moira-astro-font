@@ -1,0 +1,479 @@
+{
+  "project": "Moira Astro",
+  "date": "2026-10-23",
+  "status": "direction C refinement for visual review",
+  "preferred_marker": "marker-open",
+  "new_marker_designs": 2,
+  "new_family_compositions": 10,
+  "preserved_family_anchors": 2,
+  "source_units_per_em": 1000,
+  "source_stroke": 60,
+  "preview_scale": 1.08,
+  "formula_records_changed": false,
+  "new_mappings_assigned": false,
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "marker-open",
+      "name": "Lot prefix — open lozenge",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g>",
+      "proof_advance_units": 1100,
+      "kind": "preferred-new-marker",
+      "semantic_id": "notation.lot-prefix",
+      "outline_provenance": "Original Moira coordinates. No third-party outlines, tracing or historical-glyph claim.",
+      "description": "Angular head, open upper-right side and horizontal rightward terminal.",
+      "mapping": {
+        "status": "unresolved",
+        "codepoints": [],
+        "pua_assignment": null
+      },
+      "feature_slot": null,
+      "font_integrated": false,
+      "asset": "masters/marker-open.svg"
+    },
+    {
+      "id": "marker-closed",
+      "name": "Lot prefix — closed comparison",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 500 L460 200 L160 500 L460 800 Z M760 500 H940\"/></g>",
+      "proof_advance_units": 1100,
+      "kind": "comparison-only-new-marker",
+      "semantic_id": "notation.lot-prefix",
+      "outline_provenance": "Original Moira coordinates; comparison only, not an admitted alternate.",
+      "mapping": {
+        "status": "unresolved",
+        "codepoints": [],
+        "pua_assignment": null
+      },
+      "feature_slot": null,
+      "font_integrated": false,
+      "asset": "masters/marker-closed.svg"
+    },
+    {
+      "id": "old-ring",
+      "name": "Prior direction C ring",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"290\"/></g>",
+      "proof_advance_units": 1000,
+      "kind": "superseded-control-in-new-study",
+      "asset": "masters/old-ring.svg"
+    },
+    {
+      "id": "capital-o",
+      "name": "Capital O",
+      "drawing": "<g transform=\"translate(-120 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"500\" cy=\"505\" rx=\"265\" ry=\"315\"/></g></g>",
+      "proof_advance_units": 760,
+      "kind": "unchanged-control",
+      "asset": "masters/capital-o.svg"
+    },
+    {
+      "id": "zero",
+      "name": "Digit 0",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"340\" cy=\"505\" rx=\"225\" ry=\"315\"/></g>",
+      "proof_advance_units": 680,
+      "kind": "unchanged-control",
+      "asset": "masters/zero.svg"
+    },
+    {
+      "id": "zero-slashed",
+      "name": "Slashed zero",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"340\" cy=\"505\" rx=\"225\" ry=\"315\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M170 735 L510 275\"/></g>",
+      "proof_advance_units": 680,
+      "kind": "unchanged-control",
+      "asset": "masters/zero-slashed.svg"
+    },
+    {
+      "id": "pallas",
+      "name": "Pallas",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 165 L730 390 500 615 270 390 Z M500 615 V850 M345 745 H655\"/></g>",
+      "proof_advance_units": 1000,
+      "kind": "unchanged-control",
+      "asset": "masters/pallas.svg"
+    },
+    {
+      "id": "lilith-diamond",
+      "name": "Lilith — diamond form",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 600 V850 M345 750 H655\"/></g><path d=\"M500 160 L735 395 500 630 265 395 Z\" fill=\"currentColor\"/>",
+      "proof_advance_units": 1000,
+      "kind": "unchanged-control",
+      "asset": "masters/lilith-diamond.svg"
+    },
+    {
+      "id": "spirit-vertical",
+      "name": "Spirit — vertical-bar alternate",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"290\"/><path d=\"M500 230 V770\"/></g>",
+      "proof_advance_units": 1000,
+      "kind": "unchanged-control",
+      "semantic_id": "lot.spirit",
+      "asset": "masters/spirit-vertical.svg"
+    },
+    {
+      "id": "fortune",
+      "name": "Fortune",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"285\"/><path d=\"M298 298 L702 702 M298 702 L702 298\"/></g>",
+      "proof_advance_units": 1000,
+      "kind": "preserved-anchor",
+      "semantic_id": "lot.fortune",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F774"
+        ],
+        "unicode_names": [
+          "LOT OF FORTUNE"
+        ],
+        "text": "🝴",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "short_label": null,
+      "formula_selected": false,
+      "font_integrated": false,
+      "asset": "masters/fortune.svg"
+    },
+    {
+      "id": "spirit",
+      "name": "Spirit",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"290\"/></g><g transform=\"translate(500 500) scale(.55) translate(-500 -500)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"110\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g>",
+      "proof_advance_units": 1000,
+      "kind": "preserved-anchor",
+      "semantic_id": "lot.spirit",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "proposed_contextual_use_of_circled_latin_S_not_dedicated_spirit_assignment",
+        "codepoints": [
+          "U+24C8"
+        ],
+        "unicode_names": [
+          "CIRCLED LATIN CAPITAL LETTER S"
+        ],
+        "text": "Ⓢ",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "short_label": null,
+      "formula_selected": false,
+      "font_integrated": false,
+      "asset": "masters/spirit.svg"
+    },
+    {
+      "id": "eros",
+      "name": "Eros",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 200 H270 V810 H760 M270 500 H680\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-275 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M320 810 V420 M320 555 C380 405 500 355 650 440\"/></g></g></g></g>",
+      "proof_advance_units": 2450,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.eros",
+      "short_label": "Er",
+      "meaning": "Named derived lot family Eros; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "E",
+        "r"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/eros.svg"
+    },
+    {
+      "id": "necessity",
+      "name": "Necessity",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M260 810 V190 L740 810 V190\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-210 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M735 465 C605 335 325 385 290 585 C250 825 555 910 735 750\"/></g></g></g></g>",
+      "proof_advance_units": 2580,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.necessity",
+      "short_label": "Nc",
+      "meaning": "Named derived lot family Necessity; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "N",
+        "c"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/necessity.svg"
+    },
+    {
+      "id": "courage",
+      "name": "Courage",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"500\" cy=\"615\" rx=\"220\" ry=\"205\"/></g></g></g></g>",
+      "proof_advance_units": 2620,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.courage",
+      "short_label": "Co",
+      "meaning": "Named derived lot family Courage; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "C",
+        "o"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/courage.svg"
+    },
+    {
+      "id": "victory",
+      "name": "Victory",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-370 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 425 V810\"/><circle cx=\"500\" cy=\"245\" r=\"36\" fill=\"currentColor\" stroke=\"none\"/></g></g></g></g>",
+      "proof_advance_units": 2260,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.victory",
+      "short_label": "Vi",
+      "meaning": "Named derived lot family Victory; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "V",
+        "i"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/victory.svg"
+    },
+    {
+      "id": "nemesis",
+      "name": "Nemesis",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M260 810 V190 L740 810 V190\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-75 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M240 810 V410 M240 555 C240 360 500 360 500 555 V810 M500 555 C500 360 760 360 760 555 V810\"/></g></g></g></g>",
+      "proof_advance_units": 2850,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.nemesis",
+      "short_label": "Nm",
+      "meaning": "Named derived lot family Nemesis; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "N",
+        "m"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/nemesis.svg"
+    },
+    {
+      "id": "basis",
+      "name": "Basis",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H470 C745 200 745 500 470 500 H270 M470 500 C805 500 805 810 470 810 H270\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M715 470 C580 335 300 395 280 600 C255 850 580 885 715 715 M715 415 V810\"/></g></g></g></g>",
+      "proof_advance_units": 2620,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.basis",
+      "short_label": "Ba",
+      "meaning": "Named derived lot family Basis; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "B",
+        "a"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/basis.svg"
+    },
+    {
+      "id": "exaltation",
+      "name": "Exaltation",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 200 H270 V810 H760 M270 500 H680\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g></g>",
+      "proof_advance_units": 2550,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.exaltation",
+      "short_label": "Ex",
+      "meaning": "Named derived lot family Exaltation; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "E",
+        "x"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/exaltation.svg"
+    },
+    {
+      "id": "father",
+      "name": "Father",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H760 M270 495 H690\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M715 470 C580 335 300 395 280 600 C255 850 580 885 715 715 M715 415 V810\"/></g></g></g></g>",
+      "proof_advance_units": 2620,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.father",
+      "short_label": "Fa",
+      "meaning": "Named derived lot family Father; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "F",
+        "a"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/father.svg"
+    },
+    {
+      "id": "mother",
+      "name": "Mother",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-75 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M180 810 V190 L500 595 820 190 V810\"/></g></g></g><g transform=\"translate(890 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"500\" cy=\"615\" rx=\"220\" ry=\"205\"/></g></g></g></g>",
+      "proof_advance_units": 2770,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.mother",
+      "short_label": "Mo",
+      "meaning": "Named derived lot family Mother; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "M",
+        "o"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/mother.svg"
+    },
+    {
+      "id": "marriage",
+      "name": "Marriage",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M610 350 L460 200 L160 500 L460 800 L760 500 H940\"/></g><g transform=\"translate(1100 0)\"><g transform=\"translate(0 0)\"><g transform=\"translate(-75 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M180 810 V190 L500 595 820 190 V810\"/></g></g></g><g transform=\"translate(890 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M715 470 C580 335 300 395 280 600 C255 850 580 885 715 715 M715 415 V810\"/></g></g></g></g>",
+      "proof_advance_units": 2770,
+      "kind": "refined-direction-c-composition",
+      "semantic_id": "lot.marriage",
+      "short_label": "Ma",
+      "meaning": "Named derived lot family Marriage; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": "",
+        "pua_assignment": null
+      },
+      "marker_component": "marker-open",
+      "letter_components": [
+        "M",
+        "a"
+      ],
+      "letter_tracking": 40,
+      "label_origin_x": 1100,
+      "existing_letter_drawing_changed": false,
+      "formula_selected": false,
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "note": "Family label only; preserve a source-qualified formula identity beside every computed value.",
+      "asset": "masters/marriage.svg"
+    }
+  ]
+}

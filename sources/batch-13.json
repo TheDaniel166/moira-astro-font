@@ -1,0 +1,306 @@
+{
+  "project": "Moira Astro",
+  "batch": 13,
+  "date": "2026-10-24",
+  "draft": 1,
+  "unicode_version": "17.0.0",
+  "proposed_forms": 7,
+  "independent_new_constructions": 6,
+  "mirrored_own_constructions": 1,
+  "font_integrated": false,
+  "pua_allocations": 0,
+  "feature_allocations": 0,
+  "forms": [
+    {
+      "character": "☀",
+      "concept_id": "body.sun",
+      "label": "Ray Sun",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M675 500 C675 596.649831 596.649831 675 500 675 C403.350169 675 325 596.649831 325 500 C325 403.350169 403.350169 325 500 325 C596.649831 325 675 403.350169 675 500 Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M755.000000 500.000000 L850.000000 500.000000\"/><path d=\"M680.312229 680.312229 L747.487373 747.487373\"/><path d=\"M500.000000 755.000000 L500.000000 850.000000\"/><path d=\"M319.687771 680.312229 L252.512627 747.487373\"/><path d=\"M245.000000 500.000000 L150.000000 500.000000\"/><path d=\"M319.687771 319.687771 L252.512627 252.512627\"/><path d=\"M500.000000 245.000000 L500.000000 150.000000\"/><path d=\"M680.312229 319.687771 L747.487373 252.512627\"/></g>",
+      "construction": "Solid central disc with eight separated rays",
+      "note": "Black ray Sun; preserves the existing circled-point Sun default.",
+      "sources": [
+        "unicode17-2600"
+      ],
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          300
+        ]
+      ],
+      "origin": "new_original_batch13_geometry",
+      "id": "body-alternate.u2600",
+      "codepoint": "U+2600",
+      "unicode_name": "BLACK SUN WITH RAYS",
+      "name": "Ray Sun",
+      "advance": 1000,
+      "group": "Core-body alternate characters",
+      "meaning": "Alternative icon for sun; same physical body.",
+      "release_priority": "P2",
+      "status": "original_vector_study_for_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "default_replacement": false,
+      "assigned_relation": "distinct_assigned_character",
+      "text_presentation_sequence": [
+        "U+2600",
+        "U+FE0E"
+      ],
+      "drawing_sha256": "a82cfd31ff013ed8d7f96f3207a4a3b30ae545e94618ae954cee107adfaa2121",
+      "asset": "masters/u2600.svg"
+    },
+    {
+      "character": "☽",
+      "concept_id": "body.moon",
+      "label": "Opposite Moon crescent",
+      "drawing": "<g transform=\"translate(1000 0) scale(-1 1)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M655 185 C405 160 230 305 230 500 C230 695 405 840 655 815 C395 700 395 300 655 185 Z\" fill=\"currentColor\" stroke=\"none\" /></g></g>",
+      "construction": "Mirrored original Moira filled crescent, opening left",
+      "note": "Generic Moon-body icon option only; retain U+263D identity and never flip phase text globally.",
+      "sources": [
+        "unicode17-2600",
+        "own-moon"
+      ],
+      "counters": [],
+      "gaps": [
+        [
+          350,
+          500
+        ]
+      ],
+      "origin": "mirror_of_unchanged_own_moon_geometry",
+      "id": "body-alternate.u263d",
+      "codepoint": "U+263D",
+      "unicode_name": "FIRST QUARTER MOON",
+      "name": "Opposite Moon crescent",
+      "advance": 1000,
+      "group": "Core-body alternate characters",
+      "meaning": "Alternative icon for moon; same physical body.",
+      "release_priority": "P2",
+      "status": "original_vector_study_for_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "default_replacement": false,
+      "assigned_relation": "distinct_assigned_character",
+      "text_presentation_sequence": null,
+      "drawing_sha256": "066cfbb0144c402e948d2bdaf7ec51433b67dd9035ad2b0f90c512228a49ff0c",
+      "asset": "masters/u263d.svg"
+    },
+    {
+      "character": "⛢",
+      "concept_id": "body.uranus",
+      "label": "Astronomical Uranus",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"620\" r=\"210\"/><circle cx=\"500\" cy=\"620\" r=\"48\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M500 410 V165 M390 275 L500 165 610 275\"/></g>",
+      "construction": "Circled central point with upright arrow",
+      "note": "Keeps the dot, ring and upward spear distinct from Mars and the existing H-form Uranus.",
+      "sources": [
+        "unicode17-2600",
+        "uranus-proposal"
+      ],
+      "counters": [
+        [
+          610,
+          620
+        ]
+      ],
+      "gaps": [],
+      "origin": "new_original_batch13_geometry",
+      "id": "body-alternate.u26e2",
+      "codepoint": "U+26E2",
+      "unicode_name": "ASTRONOMICAL SYMBOL FOR URANUS",
+      "name": "Astronomical Uranus",
+      "advance": 1000,
+      "group": "Core-body alternate characters",
+      "meaning": "Alternative icon for uranus; same physical body.",
+      "release_priority": "P2",
+      "status": "original_vector_study_for_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "default_replacement": false,
+      "assigned_relation": "distinct_assigned_character",
+      "text_presentation_sequence": null,
+      "drawing_sha256": "faa6d993879c6d045612e48029d7713418ceadfbb39ac666a9e29ffe1cdf5264",
+      "asset": "masters/u26e2.svg"
+    },
+    {
+      "character": "⯓",
+      "concept_id": "body.pluto",
+      "label": "Pluto form two",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"285\" r=\"110\"/><path d=\"M235 300 C235 620 765 620 765 300 M500 540 V840 M360 730 H640\"/></g>",
+      "construction": "Orb above open cup, with stem and cross below",
+      "note": "Preserves the separation between the orb and cup; distinct from Mercury and the existing PL monogram.",
+      "sources": [
+        "unicode17-2b00",
+        "pluto-proposal"
+      ],
+      "counters": [
+        [
+          500,
+          285
+        ]
+      ],
+      "gaps": [
+        [
+          500,
+          470
+        ]
+      ],
+      "origin": "new_original_batch13_geometry",
+      "id": "body-alternate.u2bd3",
+      "codepoint": "U+2BD3",
+      "unicode_name": "PLUTO FORM TWO",
+      "name": "Pluto form two",
+      "advance": 1000,
+      "group": "Core-body alternate characters",
+      "meaning": "Alternative icon for pluto; same physical body.",
+      "release_priority": "P2",
+      "status": "original_vector_study_for_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "default_replacement": false,
+      "assigned_relation": "distinct_assigned_character",
+      "text_presentation_sequence": null,
+      "drawing_sha256": "e0a28690dc6554936a2f6d2e4a480b9ccee72cb17939c07f902cd91c004052f0",
+      "asset": "masters/u2bd3.svg"
+    },
+    {
+      "character": "⯔",
+      "concept_id": "body.pluto",
+      "label": "Pluto form three",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 335 C220 175 500 175 500 335 C500 175 780 175 780 335 M500 335 V650 M355 485 H645\"/><circle cx=\"500\" cy=\"760\" r=\"110\"/></g>",
+      "construction": "Double arched head above cross and lower ring",
+      "note": "Uses the ring-bearing reference form. Other attested head/ring variants remain research references, not new feature allocations.",
+      "sources": [
+        "unicode17-2b00",
+        "pluto-proposal"
+      ],
+      "counters": [
+        [
+          500,
+          760
+        ]
+      ],
+      "gaps": [
+        [
+          360,
+          315
+        ]
+      ],
+      "origin": "new_original_batch13_geometry",
+      "id": "body-alternate.u2bd4",
+      "codepoint": "U+2BD4",
+      "unicode_name": "PLUTO FORM THREE",
+      "name": "Pluto form three",
+      "advance": 1000,
+      "group": "Core-body alternate characters",
+      "meaning": "Alternative icon for pluto; same physical body.",
+      "release_priority": "P2",
+      "status": "original_vector_study_for_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "default_replacement": false,
+      "assigned_relation": "distinct_assigned_character",
+      "text_presentation_sequence": null,
+      "drawing_sha256": "88b7f94aa7afea523c25c64dac7e8c339827b8f5444f5327dec13d4ab72c8dc9",
+      "asset": "masters/u2bd4.svg"
+    },
+    {
+      "character": "⯕",
+      "concept_id": "body.pluto",
+      "label": "Pluto form four",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"285\" r=\"100\"/><path d=\"M205 450 C340 625 660 625 795 450 C795 875 205 875 205 450 Z\"/></g>",
+      "construction": "Orb above an outlined upward crescent bowl",
+      "note": "White crescent construction with no stem or cross; follows the reference form without asserting a new symbol origin.",
+      "sources": [
+        "unicode17-2b00",
+        "pluto-proposal"
+      ],
+      "counters": [
+        [
+          500,
+          285
+        ],
+        [
+          500,
+          670
+        ]
+      ],
+      "gaps": [
+        [
+          500,
+          465
+        ]
+      ],
+      "origin": "new_original_batch13_geometry",
+      "id": "body-alternate.u2bd5",
+      "codepoint": "U+2BD5",
+      "unicode_name": "PLUTO FORM FOUR",
+      "name": "Pluto form four",
+      "advance": 1000,
+      "group": "Core-body alternate characters",
+      "meaning": "Alternative icon for pluto; same physical body.",
+      "release_priority": "P2",
+      "status": "original_vector_study_for_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "default_replacement": false,
+      "assigned_relation": "distinct_assigned_character",
+      "text_presentation_sequence": null,
+      "drawing_sha256": "d6433c07629de2d5a491cfd7126a48b70331732523c9b77f8e400205ac853fca",
+      "asset": "masters/u2bd5.svg"
+    },
+    {
+      "character": "⯖",
+      "concept_id": "body.pluto",
+      "label": "Pluto form five",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"290\"/><path d=\"M500 210 C690 345 690 655 500 790\"/></g>",
+      "construction": "Outlined orb with a bowed internal division",
+      "note": "Both fields stay unfilled. This is a Pluto character, not the Moon, zero, a slashed zero or a literal orbital diagram.",
+      "sources": [
+        "unicode17-2b00",
+        "pluto-proposal"
+      ],
+      "counters": [
+        [
+          370,
+          500
+        ],
+        [
+          720,
+          500
+        ]
+      ],
+      "gaps": [],
+      "origin": "new_original_batch13_geometry",
+      "id": "body-alternate.u2bd6",
+      "codepoint": "U+2BD6",
+      "unicode_name": "PLUTO FORM FIVE",
+      "name": "Pluto form five",
+      "advance": 1000,
+      "group": "Core-body alternate characters",
+      "meaning": "Alternative icon for pluto; same physical body.",
+      "release_priority": "P2",
+      "status": "original_vector_study_for_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "default_replacement": false,
+      "assigned_relation": "distinct_assigned_character",
+      "text_presentation_sequence": null,
+      "drawing_sha256": "964b91f6d00a4929593fb33480d850e371ecb037aca92240e99c88ab685a8dda",
+      "asset": "masters/u2bd6.svg"
+    }
+  ]
+}

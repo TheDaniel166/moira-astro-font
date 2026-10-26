@@ -1,0 +1,361 @@
+{
+  "project": "Moira Astro",
+  "version": "design-batch-01-draft-01",
+  "date": "2026-10-23",
+  "status": "design review draft",
+  "new_concepts": 10,
+  "source_cell": [
+    1000,
+    1000
+  ],
+  "preview_scale": 1.08,
+  "actual_font_rendering": false,
+  "family_baseline": "0.1.0-alpha.2",
+  "font_integration": false,
+  "sources": [
+    {
+      "id": "ucd17-misc",
+      "title": "Unicode 17.0 Miscellaneous Symbols chart, PDF page 2, U+26B3–26BC",
+      "url": "https://www.unicode.org/Public/17.0.0/charts/PDF/U2600.pdf",
+      "file": "references/Unicode17-Miscellaneous-Symbols.pdf",
+      "role": "Identity and structural reference only; no prescriptive proportions or imported outlines."
+    },
+    {
+      "id": "ucd17-arrows",
+      "title": "Unicode 17.0 Miscellaneous Symbols and Arrows chart, PDF page 2, U+2BDB",
+      "url": "https://www.unicode.org/Public/17.0.0/charts/PDF/U2B00.pdf",
+      "file": "references/Unicode17-Miscellaneous-Symbols-Arrows.pdf",
+      "role": "Final Pholus character identity and structural reference."
+    },
+    {
+      "id": "ucd17-math",
+      "title": "Unicode 17.0 Mathematical Operators chart, U+2220",
+      "url": "https://www.unicode.org/Public/17.0.0/charts/PDF/U2200.pdf",
+      "file": "references/Unicode17-Mathematical-Operators.pdf",
+      "role": "Assigned ANGLE character, not a dedicated differently named semisquare codepoint."
+    },
+    {
+      "id": "ucd17-names",
+      "title": "Unicode 17.0 NamesList: U+2220 astrological semisquare annotation",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt",
+      "role": "Explicit evidence of contextual semisquare usage."
+    },
+    {
+      "id": "faulks2016-p19",
+      "title": "David Faulks, Additional Symbols for Astrology, page 19",
+      "url": "https://www.unicode.org/L2/L2016/16080-add-astrology.pdf#page=19",
+      "file": "references/Faulks-2016-astrology-proposal.pdf",
+      "role": "Usage examples for P-over-loop Pholus. Draft proposed code positions are not encoding authority."
+    },
+    {
+      "id": "alpha2",
+      "title": "Existing Moira Astro 0.1.0-alpha.2 original master registry",
+      "file": "C:/dev/outputs/moira-astro-pilot-20261023/font-v0.1.0/glyphs.json",
+      "role": "Read-only family proportions, stroke and comparison artwork."
+    },
+    {
+      "id": "inventory",
+      "title": "Moira Astro master character inventory, 1.0.0-planning",
+      "file": "C:/dev/outputs/moira-astro-character-inventory-20261023/inventory.json",
+      "role": "Stable semantic IDs, meanings, priorities and intended mappings."
+    }
+  ],
+  "glyphs": [
+    {
+      "id": "ceres",
+      "semantic_id": "smallbody.ceres",
+      "name": "Ceres",
+      "unicode": "U+26B3",
+      "unicode_name": "CERES",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Physical numbered small body (1) Ceres; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "Open crook above a lower cross.",
+      "design_note": "Keep the upper hook open and distinguish the crook from Saturn's lower hook.",
+      "references": [
+        "ucd17-misc"
+      ],
+      "comparison_id": "saturn",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M485 525 C745 525 785 205 590 175 C470 150 365 200 320 270 M485 525 V840 M330 725 H640\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "minor_planet_number": 1
+    },
+    {
+      "id": "pallas",
+      "semantic_id": "smallbody.pallas",
+      "name": "Pallas",
+      "unicode": "U+26B4",
+      "unicode_name": "PALLAS",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Physical numbered small body (2) Pallas; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "Open diamond above a lower cross.",
+      "design_note": "The diamond counter stays large; round joins belong to the existing Moira family.",
+      "references": [
+        "ucd17-misc"
+      ],
+      "comparison_id": "venus",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 165 L730 390 500 615 270 390 Z M500 615 V850 M345 745 H655\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "minor_planet_number": 2
+    },
+    {
+      "id": "juno",
+      "semantic_id": "smallbody.juno",
+      "name": "Juno",
+      "unicode": "U+26B5",
+      "unicode_name": "JUNO",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Physical numbered small body (3) Juno; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 56,
+      "form": "Eight-rayed head above a lower cross.",
+      "design_note": "Eight rays distinguish Juno from the six-ray sextile. The 56-unit optical stroke gives the center more space.",
+      "references": [
+        "ucd17-misc"
+      ],
+      "comparison_id": "sextile",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 130 V845 M280 350 H720 M345 195 L655 505 M345 505 L655 195 M350 735 H650\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "minor_planet_number": 3
+    },
+    {
+      "id": "vesta",
+      "semantic_id": "smallbody.vesta",
+      "name": "Vesta",
+      "unicode": "U+26B6",
+      "unicode_name": "VESTA",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Physical numbered small body (4) Vesta; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "Detached flame stroke above two open, winged downward chevrons.",
+      "design_note": "Preserve the angular flame/altar construction of the U+26B6 form. The historical U+1F777 form remains a separate future alternate.",
+      "references": [
+        "ucd17-misc"
+      ],
+      "comparison_id": "aquarius",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 160 V355 M280 415 H340 L500 570 660 415 H720 M205 655 H340 L500 810 660 655 H795\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "minor_planet_number": 4
+    },
+    {
+      "id": "chiron",
+      "semantic_id": "smallbody.chiron",
+      "name": "Chiron",
+      "unicode": "U+26B7",
+      "unicode_name": "CHIRON",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Physical numbered small body (2060) Chiron; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "K-like key head rising from an open oval.",
+      "design_note": "Separate the arms from the base loop; keep the right branch open and the oval legible.",
+      "references": [
+        "ucd17-misc"
+      ],
+      "comparison_id": "pluto",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"455\" cy=\"745\" rx=\"175\" ry=\"100\"/><path d=\"M455 645 V170 M455 405 L690 185 M455 405 L690 620\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "minor_planet_number": 2060
+    },
+    {
+      "id": "pholus",
+      "semantic_id": "smallbody.pholus",
+      "name": "Pholus",
+      "unicode": "U+2BDB",
+      "unicode_name": "PHOLUS",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Physical numbered small body (5145) Pholus; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "P-like head rising from an open oval.",
+      "design_note": "Two open counters distinguish this form. The lower oval and tall stem align with Chiron, while the closed head remains distinct.",
+      "references": [
+        "ucd17-arrows",
+        "faulks2016-p19"
+      ],
+      "comparison_id": "pluto",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"450\" cy=\"750\" rx=\"180\" ry=\"95\"/><path d=\"M450 655 V185 H570 C795 185 795 460 570 460 H450\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "minor_planet_number": 5145
+    },
+    {
+      "id": "semisextile",
+      "semantic_id": "aspect.semisextile",
+      "name": "Semisextile",
+      "unicode": "U+26BA",
+      "unicode_name": "SEMISEXTILE",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Zodiacal aspect with exact native nominal angle 30 degrees; orb and motion policy remain outside the font.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "Open upward arms meeting a horizontal baseline.",
+      "design_note": "Keep this exact vertical reflection relationship with quincunx; do not rotate the glyph in text.",
+      "references": [
+        "ucd17-misc"
+      ],
+      "comparison_id": "sextile",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M210 800 H790 M500 800 L260 195 M500 800 L740 195\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "angle_degrees": "30"
+    },
+    {
+      "id": "semisquare",
+      "semantic_id": "aspect.semisquare",
+      "name": "Semisquare",
+      "unicode": "U+2220",
+      "unicode_name": "ANGLE",
+      "mapping_relation": "astrological_use_of_geometric_character",
+      "meaning": "Zodiacal aspect with exact native nominal angle 45 degrees; orb and motion policy remain outside the font.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "Open angle: diagonal meeting a horizontal baseline.",
+      "design_note": "U+2220 retains its ANGLE identity. Its semisquare use is contextual and annotated by Unicode.",
+      "references": [
+        "ucd17-math",
+        "ucd17-names"
+      ],
+      "comparison_id": "square",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M795 200 L205 790 H795\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "angle_degrees": "45"
+    },
+    {
+      "id": "sesquiquadrate",
+      "semantic_id": "aspect.sesquiquadrate",
+      "name": "Sesquiquadrate",
+      "unicode": "U+26BC",
+      "unicode_name": "SESQUIQUADRATE",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Zodiacal aspect with exact native nominal angle 135 degrees; orb and motion policy remain outside the font.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "Open square with an attached lower-right elbow.",
+      "design_note": "Use the square/elbow structure of the assigned U+26BC reference form. Retain a large square counter and a clear projecting elbow.",
+      "references": [
+        "ucd17-misc"
+      ],
+      "comparison_id": "square",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M225 205 H650 V630 H225 Z M505 485 V790 H790\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "angle_degrees": "135"
+    },
+    {
+      "id": "quincunx",
+      "semantic_id": "aspect.quincunx",
+      "name": "Quincunx",
+      "unicode": "U+26BB",
+      "unicode_name": "QUINCUNX",
+      "mapping_relation": "assigned_identity",
+      "meaning": "Zodiacal aspect with exact native nominal angle 150 degrees; orb and motion policy remain outside the font.",
+      "priority": "P1",
+      "status": "new_original_design_proposal_not_owner_approved",
+      "source_stroke": 60,
+      "form": "Horizontal cap with open downward arms.",
+      "design_note": "A vertical reflection of semisextile, with the cap explicitly at the top.",
+      "references": [
+        "ucd17-misc"
+      ],
+      "comparison_id": "trine",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M210 200 H790 M500 200 L260 805 M500 200 L740 805\"/></g>",
+      "provenance": "New coordinates authored for Moira; published structure consulted visually, no extracted, traced or imported font outlines.",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "review_sizes_css_px": [
+        14,
+        18,
+        24,
+        32
+      ],
+      "angle_degrees": "150"
+    }
+  ],
+  "read_only_inputs": {
+    "C:\\dev\\outputs\\moira-astro-pilot-20261023\\font-v0.1.0\\glyphs.json": "327154acf0e856c3cf0f46095fa25cf0dbb02ab22d09fbb1a599afae2b9a2812",
+    "C:\\dev\\outputs\\moira-astro-character-inventory-20261023\\inventory.json": "7e72837080d259dddd9fb63fa4bd4f509d5a9eedde68fbe48ee8c227424cec51"
+  }
+}

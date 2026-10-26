@@ -1,0 +1,927 @@
+{
+  "project": "Moira Astro",
+  "date": "2026-10-23",
+  "batch": "07-historical-asteroids",
+  "physical_bodies": 18,
+  "default_proposals": 17,
+  "alternate_proposals": 2,
+  "form_studies": 19,
+  "unicode_version": "17.0.0",
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "hebe",
+      "semantic_id": "smallbody.hebe",
+      "name": "Hebe",
+      "minor_planet_number": 6,
+      "meaning": "Physical numbered asteroid (6) Hebe",
+      "category": "default-proposal",
+      "form_name": "Cup and cross",
+      "codepoint": "U+1CEC0",
+      "unicode_name": "HEBE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC0"
+        ],
+        "unicode_names": [
+          "HEBE"
+        ],
+        "text": "𜻀",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M310 170 H690 M335 170 C335 300 280 345 290 420 C310 565 690 565 710 420 C720 345 665 300 665 170 M500 535 V850 M345 720 H655\"/></g>",
+      "source_stroke": 56,
+      "description": "Open cup, long stem and lower crossbar.",
+      "historical_evidence_figures": [
+        19,
+        20,
+        26
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000006,
+      "jpl_current_spkid": "20000006",
+      "jpl_fullname": "6 Hebe (A847 NA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/hebe.svg"
+    },
+    {
+      "id": "iris",
+      "semantic_id": "smallbody.iris",
+      "name": "Iris",
+      "minor_planet_number": 7,
+      "meaning": "Physical numbered asteroid (7) Iris",
+      "category": "default-proposal",
+      "form_name": "Rainbow and interior star",
+      "codepoint": "U+1CEC1",
+      "unicode_name": "IRIS",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC1"
+        ],
+        "unicode_names": [
+          "IRIS"
+        ],
+        "text": "𜻁",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M170 800 V720 C170 20 830 20 830 720 V800 Z\"/><g stroke-width=\"48\"><path d=\"M500 450 L500 680 M400.407 507.5 L599.593 622.5 M400.407 622.5 L599.593 507.5\"/></g></g>",
+      "source_stroke": 56,
+      "description": "High closed arch with an interior star.",
+      "historical_evidence_figures": [
+        26,
+        44
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000007,
+      "jpl_current_spkid": "20000007",
+      "jpl_fullname": "7 Iris (A847 PA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/iris.svg"
+    },
+    {
+      "id": "flora",
+      "semantic_id": "smallbody.flora",
+      "name": "Flora",
+      "minor_planet_number": 8,
+      "meaning": "Physical numbered asteroid (8) Flora",
+      "category": "default-proposal",
+      "form_name": "Flower and cross",
+      "codepoint": "U+1CEC2",
+      "unicode_name": "FLORA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC2"
+        ],
+        "unicode_names": [
+          "FLORA"
+        ],
+        "text": "𜻂",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M410 850 V375 C410 110 760 120 760 335 C760 505 525 470 570 320 C595 225 720 250 745 325 M410 480 C410 365 280 305 205 340 M410 650 C410 535 545 490 620 515 M270 710 H550\"/></g>",
+      "source_stroke": 56,
+      "description": "Curled flower head, open leaves and crossed stem.",
+      "historical_evidence_figures": [
+        26,
+        45
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical flower convention. The 2023 proposal credits its Flora reference drawing to Denis Moskowitz; these are independently authored Moira coordinates.",
+      "inventory_native_catalog_naif_id": 2000008,
+      "jpl_current_spkid": "20000008",
+      "jpl_fullname": "8 Flora (A847 UA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/flora.svg"
+    },
+    {
+      "id": "metis",
+      "semantic_id": "smallbody.metis",
+      "name": "Metis",
+      "minor_planet_number": 9,
+      "meaning": "Physical numbered asteroid (9) Metis",
+      "category": "default-proposal",
+      "form_name": "Eye and star",
+      "codepoint": "U+1CEC3",
+      "unicode_name": "METIS",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC3"
+        ],
+        "unicode_names": [
+          "METIS"
+        ],
+        "text": "𜻃",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M170 625 Q500 250 830 625 Q500 1000 170 625 Z\"/><circle cx=\"500\" cy=\"625\" r=\"90\"/><g stroke-width=\"48\"><path d=\"M500 120 L500 320 M413.397 170 L586.603 270 M413.397 270 L586.603 170\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Almond-shaped eye with ring pupil and upper star.",
+      "historical_evidence_figures": [
+        26,
+        28
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000009,
+      "jpl_current_spkid": "20000009",
+      "jpl_fullname": "9 Metis (A848 HA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/metis.svg"
+    },
+    {
+      "id": "parthenope",
+      "semantic_id": "smallbody.parthenope",
+      "name": "Parthenope",
+      "minor_planet_number": 11,
+      "meaning": "Physical numbered asteroid (11) Parthenope",
+      "category": "default-proposal",
+      "form_name": "Fish and star",
+      "codepoint": "U+1CEC4",
+      "unicode_name": "PARTHENOPE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC4"
+        ],
+        "unicode_names": [
+          "PARTHENOPE"
+        ],
+        "text": "𜻄",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 370 C275 490 305 720 650 850 M500 370 C725 490 695 720 350 850\"/><g stroke-width=\"48\"><path d=\"M500 95 L500 285 M417.728 142.5 L582.272 237.5 M417.728 237.5 L582.272 142.5\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Upright open-tailed fish with a separate upper star.",
+      "historical_evidence_figures": [
+        26,
+        27,
+        36
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000011,
+      "jpl_current_spkid": "20000011",
+      "jpl_fullname": "11 Parthenope (A850 JA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/parthenope.svg"
+    },
+    {
+      "id": "victoria",
+      "semantic_id": "smallbody.victoria",
+      "name": "Victoria",
+      "minor_planet_number": 12,
+      "meaning": "Physical numbered asteroid (12) Victoria",
+      "category": "default-proposal",
+      "form_name": "Laurel and star",
+      "codepoint": "U+1CEC5",
+      "unicode_name": "VICTORIA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC5"
+        ],
+        "unicode_names": [
+          "VICTORIA"
+        ],
+        "text": "𜻅",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 530 V325 M500 440 Q290 470 245 245 Q465 250 500 440 Z M500 440 Q710 470 755 245 Q535 250 500 440 Z M500 325 Q330 205 500 100 Q670 205 500 325 Z\"/><g stroke-width=\"48\"><path d=\"M500 630 L500 850 M404.737 685 L595.263 795 M404.737 795 L595.263 685\"/></g></g>",
+      "source_stroke": 52,
+      "description": "Three open laurel leaves above a broad star.",
+      "historical_evidence_figures": [
+        27,
+        46
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000012,
+      "jpl_current_spkid": "20000012",
+      "jpl_fullname": "12 Victoria (A850 RA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/victoria.svg"
+    },
+    {
+      "id": "egeria",
+      "semantic_id": "smallbody.egeria",
+      "name": "Egeria",
+      "minor_planet_number": 13,
+      "meaning": "Physical numbered asteroid (13) Egeria",
+      "category": "default-proposal",
+      "form_name": "Buckler and star",
+      "codepoint": "U+1CEC6",
+      "unicode_name": "EGERIA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC6"
+        ],
+        "unicode_names": [
+          "EGERIA"
+        ],
+        "text": "𜻆",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M280 400 C280 620 280 710 500 745 C720 710 720 620 720 400 M280 400 Q390 510 500 400 Q610 510 720 400 M500 745 V865\"/><g stroke-width=\"48\"><path d=\"M500 110 L500 300 M417.728 157.5 L582.272 252.5 M417.728 252.5 L582.272 157.5\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Scalloped shield with a short lower staff and star.",
+      "historical_evidence_figures": [
+        26,
+        36
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000013,
+      "jpl_current_spkid": "20000013",
+      "jpl_fullname": "13 Egeria (A850 VA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/egeria.svg"
+    },
+    {
+      "id": "irene",
+      "semantic_id": "smallbody.irene",
+      "name": "Irene",
+      "minor_planet_number": 14,
+      "meaning": "Physical numbered asteroid (14) Irene",
+      "category": "default-proposal",
+      "form_name": "Dove, branch and star",
+      "codepoint": "U+1CEC7",
+      "unicode_name": "IRENE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC7"
+        ],
+        "unicode_names": [
+          "IRENE"
+        ],
+        "text": "𜻇",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M785 290 C650 280 535 400 535 560 M785 525 C735 710 590 785 450 660 C375 595 380 480 320 435 C260 390 190 440 195 505 L130 535 L205 565 C245 770 535 880 705 705 M450 660 C405 585 425 515 470 490 M130 560 L150 775 M143 670 L60 635 M149 735 L210 700\"/><g stroke-width=\"48\"><path d=\"M245 159 L245 331 M170.522 202 L319.478 288 M170.522 288 L319.478 202\"/></g></g>",
+      "source_stroke": 52,
+      "description": "Open bird silhouette, small branch and upper-left star.",
+      "historical_evidence_figures": [
+        35,
+        36
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000014,
+      "jpl_current_spkid": "20000014",
+      "jpl_fullname": "14 Irene (A851 KA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/irene.svg"
+    },
+    {
+      "id": "eunomia",
+      "semantic_id": "smallbody.eunomia",
+      "name": "Eunomia",
+      "minor_planet_number": 15,
+      "meaning": "Physical numbered asteroid (15) Eunomia",
+      "category": "default-proposal",
+      "form_name": "Heart and star",
+      "codepoint": "U+1CEC8",
+      "unicode_name": "EUNOMIA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC8"
+        ],
+        "unicode_names": [
+          "EUNOMIA"
+        ],
+        "text": "𜻈",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 850 C450 720 190 625 245 465 C285 345 435 365 500 470 C565 365 715 345 755 465 C810 625 550 720 500 850 Z\"/><g stroke-width=\"48\"><path d=\"M500 105 L500 305 M413.397 155 L586.603 255 M413.397 255 L586.603 155\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Broad heart counter with a separate upper star.",
+      "historical_evidence_figures": [
+        26,
+        47
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000015,
+      "jpl_current_spkid": "20000015",
+      "jpl_fullname": "15 Eunomia (A851 OA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/eunomia.svg"
+    },
+    {
+      "id": "psyche",
+      "semantic_id": "smallbody.psyche",
+      "name": "Psyche",
+      "minor_planet_number": 16,
+      "meaning": "Physical numbered asteroid (16) Psyche",
+      "category": "default-proposal",
+      "form_name": "Wing and star",
+      "codepoint": "U+1CEC9",
+      "unicode_name": "PSYCHE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC9"
+        ],
+        "unicode_names": [
+          "PSYCHE"
+        ],
+        "text": "𜻉",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M170 810 V660 C170 550 305 500 405 540 C520 380 785 390 820 605 V810 Z\"/><g stroke-width=\"48\"><path d=\"M500 110 L500 310 M413.397 160 L586.603 260 M413.397 260 L586.603 160\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Asymmetric wing counter and star above.",
+      "historical_evidence_figures": [
+        26,
+        36
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000016,
+      "jpl_current_spkid": "20000016",
+      "jpl_fullname": "16 Psyche (A852 FA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/psyche.svg"
+    },
+    {
+      "id": "thetis",
+      "semantic_id": "smallbody.thetis",
+      "name": "Thetis",
+      "minor_planet_number": 17,
+      "meaning": "Physical numbered asteroid (17) Thetis",
+      "category": "default-proposal",
+      "form_name": "Dolphin and lower star",
+      "codepoint": "U+1CECA",
+      "unicode_name": "THETIS",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CECA"
+        ],
+        "unicode_names": [
+          "THETIS"
+        ],
+        "text": "𜻊",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M170 500 C175 320 300 325 420 440 C545 560 665 510 680 375 C690 260 620 230 560 240 M680 375 C725 270 790 235 840 260\"/><g stroke-width=\"48\"><path d=\"M300 630 L300 840 M209.067 682.5 L390.933 787.5 M209.067 787.5 L390.933 682.5\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Undulating open body, forked tail and lower-left star.",
+      "historical_evidence_figures": [
+        21,
+        26,
+        48
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000017,
+      "jpl_current_spkid": "20000017",
+      "jpl_fullname": "17 Thetis (A852 HA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/thetis.svg"
+    },
+    {
+      "id": "melpomene",
+      "semantic_id": "smallbody.melpomene",
+      "name": "Melpomene",
+      "minor_planet_number": 18,
+      "meaning": "Physical numbered asteroid (18) Melpomene",
+      "category": "default-proposal",
+      "form_name": "Dagger and star",
+      "codepoint": "U+1CECB",
+      "unicode_name": "MELPOMENE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CECB"
+        ],
+        "unicode_names": [
+          "MELPOMENE"
+        ],
+        "text": "𜻋",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 145 V605 M330 290 H670\"/><g stroke-width=\"48\"><path d=\"M500 630 L500 880 M391.747 692.5 L608.253 817.5 M391.747 817.5 L608.253 692.5\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Long crossed dagger above a separate six-ray star.",
+      "historical_evidence_figures": [
+        26
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000018,
+      "jpl_current_spkid": "20000018",
+      "jpl_fullname": "18 Melpomene (A852 MA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/melpomene.svg"
+    },
+    {
+      "id": "fortuna",
+      "semantic_id": "smallbody.fortuna",
+      "name": "Fortuna",
+      "minor_planet_number": 19,
+      "meaning": "Physical numbered asteroid (19) Fortuna",
+      "category": "default-proposal",
+      "form_name": "Wheel and star",
+      "codepoint": "U+1CECC",
+      "unicode_name": "FORTUNA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CECC"
+        ],
+        "unicode_names": [
+          "FORTUNA"
+        ],
+        "text": "𜻌",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"650\" r=\"210\"/><path d=\"M500 440 V860 M290 650 H710 M352 502 L648 798 M352 798 L648 502\"/><g stroke-width=\"48\"><path d=\"M500 105 L500 305 M413.397 155 L586.603 255 M413.397 255 L586.603 155\"/></g></g>",
+      "source_stroke": 52,
+      "description": "Eight-spoke wheel with a separate upper star.",
+      "historical_evidence_figures": [
+        26
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000019,
+      "jpl_current_spkid": "20000019",
+      "jpl_fullname": "19 Fortuna (A852 QA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/fortuna.svg"
+    },
+    {
+      "id": "proserpina",
+      "semantic_id": "smallbody.proserpina",
+      "name": "Proserpina",
+      "minor_planet_number": 26,
+      "meaning": "Physical numbered asteroid (26) Proserpina",
+      "category": "default-proposal",
+      "form_name": "Pomegranate and interior star",
+      "codepoint": "U+1CECD",
+      "unicode_name": "ASTRONOMICAL SYMBOL FOR ASTEROID PROSERPINA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CECD"
+        ],
+        "unicode_names": [
+          "ASTRONOMICAL SYMBOL FOR ASTEROID PROSERPINA"
+        ],
+        "text": "𜻍",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 315 C465 220 540 145 580 135 M500 315 C155 155 105 795 420 830 Q500 800 580 830 C895 795 845 155 500 315 Z\"/><g stroke-width=\"48\"><path d=\"M500 460 L500 690 M400.407 517.5 L599.593 632.5 M400.407 632.5 L599.593 517.5\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Broad fruit counter, short stem and enclosed star.",
+      "historical_evidence_figures": [
+        22,
+        49
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000026,
+      "jpl_current_spkid": "20000026",
+      "jpl_fullname": "26 Proserpina (A853 JA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/proserpina.svg"
+    },
+    {
+      "id": "bellona",
+      "semantic_id": "smallbody.bellona",
+      "name": "Bellona",
+      "minor_planet_number": 28,
+      "meaning": "Physical numbered asteroid (28) Bellona",
+      "category": "default-proposal",
+      "form_name": "Lance and scourge",
+      "codepoint": "U+1CECE",
+      "unicode_name": "BELLONA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CECE"
+        ],
+        "unicode_names": [
+          "BELLONA"
+        ],
+        "text": "𜻎",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M365 845 V170 M240 300 L365 170 L490 300 M145 845 L720 285 V655\"/><g stroke-width=\"48\"><path d=\"M720 680 L720 880 M633.397 730 L806.603 830 M633.397 830 L806.603 730\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Open spearhead, diagonal handle and star terminal.",
+      "historical_evidence_figures": [
+        23,
+        49
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000028,
+      "jpl_current_spkid": "20000028",
+      "jpl_fullname": "28 Bellona (A854 EA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/bellona.svg"
+    },
+    {
+      "id": "amphitrite",
+      "semantic_id": "smallbody.amphitrite",
+      "name": "Amphitrite",
+      "minor_planet_number": 29,
+      "meaning": "Physical numbered asteroid (29) Amphitrite",
+      "category": "default-proposal",
+      "form_name": "Shell and star",
+      "codepoint": "U+1CECF",
+      "unicode_name": "AMPHITRITE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CECF"
+        ],
+        "unicode_names": [
+          "AMPHITRITE"
+        ],
+        "text": "𜻏",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M210 390 C145 800 855 800 790 390 C1075 995 -75 995 210 390 Z\"/><g stroke-width=\"48\"><path d=\"M500 270 L500 530 M387.417 335 L612.583 465 M387.417 465 L612.583 335\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Upturned crescent-like shell surrounding a star.",
+      "historical_evidence_figures": [
+        36
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000029,
+      "jpl_current_spkid": "20000029",
+      "jpl_fullname": "29 Amphitrite (A854 EB)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/amphitrite.svg"
+    },
+    {
+      "id": "leukothea",
+      "semantic_id": "smallbody.leukothea",
+      "name": "Leukothea",
+      "minor_planet_number": 35,
+      "meaning": "Physical numbered asteroid (35) Leukothea",
+      "category": "default-proposal",
+      "form_name": "Ancient lighthouse",
+      "codepoint": "U+1CED0",
+      "unicode_name": "LEUKOTHEA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CED0"
+        ],
+        "unicode_names": [
+          "LEUKOTHEA"
+        ],
+        "text": "𜻐",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M200 850 V180 H400 M400 180 L315 365 Q400 470 485 365 Z M330 365 H470 M580 335 H850 M590 245 L820 155 M590 425 L820 515\"/></g>",
+      "source_stroke": 56,
+      "description": "Tall staff, hanging lamp and three open light rays.",
+      "historical_evidence_figures": [
+        24,
+        50
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000035,
+      "jpl_current_spkid": "20000035",
+      "jpl_fullname": "35 Leukothea (A855 HA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/leukothea.svg"
+    },
+    {
+      "id": "vesta-form-two",
+      "semantic_id": "smallbody.vesta",
+      "name": "Vesta",
+      "minor_planet_number": 4,
+      "meaning": "Physical numbered asteroid (4) Vesta",
+      "category": "alternate-proposal",
+      "form_name": "Historical hearth",
+      "codepoint": "U+1F777",
+      "unicode_name": "VESTA FORM TWO",
+      "mapping": {
+        "status": "assigned",
+        "relation": "alternate_character",
+        "codepoints": [
+          "U+1F777"
+        ],
+        "unicode_names": [
+          "VESTA FORM TWO"
+        ],
+        "text": "🝷",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M235 550 H765 V850 H235 Z M500 550 V340 C500 70 210 100 210 330 M500 340 C500 70 790 100 790 330\"/></g>",
+      "source_stroke": 56,
+      "description": "Rectangular hearth and two open flame arches.",
+      "historical_evidence_figures": [
+        14,
+        15,
+        26
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-alchemical",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000004,
+      "jpl_current_spkid": "20000004",
+      "jpl_fullname": "4 Vesta (A807 FA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P1",
+      "asset": "masters/vesta-form-two.svg"
+    },
+    {
+      "id": "parthenope-form-two",
+      "semantic_id": "smallbody.parthenope",
+      "name": "Parthenope",
+      "minor_planet_number": 11,
+      "meaning": "Physical numbered asteroid (11) Parthenope",
+      "category": "alternate-proposal",
+      "form_name": "Historical lyre",
+      "codepoint": "U+1F77A",
+      "unicode_name": "PARTHENOPE FORM TWO",
+      "mapping": {
+        "status": "assigned",
+        "relation": "alternate_character",
+        "codepoints": [
+          "U+1F77A"
+        ],
+        "unicode_names": [
+          "PARTHENOPE FORM TWO"
+        ],
+        "text": "🝺",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"48\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M300 275 H700 M300 275 V665 C300 890 700 890 700 665 V275 M300 275 C300 130 170 130 170 275 C170 405 250 440 250 575 C250 750 185 780 500 860 M700 275 C700 130 830 130 830 275 C830 405 750 440 750 575 C750 750 815 780 500 860 M425 275 V820 M575 275 V820\"/></g>",
+      "source_stroke": 48,
+      "description": "Four strings, curved bowl and outward upper hooks.",
+      "historical_evidence_figures": [
+        29,
+        34,
+        36
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-alchemical",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical lyre convention. The 2023 proposal credits its lyre reference drawing to Denis Moskowitz; these are independently authored Moira coordinates.",
+      "inventory_native_catalog_naif_id": 2000011,
+      "jpl_current_spkid": "20000011",
+      "jpl_fullname": "11 Parthenope (A850 JA)",
+      "status": "design_proposal_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/parthenope-form-two.svg"
+    }
+  ]
+}

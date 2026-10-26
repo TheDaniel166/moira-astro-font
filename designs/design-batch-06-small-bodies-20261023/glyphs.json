@@ -1,0 +1,595 @@
+{
+  "project": "Moira Astro",
+  "date": "2026-10-23",
+  "batch": "06-small-bodies",
+  "physical_bodies": 10,
+  "default_proposals": 10,
+  "alternate_proposals": 3,
+  "form_studies": 13,
+  "unicode_version": "17.0.0",
+  "font_integrated": false,
+  "pua_allocations": 0,
+  "forms": [
+    {
+      "id": "astraea",
+      "semantic_id": "smallbody.astraea",
+      "name": "Astraea",
+      "form_name": "Astrological form",
+      "meaning": "Physical numbered small body (5) Astraea; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+2BD9",
+      "unicode_name": "ASTRAEA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+2BD9"
+        ],
+        "unicode_names": [
+          "ASTRAEA"
+        ],
+        "text": "⯙",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 5,
+      "inventory_native_catalog_naif_id": 2000005,
+      "jpl_current_spkid": "20000005",
+      "jpl_fullname": "5 Astraea (A845 XA)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"360\" cy=\"240\" r=\"90\"/><circle cx=\"640\" cy=\"760\" r=\"90\"/><path d=\"M450 240 H685 L315 760 H550\"/></g>",
+      "source_stroke": 60,
+      "description": "Two ring terminals, diagonal staff and short horizontal caps.",
+      "form_attribution": "Modern astrological percent-derived convention; the historical inverted-anchor convention is separate. No inventor is asserted from the uncertain attribution in the 2016 proposal.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-arrows",
+        "faulks2016",
+        "bala-miller2023"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/astraea.svg"
+    },
+    {
+      "id": "hygiea",
+      "semantic_id": "smallbody.hygiea",
+      "name": "Hygiea",
+      "form_name": "Astrological form",
+      "meaning": "Physical numbered small body (10) Hygiea; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+2BDA",
+      "unicode_name": "HYGIEA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+2BDA"
+        ],
+        "unicode_names": [
+          "HYGIEA"
+        ],
+        "text": "⯚",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 10,
+      "inventory_native_catalog_naif_id": 2000010,
+      "jpl_current_spkid": "20000010",
+      "jpl_fullname": "10 Hygiea (A849 GA)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 150 V850 M260 210 C260 440 740 440 740 210\"/><ellipse cx=\"500\" cy=\"550\" rx=\"200\" ry=\"90\"/><ellipse cx=\"500\" cy=\"765\" rx=\"170\" ry=\"75\"/></g>",
+      "source_stroke": 56,
+      "description": "Open upper bowl, central staff and two lower loops.",
+      "form_attribution": "Modern caduceus-like astrological convention, distinct from the historical snake-and-star form.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-arrows",
+        "faulks2016",
+        "bala-miller2023"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/hygiea.svg"
+    },
+    {
+      "id": "nessus",
+      "semantic_id": "smallbody.nessus",
+      "name": "Nessus",
+      "form_name": "N-like centaur form",
+      "meaning": "Physical numbered small body (7066) Nessus; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+2BDC",
+      "unicode_name": "NESSUS",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+2BDC"
+        ],
+        "unicode_names": [
+          "NESSUS"
+        ],
+        "text": "⯜",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 7066,
+      "inventory_native_catalog_naif_id": 2007066,
+      "jpl_current_spkid": "20007066",
+      "jpl_fullname": "7066 Nessus (1993 HA2)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"500\" cy=\"705\" rx=\"200\" ry=\"140\"/><path d=\"M500 565 V180 L760 420 V180\"/></g>",
+      "source_stroke": 60,
+      "description": "N-like upper head on the family oval base.",
+      "form_attribution": "The 2016 usage study attributes the usual Nessus form to Robert von Heeren; this task does not claim to invent the symbol.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-arrows",
+        "faulks2016"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/nessus.svg"
+    },
+    {
+      "id": "eris",
+      "semantic_id": "smallbody.eris",
+      "name": "Eris",
+      "form_name": "Hand of Eris",
+      "meaning": "Physical numbered small body (136199) Eris; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+2BF0",
+      "unicode_name": "ERIS FORM ONE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+2BF0"
+        ],
+        "unicode_names": [
+          "ERIS FORM ONE"
+        ],
+        "text": "⯰",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 136199,
+      "inventory_native_catalog_naif_id": 2136199,
+      "jpl_current_spkid": "20136199",
+      "jpl_fullname": "136199 Eris (2003 UB313)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 190 V810 M200 200 C600 200 600 800 200 800 M800 200 C400 200 400 800 800 800\"/></g>",
+      "source_stroke": 60,
+      "description": "Opposed open curves meeting a central vertical staff.",
+      "form_attribution": "Discordian Hand of Eris convention, adopted for the physical body. The modern author page describes adopting the unadorned hand rather than inventing it.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-arrows",
+        "faulks-eris2016",
+        "moskowitz"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/eris.svg"
+    },
+    {
+      "id": "sedna",
+      "semantic_id": "smallbody.sedna",
+      "name": "Sedna",
+      "form_name": "Loop, crossbar and curved leg",
+      "meaning": "Physical numbered small body (90377) Sedna; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+2BF2",
+      "unicode_name": "SEDNA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+2BF2"
+        ],
+        "unicode_names": [
+          "SEDNA"
+        ],
+        "text": "⯲",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 90377,
+      "inventory_native_catalog_naif_id": 2090377,
+      "jpl_current_spkid": "20090377",
+      "jpl_fullname": "90377 Sedna (2003 VB12)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"340\" cy=\"305\" rx=\"110\" ry=\"105\"/><path d=\"M340 410 H690 M500 190 V500 C715 500 850 665 850 840\"/></g>",
+      "source_stroke": 60,
+      "description": "Small upper loop and crossbar above a broad descending curve.",
+      "form_attribution": "Symbol concept by Denis Moskowitz, based on Inuktitut syllabic letters as described by its creator. The modern symbol is not presented as a traditional Indigenous astronomical sign.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-arrows",
+        "faulks-eris2016",
+        "moskowitz"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/sedna.svg"
+    },
+    {
+      "id": "haumea",
+      "semantic_id": "smallbody.haumea",
+      "name": "Haumea",
+      "form_name": "Ring-and-arch form",
+      "meaning": "Physical numbered small body (136108) Haumea; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+1F77B",
+      "unicode_name": "HAUMEA",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F77B"
+        ],
+        "unicode_names": [
+          "HAUMEA"
+        ],
+        "text": "🝻",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 136108,
+      "inventory_native_catalog_naif_id": 2136108,
+      "jpl_current_spkid": "20136108",
+      "jpl_fullname": "136108 Haumea (2003 EL61)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"54\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"195\" r=\"75\"/><circle cx=\"500\" cy=\"540\" r=\"95\"/><path d=\"M200 355 H800 M355 355 C355 585 340 700 220 775 M645 355 C645 585 660 700 780 775\"/></g>",
+      "source_stroke": 54,
+      "description": "Separate head ring and central ring between open curved legs.",
+      "form_attribution": "Symbol concept by Denis Moskowitz; his page describes a modern simplification/combination inspired by Hawaiian petroglyphs.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-alchemical",
+        "miller2021",
+        "moskowitz"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/haumea.svg"
+    },
+    {
+      "id": "makemake",
+      "semantic_id": "smallbody.makemake",
+      "name": "Makemake",
+      "form_name": "Paired curled face form",
+      "meaning": "Physical numbered small body (136472) Makemake; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+1F77C",
+      "unicode_name": "MAKEMAKE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F77C"
+        ],
+        "unicode_names": [
+          "MAKEMAKE"
+        ],
+        "text": "🝼",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 136472,
+      "inventory_native_catalog_naif_id": 2136472,
+      "jpl_current_spkid": "20136472",
+      "jpl_fullname": "136472 Makemake (2005 FY9)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 825 V280 C500 110 210 120 210 350 C210 540 460 540 460 350 C460 230 285 225 285 350 M500 280 C500 110 790 120 790 350 C790 540 540 540 540 350 C540 230 715 225 715 350\"/></g>",
+      "source_stroke": 56,
+      "description": "Two open curled lobes above a long central stem.",
+      "form_attribution": "Symbol concept by Denis Moskowitz in collaboration with John T. Whelan; the creator describes an M-like face inspired by Makemake petroglyph imagery.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-alchemical",
+        "miller2021",
+        "moskowitz"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/makemake.svg"
+    },
+    {
+      "id": "gonggong",
+      "semantic_id": "smallbody.gonggong",
+      "name": "Gonggong",
+      "form_name": "Crossbars and serpentine base",
+      "meaning": "Physical numbered small body (225088) Gonggong; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+1F77D",
+      "unicode_name": "GONGGONG",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F77D"
+        ],
+        "unicode_names": [
+          "GONGGONG"
+        ],
+        "text": "🝽",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 225088,
+      "inventory_native_catalog_naif_id": 2225088,
+      "jpl_current_spkid": "20225088",
+      "jpl_fullname": "225088 Gonggong (2007 OR10)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M380 165 V500 M620 165 V550 M220 310 H780 M220 480 H780 M310 645 C175 570 175 815 330 815 C500 815 600 610 700 610 C865 610 865 815 720 815 C635 815 620 710 620 550\"/></g>",
+      "source_stroke": 56,
+      "description": "Two upper verticals and crossbars with an open curled lower stroke.",
+      "form_attribution": "Symbol concept by Denis Moskowitz, described by its creator as based on 共 with a serpentine lower section. This is a modern symbol, not a new Chinese character.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-alchemical",
+        "miller2021",
+        "moskowitz"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/gonggong.svg"
+    },
+    {
+      "id": "quaoar",
+      "semantic_id": "smallbody.quaoar",
+      "name": "Quaoar",
+      "form_name": "Angular Q and canoe-like tail",
+      "meaning": "Physical numbered small body (50000) Quaoar; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+1F77E",
+      "unicode_name": "QUAOAR",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F77E"
+        ],
+        "unicode_names": [
+          "QUAOAR"
+        ],
+        "text": "🝾",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 50000,
+      "inventory_native_catalog_naif_id": 2050000,
+      "jpl_current_spkid": "20050000",
+      "jpl_fullname": "50000 Quaoar (2002 LM60)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"54\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 165 L820 485 L500 805 L180 485 Z M500 485 L820 805 L570 755 Z\"/></g>",
+      "source_stroke": 54,
+      "description": "Open diamond counter with a widened angular-tail counter.",
+      "form_attribution": "Symbol concept by Denis Moskowitz; his page describes an angular Q/canoe form and a 2010 revision. No traditional Tongva astronomical-symbol status is asserted.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-alchemical",
+        "miller2021",
+        "moskowitz"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/quaoar.svg"
+    },
+    {
+      "id": "orcus",
+      "semantic_id": "smallbody.orcus",
+      "name": "Orcus",
+      "form_name": "Enclosed O-R form",
+      "meaning": "Physical numbered small body (90482) Orcus; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+1F77F",
+      "unicode_name": "ORCUS",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F77F"
+        ],
+        "unicode_names": [
+          "ORCUS"
+        ],
+        "text": "🝿",
+        "pua_assignment": null
+      },
+      "category": "default-proposal",
+      "minor_planet_number": 90482,
+      "inventory_native_catalog_naif_id": 2090482,
+      "jpl_current_spkid": "20090482",
+      "jpl_fullname": "90482 Orcus (2004 DW)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"300\"/><circle cx=\"460\" cy=\"460\" r=\"110\"/><path d=\"M460 570 H790 M460 570 L690 735\"/></g>",
+      "source_stroke": 56,
+      "description": "Inner loop, horizontal arm and diagonal leg inside a larger ring.",
+      "form_attribution": "Symbol concept by Denis Moskowitz, described by its creator as an O/R combination.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-alchemical",
+        "miller2021",
+        "moskowitz"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/orcus.svg"
+    },
+    {
+      "id": "astraea-form-two",
+      "semantic_id": "smallbody.astraea",
+      "name": "Astraea",
+      "form_name": "Historical inverted anchor",
+      "meaning": "Physical numbered small body (5) Astraea; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+1F778",
+      "unicode_name": "ASTRAEA FORM TWO",
+      "mapping": {
+        "status": "assigned",
+        "relation": "alternate_character",
+        "codepoints": [
+          "U+1F778"
+        ],
+        "unicode_names": [
+          "ASTRAEA FORM TWO"
+        ],
+        "text": "🝸",
+        "pua_assignment": null
+      },
+      "category": "alternate-proposal",
+      "minor_planet_number": 5,
+      "inventory_native_catalog_naif_id": 2000005,
+      "jpl_current_spkid": "20000005",
+      "jpl_fullname": "5 Astraea (A845 XA)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M200 400 C200 110 800 110 800 400 M200 400 L285 330 M800 400 L715 330 M500 190 V715 M350 610 H650\"/><circle cx=\"500\" cy=\"800\" r=\"85\"/></g>",
+      "source_stroke": 56,
+      "description": "Curved upper anchor arms, crossed staff and lower ring.",
+      "form_attribution": "Historical inverted-anchor convention documented with discovery-era material in the 2023 proposal; not aliased to the modern Astraea character.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-alchemical",
+        "bala-miller2023"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/astraea-form-two.svg"
+    },
+    {
+      "id": "hygiea-form-two",
+      "semantic_id": "smallbody.hygiea",
+      "name": "Hygiea",
+      "form_name": "Historical snake and star",
+      "meaning": "Physical numbered small body (10) Hygiea; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+1F779",
+      "unicode_name": "HYGIEA FORM TWO",
+      "mapping": {
+        "status": "assigned",
+        "relation": "alternate_character",
+        "codepoints": [
+          "U+1F779"
+        ],
+        "unicode_names": [
+          "HYGIEA FORM TWO"
+        ],
+        "text": "🝹",
+        "pua_assignment": null
+      },
+      "category": "alternate-proposal",
+      "minor_planet_number": 10,
+      "inventory_native_catalog_naif_id": 2000010,
+      "jpl_current_spkid": "20000010",
+      "jpl_fullname": "10 Hygiea (A849 GA)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M265 270 C255 100 530 100 530 290 C530 450 270 410 270 560 C270 760 610 530 610 700 C610 795 485 820 460 865\"/><g stroke-width=\"48\"><path d=\"M700 135 V325 M618 182 L782 278 M618 278 L782 182\"/></g></g>",
+      "source_stroke": 56,
+      "description": "Open serpentine stroke with a separate six-ray star.",
+      "form_attribution": "Historical snake-and-star convention documented with discovery-era sources in the 2023 proposal; not the staff-of-Asclepius character.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-alchemical",
+        "bala-miller2023"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/hygiea-form-two.svg"
+    },
+    {
+      "id": "eris-form-two",
+      "semantic_id": "smallbody.eris",
+      "name": "Eris",
+      "form_name": "Circle and downward arrow",
+      "meaning": "Physical numbered small body (136199) Eris; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "codepoint": "U+2BF1",
+      "unicode_name": "ERIS FORM TWO",
+      "mapping": {
+        "status": "assigned",
+        "relation": "alternate_character",
+        "codepoints": [
+          "U+2BF1"
+        ],
+        "unicode_names": [
+          "ERIS FORM TWO"
+        ],
+        "text": "⯱",
+        "pua_assignment": null
+      },
+      "category": "alternate-proposal",
+      "minor_planet_number": 136199,
+      "inventory_native_catalog_naif_id": 2136199,
+      "jpl_current_spkid": "20136199",
+      "jpl_fullname": "136199 Eris (2003 UB313)",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"380\" r=\"225\"/><path d=\"M500 605 V850 M380 720 L500 850 L620 720\"/></g>",
+      "source_stroke": 60,
+      "description": "Open circle above a downward arrow with the Moira family open arrowhead.",
+      "form_attribution": "The 2016 proposal attributes this alternate to Henry Seltzer (2007). The open arrowhead is a Moira outline treatment of the same downward-arrow structure.",
+      "outline_provenance": "New Moira coordinates authored from structural reference, no imported, extracted or traced font outlines.",
+      "sources": [
+        "unicode17",
+        "inventory",
+        "jpl-identity",
+        "unicode17-arrows",
+        "faulks-eris2016"
+      ],
+      "status": "new_design_proposal_for_owner_review",
+      "font_integrated": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "asset": "masters/eris-form-two.svg"
+    }
+  ]
+}

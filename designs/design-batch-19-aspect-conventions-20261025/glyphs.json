@@ -1,0 +1,509 @@
+{
+  "project": "Moira Astro",
+  "batch": 19,
+  "date": "2026-10-25",
+  "draft": 1,
+  "new_composition_studies": 4,
+  "existing_letter_alternates": 4,
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "aspect.quindecile-165",
+      "name": "Tao",
+      "short_label": "Ta",
+      "components": [
+        [
+          "T",
+          0
+        ],
+        [
+          "a",
+          660
+        ]
+      ],
+      "advance": 1280,
+      "angle_numerator": 165,
+      "angle_denominator": 1,
+      "circle_fraction": [
+        11,
+        24
+      ],
+      "alternate_text": "q",
+      "alternate_source_name": "Quindecile (165°)",
+      "aliases": [
+        "Quindecile (165-degree convention)"
+      ],
+      "construction": "Capital T and lower-case a with original optical spacing",
+      "source_location": "User naming decision; Krap authored Tao usage; Fei Cochrane p5 angle/fraction; Astro Gold q alternate",
+      "nomenclature_status": "Tao chosen by user and corroborated by authored usage; no universal naming claim",
+      "counters": [
+        [
+          980,
+          615
+        ]
+      ],
+      "gaps": [
+        [
+          680,
+          600
+        ],
+        [
+          500,
+          600
+        ]
+      ],
+      "positive": [
+        [
+          70,
+          200
+        ],
+        [
+          350,
+          500
+        ],
+        [
+          630,
+          200
+        ],
+        [
+          1195,
+          470
+        ],
+        [
+          1195,
+          810
+        ]
+      ],
+      "contours": 3,
+      "source_name": "Quindecile, 165-degree convention",
+      "source_record": {
+        "id": "aspect.quindecile-165",
+        "name": "Quindecile, 165-degree convention",
+        "family": "Aspects",
+        "record_kind": "astrological_concept",
+        "meaning": "Separately identified aspect convention with nominal angle 165 degrees; it does not change Moira's existing aspect definitions.",
+        "sources": [
+          "planning",
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Quindecile, 165-degree convention",
+        "identifiers": {},
+        "blockers": [
+          "Require a convention-specific definition and form review before design.",
+          "The proposed name/angle pairing needs a primary source; this is a research question, not an admitted native aspect."
+        ],
+        "notes": [
+          "Moira's Quindecile is 24 degrees (1/15 circle), not 165 degrees."
+        ],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "meaning": "Separately identified aspect convention with nominal angle 165 degrees; it does not change Moira's existing aspect definitions.",
+      "plain_text_fallback": "Tao (165°)",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 H780 M500 200 V810\"/></g></g></g><g transform=\"translate(660 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M715 470 C580 335 300 395 280 600 C255 850 580 885 715 715 M715 415 V810\"/></g></g></g>",
+      "drawing_sha256": "d623c16056c7612599eff38cf65cd9fe163c9afcb02485683bf9c3d6045b3c88",
+      "source_stroke": 60,
+      "origin": "moira_original_letter_composition",
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "native_concept": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unallocated_original_composition_study",
+      "release_priority": "P4",
+      "status": "design_proposal_pending_owner_review",
+      "asset": "masters/aspect.quindecile-165.svg",
+      "alternate_policy": "Source-specific ordinary Latin character; existing glyph reused and no ASCII remapping or new alternate master",
+      "original_name_retained_as_alias": true
+    },
+    {
+      "id": "aspect.hexadecile",
+      "name": "Hexadecile",
+      "short_label": "Hx",
+      "components": [
+        [
+          "H",
+          0
+        ],
+        [
+          "x",
+          660
+        ]
+      ],
+      "advance": 1210,
+      "angle_numerator": 45,
+      "angle_denominator": 2,
+      "circle_fraction": [
+        1,
+        16
+      ],
+      "alternate_text": "O",
+      "alternate_source_name": "Semioctile (22.5°)",
+      "aliases": [
+        "Semioctile (22.5-degree convention)"
+      ],
+      "construction": "Capital H and lower-case x with an open inter-letter gap",
+      "source_location": "Wharton printed p92 name; Astro Gold/Aureas 22.5 Semioctile; N4811 p2 column distinction",
+      "nomenclature_status": "Historical word witnessed; the scanned passage does not state its angle or unique form. Modern 22.5 counterpart is explicitly Semioctile.",
+      "counters": [],
+      "gaps": [
+        [
+          640,
+          500
+        ],
+        [
+          350,
+          350
+        ]
+      ],
+      "positive": [
+        [
+          110,
+          300
+        ],
+        [
+          590,
+          700
+        ],
+        [
+          350,
+          500
+        ],
+        [
+          710,
+          410
+        ],
+        [
+          1160,
+          810
+        ],
+        [
+          935,
+          610
+        ]
+      ],
+      "contours": 2,
+      "source_name": "Hexadecile",
+      "source_record": {
+        "id": "aspect.hexadecile",
+        "name": "Hexadecile",
+        "family": "Aspects",
+        "record_kind": "astrological_concept",
+        "meaning": "Separately identified aspect convention with nominal angle 360/16 degrees; it does not change Moira's existing aspect definitions.",
+        "sources": [
+          "planning",
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Hexadecile",
+        "identifiers": {},
+        "blockers": [
+          "Require a convention-specific definition and form review before design.",
+          "The proposed name/angle pairing needs a primary source; this is a research question, not an admitted native aspect."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "meaning": "Separately identified aspect convention with nominal angle 360/16 degrees; it does not change Moira's existing aspect definitions.",
+      "plain_text_fallback": "Hexadecile",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M260 190 V810 M740 190 V810 M260 500 H740\"/></g></g></g><g transform=\"translate(660 0)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g>",
+      "drawing_sha256": "e4fc57a589f0017772952222208bc3cf31ed22481a020bd495c99cd7ee67402d",
+      "source_stroke": 60,
+      "origin": "moira_original_letter_composition",
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "native_concept": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unallocated_original_composition_study",
+      "release_priority": "P4",
+      "status": "design_proposal_pending_owner_review",
+      "asset": "masters/aspect.hexadecile.svg",
+      "alternate_policy": "Source-specific ordinary Latin character; existing glyph reused and no ASCII remapping or new alternate master",
+      "original_name_retained_as_alias": false
+    },
+    {
+      "id": "aspect.seminovile",
+      "name": "Seminovile",
+      "short_label": "Sn",
+      "components": [
+        [
+          "S",
+          0
+        ],
+        [
+          "n",
+          660
+        ]
+      ],
+      "advance": 1280,
+      "angle_numerator": 20,
+      "angle_denominator": 1,
+      "circle_fraction": [
+        1,
+        18
+      ],
+      "alternate_text": "n",
+      "alternate_source_name": "Seminovile (20°)",
+      "aliases": [],
+      "construction": "Capital S and lower-case n, preserving the current aspect-letter grammar",
+      "source_location": "N4811 physical p2 Table 1; Astro Gold and Aureas authored tables",
+      "nomenclature_status": "Name/fraction and modern angle correspondence witnessed; no universal pictograph established",
+      "counters": [],
+      "gaps": [
+        [
+          650,
+          500
+        ],
+        [
+          1000,
+          700
+        ]
+      ],
+      "positive": [
+        [
+          120,
+          335
+        ],
+        [
+          105,
+          740
+        ],
+        [
+          765,
+          810
+        ],
+        [
+          1195,
+          810
+        ]
+      ],
+      "contours": 2,
+      "source_name": "Seminovile",
+      "source_record": {
+        "id": "aspect.seminovile",
+        "name": "Seminovile",
+        "family": "Aspects",
+        "record_kind": "astrological_concept",
+        "meaning": "Separately identified aspect convention with nominal angle 360/18 degrees; it does not change Moira's existing aspect definitions.",
+        "sources": [
+          "planning",
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Seminovile",
+        "identifiers": {},
+        "blockers": [
+          "Require a convention-specific definition and form review before design.",
+          "The proposed name/angle pairing needs a primary source; this is a research question, not an admitted native aspect."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "meaning": "Separately identified aspect convention with nominal angle 360/18 degrees; it does not change Moira's existing aspect definitions.",
+      "plain_text_fallback": "Seminovile",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(660 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M285 810 V410 M285 555 C285 360 715 360 715 555 V810\"/></g></g></g>",
+      "drawing_sha256": "c4f36b3fed6faf75bc1ae8fecaeb7274c01a288b77ea2e5cba5dad5fb48dfd80",
+      "source_stroke": 60,
+      "origin": "moira_original_letter_composition",
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "native_concept": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unallocated_original_composition_study",
+      "release_priority": "P4",
+      "status": "design_proposal_pending_owner_review",
+      "asset": "masters/aspect.seminovile.svg",
+      "alternate_policy": "Source-specific ordinary Latin character; existing glyph reused and no ASCII remapping or new alternate master",
+      "original_name_retained_as_alias": false
+    },
+    {
+      "id": "aspect.untion",
+      "name": "Untion",
+      "short_label": "Ut",
+      "components": [
+        [
+          "U",
+          0
+        ],
+        [
+          "t",
+          670
+        ]
+      ],
+      "advance": 1100,
+      "angle_numerator": 15,
+      "angle_denominator": 1,
+      "circle_fraction": [
+        1,
+        24
+      ],
+      "alternate_text": "d",
+      "alternate_source_name": "Semiduodecile (15°)",
+      "aliases": [
+        "Semiduodecile (15-degree convention)",
+        "Quartosextile (15-degree convention)"
+      ],
+      "construction": "Capital U and lower-case t, distinct from the existing single-U Undecile",
+      "source_location": "N4811 physical p2 Table 1; Astro Gold 15 Semiduodecile; Aureas 15 Quartosextile",
+      "nomenclature_status": "Untion appears in the authored terminology table; other primary users prefer different names for 15 degrees",
+      "counters": [],
+      "gaps": [
+        [
+          650,
+          500
+        ],
+        [
+          350,
+          400
+        ]
+      ],
+      "positive": [
+        [
+          105,
+          200
+        ],
+        [
+          595,
+          200
+        ],
+        [
+          350,
+          812
+        ],
+        [
+          855,
+          300
+        ],
+        [
+          720,
+          425
+        ],
+        [
+          1035,
+          775
+        ]
+      ],
+      "contours": 2,
+      "source_name": "Untion",
+      "source_record": {
+        "id": "aspect.untion",
+        "name": "Untion",
+        "family": "Aspects",
+        "record_kind": "astrological_concept",
+        "meaning": "Separately identified aspect convention with nominal angle 360/24 degrees; it does not change Moira's existing aspect definitions.",
+        "sources": [
+          "planning",
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Untion",
+        "identifiers": {},
+        "blockers": [
+          "Require a convention-specific definition and form review before design.",
+          "The proposed name/angle pairing needs a primary source; this is a research question, not an admitted native aspect."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "meaning": "Separately identified aspect convention with nominal angle 360/24 degrees; it does not change Moira's existing aspect definitions.",
+      "plain_text_fallback": "Untion",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M255 200 V580 C255 890 745 890 745 580 V200\"/></g></g></g><g transform=\"translate(670 0)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M470 220 V680 Q470 855 650 775 M335 425 H655\"/></g></g></g>",
+      "drawing_sha256": "65c96c945d515def06cdb6331d38e183363078c6bc9407ca6d3b1b2dcd4f2d8f",
+      "source_stroke": 60,
+      "origin": "moira_original_letter_composition",
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "native_concept": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unallocated_original_composition_study",
+      "release_priority": "P4",
+      "status": "design_proposal_pending_owner_review",
+      "asset": "masters/aspect.untion.svg",
+      "alternate_policy": "Source-specific ordinary Latin character; existing glyph reused and no ASCII remapping or new alternate master",
+      "original_name_retained_as_alias": false
+    }
+  ]
+}

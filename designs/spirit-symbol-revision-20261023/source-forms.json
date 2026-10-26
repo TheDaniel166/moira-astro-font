@@ -1,0 +1,82 @@
+{
+  "source_path": "C:\\dev\\outputs\\moira-astro-design-batch-03-points-labels-20261023\\glyphs.json",
+  "source_sha256": "a727f2a4302765a631a88ac85e2635eb44b38c6196a2f1763d2fb5209836012f",
+  "forms": [
+    {
+      "id": "spirit",
+      "semantic_id": "lot.spirit",
+      "name": "Lot of Spirit",
+      "display_label": "Spirit",
+      "group": "Points and lots",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Named derived lot family Spirit; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "proposed_contextual_use_of_circled_latin_S_not_dedicated_spirit_assignment",
+        "codepoints": [
+          "U+24C8"
+        ],
+        "unicode_names": [
+          "CIRCLED LATIN CAPITAL LETTER S"
+        ],
+        "text": "\u24c8",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Spirit",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"290\"/></g><g transform=\"translate(500 500) scale(.55) translate(-500 -500)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"110\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g>",
+      "preview_drawing": null,
+      "proof_advance_units": 1000,
+      "sources": [
+        "miller2022",
+        "unicode17",
+        "native-lots"
+      ],
+      "note": "U+24C8 is a general circled Latin letter. This proposed Spirit convention needs owner review; preserve the semantic lot identity and the text fallback Spirit, including through compatibility normalization.",
+      "subtitle": "Circled-S proposal",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "spirit-vertical",
+      "semantic_id": "lot.spirit",
+      "name": "Lot of Spirit",
+      "display_label": "Spirit: vertical-bar convention",
+      "group": "Points and lots",
+      "category": "alternate-study",
+      "kind": "symbol",
+      "meaning": "Named derived lot family Spirit; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "contextual_geometric_use_not_dedicated_spirit_assignment",
+        "codepoints": [
+          "U+29B6"
+        ],
+        "unicode_names": [
+          "CIRCLED VERTICAL BAR"
+        ],
+        "text": "\u29b6",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Spirit",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"290\"/><path d=\"M500 230 V770\"/></g>",
+      "preview_drawing": null,
+      "proof_advance_units": 1000,
+      "sources": [
+        "unicode17",
+        "miller2022"
+      ],
+      "note": "General CIRCLED VERTICAL BAR character; an attested alternative convention, not a universal Spirit sign.",
+      "subtitle": "Circled vertical bar",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    }
+  ],
+  "geometry_changed": false
+}

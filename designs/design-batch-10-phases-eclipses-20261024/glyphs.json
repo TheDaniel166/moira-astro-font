@@ -1,0 +1,689 @@
+{
+  "project": "Moira Astro",
+  "batch": "10",
+  "version": "draft-01",
+  "date": "2026-10-24",
+  "new_character_drawings": 10,
+  "composition_studies": 1,
+  "forms": [
+    {
+      "id": "phase-new-moon",
+      "semantic_id": "phase.new-moon",
+      "name": "New Moon",
+      "display_label": "Monochrome phase disk",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar phase appearance: new moon. Distinct from the generic Moon-body icon; phase timing/model is external to the character.",
+      "drawing": "<g fill=\"currentColor\" stroke=\"none\"><path d=\"M500 185 C673.97 185 815 326.03 815 500 C815 673.97 673.97 815 500 815 C326.03 815 185 673.97 185 500 C185 326.03 326.03 185 500 185 Z\"/></g>",
+      "drawing_sha256": "9faa7b86cbfc3353485d66b0014cbf54558d808d3ec3b2c4bcf9521933a1ade9",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Fixed named phase shape; ink is the shadow role in the light-paper notation. Orientation is a convention, not a computed view.",
+      "geometry": {
+        "center": [
+          500,
+          500
+        ],
+        "outer_radius": 315,
+        "ring_center_radius": 285,
+        "ring_stroke": 60,
+        "terminator_semiaxes": null,
+        "shape": "new",
+        "mirrored": false,
+        "precise_illumination_fraction_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F311"
+        ],
+        "unicode_names": [
+          "NEW MOON SYMBOL"
+        ],
+        "text": "🌑",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "New Moon",
+      "source_evidence": [
+        "unicode-17-final",
+        "nasa-phase-appearance"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:phase-new-moon]",
+      "asset": "masters/phase-new-moon.svg"
+    },
+    {
+      "id": "phase-waxing-crescent",
+      "semantic_id": "phase.waxing-crescent",
+      "name": "Waxing crescent",
+      "display_label": "Monochrome phase disk",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar phase appearance: waxing crescent. Distinct from the generic Moon-body icon; phase timing/model is external to the character.",
+      "drawing": "<g fill=\"currentColor\" stroke=\"none\"><path d=\"M500 215 C342.5988 215 215 342.5988 215 500 C215 657.4012 342.5988 785 500 785 C580.0813 785 645 657.4012 645 500 C645 342.5988 580.0813 215 500 215 Z\"/></g><circle cx=\"500\" cy=\"500\" r=\"285\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\"/>",
+      "drawing_sha256": "a671bc99439994d4059d71920aede1ee9a71ac7d7aaa08f002e00addb736270b",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Fixed named phase shape; ink is the shadow role in the light-paper notation. Orientation is a convention, not a computed view.",
+      "geometry": {
+        "center": [
+          500,
+          500
+        ],
+        "outer_radius": 315,
+        "ring_center_radius": 285,
+        "ring_stroke": 60,
+        "terminator_semiaxes": [
+          145,
+          285
+        ],
+        "shape": "crescent",
+        "mirrored": false,
+        "precise_illumination_fraction_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F312"
+        ],
+        "unicode_names": [
+          "WAXING CRESCENT MOON SYMBOL"
+        ],
+        "text": "🌒",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Waxing crescent",
+      "source_evidence": [
+        "unicode-17-final",
+        "nasa-phase-appearance"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:phase-waxing-crescent]",
+      "asset": "masters/phase-waxing-crescent.svg"
+    },
+    {
+      "id": "phase-first-quarter",
+      "semantic_id": "phase.first-quarter",
+      "name": "First quarter",
+      "display_label": "Monochrome phase disk",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar phase appearance: first quarter. Distinct from the generic Moon-body icon; phase timing/model is external to the character.",
+      "drawing": "<g fill=\"currentColor\" stroke=\"none\"><path d=\"M500 215 C342.5988 215 215 342.5988 215 500 C215 657.4012 342.5988 785 500 785 L500 215 Z\"/></g><circle cx=\"500\" cy=\"500\" r=\"285\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\"/>",
+      "drawing_sha256": "4aa1cf347f310c46a00dd27c34a92b8ebc6089eeee967eed7040b43c09cf3f22",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Fixed named phase shape; ink is the shadow role in the light-paper notation. Orientation is a convention, not a computed view.",
+      "geometry": {
+        "center": [
+          500,
+          500
+        ],
+        "outer_radius": 315,
+        "ring_center_radius": 285,
+        "ring_stroke": 60,
+        "terminator_semiaxes": null,
+        "shape": "quarter",
+        "mirrored": false,
+        "precise_illumination_fraction_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F313"
+        ],
+        "unicode_names": [
+          "FIRST QUARTER MOON SYMBOL"
+        ],
+        "text": "🌓",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "First quarter",
+      "source_evidence": [
+        "unicode-17-final",
+        "nasa-phase-appearance"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:phase-first-quarter]",
+      "asset": "masters/phase-first-quarter.svg"
+    },
+    {
+      "id": "phase-waxing-gibbous",
+      "semantic_id": "phase.waxing-gibbous",
+      "name": "Waxing gibbous",
+      "display_label": "Monochrome phase disk",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar phase appearance: waxing gibbous. Distinct from the generic Moon-body icon; phase timing/model is external to the character.",
+      "drawing": "<g fill=\"currentColor\" stroke=\"none\"><path d=\"M500 215 C342.5988 215 215 342.5988 215 500 C215 657.4012 342.5988 785 500 785 C419.9187 785 355 657.4012 355 500 C355 342.5988 419.9187 215 500 215 Z\"/></g><circle cx=\"500\" cy=\"500\" r=\"285\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\"/>",
+      "drawing_sha256": "a34e75b395ab5d2f3247dc47acd1e8932d19a1681bf364c1075353dfd9d0de50",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Fixed named phase shape; ink is the shadow role in the light-paper notation. Orientation is a convention, not a computed view.",
+      "geometry": {
+        "center": [
+          500,
+          500
+        ],
+        "outer_radius": 315,
+        "ring_center_radius": 285,
+        "ring_stroke": 60,
+        "terminator_semiaxes": [
+          145,
+          285
+        ],
+        "shape": "gibbous",
+        "mirrored": false,
+        "precise_illumination_fraction_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F314"
+        ],
+        "unicode_names": [
+          "WAXING GIBBOUS MOON SYMBOL"
+        ],
+        "text": "🌔",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Waxing gibbous",
+      "source_evidence": [
+        "unicode-17-final",
+        "nasa-phase-appearance"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:phase-waxing-gibbous]",
+      "asset": "masters/phase-waxing-gibbous.svg"
+    },
+    {
+      "id": "phase-full-moon",
+      "semantic_id": "phase.full-moon",
+      "name": "Full Moon",
+      "display_label": "Monochrome phase disk",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar phase appearance: full moon. Distinct from the generic Moon-body icon; phase timing/model is external to the character.",
+      "drawing": "<circle cx=\"500\" cy=\"500\" r=\"285\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\"/>",
+      "drawing_sha256": "8a1d65a7e4e3afff3f869fed1d45f40af5fe36dfe6a486a8fdbce3c2e79e4444",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Fixed named phase shape; ink is the shadow role in the light-paper notation. Orientation is a convention, not a computed view.",
+      "geometry": {
+        "center": [
+          500,
+          500
+        ],
+        "outer_radius": 315,
+        "ring_center_radius": 285,
+        "ring_stroke": 60,
+        "terminator_semiaxes": null,
+        "shape": "full",
+        "mirrored": false,
+        "precise_illumination_fraction_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F315"
+        ],
+        "unicode_names": [
+          "FULL MOON SYMBOL"
+        ],
+        "text": "🌕",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Full Moon",
+      "source_evidence": [
+        "unicode-17-final",
+        "nasa-phase-appearance"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:phase-full-moon]",
+      "asset": "masters/phase-full-moon.svg"
+    },
+    {
+      "id": "phase-waning-gibbous",
+      "semantic_id": "phase.waning-gibbous",
+      "name": "Waning gibbous",
+      "display_label": "Monochrome phase disk",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar phase appearance: waning gibbous. Distinct from the generic Moon-body icon; phase timing/model is external to the character.",
+      "drawing": "<g transform=\"translate(1000 0) scale(-1 1)\"><g fill=\"currentColor\" stroke=\"none\"><path d=\"M500 215 C342.5988 215 215 342.5988 215 500 C215 657.4012 342.5988 785 500 785 C419.9187 785 355 657.4012 355 500 C355 342.5988 419.9187 215 500 215 Z\"/></g><circle cx=\"500\" cy=\"500\" r=\"285\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\"/></g>",
+      "drawing_sha256": "f0d886e6a1761b9cbcf4aaba798301866e5079650d562cc4959f0f1a5338084e",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Fixed named phase shape; ink is the shadow role in the light-paper notation. Orientation is a convention, not a computed view.",
+      "geometry": {
+        "center": [
+          500,
+          500
+        ],
+        "outer_radius": 315,
+        "ring_center_radius": 285,
+        "ring_stroke": 60,
+        "terminator_semiaxes": [
+          145,
+          285
+        ],
+        "shape": "gibbous",
+        "mirrored": true,
+        "precise_illumination_fraction_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F316"
+        ],
+        "unicode_names": [
+          "WANING GIBBOUS MOON SYMBOL"
+        ],
+        "text": "🌖",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Waning gibbous",
+      "source_evidence": [
+        "unicode-17-final",
+        "nasa-phase-appearance"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:phase-waning-gibbous]",
+      "asset": "masters/phase-waning-gibbous.svg"
+    },
+    {
+      "id": "phase-last-quarter",
+      "semantic_id": "phase.last-quarter",
+      "name": "Last quarter",
+      "display_label": "Monochrome phase disk",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar phase appearance: last quarter. Distinct from the generic Moon-body icon; phase timing/model is external to the character.",
+      "drawing": "<g transform=\"translate(1000 0) scale(-1 1)\"><g fill=\"currentColor\" stroke=\"none\"><path d=\"M500 215 C342.5988 215 215 342.5988 215 500 C215 657.4012 342.5988 785 500 785 L500 215 Z\"/></g><circle cx=\"500\" cy=\"500\" r=\"285\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\"/></g>",
+      "drawing_sha256": "33e93fd9c9dc967a5bac6f7a6a3ba1093fedbbb7ee6e0db6acc82f14cc816811",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Fixed named phase shape; ink is the shadow role in the light-paper notation. Orientation is a convention, not a computed view.",
+      "geometry": {
+        "center": [
+          500,
+          500
+        ],
+        "outer_radius": 315,
+        "ring_center_radius": 285,
+        "ring_stroke": 60,
+        "terminator_semiaxes": null,
+        "shape": "quarter",
+        "mirrored": true,
+        "precise_illumination_fraction_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F317"
+        ],
+        "unicode_names": [
+          "LAST QUARTER MOON SYMBOL"
+        ],
+        "text": "🌗",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Last quarter",
+      "source_evidence": [
+        "unicode-17-final",
+        "nasa-phase-appearance"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:phase-last-quarter]",
+      "asset": "masters/phase-last-quarter.svg"
+    },
+    {
+      "id": "phase-waning-crescent",
+      "semantic_id": "phase.waning-crescent",
+      "name": "Waning crescent",
+      "display_label": "Monochrome phase disk",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar phase appearance: waning crescent. Distinct from the generic Moon-body icon; phase timing/model is external to the character.",
+      "drawing": "<g transform=\"translate(1000 0) scale(-1 1)\"><g fill=\"currentColor\" stroke=\"none\"><path d=\"M500 215 C342.5988 215 215 342.5988 215 500 C215 657.4012 342.5988 785 500 785 C580.0813 785 645 657.4012 645 500 C645 342.5988 580.0813 215 500 215 Z\"/></g><circle cx=\"500\" cy=\"500\" r=\"285\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\"/></g>",
+      "drawing_sha256": "f7250f53e7e3cc39d35145e90b3c75d1d92d2e59cfdf78593276953e96c90365",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Fixed named phase shape; ink is the shadow role in the light-paper notation. Orientation is a convention, not a computed view.",
+      "geometry": {
+        "center": [
+          500,
+          500
+        ],
+        "outer_radius": 315,
+        "ring_center_radius": 285,
+        "ring_stroke": 60,
+        "terminator_semiaxes": [
+          145,
+          285
+        ],
+        "shape": "crescent",
+        "mirrored": true,
+        "precise_illumination_fraction_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F318"
+        ],
+        "unicode_names": [
+          "WANING CRESCENT MOON SYMBOL"
+        ],
+        "text": "🌘",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Waning crescent",
+      "source_evidence": [
+        "unicode-17-final",
+        "nasa-phase-appearance"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:phase-waning-crescent]",
+      "asset": "masters/phase-waning-crescent.svg"
+    },
+    {
+      "id": "occultation",
+      "semantic_id": "event.occultation",
+      "name": "Occultation",
+      "display_label": "Filled conjunction-family mark",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "An occultation event; the occulting and occulted bodies must be identified separately.",
+      "drawing": "<g fill=\"currentColor\" stroke=\"none\"><path d=\"M395 370 C524.787 370 630 475.213 630 605 C630 734.787 524.787 840 395 840 C265.213 840 160 734.787 160 605 C160 475.213 265.213 370 395 370 Z\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M540 460 L795 205\"/></g>",
+      "drawing_sha256": "89ffe3c60edd6182f177ed110a93420c7e942e3772901e36e5c23dd00703e35d",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Solid lower-left disk and round-ended northeast stem; outer disk matches the prior conjunction ring extent.",
+      "geometry": {
+        "disk_center": [
+          395,
+          605
+        ],
+        "disk_radius": 235,
+        "stem": [
+          [
+            540,
+            460
+          ],
+          [
+            795,
+            205
+          ]
+        ],
+        "stem_width": 60
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F775"
+        ],
+        "unicode_names": [
+          "OCCULTATION"
+        ],
+        "text": "🝵",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Occultation",
+      "source_evidence": [
+        "unicode-17-final",
+        "miller-2022-events"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:occultation]",
+      "asset": "masters/occultation.svg"
+    },
+    {
+      "id": "lunar-eclipse",
+      "semantic_id": "event.lunar-eclipse",
+      "name": "Lunar eclipse",
+      "display_label": "Filled opposition-family mark",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "A terrestrial lunar-eclipse event; the glyph does not select an umbral-enlargement model or contact definition.",
+      "drawing": "<g fill=\"currentColor\" stroke=\"none\"><path d=\"M315 510 C411.65 510 490 588.35 490 685 C490 781.65 411.65 860 315 860 C218.35 860 140 781.65 140 685 C140 588.35 218.35 510 315 510 Z\"/><path d=\"M685 140 C781.65 140 860 218.35 860 315 C860 411.65 781.65 490 685 490 C588.35 490 510 411.65 510 315 C510 218.35 588.35 140 685 140 Z\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M418 582 L582 418\"/></g>",
+      "drawing_sha256": "ef833c516be13797cf550e79bf5706d62999d5cd48d541c0b0931bd7e1641cdd",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Two solid diagonal disks joined by a round-ended stem; not the ordinary longitude opposition character.",
+      "geometry": {
+        "disk_centers": [
+          [
+            315,
+            685
+          ],
+          [
+            685,
+            315
+          ]
+        ],
+        "disk_radius": 175,
+        "stem": [
+          [
+            418,
+            582
+          ],
+          [
+            582,
+            418
+          ]
+        ],
+        "stem_width": 60
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F776"
+        ],
+        "unicode_names": [
+          "LUNAR ECLIPSE"
+        ],
+        "text": "🝶",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Lunar eclipse",
+      "source_evidence": [
+        "unicode-17-final",
+        "miller-2022-events"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:lunar-eclipse]",
+      "asset": "masters/lunar-eclipse.svg"
+    },
+    {
+      "id": "solar-eclipse-composition",
+      "semantic_id": "event.solar-eclipse",
+      "name": "Solar eclipse",
+      "display_label": "Moon · occultation · Sun",
+      "category": "composition-proposal",
+      "kind": "label_sequence",
+      "meaning": "Moon-occults-Sun event; type, centrality and contacts are separate data. No dedicated scalar is assigned by this plan.",
+      "drawing": "<g transform=\"translate(-130 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M655 185 C405 160 230 305 230 500 C230 695 405 840 655 815 C395 700 395 300 655 185 Z\" fill=\"currentColor\" stroke=\"none\"/></g></g><g transform=\"translate(500 0)\"><g fill=\"currentColor\" stroke=\"none\"><path d=\"M395 370 C524.787 370 630 475.213 630 605 C630 734.787 524.787 840 395 840 C265.213 840 160 734.787 160 605 C160 475.213 265.213 370 395 370 Z\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M540 460 L795 205\"/></g></g><g transform=\"translate(1275 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"285\"/><circle cx=\"500\" cy=\"500\" r=\"50\" fill=\"currentColor\" stroke=\"none\"/></g></g>",
+      "drawing_sha256": "00ec8b4a30393f2fd77549e53d318a559efbcfa486e992d436b298c8adf6cb07",
+      "source_stroke": 60,
+      "source_em_units": 1000,
+      "proof_advance_units": 2190,
+      "description": "Three preserved identities in a compact optical composition; 135 source-unit clear gaps between ink bounds.",
+      "geometry": {
+        "components": [
+          {
+            "id": "moon",
+            "source": "references/prior-moon.svg",
+            "translate_x": -130,
+            "ink_bounds": [
+              100,
+              182.193,
+              525,
+              817.807
+            ],
+            "drawing_sha256": "216a7fd75dd2c8066ab6ef9c96be695c32976ae6c109599de24e7b3d629b6712"
+          },
+          {
+            "id": "occultation",
+            "source": "masters/occultation.svg",
+            "translate_x": 500,
+            "ink_bounds": [
+              660,
+              175,
+              1325,
+              840
+            ],
+            "drawing_sha256": "89ffe3c60edd6182f177ed110a93420c7e942e3772901e36e5c23dd00703e35d"
+          },
+          {
+            "id": "sun",
+            "source": "references/prior-sun.svg",
+            "translate_x": 1275,
+            "ink_bounds": [
+              1460,
+              185,
+              2090,
+              815
+            ],
+            "drawing_sha256": "909187c2c69000879a0ec7ba82ae9e050542740c75be6941f2d286a5a9cb51fa"
+          }
+        ],
+        "ink_gaps": [
+          135,
+          135
+        ],
+        "source_advance": 2190,
+        "final_font_spacing_implemented": false
+      },
+      "mapping": {
+        "status": "proposed_composition",
+        "relation": "proposed_body_event_composition",
+        "codepoints": [
+          "U+263E",
+          "U+0020",
+          "U+1F775",
+          "U+0020",
+          "U+2609"
+        ],
+        "unicode_names": [
+          "LAST QUARTER MOON",
+          "SPACE",
+          "OCCULTATION",
+          "SPACE",
+          "SUN"
+        ],
+        "text": "☾ 🝵 ☉",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Solar eclipse",
+      "source_evidence": [
+        "unicode-17-final",
+        "miller-2022-events"
+      ],
+      "form_attribution": "Original Moira coordinates and spacing; conventional symbol structure as documented in the research notes.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:solar-eclipse-composition]",
+      "asset": "masters/solar-eclipse-composition.svg",
+      "encoding_note": "Proposed multi-character composition from the inventory. No dedicated solar-eclipse scalar or font ligature is allocated."
+    }
+  ],
+  "preview_scale": 1.08,
+  "phase_convention": "Fixed Unicode-named orientation; ink/negative-space roles are symbolic, not photometric.",
+  "engine_or_model_changes": false,
+  "font_integrated": false
+}

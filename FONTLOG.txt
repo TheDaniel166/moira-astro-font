@@ -1,0 +1,29 @@
+Copyright 2026 Moira Astro contributors. Original glyph designs.
+with Reserved Font Name Moira.
+Licensed under SIL Open Font License 1.1. See OFL.txt and https://openfontlicense.org/
+
+FONTLOG for Moira Astro
+======================
+
+Project: original astrology symbol font; regular weight.
+The master inventory has been covered through Batch 21. Coverage refers to
+the selected inventory, not every symbol or historical convention ever used.
+
+2026-10-26  0.13.2-alpha.1 / internal revision 0.942
+  Applied SIL Open Font License 1.1, with Reserved Font Name Moira.
+  Embedded the full license and URL; retained the existing copyright holder.
+  Exported complete editable TTX source and standalone reproducible tooling.
+  Preserved all 726 glyphs, 225 mappings, 711 optional tokens, 35 direct
+  registry routes, historical variants and model policies from 0.13.1.
+
+2026-10-26  0.13.1-alpha.1 / internal revision 0.941
+  Stabilized optional token access with 132 hyphen-free compatibility aliases
+  for observed Word behavior; kept all 579 existing canonical tokens.
+  No glyph or Unicode mapping additions.
+
+2026-10-26  0.13.0-alpha.1 / internal revision 0.940
+  Integrated Batch 21: ten remaining concepts and three alternatives.
+  Completed the selected master-inventory repertoire.
+
+Authors and contributors: Moira Astro project / Moira Astro contributors.
+Historical witnesses and meaning/definition sources are recorded per entry.

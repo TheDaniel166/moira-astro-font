@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-23",
+  "scope": "Two optical refinement candidates",
+  "status": "awaiting_owner_visual_feedback",
+  "revised_forms": [
+    "irene",
+    "parthenope-form-two"
+  ],
+  "prior_forms_registry_sha256": "1d3fdc9238144885b9486ed8b9b95d08e0030ddb857214f374ce7ea7397a718d",
+  "encoding_changes": false,
+  "body_identity_changes": false,
+  "font_integrated": false,
+  "feature_slot": null,
+  "carried_choices": {
+    "minor_aspects": "letter family default with alternatives",
+    "spirit_default": "circled S",
+    "spirit_alternate": "circled vertical bar",
+    "zero_default": "unslashed",
+    "zero_alternate": "slashed"
+  }
+}

@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.ttf binary
+*.woff2 binary
+# Preserve original source bytes; archived whitespace is part of its receipt.
+*.svg -text -whitespace
+*.json -text whitespace=cr-at-eol
+*.csv -text whitespace=cr-at-eol
+source/*.ttx -text whitespace=cr-at-eol
+designs/** -text -whitespace
+masters/** -text -whitespace
+sources/** -text -whitespace
+inventory/** -text -whitespace
+provenance/** -text -whitespace

@@ -1,0 +1,1108 @@
+{
+  "project": "Moira Astro",
+  "batch": 16,
+  "date": "2026-10-25",
+  "draft": 1,
+  "proposed_forms": 11,
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "sect.diurnal",
+      "short_label": "Diu",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"350\" r=\"110\"/><path d=\"M200 600 H800 M500 140 V200 M310 240 L350 280 M690 240 L650 280\"/></g>",
+      "construction": "Solar ring above a horizon, with three outer rays",
+      "caption": "Above the horizon",
+      "rationale": "A schematic solar horizon identifies the day category without borrowing a Moon identity.",
+      "reference": "Ptolemy, Tetrabiblos I.7; concept only",
+      "counters": [
+        [
+          500,
+          350
+        ]
+      ],
+      "gaps": [
+        [
+          500,
+          520
+        ],
+        [
+          290,
+          310
+        ],
+        [
+          710,
+          310
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          240
+        ],
+        [
+          500,
+          600
+        ],
+        [
+          500,
+          165
+        ],
+        [
+          330,
+          260
+        ]
+      ],
+      "contours": 3,
+      "name": "Diurnal sect",
+      "meaning": "Day/night sect category under an explicit horizon/sect policy; not a replacement identity for the Sun or Moon.",
+      "plain_text_fallback": "Diurnal sect",
+      "source_record": {
+        "id": "sect.diurnal",
+        "name": "Diurnal sect",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Day/night sect category under an explicit horizon/sect policy; not a replacement identity for the Sun or Moon.",
+        "sources": [
+          "m-lots"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Diurnal sect",
+        "identifiers": {},
+        "blockers": [
+          "Source the preferred mark; retain the sect policy in data rather than choosing it through font styling."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/sect.diurnal.svg",
+      "drawing_sha256": "3d6b71950b3e5ad0f147e79e9f4d6c5c566f299b35a22229fe0f67a90f1eb074"
+    },
+    {
+      "id": "sect.nocturnal",
+      "short_label": "Noc",
+      "drawing": "<g transform=\"translate(0 1000) scale(1 -1)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"350\" r=\"110\"/><path d=\"M200 600 H800 M500 140 V200 M310 240 L350 280 M690 240 L650 280\"/></g></g>",
+      "construction": "The same solar ring below the horizon",
+      "caption": "Below the horizon",
+      "rationale": "The mirrored solar metaphor describes night; a Moon above or below the horizon does not define chart sect.",
+      "reference": "Ptolemy, Tetrabiblos I.7; concept only",
+      "counters": [
+        [
+          500,
+          650
+        ]
+      ],
+      "gaps": [
+        [
+          500,
+          480
+        ],
+        [
+          290,
+          690
+        ],
+        [
+          710,
+          690
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          760
+        ],
+        [
+          500,
+          400
+        ],
+        [
+          500,
+          835
+        ],
+        [
+          330,
+          740
+        ]
+      ],
+      "contours": 3,
+      "name": "Nocturnal sect",
+      "meaning": "Day/night sect category under an explicit horizon/sect policy; not a replacement identity for the Sun or Moon.",
+      "plain_text_fallback": "Nocturnal sect",
+      "source_record": {
+        "id": "sect.nocturnal",
+        "name": "Nocturnal sect",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Day/night sect category under an explicit horizon/sect policy; not a replacement identity for the Sun or Moon.",
+        "sources": [
+          "m-lots"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Nocturnal sect",
+        "identifiers": {},
+        "blockers": [
+          "Source the preferred mark; retain the sect policy in data rather than choosing it through font styling."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/sect.nocturnal.svg",
+      "drawing_sha256": "ad43f565b6a598539c16295b9d7aa45323238bdf0cbd02e2c51a8413c2a6bf69"
+    },
+    {
+      "id": "dignity.domicile",
+      "short_label": "Dom",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 430 L500 190 780 430 M300 380 V820 H700 V380\"/></g><circle cx=\"500\" cy=\"620\" r=\"65\" fill=\"currentColor\"/>",
+      "construction": "A roof and enclosed house with an interior point",
+      "caption": "At home",
+      "rationale": "The interior point makes domicile a specific residence metaphor rather than an ordinary house number.",
+      "reference": "Lilly, printed pp.101-104; category only",
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          430
+        ],
+        [
+          500,
+          740
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          190
+        ],
+        [
+          300,
+          620
+        ],
+        [
+          500,
+          620
+        ],
+        [
+          500,
+          820
+        ]
+      ],
+      "contours": 3,
+      "name": "Domicile",
+      "meaning": "Named dignity/debility category domicile under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+      "plain_text_fallback": "Domicile",
+      "source_record": {
+        "id": "dignity.domicile",
+        "name": "Domicile",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named dignity/debility category domicile under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+        "sources": [
+          "m-dignities"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Domicile",
+        "identifiers": {},
+        "blockers": [
+          "Research and attest a convention or label any newly commissioned mark as Moira-original."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/dignity.domicile.svg",
+      "drawing_sha256": "c1ac598e68d77140a8ac940907bbb0c821ccb53695a0e87301be576b3157ff05"
+    },
+    {
+      "id": "dignity.exaltation",
+      "short_label": "Exa",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 700 V260 M380 380 L500 260 620 380 M320 840 H680\"/></g>",
+      "construction": "A rising arrow above a separate lower bar",
+      "caption": "Raised above a base",
+      "rationale": "A paired height metaphor with fall; the glyph carries no degree, planet or numeric score.",
+      "reference": "Lilly, printed pp.102-104; category only",
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          770
+        ],
+        [
+          370,
+          540
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          260
+        ],
+        [
+          500,
+          600
+        ],
+        [
+          500,
+          840
+        ],
+        [
+          440,
+          320
+        ]
+      ],
+      "contours": 2,
+      "name": "Exaltation",
+      "meaning": "Named dignity/debility category exaltation under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+      "plain_text_fallback": "Exaltation",
+      "source_record": {
+        "id": "dignity.exaltation",
+        "name": "Exaltation",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named dignity/debility category exaltation under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+        "sources": [
+          "m-dignities"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Exaltation",
+        "identifiers": {},
+        "blockers": [
+          "Research and attest a convention or label any newly commissioned mark as Moira-original."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/dignity.exaltation.svg",
+      "drawing_sha256": "d346dc7781816ac555204505f4174d5ab1c290117b75f76d97542c9093ff1704"
+    },
+    {
+      "id": "dignity.triplicity",
+      "short_label": "Tri",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 230 L250 730 H750 Z\"/></g><g fill=\"currentColor\"><circle cx=\"500\" cy=\"230\" r=\"70\"/><circle cx=\"250\" cy=\"730\" r=\"70\"/><circle cx=\"750\" cy=\"730\" r=\"70\"/></g>",
+      "construction": "Three solid nodes linked in a triangular group",
+      "caption": "Three linked nodes",
+      "rationale": "Node emphasis differentiates the category from a plain trine or elemental triangle; no ruler scheme is selected.",
+      "reference": "Lilly, printed pp.102-104; category only",
+      "counters": [
+        [
+          500,
+          530
+        ]
+      ],
+      "gaps": [],
+      "positive": [
+        [
+          500,
+          230
+        ],
+        [
+          250,
+          730
+        ],
+        [
+          750,
+          730
+        ],
+        [
+          500,
+          730
+        ]
+      ],
+      "contours": 2,
+      "name": "Triplicity",
+      "meaning": "Named dignity/debility category triplicity under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+      "plain_text_fallback": "Triplicity",
+      "source_record": {
+        "id": "dignity.triplicity",
+        "name": "Triplicity",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named dignity/debility category triplicity under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+        "sources": [
+          "m-dignities"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Triplicity",
+        "identifiers": {},
+        "blockers": [
+          "Research and attest a convention or label any newly commissioned mark as Moira-original."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/dignity.triplicity.svg",
+      "drawing_sha256": "c816b8f17be55c9e39ebfc4e7b42d9a12e939d368f51fb3ae4a77906cf838ef8"
+    },
+    {
+      "id": "dignity.bound",
+      "short_label": "Bnd",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M350 230 H250 V800 H350 M650 230 H750 V800 H650 M350 520 H650 M500 440 V600\"/></g>",
+      "construction": "An interval held between two brackets, with a central division",
+      "caption": "A bounded interval",
+      "rationale": "The bracketing represents bounds/terms without selecting Egyptian, Ptolemaic or another table.",
+      "reference": "Lilly, printed pp.102-104, terms; category only",
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          310
+        ],
+        [
+          500,
+          720
+        ],
+        [
+          300,
+          520
+        ],
+        [
+          700,
+          520
+        ]
+      ],
+      "positive": [
+        [
+          250,
+          500
+        ],
+        [
+          750,
+          500
+        ],
+        [
+          500,
+          520
+        ],
+        [
+          500,
+          440
+        ]
+      ],
+      "contours": 3,
+      "name": "Bound",
+      "meaning": "Named dignity/debility category bound under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+      "plain_text_fallback": "Bound",
+      "source_record": {
+        "id": "dignity.bound",
+        "name": "Bound",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named dignity/debility category bound under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+        "sources": [
+          "m-dignities"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Bound",
+        "identifiers": {},
+        "blockers": [
+          "Research and attest a convention or label any newly commissioned mark as Moira-original."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/dignity.bound.svg",
+      "drawing_sha256": "85700cbd000da01d13b6d54469f0d3da33170b0c9602c489cb553f71705044eb"
+    },
+    {
+      "id": "dignity.face",
+      "short_label": "Fac",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 320 H780 V780 H220 Z M407 320 V780 M593 320 V780\"/></g>",
+      "construction": "One rectangular panel with three equal open fields",
+      "caption": "Three decan fields",
+      "rationale": "Three fields refer to the three decans of a sign in the Lilly context; this is not Ptolemy's separate proper-face relation.",
+      "reference": "Lilly, printed pp.103-104, face/decan; category only",
+      "counters": [
+        [
+          310,
+          550
+        ],
+        [
+          500,
+          550
+        ],
+        [
+          690,
+          550
+        ]
+      ],
+      "gaps": [],
+      "positive": [
+        [
+          220,
+          550
+        ],
+        [
+          407,
+          550
+        ],
+        [
+          593,
+          550
+        ],
+        [
+          780,
+          550
+        ]
+      ],
+      "contours": 4,
+      "name": "Face",
+      "meaning": "Named dignity/debility category face under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+      "plain_text_fallback": "Face",
+      "source_record": {
+        "id": "dignity.face",
+        "name": "Face",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named dignity/debility category face under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+        "sources": [
+          "m-dignities"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Face",
+        "identifiers": {},
+        "blockers": [
+          "Research and attest a convention or label any newly commissioned mark as Moira-original."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/dignity.face.svg",
+      "drawing_sha256": "51fa301ef41f25e1850331301607035507177d3cec73af1d381496e29b12337b"
+    },
+    {
+      "id": "dignity.detriment",
+      "short_label": "Det",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 430 L500 190 780 430 M300 380 V820 H700 V380\"/><path d=\"M460 620 H920 M800 500 L920 620 800 740\"/></g>",
+      "construction": "The same house, with an outward arrow in place of its interior point",
+      "caption": "Out of domicile",
+      "rationale": "Paired with domicile; the exit metaphor carries no sign assignment or judgement of a person.",
+      "reference": "Lilly, printed p.104 table, detriment; category only",
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          430
+        ],
+        [
+          500,
+          740
+        ],
+        [
+          750,
+          500
+        ],
+        [
+          750,
+          740
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          190
+        ],
+        [
+          300,
+          620
+        ],
+        [
+          500,
+          820
+        ],
+        [
+          920,
+          620
+        ],
+        [
+          860,
+          560
+        ]
+      ],
+      "contours": 2,
+      "name": "Detriment",
+      "meaning": "Named dignity/debility category detriment under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+      "plain_text_fallback": "Detriment",
+      "source_record": {
+        "id": "dignity.detriment",
+        "name": "Detriment",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named dignity/debility category detriment under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+        "sources": [
+          "m-dignities"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Detriment",
+        "identifiers": {},
+        "blockers": [
+          "Research and attest a convention or label any newly commissioned mark as Moira-original."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/dignity.detriment.svg",
+      "drawing_sha256": "c138b5175fb73bfcd40d0851839dc957a136eb1aacc3f212fac4a65e10278a20"
+    },
+    {
+      "id": "dignity.fall",
+      "short_label": "Fal",
+      "drawing": "<g transform=\"translate(0 1000) scale(1 -1)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 700 V260 M380 380 L500 260 620 380 M320 840 H680\"/></g></g>",
+      "construction": "A falling arrow below a separate upper bar",
+      "caption": "Below an upper bar",
+      "rationale": "The vertical counterpart of exaltation. No astrological computation or scoring is encoded.",
+      "reference": "Lilly, printed p.104 table, fall; category only",
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          230
+        ],
+        [
+          370,
+          460
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          740
+        ],
+        [
+          500,
+          400
+        ],
+        [
+          500,
+          160
+        ],
+        [
+          440,
+          680
+        ]
+      ],
+      "contours": 2,
+      "name": "Fall",
+      "meaning": "Named dignity/debility category fall under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+      "plain_text_fallback": "Fall",
+      "source_record": {
+        "id": "dignity.fall",
+        "name": "Fall",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named dignity/debility category fall under a stated authority/table. The mark does not choose a ruler table or scoring system.",
+        "sources": [
+          "m-dignities"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Fall",
+        "identifiers": {},
+        "blockers": [
+          "Research and attest a convention or label any newly commissioned mark as Moira-original."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/dignity.fall.svg",
+      "drawing_sha256": "66633ecbf8dcadb8c4dc56e0d78d2540364919802513165de3cf489d1ba763b2"
+    },
+    {
+      "id": "relation.antiscia",
+      "short_label": "Ant",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 200 V800 M430 200 H570 M430 800 H570\"/><circle cx=\"260\" cy=\"500\" r=\"90\"/><circle cx=\"740\" cy=\"500\" r=\"90\"/></g>",
+      "construction": "Two open rings reflected across a capped vertical axis",
+      "caption": "Across the solstitial axis",
+      "rationale": "A new reflection diagram, separate from ordinary aspect notation; its axis is schematic, not a required chart orientation.",
+      "reference": "Lilly, printed pp.90-92; relation only",
+      "counters": [
+        [
+          260,
+          500
+        ],
+        [
+          740,
+          500
+        ]
+      ],
+      "gaps": [
+        [
+          415,
+          500
+        ],
+        [
+          585,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          350
+        ],
+        [
+          170,
+          500
+        ],
+        [
+          830,
+          500
+        ],
+        [
+          440,
+          200
+        ],
+        [
+          560,
+          800
+        ]
+      ],
+      "contours": 5,
+      "name": "Antiscion",
+      "meaning": "Solstitial reflection of an ecliptic longitude, under the admitted source/frame policy.",
+      "plain_text_fallback": "Antiscion",
+      "source_record": {
+        "id": "relation.antiscia",
+        "name": "Antiscion",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Solstitial reflection of an ecliptic longitude, under the admitted source/frame policy.",
+        "sources": [
+          "m-antiscia"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Antiscion",
+        "identifiers": {},
+        "blockers": [
+          "Source the notation; do not silently reuse an ordinary aspect glyph for a different geometric relation."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/relation.antiscia.svg",
+      "drawing_sha256": "af5811b8b437eb8dff83b99445725bbead1a40a3961c7a6ee1e8c34c64ba263f"
+    },
+    {
+      "id": "relation.contra-antiscia",
+      "short_label": "C.Ant",
+      "drawing": "<g transform=\"rotate(90 500 500)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 200 V800 M430 200 H570 M430 800 H570\"/><circle cx=\"260\" cy=\"500\" r=\"90\"/><circle cx=\"740\" cy=\"500\" r=\"90\"/></g></g>",
+      "construction": "Two open rings reflected across a capped horizontal axis",
+      "caption": "Across the equinoctial axis",
+      "rationale": "A quarter-turned counterpart: the longitude opposite the antiscion. This is not an opposition glyph alias.",
+      "reference": "Lilly, printed pp.90-92; relation only",
+      "counters": [
+        [
+          500,
+          260
+        ],
+        [
+          500,
+          740
+        ]
+      ],
+      "gaps": [
+        [
+          500,
+          415
+        ],
+        [
+          500,
+          585
+        ]
+      ],
+      "positive": [
+        [
+          650,
+          500
+        ],
+        [
+          500,
+          170
+        ],
+        [
+          500,
+          830
+        ],
+        [
+          800,
+          440
+        ],
+        [
+          200,
+          560
+        ]
+      ],
+      "contours": 5,
+      "name": "Contra-antiscion",
+      "meaning": "Equinoctial/opposed reflection relation under the admitted source/frame policy.",
+      "plain_text_fallback": "Contra-antiscion",
+      "source_record": {
+        "id": "relation.contra-antiscia",
+        "name": "Contra-antiscion",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Equinoctial/opposed reflection relation under the admitted source/frame policy.",
+        "sources": [
+          "m-antiscia"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Contra-antiscion",
+        "identifiers": {},
+        "blockers": [
+          "Source the notation; do not silently reuse an ordinary aspect glyph for a different geometric relation."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P3",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/relation.contra-antiscia.svg",
+      "drawing_sha256": "5df9dad7164768a789b3e02c5ac3bba09fea8e35226d556af0be822a86d68b15"
+    }
+  ]
+}

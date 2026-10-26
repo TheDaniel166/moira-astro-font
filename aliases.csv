@@ -1,0 +1,133 @@
+﻿token,alias_for,character,codepoint,name,glyph_name,glyph_index,advance,access
+[lot:Spbar],[lot:Sp-bar],,,Spirit — vertical-bar alternate / Word-compatible token,uni29B6,115,852,explicit_compatibility_alias
+[astro:contraparallel],[astro:contra-parallel],,,Contra-parallel / Word-compatible token,uni2226,513,873,explicit_compatibility_alias
+[astro:russianvigintile],[astro:russian-vigintile],,,Vigintile / Word-compatible token,uni2BF3,514,808,explicit_compatibility_alias
+[astro:russiannovile],[astro:russian-novile],,,Novile / Word-compatible token,uni2BF4,515,783,explicit_compatibility_alias
+[astro:russianquintile],[astro:russian-quintile],,,Quintile / Word-compatible token,uni2BF5,516,847,explicit_compatibility_alias
+[astro:russianbinovile],[astro:russian-binovile],,,Binovile / Word-compatible token,uni2BF6,517,804,explicit_compatibility_alias
+[astro:russiansentagon],[astro:russian-sentagon],,,Sentagon / Russian 100-degree aspect / Word-compatible token,uni2BF7,518,809,explicit_compatibility_alias
+[astro:russiantredecile],[astro:russian-tredecile],,,Tredecile / Word-compatible token,uni2BF8,519,830,explicit_compatibility_alias
+[astro:quintilepentagon],[astro:quintile-pentagon],,,Quintile / Word-compatible token,uni2B20,520,927,explicit_compatibility_alias
+[astro:biquintileplusminus],[astro:biquintile-plus-minus],,,Biquintile / Word-compatible token,astro.biquintile-plus-minus,521,798,explicit_compatibility_alias
+[astro:decileuptack],[astro:decile-up-tack],,,Decile / Word-compatible token,uni22A5,522,852,explicit_compatibility_alias
+[astro:contraparallelgrid],[astro:contra-parallel-grid],,,Contra-parallel / Word-compatible token,astro.contra-parallel-grid,523,873,explicit_compatibility_alias
+[astro:lilithdiamond],[astro:lilith-diamond],,,"Black Moon Lilith, model-qualified / Word-compatible token",uni2BDE,525,668,explicit_compatibility_alias
+[astro:angleasc],[astro:angle-asc],,,Ascendant / Word-compatible token,astro.angle-asc,526,2354,explicit_compatibility_alias
+[astro:angledsc],[astro:angle-dsc],,,Descendant / Word-compatible token,astro.angle-dsc,527,2354,explicit_compatibility_alias
+[astro:anglemc],[astro:angle-mc],,,Midheaven / Word-compatible token,astro.angle-mc,528,1717,explicit_compatibility_alias
+[astro:angleic],[astro:angle-ic],,,Imum Coeli / Word-compatible token,astro.angle-ic,529,1264,explicit_compatibility_alias
+[astro:anglevertex],[astro:angle-vertex],,,Vertex / Word-compatible token,astro.angle-vertex,530,1555,explicit_compatibility_alias
+[astro:angleantivertex],[astro:angle-anti-vertex],,,Anti-Vertex / Word-compatible token,astro.angle-anti-vertex,531,2354,explicit_compatibility_alias
+[astro:anglevertexmixed],[astro:angle-vertex-mixed],,,Vertex / Word-compatible token,astro.angle-vertex-mixed,532,1393,explicit_compatibility_alias
+[astro:angleantivertexmixed],[astro:angle-anti-vertex-mixed],,,Anti-Vertex / Word-compatible token,astro.angle-anti-vertex-mixed,533,2192,explicit_compatibility_alias
+[astro:motionretrograde],[astro:motion-retrograde],,,Retrograde / Word-compatible token,astro.motion-retrograde,534,1393,explicit_compatibility_alias
+[astro:motiondirect],[astro:motion-direct],,,Direct / Word-compatible token,astro.motion-direct,535,756,explicit_compatibility_alias
+[astro:motionstationary],[astro:motion-stationary],,,Stationary / Word-compatible token,astro.motion-stationary,536,756,explicit_compatibility_alias
+[astro:motionstationr],[astro:motion-station-r],,,Station retrograde / Word-compatible token,astro.motion-station-r,537,1555,explicit_compatibility_alias
+[astro:motionstationd],[astro:motion-station-d],,,Station direct / Word-compatible token,astro.motion-station-d,538,1555,explicit_compatibility_alias
+[astro:motionapplying],[astro:motion-applying],,,Applying / Word-compatible token,astro.motion-applying,539,756,explicit_compatibility_alias
+[astro:motionseparating],[astro:motion-separating],,,Separating / Word-compatible token,astro.motion-separating,540,2182,explicit_compatibility_alias
+[astro:motionexact],[astro:motion-exact],,,Exact aspect / Word-compatible token,astro.motion-exact,541,3283,explicit_compatibility_alias
+[astro:motionrxcrossed],[astro:motion-rx-crossed],,,Retrograde / Word-compatible token,uni211E,542,803,explicit_compatibility_alias
+[astro:motionr],[astro:motion-r],,,Retrograde / Word-compatible token,astro.motion-r,543,756,explicit_compatibility_alias
+[astro:motionstationrslash],[astro:motion-station-r-slash],,,Station retrograde / Word-compatible token,astro.motion-station-r-slash,544,2063,explicit_compatibility_alias
+[astro:motionstationdslash],[astro:motion-station-d-slash],,,Station direct / Word-compatible token,astro.motion-station-d-slash,545,2063,explicit_compatibility_alias
+[astro:astraeaformtwo],[astro:astraea-form-two],,,Astraea / Word-compatible token,u1F778,556,869,explicit_compatibility_alias
+[astro:hygieaformtwo],[astro:hygiea-form-two],,,Hygiea / Word-compatible token,u1F779,557,775,explicit_compatibility_alias
+[astro:erisformtwo],[astro:eris-form-two],,,Eris / Word-compatible token,uni2BF1,558,711,explicit_compatibility_alias
+[astro:vestaformtwo],[astro:vesta-form-two],,,Vesta / Word-compatible token,u1F777,576,847,explicit_compatibility_alias
+[astro:parthenopeformtwo],[astro:parthenope-form-two],,,Parthenope / Word-compatible token,u1F77A,577,1076,explicit_compatibility_alias
+[astro:hylonomealternate],[astro:hylonome-alternate],,,Hylonome / Word-compatible token,astro.hylonome-alternate,585,718,explicit_compatibility_alias
+[astro:elatusalternate],[astro:elatus-alternate],,,Elatus / Word-compatible token,astro.elatus-alternate,586,723,explicit_compatibility_alias
+[astro:thereusalternate],[astro:thereus-alternate],,,Thereus / Word-compatible token,astro.thereus-alternate,587,787,explicit_compatibility_alias
+[astro:varunaalternate],[astro:varuna-alternate],,,Varuna / Word-compatible token,astro.varuna-alternate,592,912,explicit_compatibility_alias
+[astro:ixionalternate],[astro:ixion-alternate],,,Ixion / Word-compatible token,astro.ixion-alternate,593,865,explicit_compatibility_alias
+[astro:salaciaalternate],[astro:salacia-alternate],,,Salacia / Word-compatible token,astro.salacia-alternate,594,888,explicit_compatibility_alias
+[astro:phasenewmoon],[astro:phase-new-moon],,,New Moon / Word-compatible token,u1F311,595,841,explicit_compatibility_alias
+[astro:phasewaxingcrescent],[astro:phase-waxing-crescent],,,Waxing crescent / Word-compatible token,u1F312,596,841,explicit_compatibility_alias
+[astro:phasefirstquarter],[astro:phase-first-quarter],,,First quarter / Word-compatible token,u1F313,597,841,explicit_compatibility_alias
+[astro:phasewaxinggibbous],[astro:phase-waxing-gibbous],,,Waxing gibbous / Word-compatible token,u1F314,598,841,explicit_compatibility_alias
+[astro:phasefullmoon],[astro:phase-full-moon],,,Full Moon / Word-compatible token,u1F315,599,841,explicit_compatibility_alias
+[astro:phasewaninggibbous],[astro:phase-waning-gibbous],,,Waning gibbous / Word-compatible token,u1F316,600,841,explicit_compatibility_alias
+[astro:phaselastquarter],[astro:phase-last-quarter],,,Last quarter / Word-compatible token,u1F317,601,841,explicit_compatibility_alias
+[astro:phasewaningcrescent],[astro:phase-waning-crescent],,,Waning crescent / Word-compatible token,u1F318,602,841,explicit_compatibility_alias
+[astro:lunareclipse],[astro:lunar-eclipse],,,Lunar eclipse / Word-compatible token,u1F776,604,938,explicit_compatibility_alias
+[astro:solareclipsecomposition],[astro:solar-eclipse-composition],,,Solar eclipse / Word-compatible token,astro.solar-eclipse-composition,605,2365,explicit_compatibility_alias
+[astro:elementair],[astro:element-air],,,Air element / Word-compatible token,u1F701,606,949,explicit_compatibility_alias
+[astro:elementfire],[astro:element-fire],,,Fire element / Word-compatible token,u1F702,607,949,explicit_compatibility_alias
+[astro:elementearth],[astro:element-earth],,,Earth element / Word-compatible token,u1F703,608,949,explicit_compatibility_alias
+[astro:elementwater],[astro:element-water],,,Water element / Word-compatible token,u1F704,609,949,explicit_compatibility_alias
+[astro:fixedstar],[astro:fixed-star],,,Fixed-star marker / Word-compatible token,uni2605,610,885,explicit_compatibility_alias
+[astro:staralgol1533chart],[astro:star-algol-1533-chart],,,Algol / Word-compatible token,astro.star-algol-1533-chart,613,1922,explicit_compatibility_alias
+[astro:starpleiades1533chart],[astro:star-pleiades-1533-chart],,,Pleiades / Word-compatible token,astro.star-pleiades-1533-chart,614,1706,explicit_compatibility_alias
+[astro:staraldebaran1533chart],[astro:star-aldebaran-1533-chart],,,Aldebaran / Word-compatible token,astro.star-aldebaran-1533-chart,615,1080,explicit_compatibility_alias
+[astro:starcapella1533chart],[astro:star-capella-1533-chart],,,Capella / Goat / Word-compatible token,astro.star-capella-1533-chart,616,1296,explicit_compatibility_alias
+[astro:starsirius1533chart],[astro:star-sirius-1533-chart],,,Sirius / Word-compatible token,astro.star-sirius-1533-chart,617,2095,explicit_compatibility_alias
+[astro:starprocyon1533chart],[astro:star-procyon-1533-chart],,,Procyon / Word-compatible token,astro.star-procyon-1533-chart,618,1512,explicit_compatibility_alias
+[astro:starregulus1533chart],[astro:star-regulus-1533-chart],,,Regulus / Word-compatible token,astro.star-regulus-1533-chart,619,1339,explicit_compatibility_alias
+[astro:starbeartail1533chart],[astro:star-bear-tail-1533-chart],,,Bear-tail / Word-compatible token,astro.star-bear-tail-1533-chart,620,2268,explicit_compatibility_alias
+[astro:starcrowwing1533chart],[astro:star-crow-wing-1533-chart],,,Crow-wing / Word-compatible token,astro.star-crow-wing-1533-chart,621,2279,explicit_compatibility_alias
+[astro:starspica1533chart],[astro:star-spica-1533-chart],,,Spica / Word-compatible token,astro.star-spica-1533-chart,622,2106,explicit_compatibility_alias
+[astro:stararcturus1533chart],[astro:star-arcturus-1533-chart],,,Arcturus / Word-compatible token,astro.star-arcturus-1533-chart,623,2020,explicit_compatibility_alias
+[astro:staralphecca1533chart],[astro:star-alphecca-1533-chart],,,Alphecca / Word-compatible token,astro.star-alphecca-1533-chart,624,1750,explicit_compatibility_alias
+[astro:starantares1533chart],[astro:star-antares-1533-chart],,,Antares / Word-compatible token,astro.star-antares-1533-chart,625,1836,explicit_compatibility_alias
+[astro:starvega1533chart],[astro:star-vega-1533-chart],,,Vega / Word-compatible token,astro.star-vega-1533-chart,626,1188,explicit_compatibility_alias
+[astro:stardenebalgedi1533chart],[astro:star-deneb-algedi-1533-chart],,,Deneb Algedi / Word-compatible token,astro.star-deneb-algedi-1533-chart,627,2095,explicit_compatibility_alias
+[astro:starbeartail1651chart],[astro:star-bear-tail-1651-chart],,,Bear-tail / 1651 / Word-compatible token,astro.star-bear-tail-1651-chart,628,2268,explicit_compatibility_alias
+[astro:staralgol1533historical],[astro:star-algol-1533-historical],,,Algol / Word-compatible token,astro.star-algol-1533-historical,629,1631,explicit_compatibility_alias
+[astro:starpleiades1533historical],[astro:star-pleiades-1533-historical],,,Pleiades / Word-compatible token,astro.star-pleiades-1533-historical,630,1404,explicit_compatibility_alias
+[astro:staraldebaran1533historical],[astro:star-aldebaran-1533-historical],,,Aldebaran / Word-compatible token,astro.star-aldebaran-1533-historical,631,1080,explicit_compatibility_alias
+[astro:starcapella1533historical],[astro:star-capella-1533-historical],,,Capella / Goat / Word-compatible token,astro.star-capella-1533-historical,632,1080,explicit_compatibility_alias
+[astro:starsirius1533historical],[astro:star-sirius-1533-historical],,,Sirius / Word-compatible token,astro.star-sirius-1533-historical,633,1652,explicit_compatibility_alias
+[astro:starprocyon1533historical],[astro:star-procyon-1533-historical],,,Procyon / Word-compatible token,astro.star-procyon-1533-historical,634,1080,explicit_compatibility_alias
+[astro:starregulus1533historical],[astro:star-regulus-1533-historical],,,Regulus / Word-compatible token,astro.star-regulus-1533-historical,635,1166,explicit_compatibility_alias
+[astro:starbeartail1533historical],[astro:star-bear-tail-1533-historical],,,Bear-tail / Word-compatible token,astro.star-bear-tail-1533-historical,636,1728,explicit_compatibility_alias
+[astro:starcrowwing1533historical],[astro:star-crow-wing-1533-historical],,,Crow-wing / Word-compatible token,astro.star-crow-wing-1533-historical,637,1847,explicit_compatibility_alias
+[astro:starspica1533historical],[astro:star-spica-1533-historical],,,Spica / Word-compatible token,astro.star-spica-1533-historical,638,1728,explicit_compatibility_alias
+[astro:stararcturus1533historical],[astro:star-arcturus-1533-historical],,,Arcturus / Word-compatible token,astro.star-arcturus-1533-historical,639,1706,explicit_compatibility_alias
+[astro:staralphecca1533historical],[astro:star-alphecca-1533-historical],,,Alphecca / Word-compatible token,astro.star-alphecca-1533-historical,640,1436,explicit_compatibility_alias
+[astro:starantares1533historical],[astro:star-antares-1533-historical],,,Antares / Word-compatible token,astro.star-antares-1533-historical,641,1598,explicit_compatibility_alias
+[astro:starvega1533historical],[astro:star-vega-1533-historical],,,Vega / Word-compatible token,astro.star-vega-1533-historical,642,1123,explicit_compatibility_alias
+[astro:stardenebalgedi1533historical],[astro:star-deneb-algedi-1533-historical],,,Deneb Algedi / Word-compatible token,astro.star-deneb-algedi-1533-historical,643,1793,explicit_compatibility_alias
+[astro:starbeartail1651historical],[astro:star-bear-tail-1651-historical],,,Bear-tail / 1651 / Word-compatible token,astro.star-bear-tail-1651-historical,644,1728,explicit_compatibility_alias
+[astro:asteroid1181lilith],[astro:asteroid-1181-lilith],,,(1181) Lilith / Word-compatible token,astro.asteroid1181.lilith,676,873,explicit_compatibility_alias
+[astro:asteroid763cupido],[astro:asteroid-763-cupido],,,(763) Cupido / Word-compatible token,astro.asteroid763.cupido,677,765,explicit_compatibility_alias
+[astro:asteroid433eros],[astro:asteroid-433-eros],,,(433) Eros / Word-compatible token,astro.asteroid433.eros,678,960,explicit_compatibility_alias
+[astro:asteroid128nemesis],[astro:asteroid-128-nemesis],,,(128) Nemesis / Word-compatible token,astro.asteroid128.nemesis,679,798,explicit_compatibility_alias
+[astro:sectdiurnal],[astro:sect-diurnal],,,Diurnal sect / Word-compatible token,astro.sect.diurnal,680,873,explicit_compatibility_alias
+[astro:sectnocturnal],[astro:sect-nocturnal],,,Nocturnal sect / Word-compatible token,astro.sect.nocturnal,681,873,explicit_compatibility_alias
+[astro:dignitydomicile],[astro:dignity-domicile],,,Domicile / Word-compatible token,astro.dignity.domicile,682,830,explicit_compatibility_alias
+[astro:dignityexaltation],[astro:dignity-exaltation],,,Exaltation / Word-compatible token,astro.dignity.exaltation,683,614,explicit_compatibility_alias
+[astro:dignitytriplicity],[astro:dignity-triplicity],,,Triplicity / Word-compatible token,astro.dignity.triplicity,684,852,explicit_compatibility_alias
+[astro:dignitybound],[astro:dignity-bound],,,Bound / Word-compatible token,astro.dignity.bound,685,765,explicit_compatibility_alias
+[astro:dignityface],[astro:dignity-face],,,Face / Word-compatible token,astro.dignity.face,686,830,explicit_compatibility_alias
+[astro:dignitydetriment],[astro:dignity-detriment],,,Detriment / Word-compatible token,astro.dignity.detriment,687,981,explicit_compatibility_alias
+[astro:dignityfall],[astro:dignity-fall],,,Fall / Word-compatible token,astro.dignity.fall,688,614,explicit_compatibility_alias
+[astro:contraantiscion],[astro:contra-antiscion],,,Contra-antiscion / Word-compatible token,astro.relation.contra_antiscia,690,873,explicit_compatibility_alias
+[astro:modalitycardinal],[astro:modality-cardinal],,,Cardinal modality / Word-compatible token,astro.modality.cardinal,691,895,explicit_compatibility_alias
+[astro:modalityfixed],[astro:modality-fixed],,,Fixed modality / Word-compatible token,astro.modality.fixed,692,765,explicit_compatibility_alias
+[astro:modalitymutable],[astro:modality-mutable],,,Mutable modality / Word-compatible token,astro.modality.mutable,693,830,explicit_compatibility_alias
+[astro:housecategoryangular],[astro:house-category-angular],,,Angular / Word-compatible token,astro.house_category.angular,694,884,explicit_compatibility_alias
+[astro:housecategorysuccedent],[astro:house-category-succedent],,,Succedent / Word-compatible token,astro.house_category.succedent,695,819,explicit_compatibility_alias
+[astro:housecategorycadent],[astro:house-category-cadent],,,Cadent / Word-compatible token,astro.house_category.cadent,696,884,explicit_compatibility_alias
+[astro:galacticcenter],[astro:galactic-center],,,Galactic center / Word-compatible token,astro.annotation.galactic_center,697,876,explicit_compatibility_alias
+[astro:supergalacticreference],[astro:supergalactic-reference],,,Supergalactic reference direction / Word-compatible token,astro.annotation.supergalactic_center,698,992,explicit_compatibility_alias
+[astro:northcelestialpole],[astro:north-celestial-pole],,,North celestial pole / Word-compatible token,astro.annotation.north_celestial_pole,699,873,explicit_compatibility_alias
+[astro:southcelestialpole],[astro:south-celestial-pole],,,South celestial pole / Word-compatible token,astro.annotation.south_celestial_pole,700,873,explicit_compatibility_alias
+[astro:northeclipticpole],[astro:north-ecliptic-pole],,,North ecliptic pole / Word-compatible token,astro.annotation.north_ecliptic_pole,701,808,explicit_compatibility_alias
+[astro:southeclipticpole],[astro:south-ecliptic-pole],,,South ecliptic pole / Word-compatible token,astro.annotation.south_ecliptic_pole,702,808,explicit_compatibility_alias
+[astro:geocentricorigin],[astro:geocentric-origin],,,Geocentric label / Word-compatible token,astro.annotation.geocentric,703,938,explicit_compatibility_alias
+[astro:heliocentricorigin],[astro:heliocentric-origin],,,Heliocentric label / Word-compatible token,astro.annotation.heliocentric,704,938,explicit_compatibility_alias
+[astro:barycentricorigin],[astro:barycentric-origin],,,Barycentric label / Word-compatible token,astro.annotation.barycentric,705,938,explicit_compatibility_alias
+[astro:eastpoint],[astro:east-point],,,East Point / equatorial Ascendant / Word-compatible token,astro.point.east_point,710,953,explicit_compatibility_alias
+[astro:westpoint],[astro:west-point],,,West Point / Word-compatible token,astro.point.west_point,711,953,explicit_compatibility_alias
+[astro:polarascendant],[astro:polar-ascendant],,,Polar Ascendant / Word-compatible token,astro.point.polar_ascendant,712,856,explicit_compatibility_alias
+[astro:lunarperigeemean],[astro:lunar-perigee-mean],,,Mean lunar perigee / Word-compatible token,astro.lunar.perigee.mean,713,613,explicit_compatibility_alias
+[astro:lunarperigeeosculating],[astro:lunar-perigee-osculating],,,Osculating lunar perigee / Word-compatible token,astro.lunar.perigee.osculating,714,613,explicit_compatibility_alias
+[astro:lunarapogeeinterpolated],[astro:lunar-apogee-interpolated],,,Interpolated lunar apogee / Word-compatible token,astro.lunar.apogee.interpolated,715,584,explicit_compatibility_alias
+[astro:lunarperigeeinterpolated],[astro:lunar-perigee-interpolated],,,Interpolated lunar perigee / Word-compatible token,astro.lunar.perigee.interpolated,716,618,explicit_compatibility_alias
+[astro:proserpinahypothetical],[astro:proserpina-hypothetical],,,Hypothetical Proserpina / Word-compatible token,astro.hypothetical.proserpina,717,1072,explicit_compatibility_alias
+[astro:vulcanintramercurial],[astro:vulcan-intramercurial],,,Intramercurial Vulcan / Word-compatible token,astro.hypothetical.vulcan,721,791,explicit_compatibility_alias
+[astro:proserpinahypotheticalring],[astro:proserpina-hypothetical-ring],,,Proserpina / ring form / Word-compatible token,astro.hypothetical.proserpina.ring,723,1072,explicit_compatibility_alias
+[astro:selenarays],[astro:selena-rays],,,Selena / rayed form / Word-compatible token,astro.hypothetical.selena.rays,724,807,explicit_compatibility_alias
+[astro:vulcanintramercurialarrow],[astro:vulcan-intramercurial-arrow],,,Vulcan / downward-arrow form / Word-compatible token,astro.hypothetical.vulcan.arrow,725,683,explicit_compatibility_alias

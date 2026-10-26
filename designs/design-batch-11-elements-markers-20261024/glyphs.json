@@ -1,0 +1,421 @@
+{
+  "project": "Moira Astro",
+  "batch": "11",
+  "version": "draft-01",
+  "date": "2026-10-24",
+  "new_character_studies": 7,
+  "forms": [
+    {
+      "id": "element-air",
+      "semantic_id": "element.air",
+      "name": "Air element",
+      "display_label": "Upward triangle with bar",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "The named classical element air; distinct from a physical planet/body or astronomical constellation.",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 190 L835 785 H165 Z\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M165 500 H835\"/></g>",
+      "drawing_sha256": "ed952b483b597886fed0609cf6c6c48f9481f94c96800241264690b4b237689d",
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "The unchanged own triangle motif plus a full-width middle bar, matching the attested elemental structure.",
+      "geometry": {
+        "triangle_reuses_control": "trine",
+        "crossbar": [
+          [
+            165,
+            500
+          ],
+          [
+            835,
+            500
+          ]
+        ],
+        "stroke": 60,
+        "orientation": "up"
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "astrological_use_of_alchemical_element",
+        "codepoints": [
+          "U+1F701"
+        ],
+        "unicode_names": [
+          "ALCHEMICAL SYMBOL FOR AIR"
+        ],
+        "text": "🜁",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Air element",
+      "source_evidence": [
+        "unicode-17-final",
+        "indiana-alchemy"
+      ],
+      "outline_provenance": "Moira-owned vector geometry. The four-element family reuses the unchanged own Trine triangle motif; marker coordinates are newly authored. No external font outline or image was imported or traced.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:element-air]",
+      "asset": "masters/element-air.svg"
+    },
+    {
+      "id": "element-fire",
+      "semantic_id": "element.fire",
+      "name": "Fire element",
+      "display_label": "Upward triangle",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "The named classical element fire; distinct from a physical planet/body or astronomical constellation.",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 190 L835 785 H165 Z\"/></g>",
+      "drawing_sha256": "338966074948bbde88af0936c7857ed993c57812b240af4f02ec77f872b896ad",
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "A deliberate visual homograph of the preserved Trine triangle; meaning and assigned character remain distinct.",
+      "geometry": {
+        "triangle_reuses_control": "trine",
+        "stroke": 60,
+        "orientation": "up",
+        "homograph_of": "aspect.trine"
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "astrological_use_of_alchemical_element",
+        "codepoints": [
+          "U+1F702"
+        ],
+        "unicode_names": [
+          "ALCHEMICAL SYMBOL FOR FIRE"
+        ],
+        "text": "🜂",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Fire element",
+      "source_evidence": [
+        "unicode-17-final",
+        "indiana-alchemy"
+      ],
+      "outline_provenance": "Moira-owned vector geometry. The four-element family reuses the unchanged own Trine triangle motif; marker coordinates are newly authored. No external font outline or image was imported or traced.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:element-fire]",
+      "asset": "masters/element-fire.svg"
+    },
+    {
+      "id": "element-earth",
+      "semantic_id": "element.earth",
+      "name": "Earth element",
+      "display_label": "Downward triangle with bar",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "The named classical element earth; distinct from a physical planet/body or astronomical constellation.",
+      "drawing": "<g transform=\"translate(0 1000) scale(1 -1)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 190 L835 785 H165 Z\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M165 500 H835\"/></g></g>",
+      "drawing_sha256": "5ade049226f35771868fab8bf6bd53455513a06bd9ef742be66e1706d67a4dfb",
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Exact vertical reflection of Air; distinct from the preserved physical Earth-body icon.",
+      "geometry": {
+        "reflection_of": "element-air",
+        "crossbar": [
+          [
+            165,
+            500
+          ],
+          [
+            835,
+            500
+          ]
+        ],
+        "stroke": 60,
+        "orientation": "down"
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "astrological_use_of_alchemical_element",
+        "codepoints": [
+          "U+1F703"
+        ],
+        "unicode_names": [
+          "ALCHEMICAL SYMBOL FOR EARTH"
+        ],
+        "text": "🜃",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Earth element",
+      "source_evidence": [
+        "unicode-17-final",
+        "indiana-alchemy"
+      ],
+      "outline_provenance": "Moira-owned vector geometry. The four-element family reuses the unchanged own Trine triangle motif; marker coordinates are newly authored. No external font outline or image was imported or traced.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:element-earth]",
+      "asset": "masters/element-earth.svg"
+    },
+    {
+      "id": "element-water",
+      "semantic_id": "element.water",
+      "name": "Water element",
+      "display_label": "Downward triangle",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "The named classical element water; distinct from a physical planet/body or astronomical constellation.",
+      "drawing": "<g transform=\"translate(0 1000) scale(1 -1)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 190 L835 785 H165 Z\"/></g></g>",
+      "drawing_sha256": "de896362b0c1ec0b665892ac42db8903e0957af17d9f896520036ed271440e17",
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Exact vertical reflection of Fire, with no added crossbar.",
+      "geometry": {
+        "reflection_of": "element-fire",
+        "stroke": 60,
+        "orientation": "down"
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "astrological_use_of_alchemical_element",
+        "codepoints": [
+          "U+1F704"
+        ],
+        "unicode_names": [
+          "ALCHEMICAL SYMBOL FOR WATER"
+        ],
+        "text": "🜄",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Water element",
+      "source_evidence": [
+        "unicode-17-final",
+        "indiana-alchemy"
+      ],
+      "outline_provenance": "Moira-owned vector geometry. The four-element family reuses the unchanged own Trine triangle motif; marker coordinates are newly authored. No external font outline or image was imported or traced.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:element-water]",
+      "asset": "masters/element-water.svg"
+    },
+    {
+      "id": "fixed-star",
+      "semantic_id": "annotation.fixed-star",
+      "name": "Fixed-star marker",
+      "display_label": "Filled five-point marker",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Generic star marker in a chart context, not an encoded identity for every named star.",
+      "drawing": "<g fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"24\" stroke-linejoin=\"round\"><path d=\"M500.0000 195.0000 L588.1678 413.6475 L823.3592 429.9342 L642.6585 581.3525 L699.8470 810.0658 L500.0000 685.0000 L300.1530 810.0658 L357.3415 581.3525 L176.6408 429.9342 L411.8322 413.6475 Z\"/></g>",
+      "drawing_sha256": "63b555a8a9195ddd0ed736287eb01cef1b93fe1026def70a500455d14a0d6019",
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "A single filled five-point star; a category marker, not a separate identity for each named star.",
+      "geometry": {
+        "center": [
+          500,
+          535
+        ],
+        "outer_radius": 340,
+        "inner_radius": 150,
+        "outer_tips": 5,
+        "tip_rounding_stroke": 24
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "contextual_annotation",
+        "codepoints": [
+          "U+2605"
+        ],
+        "unicode_names": [
+          "BLACK STAR"
+        ],
+        "text": "★",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Fixed-star marker",
+      "source_evidence": [
+        "unicode-17-final",
+        "unicode-17-reference-structure"
+      ],
+      "outline_provenance": "Moira-owned vector geometry. The four-element family reuses the unchanged own Trine triangle motif; marker coordinates are newly authored. No external font outline or image was imported or traced.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:fixed-star]",
+      "asset": "masters/fixed-star.svg"
+    },
+    {
+      "id": "comet",
+      "semantic_id": "annotation.comet",
+      "name": "Comet marker",
+      "display_label": "Open head with three-ray fan",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Generic comet identity marker; comet name/designation remains separate text.",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"54\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M375 570.096 L600 180 M406.066 593.934 L790 210 M429.904 625 L820 400\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"54\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"300\" cy=\"700\" r=\"150\"/></g>",
+      "drawing_sha256": "7e3d7ed08923cef4ad9f5a25cff33ebcd2bd683a6b7bd61d072ed1952ad6460b",
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "Open circular head with a spaced northeast tail fan; distinct from the filled single-stem Occultation control.",
+      "geometry": {
+        "head_center": [
+          300,
+          700
+        ],
+        "head_center_radius": 150,
+        "head_stroke": 54,
+        "tail_stroke": 54,
+        "tail_segments": [
+          [
+            [
+              375,
+              570.0962
+            ],
+            [
+              600,
+              180
+            ]
+          ],
+          [
+            [
+              406.066,
+              593.934
+            ],
+            [
+              790,
+              210
+            ]
+          ],
+          [
+            [
+              429.9038,
+              625
+            ],
+            [
+              820,
+              400
+            ]
+          ]
+        ],
+        "graphic_tail_rays": 3,
+        "physical_tail_geometry_claimed": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "contextual_annotation",
+        "codepoints": [
+          "U+2604"
+        ],
+        "unicode_names": [
+          "COMET"
+        ],
+        "text": "☄",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Comet marker",
+      "source_evidence": [
+        "unicode-17-final",
+        "unicode-17-reference-structure"
+      ],
+      "outline_provenance": "Moira-owned vector geometry. The four-element family reuses the unchanged own Trine triangle motif; marker coordinates are newly authored. No external font outline or image was imported or traced.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:comet]",
+      "asset": "masters/comet.svg",
+      "registered_text_sequence": [
+        "U+2604",
+        "U+FE0E"
+      ],
+      "encoding_note": "Registered text presentation sequence; to be checked in a later font build. No font mapping is changed by this design packet."
+    },
+    {
+      "id": "asterism",
+      "semantic_id": "annotation.asterism",
+      "name": "Asterism marker",
+      "display_label": "Three six-ray asterisks",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Generic asterism annotation; not a unique marker for every constellation or pattern.",
+      "drawing": "<g transform=\"translate(500 285)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 -132 V132 M-114.3154 -66 L114.3154 66 M-114.3154 66 L114.3154 -66\"/></g></g><g transform=\"translate(278 685)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 -132 V132 M-114.3154 -66 L114.3154 66 M-114.3154 66 L114.3154 -66\"/></g></g><g transform=\"translate(722 685)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 -132 V132 M-114.3154 -66 L114.3154 66 M-114.3154 66 L114.3154 -66\"/></g></g>",
+      "drawing_sha256": "3f08d1ef7c0e2081abfd55aea722e1cc2cf74eda817bf63d48e4ba1848671b44",
+      "source_em_units": 1000,
+      "proof_advance_units": 1000,
+      "description": "One asterisk above two, with open gaps between the three clusters. Contextual chart annotation retains the punctuation character identity.",
+      "geometry": {
+        "centers": [
+          [
+            500,
+            285
+          ],
+          [
+            278,
+            685
+          ],
+          [
+            722,
+            685
+          ]
+        ],
+        "cluster_count": 3,
+        "rays_per_cluster": 6,
+        "cluster_vertical_radius": 132,
+        "stroke": 44,
+        "ordinary_character_role": "General Punctuation",
+        "unique_pattern_identity_selected": false
+      },
+      "mapping": {
+        "status": "assigned",
+        "relation": "contextual_annotation",
+        "codepoints": [
+          "U+2042"
+        ],
+        "unicode_names": [
+          "ASTERISM"
+        ],
+        "text": "⁂",
+        "pua_assignment": null
+      },
+      "plain_text_fallback": "Asterism marker",
+      "source_evidence": [
+        "unicode-17-final",
+        "unicode-17-reference-structure"
+      ],
+      "outline_provenance": "Moira-owned vector geometry. The four-element family reuses the unchanged own Trine triangle motif; marker coordinates are newly authored. No external font outline or image was imported or traced.",
+      "font_integrated": false,
+      "owner_approved": false,
+      "status": "new_design_study_for_owner_review",
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_slot": null,
+      "release_priority": "P2",
+      "proposed_token": "[astro:asterism]",
+      "asset": "masters/asterism.svg"
+    }
+  ],
+  "preview_scale": 1.08,
+  "font_integrated": false,
+  "engine_or_model_changes": false,
+  "note": "Fire reuses the existing owned Trine triangle geometry under its distinct elemental identity."
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-23",
+  "owner_instruction": "let's keep the unslashed zero as the default with the slashed zero as an alternate",
+  "status": "owner_accepted_design_choice",
+  "codepoint": "U+0030",
+  "unicode_name": "DIGIT ZERO",
+  "default_form": "notation.u0030",
+  "alternate_form": "zero-slashed",
+  "source_registry_path": "C:\\dev\\outputs\\moira-astro-design-batch-04-chart-notation-20261023\\glyphs.json",
+  "source_registry_sha256": "4ca2f96000ef1f41a78dc377e997208f28fae5faacf3f8e264062e682b550e77",
+  "accepted_drawings": [
+    {
+      "id": "notation.u0030",
+      "drawing_sha256": "cf67ad3da2e3d6577c37a6d5094b9e463766bd66719440ea8307a6af75f85e58",
+      "geometry_changed": false
+    },
+    {
+      "id": "zero-slashed",
+      "drawing_sha256": "f4b4f953c2aeafde84fa1ec6a34c7fd6b263b482686a35ccb4e034afe01f1220",
+      "geometry_changed": false
+    }
+  ],
+  "other_batch04_forms_approved_by_this_choice": false,
+  "font_implemented": false,
+  "feature_access": "unassigned",
+  "pua_allocated": false,
+  "prior_accepted_choices": {
+    "spirit_default": "circled S",
+    "spirit_alternate": "circled vertical bar",
+    "minor_aspects": "letter family default with retained alternates"
+  },
+  "new_latin_drawings": "31 proposals for owner review; 21 existing controls unchanged"
+}

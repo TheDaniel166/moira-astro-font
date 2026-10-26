@@ -1,0 +1,2019 @@
+{
+  "original_inventory_modified": false,
+  "record_changes": [
+    {
+      "id": "body.sun",
+      "old_name": "Sun",
+      "name": "Sun",
+      "old_design_status": "existing_original_alpha2",
+      "design_status": "integrated"
+    },
+    {
+      "id": "body.moon",
+      "old_name": "Moon",
+      "name": "Moon",
+      "old_design_status": "existing_original_alpha2",
+      "design_status": "integrated"
+    },
+    {
+      "id": "body.uranus",
+      "old_name": "Uranus",
+      "name": "Uranus",
+      "old_design_status": "existing_original_alpha2",
+      "design_status": "integrated"
+    },
+    {
+      "id": "body.pluto",
+      "old_name": "Pluto",
+      "name": "Pluto",
+      "old_design_status": "existing_original_alpha2",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.ceres",
+      "old_name": "Ceres",
+      "name": "Ceres",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.pallas",
+      "old_name": "Pallas",
+      "name": "Pallas",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.juno",
+      "old_name": "Juno",
+      "name": "Juno",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.vesta",
+      "old_name": "Vesta",
+      "name": "Vesta",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.astraea",
+      "old_name": "Astraea",
+      "name": "Astraea",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.hygiea",
+      "old_name": "Hygiea",
+      "name": "Hygiea",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.hebe",
+      "old_name": "Hebe",
+      "name": "Hebe",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.iris",
+      "old_name": "Iris",
+      "name": "Iris",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.flora",
+      "old_name": "Flora",
+      "name": "Flora",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.metis",
+      "old_name": "Metis",
+      "name": "Metis",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.parthenope",
+      "old_name": "Parthenope",
+      "name": "Parthenope",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.victoria",
+      "old_name": "Victoria",
+      "name": "Victoria",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.egeria",
+      "old_name": "Egeria",
+      "name": "Egeria",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.irene",
+      "old_name": "Irene",
+      "name": "Irene",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.eunomia",
+      "old_name": "Eunomia",
+      "name": "Eunomia",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.psyche",
+      "old_name": "Psyche",
+      "name": "Psyche",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.thetis",
+      "old_name": "Thetis",
+      "name": "Thetis",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.melpomene",
+      "old_name": "Melpomene",
+      "name": "Melpomene",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.fortuna",
+      "old_name": "Fortuna",
+      "name": "Fortuna",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.proserpina",
+      "old_name": "Proserpina",
+      "name": "Proserpina",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.bellona",
+      "old_name": "Bellona",
+      "name": "Bellona",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.amphitrite",
+      "old_name": "Amphitrite",
+      "name": "Amphitrite",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.leukothea",
+      "old_name": "Leukothea",
+      "name": "Leukothea",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.chiron",
+      "old_name": "Chiron",
+      "name": "Chiron",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.pholus",
+      "old_name": "Pholus",
+      "name": "Pholus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.nessus",
+      "old_name": "Nessus",
+      "name": "Nessus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.eris",
+      "old_name": "Eris",
+      "name": "Eris",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.sedna",
+      "old_name": "Sedna",
+      "name": "Sedna",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.haumea",
+      "old_name": "Haumea",
+      "name": "Haumea",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.makemake",
+      "old_name": "Makemake",
+      "name": "Makemake",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.gonggong",
+      "old_name": "Gonggong",
+      "name": "Gonggong",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.quaoar",
+      "old_name": "Quaoar",
+      "name": "Quaoar",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.orcus",
+      "old_name": "Orcus",
+      "name": "Orcus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.chariklo",
+      "old_name": "Chariklo",
+      "name": "Chariklo",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.asbolus",
+      "old_name": "Asbolus",
+      "name": "Asbolus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.hylonome",
+      "old_name": "Hylonome",
+      "name": "Hylonome",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.thereus",
+      "old_name": "Thereus",
+      "name": "Thereus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.bienor",
+      "old_name": "Bienor",
+      "name": "Bienor",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.elatus",
+      "old_name": "Elatus",
+      "name": "Elatus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.cyllarus",
+      "old_name": "Cyllarus",
+      "name": "Cyllarus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.varuna",
+      "old_name": "Varuna",
+      "name": "Varuna",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.ixion",
+      "old_name": "Ixion",
+      "name": "Ixion",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.salacia",
+      "old_name": "Salacia",
+      "name": "Salacia",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.varda",
+      "old_name": "Varda",
+      "name": "Varda",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.lilith",
+      "old_name": "Lilith",
+      "name": "Lilith",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.cupido",
+      "old_name": "Cupido",
+      "name": "Cupido",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.eros",
+      "old_name": "Eros",
+      "name": "Eros",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "smallbody.nemesis",
+      "old_name": "Nemesis",
+      "name": "Nemesis",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.semisextile",
+      "old_name": "Semisextile",
+      "name": "Semisextile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.semisquare",
+      "old_name": "Semisquare",
+      "name": "Semisquare",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.sesquiquadrate",
+      "old_name": "Sesquiquadrate",
+      "name": "Sesquiquadrate",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.quincunx",
+      "old_name": "Quincunx",
+      "name": "Quincunx",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.quintile",
+      "old_name": "Quintile",
+      "name": "Quintile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.biquintile",
+      "old_name": "Biquintile",
+      "name": "Biquintile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.septile",
+      "old_name": "Septile",
+      "name": "Septile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.biseptile",
+      "old_name": "Biseptile",
+      "name": "Biseptile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.triseptile",
+      "old_name": "Triseptile",
+      "name": "Triseptile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.novile",
+      "old_name": "Novile",
+      "name": "Novile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.binovile",
+      "old_name": "Binovile",
+      "name": "Binovile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.quadnovile",
+      "old_name": "Quadnovile",
+      "name": "Quadnovile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.decile",
+      "old_name": "Decile",
+      "name": "Decile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.tredecile",
+      "old_name": "Tredecile",
+      "name": "Tredecile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.undecile",
+      "old_name": "Undecile",
+      "name": "Undecile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.quindecile",
+      "old_name": "Quindecile",
+      "name": "Quindecile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.vigintile",
+      "old_name": "Vigintile",
+      "name": "Vigintile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.parallel",
+      "old_name": "Parallel",
+      "name": "Parallel",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.contra-parallel",
+      "old_name": "Contra-parallel",
+      "name": "Contra-parallel",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.sentagon-russian",
+      "old_name": "Sentagon / Russian 100-degree aspect",
+      "name": "Sentagon / Russian 100-degree aspect",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.quindecile-165",
+      "old_name": "Quindecile, 165-degree convention",
+      "name": "Tao",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.hexadecile",
+      "old_name": "Hexadecile",
+      "name": "Hexadecile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.seminovile",
+      "old_name": "Seminovile",
+      "name": "Seminovile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "aspect.untion",
+      "old_name": "Untion",
+      "name": "Untion",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "point.lilith.apogee",
+      "old_name": "Black Moon Lilith, model-qualified",
+      "name": "Black Moon Lilith, model-qualified",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "lunar.ascending.mean",
+      "old_name": "Mean ascending node",
+      "name": "Mean ascending node",
+      "old_design_status": "candidate",
+      "design_status": "shared_symbol_with_explicit_model_label"
+    },
+    {
+      "id": "lunar.descending.mean",
+      "old_name": "Mean descending node",
+      "name": "Mean descending node",
+      "old_design_status": "candidate",
+      "design_status": "shared_symbol_with_explicit_model_label"
+    },
+    {
+      "id": "lunar.ascending.true",
+      "old_name": "True ascending node",
+      "name": "True ascending node",
+      "old_design_status": "candidate",
+      "design_status": "shared_symbol_with_explicit_model_label"
+    },
+    {
+      "id": "lunar.descending.true",
+      "old_name": "True descending node",
+      "name": "True descending node",
+      "old_design_status": "candidate",
+      "design_status": "shared_symbol_with_explicit_model_label"
+    },
+    {
+      "id": "lunar.apogee.mean",
+      "old_name": "Mean lunar apogee / mean Lilith",
+      "name": "Mean lunar apogee / mean Lilith",
+      "old_design_status": "candidate",
+      "design_status": "shared_symbol_with_explicit_model_label"
+    },
+    {
+      "id": "lunar.apogee.osculating",
+      "old_name": "Osculating lunar apogee / true Lilith",
+      "name": "Osculating lunar apogee / true Lilith",
+      "old_design_status": "candidate",
+      "design_status": "shared_symbol_with_explicit_model_label"
+    },
+    {
+      "id": "lunar.perigee.mean",
+      "old_name": "Mean lunar perigee",
+      "name": "Mean lunar perigee",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "lunar.perigee.osculating",
+      "old_name": "Osculating lunar perigee",
+      "name": "Osculating lunar perigee",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "lunar.apogee.interpolated",
+      "old_name": "Interpolated lunar apogee",
+      "name": "Interpolated lunar apogee",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "lunar.perigee.interpolated",
+      "old_name": "Interpolated lunar perigee",
+      "name": "Interpolated lunar perigee",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "angle.asc",
+      "old_name": "Ascendant",
+      "name": "Ascendant",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "angle.dsc",
+      "old_name": "Descendant",
+      "name": "Descendant",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "angle.mc",
+      "old_name": "Midheaven",
+      "name": "Midheaven",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "angle.ic",
+      "old_name": "Imum Coeli",
+      "name": "Imum Coeli",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "angle.vertex",
+      "old_name": "Vertex",
+      "name": "Vertex",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "angle.anti-vertex",
+      "old_name": "Anti-Vertex",
+      "name": "Anti-Vertex",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "point.east-point",
+      "old_name": "East Point / equatorial Ascendant",
+      "name": "East Point / equatorial Ascendant",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "point.west-point",
+      "old_name": "West Point",
+      "name": "West Point",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "point.polar-ascendant",
+      "old_name": "Polar Ascendant",
+      "name": "Polar Ascendant",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "motion.retrograde",
+      "old_name": "Retrograde",
+      "name": "Retrograde",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "motion.direct",
+      "old_name": "Direct",
+      "name": "Direct",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "motion.stationary",
+      "old_name": "Stationary",
+      "name": "Stationary",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "motion.station-r",
+      "old_name": "Station retrograde",
+      "name": "Station retrograde",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "motion.station-d",
+      "old_name": "Station direct",
+      "name": "Station direct",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "motion.applying",
+      "old_name": "Applying",
+      "name": "Applying",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "motion.separating",
+      "old_name": "Separating",
+      "name": "Separating",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "motion.exact",
+      "old_name": "Exact aspect",
+      "name": "Exact aspect",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "event.occultation",
+      "old_name": "Occultation",
+      "name": "Occultation",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "event.lunar-eclipse",
+      "old_name": "Lunar eclipse",
+      "name": "Lunar eclipse",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "event.solar-eclipse",
+      "old_name": "Solar eclipse",
+      "name": "Solar eclipse",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "phase.new-moon",
+      "old_name": "New Moon",
+      "name": "New Moon",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "phase.waxing-crescent",
+      "old_name": "Waxing crescent",
+      "name": "Waxing crescent",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "phase.first-quarter",
+      "old_name": "First quarter",
+      "name": "First quarter",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "phase.waxing-gibbous",
+      "old_name": "Waxing gibbous",
+      "name": "Waxing gibbous",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "phase.full-moon",
+      "old_name": "Full Moon",
+      "name": "Full Moon",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "phase.waning-gibbous",
+      "old_name": "Waning gibbous",
+      "name": "Waning gibbous",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "phase.last-quarter",
+      "old_name": "Last quarter",
+      "name": "Last quarter",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "phase.waning-crescent",
+      "old_name": "Waning crescent",
+      "name": "Waning crescent",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "satellite.mars.phobos",
+      "old_name": "Phobos (Mars I)",
+      "name": "Phobos (Mars I)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.mars.deimos",
+      "old_name": "Deimos (Mars II)",
+      "name": "Deimos (Mars II)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.jupiter.io",
+      "old_name": "Io (Jupiter I)",
+      "name": "Io (Jupiter I)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.jupiter.europa",
+      "old_name": "Europa (Jupiter II)",
+      "name": "Europa (Jupiter II)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.jupiter.ganymede",
+      "old_name": "Ganymede (Jupiter III)",
+      "name": "Ganymede (Jupiter III)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.jupiter.callisto",
+      "old_name": "Callisto (Jupiter IV)",
+      "name": "Callisto (Jupiter IV)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.saturn.mimas",
+      "old_name": "Mimas (Saturn I)",
+      "name": "Mimas (Saturn I)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.saturn.enceladus",
+      "old_name": "Enceladus (Saturn II)",
+      "name": "Enceladus (Saturn II)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.saturn.tethys",
+      "old_name": "Tethys (Saturn III)",
+      "name": "Tethys (Saturn III)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.saturn.dione",
+      "old_name": "Dione (Saturn IV)",
+      "name": "Dione (Saturn IV)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.saturn.rhea",
+      "old_name": "Rhea (Saturn V)",
+      "name": "Rhea (Saturn V)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.saturn.titan",
+      "old_name": "Titan (Saturn VI)",
+      "name": "Titan (Saturn VI)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.saturn.hyperion",
+      "old_name": "Hyperion (Saturn VII)",
+      "name": "Hyperion (Saturn VII)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.saturn.iapetus",
+      "old_name": "Iapetus (Saturn VIII)",
+      "name": "Iapetus (Saturn VIII)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.uranus.ariel",
+      "old_name": "Ariel (Uranus I)",
+      "name": "Ariel (Uranus I)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.uranus.umbriel",
+      "old_name": "Umbriel (Uranus II)",
+      "name": "Umbriel (Uranus II)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.uranus.titania",
+      "old_name": "Titania (Uranus III)",
+      "name": "Titania (Uranus III)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.uranus.oberon",
+      "old_name": "Oberon (Uranus IV)",
+      "name": "Oberon (Uranus IV)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.uranus.miranda",
+      "old_name": "Miranda (Uranus V)",
+      "name": "Miranda (Uranus V)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.neptune.triton",
+      "old_name": "Triton (Neptune I)",
+      "name": "Triton (Neptune I)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.neptune.nereid",
+      "old_name": "Nereid (Neptune II)",
+      "name": "Nereid (Neptune II)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.neptune.proteus",
+      "old_name": "Proteus (Neptune VIII)",
+      "name": "Proteus (Neptune VIII)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.pluto.charon",
+      "old_name": "Charon (Pluto I)",
+      "name": "Charon (Pluto I)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.pluto.nix",
+      "old_name": "Nix (Pluto II)",
+      "name": "Nix (Pluto II)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.pluto.hydra",
+      "old_name": "Hydra (Pluto III)",
+      "name": "Hydra (Pluto III)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.pluto.kerberos",
+      "old_name": "Kerberos (Pluto IV)",
+      "name": "Kerberos (Pluto IV)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "satellite.pluto.styx",
+      "old_name": "Styx (Pluto V)",
+      "name": "Styx (Pluto V)",
+      "old_design_status": "candidate",
+      "design_status": "composition_layout_specified"
+    },
+    {
+      "id": "hypothetical.cupido",
+      "old_name": "Cupido (hypothetical)",
+      "name": "Cupido (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.hades",
+      "old_name": "Hades (hypothetical)",
+      "name": "Hades (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.zeus",
+      "old_name": "Zeus (hypothetical)",
+      "name": "Zeus (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.kronos",
+      "old_name": "Kronos (hypothetical)",
+      "name": "Kronos (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.apollon",
+      "old_name": "Apollon (hypothetical)",
+      "name": "Apollon (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.admetos",
+      "old_name": "Admetos (hypothetical)",
+      "name": "Admetos (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.vulkanus",
+      "old_name": "Vulkanus (hypothetical)",
+      "name": "Vulkanus (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.poseidon",
+      "old_name": "Poseidon (hypothetical)",
+      "name": "Poseidon (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.transpluto",
+      "old_name": "Transpluto (hypothetical)",
+      "name": "Transpluto (hypothetical)",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.proserpina",
+      "old_name": "Proserpina, convention-specific hypothetical",
+      "name": "Proserpina, convention-specific hypothetical",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.selena",
+      "old_name": "White Moon Selena",
+      "name": "White Moon Selena",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.arta",
+      "old_name": "True Light Moon Arta",
+      "name": "True Light Moon Arta",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.waldemath",
+      "old_name": "Waldemath Dark Moon",
+      "name": "Waldemath Dark Moon",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "hypothetical.vulcan",
+      "old_name": "Intramercurial Vulcan",
+      "name": "Intramercurial Vulcan",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "element.air",
+      "old_name": "Air element",
+      "name": "Air element",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "element.fire",
+      "old_name": "Fire element",
+      "name": "Fire element",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "element.earth",
+      "old_name": "Earth element",
+      "name": "Earth element",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "element.water",
+      "old_name": "Water element",
+      "name": "Water element",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "modality.cardinal",
+      "old_name": "Cardinal modality",
+      "name": "Cardinal modality",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "modality.fixed",
+      "old_name": "Fixed modality",
+      "name": "Fixed modality",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "modality.mutable",
+      "old_name": "Mutable modality",
+      "name": "Mutable modality",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "sect.diurnal",
+      "old_name": "Diurnal sect",
+      "name": "Diurnal sect",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "sect.nocturnal",
+      "old_name": "Nocturnal sect",
+      "name": "Nocturnal sect",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "dignity.domicile",
+      "old_name": "Domicile",
+      "name": "Domicile",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "dignity.exaltation",
+      "old_name": "Exaltation",
+      "name": "Exaltation",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "dignity.triplicity",
+      "old_name": "Triplicity",
+      "name": "Triplicity",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "dignity.bound",
+      "old_name": "Bound",
+      "name": "Bound",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "dignity.face",
+      "old_name": "Face",
+      "name": "Face",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "dignity.detriment",
+      "old_name": "Detriment",
+      "name": "Detriment",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "dignity.fall",
+      "old_name": "Fall",
+      "name": "Fall",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "house-category.angular",
+      "old_name": "Angular",
+      "name": "Angular",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "house-category.succedent",
+      "old_name": "Succedent",
+      "name": "Succedent",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "house-category.cadent",
+      "old_name": "Cadent",
+      "name": "Cadent",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "relation.antiscia",
+      "old_name": "Antiscion",
+      "name": "Antiscion",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "relation.contra-antiscia",
+      "old_name": "Contra-antiscion",
+      "name": "Contra-antiscion",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.fixed-star",
+      "old_name": "Fixed-star marker",
+      "name": "Fixed-star marker",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.comet",
+      "old_name": "Comet marker",
+      "name": "Comet marker",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.asterism",
+      "old_name": "Asterism marker",
+      "name": "Asterism marker",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.galactic-center",
+      "old_name": "Galactic center",
+      "name": "Galactic center",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.supergalactic-center",
+      "old_name": "Supergalactic reference direction",
+      "name": "Supergalactic reference direction",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.north-celestial-pole",
+      "old_name": "North celestial pole",
+      "name": "North celestial pole",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.south-celestial-pole",
+      "old_name": "South celestial pole",
+      "name": "South celestial pole",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.north-ecliptic-pole",
+      "old_name": "North ecliptic pole",
+      "name": "North ecliptic pole",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.south-ecliptic-pole",
+      "old_name": "South ecliptic pole",
+      "name": "South ecliptic pole",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.geocentric",
+      "old_name": "Geocentric label",
+      "name": "Geocentric label",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.heliocentric",
+      "old_name": "Heliocentric label",
+      "name": "Heliocentric label",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "annotation.barycentric",
+      "old_name": "Barycentric label",
+      "name": "Barycentric label",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "zodiac.ophiuchus-modern",
+      "old_name": "Ophiuchus, modern zodiac convention",
+      "name": "Ophiuchus, modern zodiac convention",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0020",
+      "old_name": "Existing word space",
+      "name": "Existing word space",
+      "old_design_status": "existing_spacing_glyph",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u00a0",
+      "old_name": "Nonbreaking word space",
+      "name": "Nonbreaking word space",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u202f",
+      "old_name": "Narrow nonbreaking space",
+      "name": "Narrow nonbreaking space",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u00b0",
+      "old_name": "Degree sign",
+      "name": "Degree sign",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2032",
+      "old_name": "Prime / arcminute mark",
+      "name": "Prime / arcminute mark",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2033",
+      "old_name": "Double prime / arcsecond mark",
+      "name": "Double prime / arcsecond mark",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u002e",
+      "old_name": "Decimal point",
+      "name": "Decimal point",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u002c",
+      "old_name": "Comma",
+      "name": "Comma",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u003a",
+      "old_name": "Colon",
+      "name": "Colon",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2212",
+      "old_name": "Mathematical minus",
+      "name": "Mathematical minus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u002b",
+      "old_name": "Plus",
+      "name": "Plus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u00b1",
+      "old_name": "Plus-minus",
+      "name": "Plus-minus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0028",
+      "old_name": "Left parenthesis",
+      "name": "Left parenthesis",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0029",
+      "old_name": "Right parenthesis",
+      "name": "Right parenthesis",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u002f",
+      "old_name": "Solidus",
+      "name": "Solidus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u002d",
+      "old_name": "Hyphen-minus",
+      "name": "Hyphen-minus",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u003d",
+      "old_name": "Equals",
+      "name": "Equals",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0025",
+      "old_name": "Percent",
+      "name": "Percent",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0030",
+      "old_name": "Digit 0",
+      "name": "Digit 0",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0031",
+      "old_name": "Digit 1",
+      "name": "Digit 1",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0032",
+      "old_name": "Digit 2",
+      "name": "Digit 2",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0033",
+      "old_name": "Digit 3",
+      "name": "Digit 3",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0034",
+      "old_name": "Digit 4",
+      "name": "Digit 4",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0035",
+      "old_name": "Digit 5",
+      "name": "Digit 5",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0036",
+      "old_name": "Digit 6",
+      "name": "Digit 6",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0037",
+      "old_name": "Digit 7",
+      "name": "Digit 7",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0038",
+      "old_name": "Digit 8",
+      "name": "Digit 8",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0039",
+      "old_name": "Digit 9",
+      "name": "Digit 9",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0041",
+      "old_name": "Latin letter A",
+      "name": "Latin letter A",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0042",
+      "old_name": "Latin letter B",
+      "name": "Latin letter B",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0043",
+      "old_name": "Latin letter C",
+      "name": "Latin letter C",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0044",
+      "old_name": "Latin letter D",
+      "name": "Latin letter D",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0045",
+      "old_name": "Latin letter E",
+      "name": "Latin letter E",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0046",
+      "old_name": "Latin letter F",
+      "name": "Latin letter F",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0047",
+      "old_name": "Latin letter G",
+      "name": "Latin letter G",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0048",
+      "old_name": "Latin letter H",
+      "name": "Latin letter H",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0049",
+      "old_name": "Latin letter I",
+      "name": "Latin letter I",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u004a",
+      "old_name": "Latin letter J",
+      "name": "Latin letter J",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u004b",
+      "old_name": "Latin letter K",
+      "name": "Latin letter K",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u004c",
+      "old_name": "Latin letter L",
+      "name": "Latin letter L",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u004d",
+      "old_name": "Latin letter M",
+      "name": "Latin letter M",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u004e",
+      "old_name": "Latin letter N",
+      "name": "Latin letter N",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u004f",
+      "old_name": "Latin letter O",
+      "name": "Latin letter O",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0050",
+      "old_name": "Latin letter P",
+      "name": "Latin letter P",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0051",
+      "old_name": "Latin letter Q",
+      "name": "Latin letter Q",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0052",
+      "old_name": "Latin letter R",
+      "name": "Latin letter R",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0053",
+      "old_name": "Latin letter S",
+      "name": "Latin letter S",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0054",
+      "old_name": "Latin letter T",
+      "name": "Latin letter T",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0055",
+      "old_name": "Latin letter U",
+      "name": "Latin letter U",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0056",
+      "old_name": "Latin letter V",
+      "name": "Latin letter V",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0057",
+      "old_name": "Latin letter W",
+      "name": "Latin letter W",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0058",
+      "old_name": "Latin letter X",
+      "name": "Latin letter X",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0059",
+      "old_name": "Latin letter Y",
+      "name": "Latin letter Y",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u005a",
+      "old_name": "Latin letter Z",
+      "name": "Latin letter Z",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0061",
+      "old_name": "Latin letter a",
+      "name": "Latin letter a",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0062",
+      "old_name": "Latin letter b",
+      "name": "Latin letter b",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0063",
+      "old_name": "Latin letter c",
+      "name": "Latin letter c",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0064",
+      "old_name": "Latin letter d",
+      "name": "Latin letter d",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0065",
+      "old_name": "Latin letter e",
+      "name": "Latin letter e",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0066",
+      "old_name": "Latin letter f",
+      "name": "Latin letter f",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0067",
+      "old_name": "Latin letter g",
+      "name": "Latin letter g",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0068",
+      "old_name": "Latin letter h",
+      "name": "Latin letter h",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0069",
+      "old_name": "Latin letter i",
+      "name": "Latin letter i",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u006a",
+      "old_name": "Latin letter j",
+      "name": "Latin letter j",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u006b",
+      "old_name": "Latin letter k",
+      "name": "Latin letter k",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u006c",
+      "old_name": "Latin letter l",
+      "name": "Latin letter l",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u006d",
+      "old_name": "Latin letter m",
+      "name": "Latin letter m",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u006e",
+      "old_name": "Latin letter n",
+      "name": "Latin letter n",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u006f",
+      "old_name": "Latin letter o",
+      "name": "Latin letter o",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0070",
+      "old_name": "Latin letter p",
+      "name": "Latin letter p",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0071",
+      "old_name": "Latin letter q",
+      "name": "Latin letter q",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0072",
+      "old_name": "Latin letter r",
+      "name": "Latin letter r",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0073",
+      "old_name": "Latin letter s",
+      "name": "Latin letter s",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0074",
+      "old_name": "Latin letter t",
+      "name": "Latin letter t",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0075",
+      "old_name": "Latin letter u",
+      "name": "Latin letter u",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0076",
+      "old_name": "Latin letter v",
+      "name": "Latin letter v",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0077",
+      "old_name": "Latin letter w",
+      "name": "Latin letter w",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0078",
+      "old_name": "Latin letter x",
+      "name": "Latin letter x",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0079",
+      "old_name": "Latin letter y",
+      "name": "Latin letter y",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u007a",
+      "old_name": "Latin letter z",
+      "name": "Latin letter z",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0027",
+      "old_name": "Apostrophe",
+      "name": "Apostrophe",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u0022",
+      "old_name": "Quotation Mark",
+      "name": "Quotation Mark",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u00b2",
+      "old_name": "Superscript Two",
+      "name": "Superscript Two",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u00b3",
+      "old_name": "Superscript Three",
+      "name": "Superscript Three",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2070",
+      "old_name": "Superscript Zero",
+      "name": "Superscript Zero",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2074",
+      "old_name": "Superscript Four",
+      "name": "Superscript Four",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2075",
+      "old_name": "Superscript Five",
+      "name": "Superscript Five",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2076",
+      "old_name": "Superscript Six",
+      "name": "Superscript Six",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2077",
+      "old_name": "Superscript Seven",
+      "name": "Superscript Seven",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2078",
+      "old_name": "Superscript Eight",
+      "name": "Superscript Eight",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u2079",
+      "old_name": "Superscript Nine",
+      "name": "Superscript Nine",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u03bb",
+      "old_name": "Greek Small Letter Lamda",
+      "name": "Greek Small Letter Lamda",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u03b2",
+      "old_name": "Greek Small Letter Beta",
+      "name": "Greek Small Letter Beta",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u03b4",
+      "old_name": "Greek Small Letter Delta",
+      "name": "Greek Small Letter Delta",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u03b1",
+      "old_name": "Greek Small Letter Alpha",
+      "name": "Greek Small Letter Alpha",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u03c6",
+      "old_name": "Greek Small Letter Phi",
+      "name": "Greek Small Letter Phi",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    },
+    {
+      "id": "notation.u03b5",
+      "old_name": "Greek Small Letter Epsilon",
+      "name": "Greek Small Letter Epsilon",
+      "old_design_status": "candidate",
+      "design_status": "integrated"
+    }
+  ],
+  "added_records": [
+    "notation.u00b9"
+  ],
+  "archival_tao_id": "aspect.quindecile-165",
+  "native_quindecile_angle": 24
+}

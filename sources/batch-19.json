@@ -1,0 +1,507 @@
+{
+  "project": "Moira Astro",
+  "batch": 19,
+  "draft": 2,
+  "date": "2026-10-25",
+  "supersedes": "Previous letter-composition direction; prior packet unchanged",
+  "new_symbol_masters": 4,
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "aspect.tao",
+      "source_inventory_id": "aspect.quindecile-165",
+      "name": "Tao",
+      "angle_numerator": 165,
+      "angle_denominator": 1,
+      "circle_fraction": [
+        11,
+        24
+      ],
+      "form_name": "Opposed hooks",
+      "paths": [
+        "M220 700 V260 H600 V480",
+        "M780 300 V740 H400 V520"
+      ],
+      "origin": "moira_original_invented_symbol",
+      "source_form": "Halloran documents a different forked-circle 165-degree symbol. This paired-hook proposal is a new Moira form, not that source glyph.",
+      "concept": "Two opposed angular turns, held apart by an open central channel.",
+      "mnemonic": "An opposed pair; offset hooks keep it distinct from the existing opposition circles.",
+      "aliases": [
+        "Quindecile (165-degree source convention)",
+        "Contraquindecile (165-degree source convention)"
+      ],
+      "gaps": [
+        [
+          500,
+          500
+        ],
+        [
+          300,
+          500
+        ],
+        [
+          700,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          220,
+          500
+        ],
+        [
+          400,
+          260
+        ],
+        [
+          600,
+          380
+        ],
+        [
+          780,
+          500
+        ],
+        [
+          600,
+          740
+        ],
+        [
+          400,
+          620
+        ]
+      ],
+      "contours": 2,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"64\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 700 V260 H600 V480\"/><path d=\"M780 300 V740 H400 V520\"/></g>",
+      "drawing_sha256": "ea2eb3194845c06411c3eb2003a8aa5d1d2375068cab415865e79256b92e8af7",
+      "advance": 1000,
+      "source_stroke": 64,
+      "plain_text_fallback": "Tao (165°)",
+      "source_record": {
+        "id": "aspect.quindecile-165",
+        "name": "Quindecile, 165-degree convention",
+        "family": "Aspects",
+        "record_kind": "astrological_concept",
+        "meaning": "Separately identified aspect convention with nominal angle 165 degrees; it does not change Moira's existing aspect definitions.",
+        "sources": [
+          "planning",
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Quindecile, 165-degree convention",
+        "identifiers": {},
+        "blockers": [
+          "Require a convention-specific definition and form review before design.",
+          "The proposed name/angle pairing needs a primary source; this is a research question, not an admitted native aspect."
+        ],
+        "notes": [
+          "Moira's Quindecile is 24 degrees (1/15 circle), not 165 degrees."
+        ],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "meaning": "Tao aspect notation, angle-qualified; no interpretation or orb selected.",
+      "contains_letter_components": false,
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "native_concept": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P4",
+      "status": "symbol_design_proposal_pending_owner_review",
+      "asset": "masters/aspect.tao.svg"
+    },
+    {
+      "id": "aspect.hexadecile",
+      "source_inventory_id": "aspect.hexadecile",
+      "name": "Hexadecile",
+      "angle_numerator": 45,
+      "angle_denominator": 2,
+      "circle_fraction": [
+        1,
+        16
+      ],
+      "form_name": "Nested angles",
+      "paths": [
+        "M780 180 L180 780 H820",
+        "M820 410 L610 620 H820"
+      ],
+      "origin": "moira_original_invented_symbol",
+      "source_form": "No unique nonletter form established by inspected primary witnesses.",
+      "concept": "A second, inset angle inside an open semisquare-like outer turn.",
+      "mnemonic": "The repeated angle is a design cue for halving the 45-degree semisquare.",
+      "aliases": [
+        "Semioctile (22.5-degree convention)"
+      ],
+      "gaps": [
+        [
+          700,
+          700
+        ],
+        [
+          600,
+          495
+        ],
+        [
+          400,
+          400
+        ]
+      ],
+      "positive": [
+        [
+          480,
+          480
+        ],
+        [
+          180,
+          780
+        ],
+        [
+          500,
+          780
+        ],
+        [
+          715,
+          515
+        ],
+        [
+          690,
+          620
+        ]
+      ],
+      "contours": 2,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"64\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M780 180 L180 780 H820\"/><path d=\"M820 410 L610 620 H820\"/></g>",
+      "drawing_sha256": "50b6a3cecd0e704b135c1a40cbf73883e6baf031e363fceea603460f2dc13081",
+      "advance": 1000,
+      "source_stroke": 64,
+      "plain_text_fallback": "Hexadecile (22.5°)",
+      "source_record": {
+        "id": "aspect.hexadecile",
+        "name": "Hexadecile",
+        "family": "Aspects",
+        "record_kind": "astrological_concept",
+        "meaning": "Separately identified aspect convention with nominal angle 360/16 degrees; it does not change Moira's existing aspect definitions.",
+        "sources": [
+          "planning",
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Hexadecile",
+        "identifiers": {},
+        "blockers": [
+          "Require a convention-specific definition and form review before design.",
+          "The proposed name/angle pairing needs a primary source; this is a research question, not an admitted native aspect."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "meaning": "Hexadecile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "contains_letter_components": false,
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "native_concept": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P4",
+      "status": "symbol_design_proposal_pending_owner_review",
+      "asset": "masters/aspect.hexadecile.svg"
+    },
+    {
+      "id": "aspect.seminovile",
+      "source_inventory_id": "aspect.seminovile",
+      "name": "Seminovile",
+      "angle_numerator": 20,
+      "angle_denominator": 1,
+      "circle_fraction": [
+        1,
+        18
+      ],
+      "form_name": "Cleft diamond",
+      "paths": [
+        "M500 180 L800 500 L600 750",
+        "M400 750 L200 500 L500 180",
+        "M500 390 V620"
+      ],
+      "origin": "moira_original_invented_symbol",
+      "source_form": "Primary sources verify name and angle; no unique nonletter form established.",
+      "concept": "An open diamond with a central dividing stroke and a wide lower cleft.",
+      "mnemonic": "A divided figure for half a novile; this is a new mnemonic, not historical doctrine.",
+      "aliases": [],
+      "gaps": [
+        [
+          500,
+          740
+        ],
+        [
+          500,
+          300
+        ],
+        [
+          670,
+          500
+        ],
+        [
+          330,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          180
+        ],
+        [
+          650,
+          340
+        ],
+        [
+          800,
+          500
+        ],
+        [
+          700,
+          625
+        ],
+        [
+          300,
+          625
+        ],
+        [
+          200,
+          500
+        ],
+        [
+          350,
+          340
+        ],
+        [
+          500,
+          500
+        ]
+      ],
+      "contours": 2,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"64\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 180 L800 500 L600 750\"/><path d=\"M400 750 L200 500 L500 180\"/><path d=\"M500 390 V620\"/></g>",
+      "drawing_sha256": "f682cc1447912900418628db9e4aaea0e06bf41fd0ff18b536e685dc1a2d012a",
+      "advance": 1000,
+      "source_stroke": 64,
+      "plain_text_fallback": "Seminovile (20°)",
+      "source_record": {
+        "id": "aspect.seminovile",
+        "name": "Seminovile",
+        "family": "Aspects",
+        "record_kind": "astrological_concept",
+        "meaning": "Separately identified aspect convention with nominal angle 360/18 degrees; it does not change Moira's existing aspect definitions.",
+        "sources": [
+          "planning",
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Seminovile",
+        "identifiers": {},
+        "blockers": [
+          "Require a convention-specific definition and form review before design.",
+          "The proposed name/angle pairing needs a primary source; this is a research question, not an admitted native aspect."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "meaning": "Seminovile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "contains_letter_components": false,
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "native_concept": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P4",
+      "status": "symbol_design_proposal_pending_owner_review",
+      "asset": "masters/aspect.seminovile.svg"
+    },
+    {
+      "id": "aspect.untion",
+      "source_inventory_id": "aspect.untion",
+      "name": "Untion",
+      "angle_numerator": 15,
+      "angle_denominator": 1,
+      "circle_fraction": [
+        1,
+        24
+      ],
+      "form_name": "Double-bar fork",
+      "paths": [
+        "M190 740 H810",
+        "M290 520 H710",
+        "M320 220 L500 520 L680 220"
+      ],
+      "origin": "moira_original_invented_symbol",
+      "source_form": "Primary table verifies the name/fraction; no unique nonletter form established.",
+      "concept": "An open fork seated on one bar, with a second separate bar below.",
+      "mnemonic": "A second division bar extends the semisextile family for 15 degrees.",
+      "aliases": [
+        "Semiduodecile (15-degree convention)",
+        "Quartosextile (15-degree convention)"
+      ],
+      "gaps": [
+        [
+          500,
+          630
+        ],
+        [
+          500,
+          340
+        ],
+        [
+          220,
+          520
+        ]
+      ],
+      "positive": [
+        [
+          190,
+          740
+        ],
+        [
+          500,
+          740
+        ],
+        [
+          810,
+          740
+        ],
+        [
+          290,
+          520
+        ],
+        [
+          500,
+          520
+        ],
+        [
+          710,
+          520
+        ],
+        [
+          410,
+          370
+        ],
+        [
+          590,
+          370
+        ]
+      ],
+      "contours": 2,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"64\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M190 740 H810\"/><path d=\"M290 520 H710\"/><path d=\"M320 220 L500 520 L680 220\"/></g>",
+      "drawing_sha256": "4763847d24457ecf4325718aa8cf2be1bb6cab4f4ef8d69a72b1c13c147fb621",
+      "advance": 1000,
+      "source_stroke": 64,
+      "plain_text_fallback": "Untion (15°)",
+      "source_record": {
+        "id": "aspect.untion",
+        "name": "Untion",
+        "family": "Aspects",
+        "record_kind": "astrological_concept",
+        "meaning": "Separately identified aspect convention with nominal angle 360/24 degrees; it does not change Moira's existing aspect definitions.",
+        "sources": [
+          "planning",
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Untion",
+        "identifiers": {},
+        "blockers": [
+          "Require a convention-specific definition and form review before design.",
+          "The proposed name/angle pairing needs a primary source; this is a research question, not an admitted native aspect."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "meaning": "Untion aspect notation, angle-qualified; no interpretation or orb selected.",
+      "contains_letter_components": false,
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "native_concept": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P4",
+      "status": "symbol_design_proposal_pending_owner_review",
+      "asset": "masters/aspect.untion.svg"
+    }
+  ]
+}

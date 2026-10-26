@@ -1,0 +1,1119 @@
+{
+  "project": "Moira Astro",
+  "batch": 18,
+  "date": "2026-10-25",
+  "draft": 1,
+  "proposed_forms": 9,
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "annotation.galactic-center",
+      "short_label": "GC",
+      "display_name": "Galactic center",
+      "family_label": "Reference direction",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 280 C650 140 380 150 235 340 C90 550 250 805 490 805 C720 805 860 605 735 440 C640 315 440 360 420 495 C405 600 525 650 585 575\"/></g>",
+      "construction": "One open spiral curling inward without closing into a solar ring",
+      "caption": "A single open spiral",
+      "rationale": "Spiral-like usage is witnessed in a reproduced glyph table; these curves and proportions are newly drawn by Moira.",
+      "source_ids": [
+        "faulks-p32",
+        "gordon-2022"
+      ],
+      "source_location": "Faulks 2016, physical PDF p.32, Sample 7.04; Gordon et al. 2022 abstract",
+      "reference_policy": {
+        "kind": "reference_direction",
+        "required_metadata": [
+          "reference_definition",
+          "catalog_or_model",
+          "frame",
+          "epoch"
+        ],
+        "example": "Sgr A* as a catalog-qualified proxy",
+        "fixed_longitude": null
+      },
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          280
+        ],
+        [
+          290,
+          500
+        ],
+        [
+          600,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          760,
+          280
+        ],
+        [
+          235,
+          340
+        ],
+        [
+          490,
+          805
+        ],
+        [
+          735,
+          440
+        ],
+        [
+          420,
+          495
+        ],
+        [
+          585,
+          575
+        ]
+      ],
+      "contours": 1,
+      "name": "Galactic center",
+      "meaning": "Named center direction of the Galaxy under an explicit coordinate convention.",
+      "plain_text_fallback": "Galactic center",
+      "source_record": {
+        "id": "annotation.galactic-center",
+        "name": "Galactic center",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "Named center direction of the Galaxy under an explicit coordinate convention.",
+        "sources": [
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Galactic center",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.galactic-center.svg",
+      "drawing_sha256": "c351eb71e4eccbf9bc31f05a27beed6cf421fb7b96f06545287b30a7e83a6491"
+    },
+    {
+      "id": "annotation.supergalactic-center",
+      "short_label": "SGref",
+      "display_name": "Supergalactic reference",
+      "family_label": "Reference direction",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M280 210 C100 340 100 660 280 790 M720 210 C900 340 900 660 720 790\"/></g><circle cx=\"420\" cy=\"350\" r=\"75\" fill=\"currentColor\"/><circle cx=\"610\" cy=\"500\" r=\"75\" fill=\"currentColor\"/><circle cx=\"420\" cy=\"650\" r=\"75\" fill=\"currentColor\"/>",
+      "construction": "An open two-sided cradle enclosing three separate points",
+      "caption": "A qualified direction beyond one galaxy",
+      "rationale": "An original cluster mnemonic. It neither depicts M87 as three objects nor designates a coordinate origin.",
+      "source_ids": [
+        "sedgwick-zs",
+        "ivoa-frame"
+      ],
+      "source_location": "Sedgwick, The Super Galactic Center, opening identity list; IVOA SUPER_GALACTIC frame vocabulary",
+      "reference_policy": {
+        "kind": "qualified_reference_direction",
+        "required_metadata": [
+          "reference_definition",
+          "catalog_or_model",
+          "frame",
+          "epoch"
+        ],
+        "example": "M87 / NGC 4486, only when explicitly selected",
+        "reference_selection": "unresolved; qualified M87 example only",
+        "coordinate_zero": false,
+        "qualification_required": true,
+        "fixed_longitude": null
+      },
+      "counters": [],
+      "gaps": [
+        [
+          420,
+          500
+        ],
+        [
+          610,
+          350
+        ],
+        [
+          610,
+          650
+        ]
+      ],
+      "positive": [
+        [
+          420,
+          350
+        ],
+        [
+          610,
+          500
+        ],
+        [
+          420,
+          650
+        ],
+        [
+          280,
+          210
+        ],
+        [
+          720,
+          790
+        ]
+      ],
+      "contours": 5,
+      "name": "Supergalactic reference direction",
+      "meaning": "A named supergalactic reference direction requiring an explicit source; not interchangeable with the Galactic center.",
+      "plain_text_fallback": "Supergalactic reference direction",
+      "source_record": {
+        "id": "annotation.supergalactic-center",
+        "name": "Supergalactic reference direction",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "A named supergalactic reference direction requiring an explicit source; not interchangeable with the Galactic center.",
+        "sources": [
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Supergalactic reference direction",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.supergalactic-center.svg",
+      "drawing_sha256": "45213d460ec3e918e7ed7eafc35e1274538cf3307b21b68b025ac82bb5cfe3b8"
+    },
+    {
+      "id": "annotation.north-celestial-pole",
+      "short_label": "NCP",
+      "display_name": "North celestial pole",
+      "family_label": "Pole direction",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M200 500 H800\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 500 V180\"/></g><circle cx=\"500\" cy=\"180\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "Horizontal plane bar with a normal stem ending at the north marker",
+      "caption": "Equatorial plane / north endpoint",
+      "rationale": "A geometric mnemonic: the bar identifies the plane family and the solid endpoint identifies the selected pole. The slant is schematic.",
+      "source_ids": [
+        "iau-oae",
+        "iau-nfa"
+      ],
+      "source_location": "IAU OAE Celestial Pole; IAU NFA glossary, CIP and epoch",
+      "reference_policy": {
+        "kind": "pole_direction",
+        "required_metadata": [
+          "frame",
+          "epoch",
+          "pole_definition"
+        ],
+        "plane": "equatorial",
+        "polarity": "north",
+        "schematic_angle_only": true,
+        "star_identity": false
+      },
+      "plane_drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M200 500 H800\"/></g>",
+      "marker_center": [
+        500,
+        180
+      ],
+      "opposite_center": [
+        500,
+        820
+      ],
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          820
+        ],
+        [
+          750,
+          750
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          500
+        ],
+        [
+          500,
+          180
+        ],
+        [
+          200,
+          500
+        ]
+      ],
+      "contours": 1,
+      "name": "North celestial pole",
+      "meaning": "North pole of the declared celestial equator/equinox frame.",
+      "plain_text_fallback": "North celestial pole",
+      "source_record": {
+        "id": "annotation.north-celestial-pole",
+        "name": "North celestial pole",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "North pole of the declared celestial equator/equinox frame.",
+        "sources": [
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "North celestial pole",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.north-celestial-pole.svg",
+      "drawing_sha256": "5f9a5077798705221131c848a5de6b9542043277b367f0043b44e48118113ec5"
+    },
+    {
+      "id": "annotation.south-celestial-pole",
+      "short_label": "SCP",
+      "display_name": "South celestial pole",
+      "family_label": "Pole direction",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M200 500 H800\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 500 V820\"/></g><circle cx=\"500\" cy=\"820\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "Horizontal plane bar with a normal stem ending at the south marker",
+      "caption": "Equatorial plane / south endpoint",
+      "rationale": "A geometric mnemonic: the bar identifies the plane family and the solid endpoint identifies the selected pole. The slant is schematic.",
+      "source_ids": [
+        "iau-oae",
+        "iau-nfa"
+      ],
+      "source_location": "IAU OAE Celestial Pole; IAU NFA glossary, CIP and epoch",
+      "reference_policy": {
+        "kind": "pole_direction",
+        "required_metadata": [
+          "frame",
+          "epoch",
+          "pole_definition"
+        ],
+        "plane": "equatorial",
+        "polarity": "south",
+        "schematic_angle_only": true,
+        "star_identity": false
+      },
+      "plane_drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M200 500 H800\"/></g>",
+      "marker_center": [
+        500,
+        820
+      ],
+      "opposite_center": [
+        500,
+        180
+      ],
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          180
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          500
+        ],
+        [
+          500,
+          820
+        ],
+        [
+          200,
+          500
+        ]
+      ],
+      "contours": 1,
+      "name": "South celestial pole",
+      "meaning": "South pole of the declared celestial equator/equinox frame.",
+      "plain_text_fallback": "South celestial pole",
+      "source_record": {
+        "id": "annotation.south-celestial-pole",
+        "name": "South celestial pole",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "South pole of the declared celestial equator/equinox frame.",
+        "sources": [
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "South celestial pole",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.south-celestial-pole.svg",
+      "drawing_sha256": "0f7852ec4339f5d00ee7f393ecc21f4a382aa4e578c2bbd0dddfe82a4b5c48c6"
+    },
+    {
+      "id": "annotation.north-ecliptic-pole",
+      "short_label": "NEP",
+      "display_name": "North ecliptic pole",
+      "family_label": "Pole direction",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 680 L770 320\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 500 L320 230\"/></g><circle cx=\"320\" cy=\"230\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "Sloping plane bar with a normal stem ending at the north marker",
+      "caption": "Ecliptic plane / north endpoint",
+      "rationale": "A geometric mnemonic: the bar identifies the plane family and the solid endpoint identifies the selected pole. The slant is schematic.",
+      "source_ids": [
+        "iau-nfa",
+        "iau-a3"
+      ],
+      "source_location": "IAU NFA glossary, ecliptic and fixed ecliptic; IAU 2006 B1 item 4",
+      "reference_policy": {
+        "kind": "pole_direction",
+        "required_metadata": [
+          "frame",
+          "epoch",
+          "pole_definition"
+        ],
+        "plane": "ecliptic",
+        "polarity": "north",
+        "schematic_angle_only": true,
+        "star_identity": false
+      },
+      "plane_drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 680 L770 320\"/></g>",
+      "marker_center": [
+        320,
+        230
+      ],
+      "opposite_center": [
+        680,
+        770
+      ],
+      "counters": [],
+      "gaps": [
+        [
+          680,
+          770
+        ],
+        [
+          700,
+          650
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          500
+        ],
+        [
+          320,
+          230
+        ],
+        [
+          230,
+          680
+        ]
+      ],
+      "contours": 1,
+      "name": "North ecliptic pole",
+      "meaning": "North pole of the declared ecliptic reference plane.",
+      "plain_text_fallback": "North ecliptic pole",
+      "source_record": {
+        "id": "annotation.north-ecliptic-pole",
+        "name": "North ecliptic pole",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "North pole of the declared ecliptic reference plane.",
+        "sources": [
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "North ecliptic pole",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.north-ecliptic-pole.svg",
+      "drawing_sha256": "8f17f43e973fcdf3930af616eff8022a9b5bfc50dd7a29f01b741d00fb7edd78"
+    },
+    {
+      "id": "annotation.south-ecliptic-pole",
+      "short_label": "SEP",
+      "display_name": "South ecliptic pole",
+      "family_label": "Pole direction",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 680 L770 320\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 500 L680 770\"/></g><circle cx=\"680\" cy=\"770\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "Sloping plane bar with a normal stem ending at the south marker",
+      "caption": "Ecliptic plane / south endpoint",
+      "rationale": "A geometric mnemonic: the bar identifies the plane family and the solid endpoint identifies the selected pole. The slant is schematic.",
+      "source_ids": [
+        "iau-nfa",
+        "iau-a3"
+      ],
+      "source_location": "IAU NFA glossary, ecliptic and fixed ecliptic; IAU 2006 B1 item 4",
+      "reference_policy": {
+        "kind": "pole_direction",
+        "required_metadata": [
+          "frame",
+          "epoch",
+          "pole_definition"
+        ],
+        "plane": "ecliptic",
+        "polarity": "south",
+        "schematic_angle_only": true,
+        "star_identity": false
+      },
+      "plane_drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 680 L770 320\"/></g>",
+      "marker_center": [
+        680,
+        770
+      ],
+      "opposite_center": [
+        320,
+        230
+      ],
+      "counters": [],
+      "gaps": [
+        [
+          320,
+          230
+        ],
+        [
+          300,
+          350
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          500
+        ],
+        [
+          680,
+          770
+        ],
+        [
+          230,
+          680
+        ]
+      ],
+      "contours": 1,
+      "name": "South ecliptic pole",
+      "meaning": "South pole of the declared ecliptic reference plane.",
+      "plain_text_fallback": "South ecliptic pole",
+      "source_record": {
+        "id": "annotation.south-ecliptic-pole",
+        "name": "South ecliptic pole",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "South pole of the declared ecliptic reference plane.",
+        "sources": [
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "South ecliptic pole",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.south-ecliptic-pole.svg",
+      "drawing_sha256": "d65d688aa9a58b7b17e973345accc28d46140da472e3fd3a32b403964a77a9b7"
+    },
+    {
+      "id": "annotation.geocentric",
+      "short_label": "Geo",
+      "display_name": "Geocentric origin",
+      "family_label": "Coordinate origin",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M310 170 H170 V310 M690 830 H830 V690\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"215\"/><path d=\"M285 500 H715 M500 285 V715\"/></g>",
+      "construction": "A circle-cross Earth motif enclosed by two open origin corners",
+      "caption": "Origin at Earth's center",
+      "rationale": "The established Earth motif is qualified by a new origin frame. This does not replace the existing Earth glyph.",
+      "source_ids": [
+        "ivoa-position",
+        "naif-ids"
+      ],
+      "source_location": "IVOA GEOCENTER; NAIF EARTH (399), distinct from Earth-Moon barycenter (3)",
+      "reference_policy": {
+        "kind": "coordinate_origin",
+        "origin": "earth_center",
+        "example_naif_id": 399,
+        "required_metadata": [
+          "frame",
+          "epoch",
+          "origin_definition"
+        ],
+        "axes_selected": false
+      },
+      "origin_frame": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M310 170 H170 V310 M690 830 H830 V690\"/></g>",
+      "counters": [
+        [
+          390,
+          390
+        ],
+        [
+          610,
+          390
+        ],
+        [
+          390,
+          610
+        ],
+        [
+          610,
+          610
+        ]
+      ],
+      "gaps": [
+        [
+          210,
+          500
+        ],
+        [
+          790,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          170,
+          170
+        ],
+        [
+          830,
+          830
+        ],
+        [
+          500,
+          500
+        ],
+        [
+          500,
+          285
+        ],
+        [
+          715,
+          500
+        ]
+      ],
+      "contours": 7,
+      "name": "Geocentric label",
+      "meaning": "Reference-origin label: center of Earth; not a different glyph identity for each body.",
+      "plain_text_fallback": "Geocentric label",
+      "source_record": {
+        "id": "annotation.geocentric",
+        "name": "Geocentric label",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "Reference-origin label: center of Earth; not a different glyph identity for each body.",
+        "sources": [
+          "naif",
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Geocentric label",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.geocentric.svg",
+      "drawing_sha256": "bc59e241f8a57c2d66358165f96c9b1f1627a3da70e5963c33b9121005ddf262"
+    },
+    {
+      "id": "annotation.heliocentric",
+      "short_label": "Hel",
+      "display_name": "Heliocentric origin",
+      "family_label": "Coordinate origin",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M310 170 H170 V310 M690 830 H830 V690\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"215\"/></g><circle cx=\"500\" cy=\"500\" r=\"75\" fill=\"currentColor\"/>",
+      "construction": "A circle-dot Sun motif enclosed by two open origin corners",
+      "caption": "Origin at the Sun's center",
+      "rationale": "The common origin frame distinguishes this annotation from the preserved solar-body glyph. The Sun is not the system barycenter.",
+      "source_ids": [
+        "ivoa-position",
+        "naif-ids"
+      ],
+      "source_location": "IVOA HELIOCENTER; NAIF SUN (10)",
+      "reference_policy": {
+        "kind": "coordinate_origin",
+        "origin": "sun_center",
+        "example_naif_id": 10,
+        "required_metadata": [
+          "frame",
+          "epoch",
+          "origin_definition"
+        ],
+        "axes_selected": false
+      },
+      "origin_frame": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M310 170 H170 V310 M690 830 H830 V690\"/></g>",
+      "counters": [
+        [
+          500,
+          350
+        ],
+        [
+          350,
+          500
+        ],
+        [
+          650,
+          500
+        ],
+        [
+          500,
+          650
+        ]
+      ],
+      "gaps": [
+        [
+          210,
+          500
+        ],
+        [
+          790,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          170,
+          170
+        ],
+        [
+          830,
+          830
+        ],
+        [
+          500,
+          500
+        ],
+        [
+          500,
+          285
+        ],
+        [
+          715,
+          500
+        ]
+      ],
+      "contours": 5,
+      "name": "Heliocentric label",
+      "meaning": "Reference-origin label: center of Sun.",
+      "plain_text_fallback": "Heliocentric label",
+      "source_record": {
+        "id": "annotation.heliocentric",
+        "name": "Heliocentric label",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "Reference-origin label: center of Sun.",
+        "sources": [
+          "naif",
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Heliocentric label",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.heliocentric.svg",
+      "drawing_sha256": "e72005b9e6d16b55b4ed3e58213565a1388e5eebc6b79efcdd06562f1d32d9e7"
+    },
+    {
+      "id": "annotation.barycentric",
+      "short_label": "Bar",
+      "display_name": "Barycentric origin",
+      "family_label": "Coordinate origin",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M310 170 H170 V310 M690 830 H830 V690\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 285 V500 L310 620 M500 500 L690 620\"/></g><circle cx=\"500\" cy=\"500\" r=\"75\" fill=\"currentColor\"/><circle cx=\"500\" cy=\"285\" r=\"65\" fill=\"currentColor\"/><circle cx=\"310\" cy=\"620\" r=\"65\" fill=\"currentColor\"/><circle cx=\"690\" cy=\"620\" r=\"65\" fill=\"currentColor\"/>",
+      "construction": "A three-spoke hub enclosed by the same two open origin corners",
+      "caption": "Origin at a specified center of mass",
+      "rationale": "An original balance/hub mnemonic. Spoke lengths and endpoint dots are not physical masses, orbits or a barycenter calculation.",
+      "source_ids": [
+        "ivoa-position",
+        "naif-ids"
+      ],
+      "source_location": "IVOA BARYCENTER (SSB) and EMBARYCENTER; NAIF SSB (0) and EMB (3)",
+      "reference_policy": {
+        "kind": "coordinate_origin",
+        "origin": "specified_system_barycenter",
+        "example_naif_id": 0,
+        "example_system": "Solar system",
+        "required_metadata": [
+          "system",
+          "origin_definition",
+          "frame",
+          "epoch"
+        ],
+        "axes_selected": false,
+        "physical_mass_geometry": false
+      },
+      "origin_frame": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M310 170 H170 V310 M690 830 H830 V690\"/></g>",
+      "counters": [],
+      "gaps": [
+        [
+          350,
+          350
+        ],
+        [
+          650,
+          350
+        ],
+        [
+          500,
+          680
+        ]
+      ],
+      "positive": [
+        [
+          170,
+          170
+        ],
+        [
+          830,
+          830
+        ],
+        [
+          500,
+          500
+        ],
+        [
+          500,
+          285
+        ],
+        [
+          310,
+          620
+        ],
+        [
+          690,
+          620
+        ]
+      ],
+      "contours": 3,
+      "name": "Barycentric label",
+      "meaning": "Reference-origin label: the specified system barycenter, not an unspecified physical-body center.",
+      "plain_text_fallback": "Barycentric label",
+      "source_record": {
+        "id": "annotation.barycentric",
+        "name": "Barycentric label",
+        "family": "Astronomical annotation",
+        "record_kind": "astrological_concept",
+        "meaning": "Reference-origin label: the specified system barycenter, not an unspecified physical-body center.",
+        "sources": [
+          "naif",
+          "planning"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Barycentric label",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact reference definition and notation source before a dedicated design."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_companion_using_preserved_Latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/annotation.barycentric.svg",
+      "drawing_sha256": "e91d938bb879c79b6d98c15c3c805c99b09752a028c56a6b43702c87f5c34eba"
+    }
+  ]
+}

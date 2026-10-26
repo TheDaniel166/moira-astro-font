@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-23",
+  "current_scope": "Ten physical-body identities and three separately assigned alternate forms",
+  "new_form_status": "13 proposals for owner review",
+  "defaults": [
+    "astraea",
+    "hygiea",
+    "nessus",
+    "eris",
+    "sedna",
+    "haumea",
+    "makemake",
+    "gonggong",
+    "quaoar",
+    "orcus"
+  ],
+  "alternates": [
+    "astraea-form-two",
+    "hygiea-form-two",
+    "eris-form-two"
+  ],
+  "body_identity_changes": false,
+  "font_implemented": false,
+  "pua_allocated": false,
+  "feature_access": "unassigned",
+  "prior_decision_registry_sha256": "36b62491476789c36607217ec227880ad247bb8b9ca9787abf3f1cd2eca41224",
+  "carried_choices": {
+    "zero_default": "unslashed",
+    "zero_alternate": "slashed",
+    "spirit_default": "circled S",
+    "spirit_alternate": "circled vertical bar",
+    "minor_aspects": "letter family default with retained alternates"
+  },
+  "latin_feedback": "Positive visual feedback and authorization to proceed to the next design batch; no font build/release inferred",
+  "outline_provenance": "New Moira coordinates; underlying form attributions remain explicit in glyph metadata and SOURCES.md"
+}

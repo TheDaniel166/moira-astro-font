@@ -1,0 +1,658 @@
+{
+  "project": "Moira Astro",
+  "batch": 17,
+  "date": "2026-10-25",
+  "draft": 1,
+  "proposed_forms": 6,
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "modality.cardinal",
+      "short_label": "Card",
+      "family_label": "Modality",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M260 500 H820 M590 240 L820 500 590 760\"/></g><circle cx=\"260\" cy=\"500\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "A solid origin point feeding a rightward arrow",
+      "caption": "A point of beginning",
+      "rationale": "A new initiating-action metaphor. The arrow is not an aspect, motion state or longitude direction.",
+      "source_location": "Lilly, Book I Ch.XVI, physical PDF p.112 (printed 88); STA 2021 p.1: category, not glyph",
+      "membership": {
+        "signs": [
+          "Aries",
+          "Cancer",
+          "Libra",
+          "Capricorn"
+        ],
+        "characters": "♈♋♎♑"
+      },
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          350
+        ],
+        [
+          500,
+          650
+        ]
+      ],
+      "positive": [
+        [
+          260,
+          500
+        ],
+        [
+          260,
+          560
+        ],
+        [
+          500,
+          500
+        ],
+        [
+          820,
+          500
+        ],
+        [
+          590,
+          240
+        ],
+        [
+          590,
+          760
+        ]
+      ],
+      "contours": 1,
+      "name": "Cardinal modality",
+      "meaning": "Astrological modality category cardinal; a unique pictograph is not established by the inventory.",
+      "plain_text_fallback": "Cardinal modality",
+      "source_record": {
+        "id": "modality.cardinal",
+        "name": "Cardinal modality",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Astrological modality category cardinal; a unique pictograph is not established by the inventory.",
+        "sources": [
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Cardinal modality",
+        "identifiers": {},
+        "blockers": [
+          "Primary form/usage source required; readable category label remains the fallback."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/modality.cardinal.svg",
+      "drawing_sha256": "98b43d0c161baffca79e83551ba592d9575d8a6c0bf3a98dfa4e4555bad1cc48"
+    },
+    {
+      "id": "modality.fixed",
+      "short_label": "Fix",
+      "family_label": "Modality",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M250 220 V780 M750 220 V780 M250 500 H750\"/></g><circle cx=\"500\" cy=\"500\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "A central solid point held between two upright stops",
+      "caption": "A point held in place",
+      "rationale": "The central knot distinguishes this commissioned mark from an ordinary H or the curved Pisces glyph.",
+      "source_location": "Lilly, Book I Ch.XVI, physical PDF p.112 (printed 88); Ptolemy I.11; STA 2021 p.1: category, not glyph",
+      "membership": {
+        "signs": [
+          "Taurus",
+          "Leo",
+          "Scorpio",
+          "Aquarius"
+        ],
+        "characters": "♉♌♏♒"
+      },
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          350
+        ],
+        [
+          500,
+          650
+        ]
+      ],
+      "positive": [
+        [
+          250,
+          350
+        ],
+        [
+          750,
+          650
+        ],
+        [
+          500,
+          500
+        ],
+        [
+          500,
+          570
+        ]
+      ],
+      "contours": 1,
+      "name": "Fixed modality",
+      "meaning": "Astrological modality category fixed; a unique pictograph is not established by the inventory.",
+      "plain_text_fallback": "Fixed modality",
+      "source_record": {
+        "id": "modality.fixed",
+        "name": "Fixed modality",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Astrological modality category fixed; a unique pictograph is not established by the inventory.",
+        "sources": [
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Fixed modality",
+        "identifiers": {},
+        "blockers": [
+          "Primary form/usage source required; readable category label remains the fallback."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/modality.fixed.svg",
+      "drawing_sha256": "e0883155819acb74c3d5a21fc8e0cce8c71905ac0fc41a1bf608ebf765f640c0"
+    },
+    {
+      "id": "modality.mutable",
+      "short_label": "Mut",
+      "family_label": "Modality",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M280 280 C760 280 240 720 720 720\"/></g><circle cx=\"280\" cy=\"280\" r=\"90\" fill=\"currentColor\"/><circle cx=\"720\" cy=\"720\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "Two solid points joined by a bending transition",
+      "caption": "A bridge between states",
+      "rationale": "A two-ended bridge for the common/bicorporeal grouping; no Mercury identity or opposition relationship is implied.",
+      "source_location": "Lilly, Book I Ch.XVI, physical PDF p.112 (printed 88); Ptolemy I.11; STA 2021 p.1: category, not glyph",
+      "membership": {
+        "signs": [
+          "Gemini",
+          "Virgo",
+          "Sagittarius",
+          "Pisces"
+        ],
+        "characters": "♊♍♐♓"
+      },
+      "counters": [],
+      "gaps": [
+        [
+          330,
+          500
+        ],
+        [
+          670,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          280,
+          280
+        ],
+        [
+          720,
+          720
+        ],
+        [
+          500,
+          500
+        ],
+        [
+          484,
+          349
+        ],
+        [
+          516,
+          651
+        ]
+      ],
+      "contours": 1,
+      "name": "Mutable modality",
+      "meaning": "Astrological modality category mutable; a unique pictograph is not established by the inventory.",
+      "plain_text_fallback": "Mutable modality",
+      "source_record": {
+        "id": "modality.mutable",
+        "name": "Mutable modality",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Astrological modality category mutable; a unique pictograph is not established by the inventory.",
+        "sources": [
+          "m-constants"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Mutable modality",
+        "identifiers": {},
+        "blockers": [
+          "Primary form/usage source required; readable category label remains the fallback."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/modality.mutable.svg",
+      "drawing_sha256": "3c09facdfce529d02d8455629ea7ada6745c376851080d7b8f12d43b9c5ae99d"
+    },
+    {
+      "id": "house-category.angular",
+      "short_label": "Ang",
+      "family_label": "House category",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M250 210 V760 H800\"/></g><circle cx=\"250\" cy=\"760\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "A shared corner frame with its solid marker at the corner",
+      "caption": "The corner station",
+      "rationale": "A new ordinal-station mnemonic within a repeating numbered-house triplet; not a sky diagram, house-system calculation or strength score.",
+      "source_location": "Lilly, Book I Ch.VI, physical PDF p.72: category membership, not glyph",
+      "membership": {
+        "houses": [
+          1,
+          4,
+          7,
+          10
+        ]
+      },
+      "marker_center": [
+        250,
+        760
+      ],
+      "frame_drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M250 210 V760 H800\"/></g>",
+      "counters": [],
+      "gaps": [
+        [
+          525,
+          820
+        ],
+        [
+          800,
+          820
+        ]
+      ],
+      "positive": [
+        [
+          250,
+          350
+        ],
+        [
+          500,
+          760
+        ],
+        [
+          250,
+          760
+        ],
+        [
+          250,
+          820
+        ]
+      ],
+      "contours": 1,
+      "name": "Angular",
+      "meaning": "Named house-position category angular under the chosen house system.",
+      "plain_text_fallback": "Angular",
+      "source_record": {
+        "id": "house-category.angular",
+        "name": "Angular",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named house-position category angular under the chosen house system.",
+        "sources": [
+          "m-houses"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Angular",
+        "identifiers": {},
+        "blockers": [
+          "No unique dedicated glyph admitted; retain readable category text."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/house-category.angular.svg",
+      "drawing_sha256": "9fccaaadb78d4475b59b1702f2c8478fcbc3da150f2981abaaa483e67946cad5"
+    },
+    {
+      "id": "house-category.succedent",
+      "short_label": "Suc",
+      "family_label": "House category",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M250 210 V760 H800\"/></g><circle cx=\"525\" cy=\"760\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "A shared corner frame with its solid marker at the middle of the base",
+      "caption": "The following station",
+      "rationale": "A new ordinal-station mnemonic within a repeating numbered-house triplet; not a sky diagram, house-system calculation or strength score.",
+      "source_location": "Lilly, Book I Ch.VI, physical PDF p.72: category membership, not glyph",
+      "membership": {
+        "houses": [
+          2,
+          5,
+          8,
+          11
+        ]
+      },
+      "marker_center": [
+        525,
+        760
+      ],
+      "frame_drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M250 210 V760 H800\"/></g>",
+      "counters": [],
+      "gaps": [
+        [
+          250,
+          820
+        ],
+        [
+          800,
+          820
+        ]
+      ],
+      "positive": [
+        [
+          250,
+          350
+        ],
+        [
+          500,
+          760
+        ],
+        [
+          525,
+          760
+        ],
+        [
+          525,
+          820
+        ]
+      ],
+      "contours": 1,
+      "name": "Succedent",
+      "meaning": "Named house-position category succedent under the chosen house system.",
+      "plain_text_fallback": "Succedent",
+      "source_record": {
+        "id": "house-category.succedent",
+        "name": "Succedent",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named house-position category succedent under the chosen house system.",
+        "sources": [
+          "m-houses"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Succedent",
+        "identifiers": {},
+        "blockers": [
+          "No unique dedicated glyph admitted; retain readable category text."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/house-category.succedent.svg",
+      "drawing_sha256": "0b8fa82d5e98cae2402fcd031295c12da6651dec0c597bc0822eff695b916e95"
+    },
+    {
+      "id": "house-category.cadent",
+      "short_label": "Cad",
+      "family_label": "House category",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M250 210 V760 H800\"/></g><circle cx=\"800\" cy=\"760\" r=\"90\" fill=\"currentColor\"/>",
+      "construction": "A shared corner frame with its solid marker at the terminal of the base",
+      "caption": "The last station",
+      "rationale": "A new ordinal-station mnemonic within a repeating numbered-house triplet; not a sky diagram, house-system calculation or strength score.",
+      "source_location": "Lilly, Book I Ch.VI, physical PDF p.72: category membership, not glyph",
+      "membership": {
+        "houses": [
+          3,
+          6,
+          9,
+          12
+        ]
+      },
+      "marker_center": [
+        800,
+        760
+      ],
+      "frame_drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M250 210 V760 H800\"/></g>",
+      "counters": [],
+      "gaps": [
+        [
+          250,
+          820
+        ],
+        [
+          525,
+          820
+        ]
+      ],
+      "positive": [
+        [
+          250,
+          350
+        ],
+        [
+          500,
+          760
+        ],
+        [
+          800,
+          760
+        ],
+        [
+          800,
+          820
+        ]
+      ],
+      "contours": 1,
+      "name": "Cadent",
+      "meaning": "Named house-position category cadent under the chosen house system.",
+      "plain_text_fallback": "Cadent",
+      "source_record": {
+        "id": "house-category.cadent",
+        "name": "Cadent",
+        "family": "Traditional classification marks",
+        "record_kind": "astrological_concept",
+        "meaning": "Named house-position category cadent under the chosen house system.",
+        "sources": [
+          "m-houses"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Cadent",
+        "identifiers": {},
+        "blockers": [
+          "No unique dedicated glyph admitted; retain readable category text."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "source_stroke": 60,
+      "advance": 1000,
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "mapping_status": "unresolved_no_character_allocation",
+      "origin": "moira_original_pictogram_concept_and_outline",
+      "historical_symbol_claim": false,
+      "label_origin": "proposed_moira_short_label_composed_from_preserved_latin",
+      "default_selected": false,
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "release_priority": "P4",
+      "status": "original_concept_for_visual_review",
+      "asset": "masters/house-category.cadent.svg",
+      "drawing_sha256": "b94c8ffddebb1c944780839e81299b045721472d606db1f04f4c8bbe29cfee8f"
+    }
+  ]
+}

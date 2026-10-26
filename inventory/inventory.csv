@@ -1,0 +1,328 @@
+﻿id,name,family,record_kind,design_status,current_font_entry
+zodiac.aries,Aries,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.taurus,Taurus,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.gemini,Gemini,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.cancer,Cancer,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.leo,Leo,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.virgo,Virgo,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.libra,Libra,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.scorpio,Scorpio,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.sagittarius,Sagittarius,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.capricorn,Capricorn,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.aquarius,Aquarius,Zodiac signs,astrological_concept,existing_original_alpha2,True
+zodiac.pisces,Pisces,Zodiac signs,astrological_concept,existing_original_alpha2,True
+body.sun,Sun,Core celestial bodies,astrological_concept,integrated,True
+body.moon,Moon,Core celestial bodies,astrological_concept,integrated,True
+body.mercury,Mercury,Core celestial bodies,astrological_concept,existing_original_alpha2,True
+body.venus,Venus,Core celestial bodies,astrological_concept,existing_original_alpha2,True
+body.mars,Mars,Core celestial bodies,astrological_concept,existing_original_alpha2,True
+body.jupiter,Jupiter,Core celestial bodies,astrological_concept,existing_original_alpha2,True
+body.saturn,Saturn,Core celestial bodies,astrological_concept,existing_original_alpha2,True
+body.uranus,Uranus,Core celestial bodies,astrological_concept,integrated,True
+body.neptune,Neptune,Core celestial bodies,astrological_concept,existing_original_alpha2,True
+body.pluto,Pluto,Core celestial bodies,astrological_concept,integrated,True
+body.earth,Earth,Core celestial bodies,astrological_concept,existing_original_alpha2,True
+node.ascending-node,Ascending node,Lunar nodes and apsides,astrological_concept,existing_original_alpha2,True
+node.descending-node,Descending node,Lunar nodes and apsides,astrological_concept,existing_original_alpha2,True
+aspect.conjunction,Conjunction,Aspects,astrological_concept,existing_original_alpha2,True
+aspect.opposition,Opposition,Aspects,astrological_concept,existing_original_alpha2,True
+aspect.trine,Trine,Aspects,astrological_concept,existing_original_alpha2,True
+aspect.square,Square,Aspects,astrological_concept,existing_original_alpha2,True
+aspect.sextile,Sextile,Aspects,astrological_concept,existing_original_alpha2,True
+smallbody.ceres,Ceres,Physical small bodies,astrological_concept,integrated,True
+smallbody.pallas,Pallas,Physical small bodies,astrological_concept,integrated,True
+smallbody.juno,Juno,Physical small bodies,astrological_concept,integrated,True
+smallbody.vesta,Vesta,Physical small bodies,astrological_concept,integrated,True
+smallbody.astraea,Astraea,Physical small bodies,astrological_concept,integrated,True
+smallbody.hygiea,Hygiea,Physical small bodies,astrological_concept,integrated,True
+smallbody.hebe,Hebe,Physical small bodies,astrological_concept,integrated,True
+smallbody.iris,Iris,Physical small bodies,astrological_concept,integrated,True
+smallbody.flora,Flora,Physical small bodies,astrological_concept,integrated,True
+smallbody.metis,Metis,Physical small bodies,astrological_concept,integrated,True
+smallbody.parthenope,Parthenope,Physical small bodies,astrological_concept,integrated,True
+smallbody.victoria,Victoria,Physical small bodies,astrological_concept,integrated,True
+smallbody.egeria,Egeria,Physical small bodies,astrological_concept,integrated,True
+smallbody.irene,Irene,Physical small bodies,astrological_concept,integrated,True
+smallbody.eunomia,Eunomia,Physical small bodies,astrological_concept,integrated,True
+smallbody.psyche,Psyche,Physical small bodies,astrological_concept,integrated,True
+smallbody.thetis,Thetis,Physical small bodies,astrological_concept,integrated,True
+smallbody.melpomene,Melpomene,Physical small bodies,astrological_concept,integrated,True
+smallbody.fortuna,Fortuna,Physical small bodies,astrological_concept,integrated,True
+smallbody.proserpina,Proserpina,Physical small bodies,astrological_concept,integrated,True
+smallbody.bellona,Bellona,Physical small bodies,astrological_concept,integrated,True
+smallbody.amphitrite,Amphitrite,Physical small bodies,astrological_concept,integrated,True
+smallbody.leukothea,Leukothea,Physical small bodies,astrological_concept,integrated,True
+smallbody.chiron,Chiron,Physical small bodies,astrological_concept,integrated,True
+smallbody.pholus,Pholus,Physical small bodies,astrological_concept,integrated,True
+smallbody.nessus,Nessus,Physical small bodies,astrological_concept,integrated,True
+smallbody.eris,Eris,Physical small bodies,astrological_concept,integrated,True
+smallbody.sedna,Sedna,Physical small bodies,astrological_concept,integrated,True
+smallbody.haumea,Haumea,Physical small bodies,astrological_concept,integrated,True
+smallbody.makemake,Makemake,Physical small bodies,astrological_concept,integrated,True
+smallbody.gonggong,Gonggong,Physical small bodies,astrological_concept,integrated,True
+smallbody.quaoar,Quaoar,Physical small bodies,astrological_concept,integrated,True
+smallbody.orcus,Orcus,Physical small bodies,astrological_concept,integrated,True
+smallbody.chariklo,Chariklo,Physical small bodies,astrological_concept,integrated,True
+smallbody.asbolus,Asbolus,Physical small bodies,astrological_concept,integrated,True
+smallbody.hylonome,Hylonome,Physical small bodies,astrological_concept,integrated,True
+smallbody.thereus,Thereus,Physical small bodies,astrological_concept,integrated,True
+smallbody.bienor,Bienor,Physical small bodies,astrological_concept,integrated,True
+smallbody.elatus,Elatus,Physical small bodies,astrological_concept,integrated,True
+smallbody.cyllarus,Cyllarus,Physical small bodies,astrological_concept,integrated,True
+smallbody.varuna,Varuna,Physical small bodies,astrological_concept,integrated,True
+smallbody.ixion,Ixion,Physical small bodies,astrological_concept,integrated,True
+smallbody.salacia,Salacia,Physical small bodies,astrological_concept,integrated,True
+smallbody.varda,Varda,Physical small bodies,astrological_concept,integrated,True
+smallbody.lilith,Lilith,Physical small bodies,astrological_concept,integrated,True
+smallbody.cupido,Cupido,Physical small bodies,astrological_concept,integrated,True
+smallbody.eros,Eros,Physical small bodies,astrological_concept,integrated,True
+smallbody.nemesis,Nemesis,Physical small bodies,astrological_concept,integrated,True
+aspect.semisextile,Semisextile,Aspects,astrological_concept,integrated,True
+aspect.semisquare,Semisquare,Aspects,astrological_concept,integrated,True
+aspect.sesquiquadrate,Sesquiquadrate,Aspects,astrological_concept,integrated,True
+aspect.quincunx,Quincunx,Aspects,astrological_concept,integrated,True
+aspect.quintile,Quintile,Aspects,astrological_concept,integrated,True
+aspect.biquintile,Biquintile,Aspects,astrological_concept,integrated,True
+aspect.septile,Septile,Aspects,astrological_concept,integrated,True
+aspect.biseptile,Biseptile,Aspects,astrological_concept,integrated,True
+aspect.triseptile,Triseptile,Aspects,astrological_concept,integrated,True
+aspect.novile,Novile,Aspects,astrological_concept,integrated,True
+aspect.binovile,Binovile,Aspects,astrological_concept,integrated,True
+aspect.quadnovile,Quadnovile,Aspects,astrological_concept,integrated,True
+aspect.decile,Decile,Aspects,astrological_concept,integrated,True
+aspect.tredecile,Tredecile,Aspects,astrological_concept,integrated,True
+aspect.undecile,Undecile,Aspects,astrological_concept,integrated,True
+aspect.quindecile,Quindecile,Aspects,astrological_concept,integrated,True
+aspect.vigintile,Vigintile,Aspects,astrological_concept,integrated,True
+aspect.parallel,Parallel,Aspects,astrological_concept,integrated,True
+aspect.contra-parallel,Contra-parallel,Aspects,astrological_concept,integrated,True
+aspect.sentagon-russian,Sentagon / Russian 100-degree aspect,Aspects,astrological_concept,integrated,True
+aspect.quindecile-165,Tao,Aspects,astrological_concept,integrated,True
+aspect.hexadecile,Hexadecile,Aspects,astrological_concept,integrated,True
+aspect.seminovile,Seminovile,Aspects,astrological_concept,integrated,True
+aspect.untion,Untion,Aspects,astrological_concept,integrated,True
+point.lilith.apogee,"Black Moon Lilith, model-qualified",Lunar nodes and apsides,astrological_concept,integrated,True
+lunar.ascending.mean,Mean ascending node,Lunar nodes and apsides,astrological_concept,shared_symbol_with_explicit_model_label,True
+lunar.descending.mean,Mean descending node,Lunar nodes and apsides,astrological_concept,shared_symbol_with_explicit_model_label,True
+lunar.ascending.true,True ascending node,Lunar nodes and apsides,astrological_concept,shared_symbol_with_explicit_model_label,True
+lunar.descending.true,True descending node,Lunar nodes and apsides,astrological_concept,shared_symbol_with_explicit_model_label,True
+lunar.apogee.mean,Mean lunar apogee / mean Lilith,Lunar nodes and apsides,astrological_concept,shared_symbol_with_explicit_model_label,True
+lunar.apogee.osculating,Osculating lunar apogee / true Lilith,Lunar nodes and apsides,astrological_concept,shared_symbol_with_explicit_model_label,True
+lunar.perigee.mean,Mean lunar perigee,Lunar nodes and apsides,astrological_concept,integrated,True
+lunar.perigee.osculating,Osculating lunar perigee,Lunar nodes and apsides,astrological_concept,integrated,True
+lunar.apogee.interpolated,Interpolated lunar apogee,Lunar nodes and apsides,astrological_concept,integrated,True
+lunar.perigee.interpolated,Interpolated lunar perigee,Lunar nodes and apsides,astrological_concept,integrated,True
+angle.asc,Ascendant,Angles and chart points,astrological_concept,integrated,True
+angle.dsc,Descendant,Angles and chart points,astrological_concept,integrated,True
+angle.mc,Midheaven,Angles and chart points,astrological_concept,integrated,True
+angle.ic,Imum Coeli,Angles and chart points,astrological_concept,integrated,True
+angle.vertex,Vertex,Angles and chart points,astrological_concept,integrated,True
+angle.anti-vertex,Anti-Vertex,Angles and chart points,astrological_concept,integrated,True
+point.east-point,East Point / equatorial Ascendant,Angles and chart points,astrological_concept,integrated,True
+point.west-point,West Point,Angles and chart points,astrological_concept,integrated,True
+point.polar-ascendant,Polar Ascendant,Angles and chart points,astrological_concept,integrated,True
+lot.fortune,Lot of Fortune,Lots,astrological_concept,candidate,False
+lot.spirit,Lot of Spirit,Lots,astrological_concept,candidate,False
+lot.eros,Lot of Eros,Lots,astrological_concept,candidate,False
+lot.necessity,Lot of Necessity,Lots,astrological_concept,candidate,False
+lot.courage,Lot of Courage,Lots,astrological_concept,candidate,False
+lot.victory,Lot of Victory,Lots,astrological_concept,candidate,False
+lot.nemesis,Lot of Nemesis,Lots,astrological_concept,candidate,False
+lot.basis,Lot of Basis,Lots,astrological_concept,candidate,False
+lot.exaltation,Lot of Exaltation,Lots,astrological_concept,candidate,False
+lot.father,Lot of Father,Lots,astrological_concept,candidate,False
+lot.mother,Lot of Mother,Lots,astrological_concept,candidate,False
+lot.marriage,Lot of Marriage,Lots,astrological_concept,candidate,False
+motion.retrograde,Retrograde,Motion and event state,astrological_concept,integrated,True
+motion.direct,Direct,Motion and event state,astrological_concept,integrated,True
+motion.stationary,Stationary,Motion and event state,astrological_concept,integrated,True
+motion.station-r,Station retrograde,Motion and event state,astrological_concept,integrated,True
+motion.station-d,Station direct,Motion and event state,astrological_concept,integrated,True
+motion.applying,Applying,Motion and event state,astrological_concept,integrated,True
+motion.separating,Separating,Motion and event state,astrological_concept,integrated,True
+motion.exact,Exact aspect,Motion and event state,astrological_concept,integrated,True
+event.occultation,Occultation,"Phases, eclipses and contacts",astrological_concept,integrated,True
+event.lunar-eclipse,Lunar eclipse,"Phases, eclipses and contacts",astrological_concept,integrated,True
+event.solar-eclipse,Solar eclipse,"Phases, eclipses and contacts",astrological_concept,integrated,True
+phase.new-moon,New Moon,"Phases, eclipses and contacts",astrological_concept,integrated,True
+phase.waxing-crescent,Waxing crescent,"Phases, eclipses and contacts",astrological_concept,integrated,True
+phase.first-quarter,First quarter,"Phases, eclipses and contacts",astrological_concept,integrated,True
+phase.waxing-gibbous,Waxing gibbous,"Phases, eclipses and contacts",astrological_concept,integrated,True
+phase.full-moon,Full Moon,"Phases, eclipses and contacts",astrological_concept,integrated,True
+phase.waning-gibbous,Waning gibbous,"Phases, eclipses and contacts",astrological_concept,integrated,True
+phase.last-quarter,Last quarter,"Phases, eclipses and contacts",astrological_concept,integrated,True
+phase.waning-crescent,Waning crescent,"Phases, eclipses and contacts",astrological_concept,integrated,True
+satellite.mars.phobos,Phobos (Mars I),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.mars.deimos,Deimos (Mars II),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.jupiter.io,Io (Jupiter I),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.jupiter.europa,Europa (Jupiter II),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.jupiter.ganymede,Ganymede (Jupiter III),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.jupiter.callisto,Callisto (Jupiter IV),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.saturn.mimas,Mimas (Saturn I),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.saturn.enceladus,Enceladus (Saturn II),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.saturn.tethys,Tethys (Saturn III),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.saturn.dione,Dione (Saturn IV),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.saturn.rhea,Rhea (Saturn V),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.saturn.titan,Titan (Saturn VI),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.saturn.hyperion,Hyperion (Saturn VII),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.saturn.iapetus,Iapetus (Saturn VIII),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.uranus.ariel,Ariel (Uranus I),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.uranus.umbriel,Umbriel (Uranus II),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.uranus.titania,Titania (Uranus III),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.uranus.oberon,Oberon (Uranus IV),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.uranus.miranda,Miranda (Uranus V),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.neptune.triton,Triton (Neptune I),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.neptune.nereid,Nereid (Neptune II),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.neptune.proteus,Proteus (Neptune VIII),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.pluto.charon,Charon (Pluto I),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.pluto.nix,Nix (Pluto II),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.pluto.hydra,Hydra (Pluto III),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.pluto.kerberos,Kerberos (Pluto IV),Planetary satellites,astrological_concept,composition_layout_specified,False
+satellite.pluto.styx,Styx (Pluto V),Planetary satellites,astrological_concept,composition_layout_specified,False
+hypothetical.cupido,Cupido (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.hades,Hades (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.zeus,Zeus (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.kronos,Kronos (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.apollon,Apollon (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.admetos,Admetos (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.vulkanus,Vulkanus (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.poseidon,Poseidon (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.transpluto,Transpluto (hypothetical),Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.proserpina,"Proserpina, convention-specific hypothetical",Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.selena,White Moon Selena,Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.arta,True Light Moon Arta,Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.waldemath,Waldemath Dark Moon,Specialist and hypothetical points,astrological_concept,integrated,True
+hypothetical.vulcan,Intramercurial Vulcan,Specialist and hypothetical points,astrological_concept,integrated,True
+element.air,Air element,Traditional classification marks,astrological_concept,integrated,True
+element.fire,Fire element,Traditional classification marks,astrological_concept,integrated,True
+element.earth,Earth element,Traditional classification marks,astrological_concept,integrated,True
+element.water,Water element,Traditional classification marks,astrological_concept,integrated,True
+modality.cardinal,Cardinal modality,Traditional classification marks,astrological_concept,integrated,True
+modality.fixed,Fixed modality,Traditional classification marks,astrological_concept,integrated,True
+modality.mutable,Mutable modality,Traditional classification marks,astrological_concept,integrated,True
+sect.diurnal,Diurnal sect,Traditional classification marks,astrological_concept,integrated,True
+sect.nocturnal,Nocturnal sect,Traditional classification marks,astrological_concept,integrated,True
+dignity.domicile,Domicile,Traditional classification marks,astrological_concept,integrated,True
+dignity.exaltation,Exaltation,Traditional classification marks,astrological_concept,integrated,True
+dignity.triplicity,Triplicity,Traditional classification marks,astrological_concept,integrated,True
+dignity.bound,Bound,Traditional classification marks,astrological_concept,integrated,True
+dignity.face,Face,Traditional classification marks,astrological_concept,integrated,True
+dignity.detriment,Detriment,Traditional classification marks,astrological_concept,integrated,True
+dignity.fall,Fall,Traditional classification marks,astrological_concept,integrated,True
+house-category.angular,Angular,Traditional classification marks,astrological_concept,integrated,True
+house-category.succedent,Succedent,Traditional classification marks,astrological_concept,integrated,True
+house-category.cadent,Cadent,Traditional classification marks,astrological_concept,integrated,True
+relation.antiscia,Antiscion,Traditional classification marks,astrological_concept,integrated,True
+relation.contra-antiscia,Contra-antiscion,Traditional classification marks,astrological_concept,integrated,True
+annotation.fixed-star,Fixed-star marker,Astronomical annotation,astrological_concept,integrated,True
+annotation.comet,Comet marker,Astronomical annotation,astrological_concept,integrated,True
+annotation.asterism,Asterism marker,Astronomical annotation,astrological_concept,integrated,True
+annotation.galactic-center,Galactic center,Astronomical annotation,astrological_concept,integrated,True
+annotation.supergalactic-center,Supergalactic reference direction,Astronomical annotation,astrological_concept,integrated,True
+annotation.north-celestial-pole,North celestial pole,Astronomical annotation,astrological_concept,integrated,True
+annotation.south-celestial-pole,South celestial pole,Astronomical annotation,astrological_concept,integrated,True
+annotation.north-ecliptic-pole,North ecliptic pole,Astronomical annotation,astrological_concept,integrated,True
+annotation.south-ecliptic-pole,South ecliptic pole,Astronomical annotation,astrological_concept,integrated,True
+annotation.geocentric,Geocentric label,Astronomical annotation,astrological_concept,integrated,True
+annotation.heliocentric,Heliocentric label,Astronomical annotation,astrological_concept,integrated,True
+annotation.barycentric,Barycentric label,Astronomical annotation,astrological_concept,integrated,True
+zodiac.ophiuchus-modern,"Ophiuchus, modern zodiac convention",Specialist and hypothetical points,astrological_concept,integrated,True
+notation.u0020,Existing word space,Notation characters,notation_character,integrated,True
+notation.u00a0,Nonbreaking word space,Notation characters,notation_character,integrated,True
+notation.u202f,Narrow nonbreaking space,Notation characters,notation_character,integrated,True
+notation.u00b0,Degree sign,Notation characters,notation_character,integrated,True
+notation.u2032,Prime / arcminute mark,Notation characters,notation_character,integrated,True
+notation.u2033,Double prime / arcsecond mark,Notation characters,notation_character,integrated,True
+notation.u002e,Decimal point,Notation characters,notation_character,integrated,True
+notation.u002c,Comma,Notation characters,notation_character,integrated,True
+notation.u003a,Colon,Notation characters,notation_character,integrated,True
+notation.u2212,Mathematical minus,Notation characters,notation_character,integrated,True
+notation.u002b,Plus,Notation characters,notation_character,integrated,True
+notation.u00b1,Plus-minus,Notation characters,notation_character,integrated,True
+notation.u0028,Left parenthesis,Notation characters,notation_character,integrated,True
+notation.u0029,Right parenthesis,Notation characters,notation_character,integrated,True
+notation.u002f,Solidus,Notation characters,notation_character,integrated,True
+notation.u002d,Hyphen-minus,Notation characters,notation_character,integrated,True
+notation.u003d,Equals,Notation characters,notation_character,integrated,True
+notation.u0025,Percent,Notation characters,notation_character,integrated,True
+notation.u0030,Digit 0,Notation characters,notation_character,integrated,True
+notation.u0031,Digit 1,Notation characters,notation_character,integrated,True
+notation.u0032,Digit 2,Notation characters,notation_character,integrated,True
+notation.u0033,Digit 3,Notation characters,notation_character,integrated,True
+notation.u0034,Digit 4,Notation characters,notation_character,integrated,True
+notation.u0035,Digit 5,Notation characters,notation_character,integrated,True
+notation.u0036,Digit 6,Notation characters,notation_character,integrated,True
+notation.u0037,Digit 7,Notation characters,notation_character,integrated,True
+notation.u0038,Digit 8,Notation characters,notation_character,integrated,True
+notation.u0039,Digit 9,Notation characters,notation_character,integrated,True
+notation.u0041,Latin letter A,Notation characters,notation_character,integrated,True
+notation.u0042,Latin letter B,Notation characters,notation_character,integrated,True
+notation.u0043,Latin letter C,Notation characters,notation_character,integrated,True
+notation.u0044,Latin letter D,Notation characters,notation_character,integrated,True
+notation.u0045,Latin letter E,Notation characters,notation_character,integrated,True
+notation.u0046,Latin letter F,Notation characters,notation_character,integrated,True
+notation.u0047,Latin letter G,Notation characters,notation_character,integrated,True
+notation.u0048,Latin letter H,Notation characters,notation_character,integrated,True
+notation.u0049,Latin letter I,Notation characters,notation_character,integrated,True
+notation.u004a,Latin letter J,Notation characters,notation_character,integrated,True
+notation.u004b,Latin letter K,Notation characters,notation_character,integrated,True
+notation.u004c,Latin letter L,Notation characters,notation_character,integrated,True
+notation.u004d,Latin letter M,Notation characters,notation_character,integrated,True
+notation.u004e,Latin letter N,Notation characters,notation_character,integrated,True
+notation.u004f,Latin letter O,Notation characters,notation_character,integrated,True
+notation.u0050,Latin letter P,Notation characters,notation_character,integrated,True
+notation.u0051,Latin letter Q,Notation characters,notation_character,integrated,True
+notation.u0052,Latin letter R,Notation characters,notation_character,integrated,True
+notation.u0053,Latin letter S,Notation characters,notation_character,integrated,True
+notation.u0054,Latin letter T,Notation characters,notation_character,integrated,True
+notation.u0055,Latin letter U,Notation characters,notation_character,integrated,True
+notation.u0056,Latin letter V,Notation characters,notation_character,integrated,True
+notation.u0057,Latin letter W,Notation characters,notation_character,integrated,True
+notation.u0058,Latin letter X,Notation characters,notation_character,integrated,True
+notation.u0059,Latin letter Y,Notation characters,notation_character,integrated,True
+notation.u005a,Latin letter Z,Notation characters,notation_character,integrated,True
+notation.u0061,Latin letter a,Notation characters,notation_character,integrated,True
+notation.u0062,Latin letter b,Notation characters,notation_character,integrated,True
+notation.u0063,Latin letter c,Notation characters,notation_character,integrated,True
+notation.u0064,Latin letter d,Notation characters,notation_character,integrated,True
+notation.u0065,Latin letter e,Notation characters,notation_character,integrated,True
+notation.u0066,Latin letter f,Notation characters,notation_character,integrated,True
+notation.u0067,Latin letter g,Notation characters,notation_character,integrated,True
+notation.u0068,Latin letter h,Notation characters,notation_character,integrated,True
+notation.u0069,Latin letter i,Notation characters,notation_character,integrated,True
+notation.u006a,Latin letter j,Notation characters,notation_character,integrated,True
+notation.u006b,Latin letter k,Notation characters,notation_character,integrated,True
+notation.u006c,Latin letter l,Notation characters,notation_character,integrated,True
+notation.u006d,Latin letter m,Notation characters,notation_character,integrated,True
+notation.u006e,Latin letter n,Notation characters,notation_character,integrated,True
+notation.u006f,Latin letter o,Notation characters,notation_character,integrated,True
+notation.u0070,Latin letter p,Notation characters,notation_character,integrated,True
+notation.u0071,Latin letter q,Notation characters,notation_character,integrated,True
+notation.u0072,Latin letter r,Notation characters,notation_character,integrated,True
+notation.u0073,Latin letter s,Notation characters,notation_character,integrated,True
+notation.u0074,Latin letter t,Notation characters,notation_character,integrated,True
+notation.u0075,Latin letter u,Notation characters,notation_character,integrated,True
+notation.u0076,Latin letter v,Notation characters,notation_character,integrated,True
+notation.u0077,Latin letter w,Notation characters,notation_character,integrated,True
+notation.u0078,Latin letter x,Notation characters,notation_character,integrated,True
+notation.u0079,Latin letter y,Notation characters,notation_character,integrated,True
+notation.u007a,Latin letter z,Notation characters,notation_character,integrated,True
+notation.u0027,Apostrophe,Notation characters,notation_character,integrated,True
+notation.u0022,Quotation Mark,Notation characters,notation_character,integrated,True
+notation.u00b2,Superscript Two,Notation characters,notation_character,integrated,True
+notation.u00b3,Superscript Three,Notation characters,notation_character,integrated,True
+notation.u2070,Superscript Zero,Notation characters,notation_character,integrated,True
+notation.u2074,Superscript Four,Notation characters,notation_character,integrated,True
+notation.u2075,Superscript Five,Notation characters,notation_character,integrated,True
+notation.u2076,Superscript Six,Notation characters,notation_character,integrated,True
+notation.u2077,Superscript Seven,Notation characters,notation_character,integrated,True
+notation.u2078,Superscript Eight,Notation characters,notation_character,integrated,True
+notation.u2079,Superscript Nine,Notation characters,notation_character,integrated,True
+notation.u03bb,Greek Small Letter Lamda,Notation characters,notation_character,integrated,True
+notation.u03b2,Greek Small Letter Beta,Notation characters,notation_character,integrated,True
+notation.u03b4,Greek Small Letter Delta,Notation characters,notation_character,integrated,True
+notation.u03b1,Greek Small Letter Alpha,Notation characters,notation_character,integrated,True
+notation.u03c6,Greek Small Letter Phi,Notation characters,notation_character,integrated,True
+notation.u03b5,Greek Small Letter Epsilon,Notation characters,notation_character,integrated,True
+notation.vs15,Text presentation selector VS15,Notation controls,format_control,existing_sequence_support,False
+notation.u00b9,Superscript One,Notation characters,notation_character,integrated,True

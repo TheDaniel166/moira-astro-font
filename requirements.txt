@@ -1,0 +1,5 @@
+# Copyright 2026 Moira Astro contributors. Original glyph designs.
+# Licensed under SIL Open Font License 1.1. See OFL.txt and https://openfontlicense.org/
+fonttools==4.67.0
+Brotli==1.2.1
+uharfbuzz==0.56.4

@@ -1,0 +1,502 @@
+{
+  "project": "Moira Astro",
+  "batch": 14,
+  "date": "2026-10-24",
+  "draft": 1,
+  "unicode_version": "17.0.0",
+  "proposed_forms": 9,
+  "hamburg_forms": 8,
+  "separate_transpluto_forms": 1,
+  "font_integrated": false,
+  "pua_allocations": 0,
+  "feature_allocations": 0,
+  "forms": [
+    {
+      "character": "⯠",
+      "label": "Cupido",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M245 205 C455 285 455 440 245 570 H800 M650 410 V840 M510 730 H790\"/><circle cx=\"650\" cy=\"310\" r=\"100\"/></g>",
+      "construction": "Curved Jupiter-like hook joined to a ring-and-cross component",
+      "note": "Hypothetical Cupido; keep the two horizontal levels distinct. Separate from physical (763) Cupido.",
+      "counters": [
+        [
+          650,
+          310
+        ]
+      ],
+      "gaps": [
+        [
+          570,
+          650
+        ]
+      ],
+      "positive": [
+        [
+          650,
+          730
+        ],
+        [
+          320,
+          570
+        ]
+      ],
+      "reference_pages": [
+        "Uranian proposal p. 1",
+        "Feist p. 13, reproduced 1935/1939 rulebook p. 42"
+      ],
+      "id": "hypothetical.cupido",
+      "name": "Cupido (hypothetical)",
+      "codepoint": "U+2BE0",
+      "unicode_name": "CUPIDO",
+      "group": "Hamburg/Uranian hypothetical points",
+      "meaning": "Cupido as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "uranian-proposal",
+        "feist-early-years"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "1de9db47a3d6046d7d7578b8fd37989a7ff1d911fbf4b516d2a5be0a164fd7f8",
+      "asset": "masters/u2be0.svg"
+    },
+    {
+      "character": "⯡",
+      "label": "Hades",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M660 240 C330 115 245 290 245 490 C245 690 430 810 660 720 M500 445 V850 M365 565 H635\"/></g>",
+      "construction": "Open C-shaped curve around a lower cross",
+      "note": "Preserve the right opening and the descending stem rather than reusing a Moon or Saturn glyph.",
+      "counters": [],
+      "gaps": [
+        [
+          550,
+          365
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          565
+        ],
+        [
+          500,
+          840
+        ]
+      ],
+      "reference_pages": [
+        "Uranian proposal p. 1",
+        "Feist p. 13, reproduced 1935/1939 rulebook p. 42"
+      ],
+      "id": "hypothetical.hades",
+      "name": "Hades (hypothetical)",
+      "codepoint": "U+2BE1",
+      "unicode_name": "HADES",
+      "group": "Hamburg/Uranian hypothetical points",
+      "meaning": "Hades as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "uranian-proposal",
+        "feist-early-years"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "039b909ecafb9cd39699c7999b1b7b76dffb71e525a2467d29a27c9e7a0ca858",
+      "asset": "masters/u2be1.svg"
+    },
+    {
+      "character": "⯢",
+      "label": "Zeus",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 170 V715 M395 275 L500 170 605 275 M290 600 L710 830 M710 600 L290 830\"/></g>",
+      "construction": "Upright arrow meeting crossed lower arms",
+      "note": "The stem terminates at the crossed-arm junction; keep the open diagonal spaces at chart sizes.",
+      "counters": [],
+      "gaps": [
+        [
+          410,
+          560
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          400
+        ],
+        [
+          500,
+          715
+        ]
+      ],
+      "reference_pages": [
+        "Uranian proposal p. 1",
+        "Feist p. 13, reproduced 1935/1939 rulebook p. 42"
+      ],
+      "id": "hypothetical.zeus",
+      "name": "Zeus (hypothetical)",
+      "codepoint": "U+2BE2",
+      "unicode_name": "ZEUS",
+      "group": "Hamburg/Uranian hypothetical points",
+      "meaning": "Zeus as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "uranian-proposal",
+        "feist-early-years"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "09a768ff6bbe170c7133de50f44bed4148f61bc23ac5aa58dd03ee104efc5947",
+      "asset": "masters/u2be2.svg"
+    },
+    {
+      "character": "⯣",
+      "label": "Kronos",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M235 400 C235 120 765 120 765 400 M500 310 V850 M350 470 H650\"/></g>",
+      "construction": "Detached domed cap above a cross",
+      "note": "Retain the air gap between cap and stem. This is not a joined umbrella or a Saturn alternate.",
+      "counters": [],
+      "gaps": [
+        [
+          500,
+          250
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          470
+        ],
+        [
+          500,
+          750
+        ]
+      ],
+      "reference_pages": [
+        "Uranian proposal p. 1",
+        "Feist p. 13, reproduced 1935/1939 rulebook p. 42"
+      ],
+      "id": "hypothetical.kronos",
+      "name": "Kronos (hypothetical)",
+      "codepoint": "U+2BE3",
+      "unicode_name": "KRONOS",
+      "group": "Hamburg/Uranian hypothetical points",
+      "meaning": "Kronos as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "uranian-proposal",
+        "feist-early-years"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "036ddb741ca57cffb15beb60e4c549462e5e0f6f9b158ed8492f4a017d39b4e3",
+      "asset": "masters/u2be3.svg"
+    },
+    {
+      "character": "⯤",
+      "label": "Apollon",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M235 210 C450 295 450 450 235 590 H820 M560 330 V840 M730 330 V840 M520 330 H770 M520 840 H770\"/></g>",
+      "construction": "Curved hook and shared bar beside twin joined uprights",
+      "note": "Open upper and lower windows in the twin-post component; retain the separate lower bar.",
+      "counters": [
+        [
+          645,
+          455
+        ],
+        [
+          645,
+          715
+        ]
+      ],
+      "gaps": [],
+      "positive": [
+        [
+          560,
+          590
+        ],
+        [
+          730,
+          590
+        ]
+      ],
+      "reference_pages": [
+        "Uranian proposal p. 1; usage samples pp. 4-8"
+      ],
+      "id": "hypothetical.apollon",
+      "name": "Apollon (hypothetical)",
+      "codepoint": "U+2BE4",
+      "unicode_name": "APOLLON",
+      "group": "Hamburg/Uranian hypothetical points",
+      "meaning": "Apollon as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "uranian-proposal"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "5450f451d9a586d49c0ee5c314bd83dddcf1ca5bd823864c0cc5213331cdb80d",
+      "asset": "masters/u2be4.svg"
+    },
+    {
+      "character": "⯥",
+      "label": "Admetos",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"560\" r=\"200\"/><path d=\"M285 245 C285 420 715 420 715 245 M500 350 V870 M300 560 H700\"/></g>",
+      "construction": "Upper cup over a quartered ring with a descending stem",
+      "note": "Preserve all four interior fields and the joined upper cup; distinguish it from Mercury and Taurus.",
+      "counters": [
+        [
+          410,
+          470
+        ],
+        [
+          590,
+          470
+        ],
+        [
+          410,
+          650
+        ],
+        [
+          590,
+          650
+        ]
+      ],
+      "gaps": [],
+      "positive": [
+        [
+          500,
+          560
+        ],
+        [
+          500,
+          840
+        ]
+      ],
+      "reference_pages": [
+        "Uranian proposal p. 1; usage samples pp. 4-8"
+      ],
+      "id": "hypothetical.admetos",
+      "name": "Admetos (hypothetical)",
+      "codepoint": "U+2BE5",
+      "unicode_name": "ADMETOS",
+      "group": "Hamburg/Uranian hypothetical points",
+      "meaning": "Admetos as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "uranian-proposal"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "b70c9fb288de94975968cc7b669205af96d2205cbc32c807d57392affcc856e2",
+      "asset": "masters/u2be5.svg"
+    },
+    {
+      "character": "⯦",
+      "label": "Vulkanus",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 180 V560 M395 285 L500 180 605 285 M500 560 L250 850 H750 Z\"/></g>",
+      "construction": "Upward arrow rising from an outlined triangle",
+      "note": "U+2BE6 is named VULCANUS; the Moira identity remains Vulkanus. Separate from intramercurial Vulcan.",
+      "counters": [
+        [
+          500,
+          740
+        ]
+      ],
+      "gaps": [],
+      "positive": [
+        [
+          500,
+          400
+        ],
+        [
+          500,
+          850
+        ]
+      ],
+      "reference_pages": [
+        "Uranian proposal p. 1; usage samples pp. 4-8"
+      ],
+      "id": "hypothetical.vulkanus",
+      "name": "Vulkanus (hypothetical)",
+      "codepoint": "U+2BE6",
+      "unicode_name": "VULCANUS",
+      "group": "Hamburg/Uranian hypothetical points",
+      "meaning": "Vulkanus as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "uranian-proposal"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "0bc71cc4ef304e83d90015c8c99d04d554b6ab7d122548e47545967287a57ab9",
+      "asset": "masters/u2be6.svg"
+    },
+    {
+      "character": "⯧",
+      "label": "Poseidon",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M225 260 C225 480 775 480 775 260 M225 820 C225 600 775 600 775 820 M500 285 V795\"/></g>",
+      "construction": "Opposed horizontal cup and cap crossed by a vertical stem",
+      "note": "Keep this assigned symbol distinct from Pisces and from unrelated lookalike letters.",
+      "counters": [],
+      "gaps": [
+        [
+          390,
+          540
+        ]
+      ],
+      "positive": [
+        [
+          500,
+          540
+        ],
+        [
+          500,
+          425
+        ],
+        [
+          500,
+          655
+        ]
+      ],
+      "reference_pages": [
+        "Uranian proposal p. 1; usage samples pp. 5-8"
+      ],
+      "id": "hypothetical.poseidon",
+      "name": "Poseidon (hypothetical)",
+      "codepoint": "U+2BE7",
+      "unicode_name": "POSEIDON",
+      "group": "Hamburg/Uranian hypothetical points",
+      "meaning": "Poseidon as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "uranian-proposal"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "12db7357ea9e45753c2d9d2d37c3014bff9854c64b40cf8af3da59c8085b6588",
+      "asset": "masters/u2be7.svg"
+    },
+    {
+      "character": "⯗",
+      "label": "Transpluto",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"625\" r=\"205\"/><path d=\"M500 420 V170 M390 280 L500 170 610 280 M311.254 545 Q500 725 688.746 545\"/></g>",
+      "construction": "Ring with an internal curved bowl and upward arrow",
+      "note": "Separate Transpluto convention. Select the curved-bowl reference form; retain the horizontal-divider variant as research evidence.",
+      "counters": [
+        [
+          500,
+          520
+        ],
+        [
+          500,
+          740
+        ]
+      ],
+      "gaps": [],
+      "positive": [
+        [
+          500,
+          300
+        ],
+        [
+          500,
+          635
+        ]
+      ],
+      "reference_pages": [
+        "Additional Symbols for Astrology pp. 3-5; final Unicode 17 chart"
+      ],
+      "id": "hypothetical.transpluto",
+      "name": "Transpluto (hypothetical)",
+      "codepoint": "U+2BD7",
+      "unicode_name": "TRANSPLUTO",
+      "group": "Separate Transpluto convention",
+      "meaning": "Transpluto as a conventional hypothetical point/orbit; not a discovered physical planet, TNO or same-name asteroid.",
+      "release_priority": "P3",
+      "source_ids": [
+        "unicode17-data",
+        "unicode17-2b00",
+        "additional-astrology"
+      ],
+      "advance": 1000,
+      "source_stroke": 60,
+      "origin": "new_original_batch14_geometry",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "pua_assignment": null,
+      "feature_allocation": null,
+      "token_allocation": null,
+      "drawing_sha256": "f61748fa4819bce82bde0fc02fc6741b4e0a52cc71bf776d9d145d104286ef95",
+      "asset": "masters/u2bd7.svg"
+    }
+  ]
+}

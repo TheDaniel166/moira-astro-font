@@ -1,0 +1,441 @@
+{
+  "project": "Moira Astro",
+  "batch": 15,
+  "date": "2026-10-25",
+  "draft": 1,
+  "proposed_forms": 4,
+  "unicode_version": "17.0.0",
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "smallbody.lilith",
+      "label": "Lilith",
+      "number": 1181,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M250 270 V650 H700 M400 270 V650 M550 270 V650 M700 270 V800 L850 650\"/></g>",
+      "construction": "Four upright fingers, joined palm and angled thumb",
+      "note": "Physical (1181) Lilith; keep all three finger slots open.",
+      "counters": [],
+      "gaps": [
+        [
+          325,
+          450
+        ],
+        [
+          475,
+          450
+        ],
+        [
+          625,
+          450
+        ]
+      ],
+      "positive": [
+        [
+          250,
+          450
+        ],
+        [
+          400,
+          450
+        ],
+        [
+          550,
+          450
+        ],
+        [
+          700,
+          450
+        ],
+        [
+          700,
+          720
+        ],
+        [
+          450,
+          650
+        ]
+      ],
+      "reference": "Centaur Font, PDF p.3: Lilith - Asteroid; Solar Fire 9 p.492",
+      "name": "(1181) Lilith",
+      "meaning": "Physical numbered small body (1181) Lilith; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "group": "Physical small bodies",
+      "identifiers": {
+        "minor_planet_number": 1181,
+        "native_catalog_naif_id": 2001181,
+        "live_jpl_spkid": "20001181"
+      },
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "mapping_status": "unresolved_no_dedicated_scalar_selected",
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P3",
+      "advance": 1000,
+      "source_stroke": 60,
+      "drawing_sha256": "f6af16a92a6f3911e02b205a6c0e2929f860adbfdecb52d04477a12d1b5d957f",
+      "origin": "new_original_moira_outline_of_documented_construction",
+      "asset": "masters/smallbody.lilith.svg",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "source_record": {
+        "id": "smallbody.lilith",
+        "name": "Lilith",
+        "family": "Physical small bodies",
+        "record_kind": "astrological_concept",
+        "meaning": "Physical numbered small body (1181) Lilith; identity is separate from any similarly named lot, moon or hypothetical point.",
+        "sources": [
+          "u-data",
+          "m-asteroids",
+          "naif"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Lilith",
+        "identifiers": {
+          "minor_planet_number": 1181,
+          "native_catalog_naif_id": 2001181
+        },
+        "blockers": [
+          "No dedicated Unicode assignment identified in the reviewed sources; attest a form or explicitly commission a Moira-original extension."
+        ],
+        "notes": [
+          "Name collision: keep the permanent physical-body identifier visible in the registry and uncommon-symbol labels."
+        ],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      }
+    },
+    {
+      "id": "smallbody.cupido",
+      "label": "Cupido",
+      "number": 763,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M735 245 C570 100 280 200 240 430 C200 655 425 785 695 635 M520 585 V900 M410 800 H630\"/><circle cx=\"520\" cy=\"460\" r=\"125\"/></g>",
+      "construction": "Open C-shaped shield around a ring-and-cross Venus structure",
+      "note": "Physical (763) Cupido; no Hamburg Cupido mapping or Jupiter hook.",
+      "counters": [
+        [
+          520,
+          460
+        ]
+      ],
+      "gaps": [
+        [
+          335,
+          460
+        ],
+        [
+          520,
+          270
+        ]
+      ],
+      "positive": [
+        [
+          520,
+          800
+        ],
+        [
+          520,
+          900
+        ],
+        [
+          395,
+          460
+        ],
+        [
+          735,
+          245
+        ]
+      ],
+      "reference": "Lang Wescott, Cupido-A, newsletter 1 Dec 2009, PDF p.3; Solar Fire 9 p.492",
+      "name": "(763) Cupido",
+      "meaning": "Physical numbered small body (763) Cupido; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "group": "Physical small bodies",
+      "identifiers": {
+        "minor_planet_number": 763,
+        "native_catalog_naif_id": 2000763,
+        "live_jpl_spkid": "20000763"
+      },
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "mapping_status": "unresolved_no_dedicated_scalar_selected",
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P3",
+      "advance": 1000,
+      "source_stroke": 60,
+      "drawing_sha256": "ca4a2da6331eb87693a3d8c0ee8a571dab056c0f4e18a8070225bd88ef625ba7",
+      "origin": "new_original_moira_outline_of_documented_construction",
+      "asset": "masters/smallbody.cupido.svg",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "source_record": {
+        "id": "smallbody.cupido",
+        "name": "Cupido",
+        "family": "Physical small bodies",
+        "record_kind": "astrological_concept",
+        "meaning": "Physical numbered small body (763) Cupido; identity is separate from any similarly named lot, moon or hypothetical point.",
+        "sources": [
+          "u-data",
+          "m-asteroids",
+          "naif"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Cupido",
+        "identifiers": {
+          "minor_planet_number": 763,
+          "native_catalog_naif_id": 2000763
+        },
+        "blockers": [
+          "No dedicated Unicode assignment identified in the reviewed sources; attest a form or explicitly commission a Moira-original extension."
+        ],
+        "notes": [
+          "Name collision: keep the permanent physical-body identifier visible in the registry and uncommon-symbol labels."
+        ],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      }
+    },
+    {
+      "id": "smallbody.eros",
+      "label": "Eros",
+      "number": 433,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 350 C650 130 850 250 780 450 C720 620 590 725 500 815 C410 725 280 620 220 450 C150 250 350 130 500 350 Z M850 270 L170 800 M185 675 L170 800 295 785\"/></g>",
+      "construction": "Open heart pierced by a diagonal arrow pointing down-left",
+      "note": "Preserve the heart cleft, two unfilled fields and exterior arrow tip.",
+      "counters": [
+        [
+          450,
+          450
+        ],
+        [
+          600,
+          610
+        ]
+      ],
+      "gaps": [],
+      "positive": [
+        [
+          500,
+          350
+        ],
+        [
+          500,
+          815
+        ],
+        [
+          510,
+          535
+        ],
+        [
+          170,
+          800
+        ]
+      ],
+      "reference": "Centaur Font, PDF p.2: Eros; Solar Fire 9 p.492; Cafe Astrology Eros",
+      "name": "(433) Eros",
+      "meaning": "Physical numbered small body (433) Eros; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "group": "Physical small bodies",
+      "identifiers": {
+        "minor_planet_number": 433,
+        "native_catalog_naif_id": 2000433,
+        "live_jpl_spkid": "20000433"
+      },
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "mapping_status": "unresolved_no_dedicated_scalar_selected",
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P3",
+      "advance": 1000,
+      "source_stroke": 60,
+      "drawing_sha256": "6161b5b6709631afc0b2a1bb35a89f0b34cd76767c7dee76d445cb2045de2b74",
+      "origin": "new_original_moira_outline_of_documented_construction",
+      "asset": "masters/smallbody.eros.svg",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "source_record": {
+        "id": "smallbody.eros",
+        "name": "Eros",
+        "family": "Physical small bodies",
+        "record_kind": "astrological_concept",
+        "meaning": "Physical numbered small body (433) Eros; identity is separate from any similarly named lot, moon or hypothetical point.",
+        "sources": [
+          "u-data",
+          "m-asteroids",
+          "naif"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Eros",
+        "identifiers": {
+          "minor_planet_number": 433,
+          "native_catalog_naif_id": 2000433
+        },
+        "blockers": [
+          "No dedicated Unicode assignment identified in the reviewed sources; attest a form or explicitly commission a Moira-original extension."
+        ],
+        "notes": [
+          "Name collision: keep the permanent physical-body identifier visible in the registry and uncommon-symbol labels."
+        ],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      }
+    },
+    {
+      "id": "smallbody.nemesis",
+      "label": "Nemesis",
+      "number": 128,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M300 620 C300 360 700 360 700 620 L590 790 H410 Z M300 620 V320 M700 620 V320 M235 620 H765\"/></g>",
+      "construction": "Divided bowl with upper arch, flat lower rim and two projecting uprights",
+      "note": "Preserve two open fields; neither a Nessus N nor Admetos quartered ring.",
+      "counters": [
+        [
+          500,
+          520
+        ],
+        [
+          500,
+          700
+        ]
+      ],
+      "gaps": [
+        [
+          500,
+          330
+        ]
+      ],
+      "positive": [
+        [
+          300,
+          400
+        ],
+        [
+          700,
+          400
+        ],
+        [
+          500,
+          620
+        ],
+        [
+          500,
+          790
+        ]
+      ],
+      "reference": "Centaur Font, PDF p.3: Nemesis; Solar Fire 9 p.492",
+      "name": "(128) Nemesis",
+      "meaning": "Physical numbered small body (128) Nemesis; identity is separate from any similarly named lot, moon or hypothetical point.",
+      "group": "Physical small bodies",
+      "identifiers": {
+        "minor_planet_number": 128,
+        "native_catalog_naif_id": 2000128,
+        "live_jpl_spkid": "20000128"
+      },
+      "unicode_version": "17.0.0",
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "mapping_status": "unresolved_no_dedicated_scalar_selected",
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P3",
+      "advance": 1000,
+      "source_stroke": 60,
+      "drawing_sha256": "e39d6ff4c2d2b12a7800a51227c7003a093b1d2830538934ccd406f0446a6cb7",
+      "origin": "new_original_moira_outline_of_documented_construction",
+      "asset": "masters/smallbody.nemesis.svg",
+      "status": "original_vector_study_for_visual_review",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "source_record": {
+        "id": "smallbody.nemesis",
+        "name": "Nemesis",
+        "family": "Physical small bodies",
+        "record_kind": "astrological_concept",
+        "meaning": "Physical numbered small body (128) Nemesis; identity is separate from any similarly named lot, moon or hypothetical point.",
+        "sources": [
+          "u-data",
+          "m-asteroids",
+          "naif"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P3",
+        "target_release": "0.4-specialist",
+        "design_status": "candidate",
+        "default_form": "Readable text label first; dedicated drawing and encoding undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Nemesis",
+        "identifiers": {
+          "minor_planet_number": 128,
+          "native_catalog_naif_id": 2000128
+        },
+        "blockers": [
+          "No dedicated Unicode assignment identified in the reviewed sources; attest a form or explicitly commission a Moira-original extension."
+        ],
+        "notes": [
+          "Name collision: keep the permanent physical-body identifier visible in the registry and uncommon-symbol labels."
+        ],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      }
+    }
+  ]
+}

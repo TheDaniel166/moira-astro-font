@@ -1,0 +1,125 @@
+{
+  "version": "0.13.2-alpha.1",
+  "status": "PASS",
+  "copyright": "Copyright 2026 Moira Astro contributors. Original glyph designs.",
+  "license": "OFL-1.1",
+  "license_file": "OFL.txt",
+  "license_url": "https://openfontlicense.org/",
+  "reserved_font_names": [
+    "Moira"
+  ],
+  "glyphs": 726,
+  "mapped_characters": 225,
+  "optional_tokens": 711,
+  "direct_registry_routes": 35,
+  "regression_checks": 6251,
+  "changed_sfnt_tables": [
+    "head",
+    "name"
+  ],
+  "native_gdi_glyph_metrics": 726,
+  "browser_advance_checks": 104,
+  "source_format": "Complete editable FontTools TTX; original SVG/research history remains in frozen design packets",
+  "files": [
+    {
+      "path": "CHECKS.md",
+      "bytes": 2791,
+      "sha256": "df63340dfb25abe5e2c6d1dde0c05430e40abea7cb7c4aa2cce4b74272b76cb5"
+    },
+    {
+      "path": "FONTLOG.txt",
+      "bytes": 1433,
+      "sha256": "72ecb39e5f85ff4addc00fbebc3577f50df3f5b6d0cf07f4a1e0b087fea6eb05"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1896,
+      "sha256": "1521e5eb4baaf67f1177299d015deec58f7f93f43b4f00170e545bba3a4e68e8"
+    },
+    {
+      "path": "OFL.txt",
+      "bytes": 4399,
+      "sha256": "8969aa977c232835181a064ad3ea631f0582a0abdcf2dcb214ab9b97c4e1607c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4581,
+      "sha256": "c1d37160f67c26267105ab394567fae50d5d15ddb4dde51faedaaafc0478f2d9"
+    },
+    {
+      "path": "UNICODE-LICENSE.txt",
+      "bytes": 1995,
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    },
+    {
+      "path": "aliases.csv",
+      "bytes": 20491,
+      "sha256": "762164764e9eaf1e86ce663484922b19808b4b7a53446f87f2ba71171892e440"
+    },
+    {
+      "path": "aliases.json",
+      "bytes": 229096,
+      "sha256": "3c1bac035ba2815af3aafbb81ae8a2dc68080501555871eb47fae7b702b3d202"
+    },
+    {
+      "path": "build.py",
+      "bytes": 1490,
+      "sha256": "2e19ae659b50cd57ac9d999cdd647d982ccc79a991b2060d53ce9d6178beae80"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 573264,
+      "sha256": "b22ead260d1b93b12e27a8d769cb580848d038859aa90303d6b07e297e7f14b9"
+    },
+    {
+      "path": "entry-map.csv",
+      "bytes": 60929,
+      "sha256": "ac992f3a28745cc34a1c5fe2fcaede31aeba201d2f11dadb3d36983493ce68a6"
+    },
+    {
+      "path": "entry-map.json",
+      "bytes": 741324,
+      "sha256": "a004757c4d25f81ed42c5b535645e5ff71bfabd10d7b13700e6e17a32f5123d3"
+    },
+    {
+      "path": "fonts/MoiraAstro-Regular.ttf",
+      "bytes": 231208,
+      "sha256": "cd76b9b9be14607f91d4450edb438a07d14b314278343f73e64f8e189dbd7061"
+    },
+    {
+      "path": "fonts/MoiraAstro-Regular.woff2",
+      "bytes": 60244,
+      "sha256": "631314c4240700470efb38632b566938748ac7e3f59b5de62c86fe3abb67ba19"
+    },
+    {
+      "path": "index.html",
+      "bytes": 12722,
+      "sha256": "3233c4e0b22799299082b5b5e3b0766f8658edc0509e3e5a9ef69f68b6723da9"
+    },
+    {
+      "path": "native_smoke.py",
+      "bytes": 3988,
+      "sha256": "33ceb99d7d66a4b4c60584664fda91f720418d819f334e2c4dea491a13b0ad87"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 206,
+      "sha256": "1bab0f682beaebc2438e916b07da516fe975bdee6af0adc1372c428031ad6526"
+    },
+    {
+      "path": "source/MoiraAstro-Regular.ttx",
+      "bytes": 2913853,
+      "sha256": "6925107873cc180b99fe7b19c9c664d9cb91ec8568fc15ab39a15bd89c252548"
+    },
+    {
+      "path": "source/baseline-contract.json",
+      "bytes": 78683,
+      "sha256": "70c4ac00b1461cd41ef9b99c45d3cd6cbbc60002975ac790b9e453d19bbc0165"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 6459,
+      "sha256": "c00dcf74b9e2da61ce6e9ded9c8b25dd2a02c7f1d992e2f514503258e25f6d65"
+    }
+  ]
+}

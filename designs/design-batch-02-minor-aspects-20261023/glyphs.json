@@ -1,0 +1,914 @@
+{
+  "project": "Moira Astro",
+  "version": "design-batch-02-draft-01",
+  "date": "2026-10-23",
+  "unicode_version": "17.0.0",
+  "status": "research-backed original form studies, pending owner review",
+  "form_count": 25,
+  "native_default_proposals": 15,
+  "regional_forms": 6,
+  "additional_form_candidates": 4,
+  "semantic_concepts": 16,
+  "font_integrated": false,
+  "pua_allocations": 0,
+  "preview_scale": 1.08,
+  "actual_font_rendering": false,
+  "forms": [
+    {
+      "id": "quintile",
+      "semantic_id": "aspect.quintile",
+      "name": "Quintile",
+      "category": "native-default-proposal",
+      "display_label": "Q",
+      "meaning": "Zodiacal aspect with exact native nominal angle 72 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "72",
+      "native_abbreviation": "Q",
+      "native_label": "Q",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0051"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER Q"
+        ],
+        "text": "Q",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"470\" cy=\"495\" rx=\"230\" ry=\"295\"/><path d=\"M555 650 L760 835\"/></g>",
+      "note": "Original letterform in a documented aspect-label convention; no ASCII-to-aspect remapping.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 72.0
+    },
+    {
+      "id": "biquintile",
+      "semantic_id": "aspect.biquintile",
+      "name": "Biquintile",
+      "category": "native-default-proposal",
+      "display_label": "Q²",
+      "meaning": "Zodiacal aspect with exact native nominal angle 144 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "144",
+      "native_abbreviation": "bQ",
+      "native_label": "bQ",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0051",
+          "U+00B2"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER Q",
+          "SUPERSCRIPT TWO"
+        ],
+        "text": "Q²",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"405\" cy=\"495\" rx=\"205\" ry=\"295\"/><path d=\"M480 650 L680 835\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"58\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M730 235 C730 135 900 135 900 235 C900 300 760 355 730 435 H905\"/></g></g>",
+      "note": "Raised figures denote the named multiple in this notation, not arithmetic exponentiation; standard letters retain ordinary text semantics.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 144.0
+    },
+    {
+      "id": "septile",
+      "semantic_id": "aspect.septile",
+      "name": "Septile",
+      "category": "native-default-proposal",
+      "display_label": "S",
+      "meaning": "Zodiacal aspect with exact native nominal angle 360 / 7 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "360 / 7",
+      "native_abbreviation": "S",
+      "native_label": "S",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0053"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S"
+        ],
+        "text": "S",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g>",
+      "note": "Original letterform in a documented aspect-label convention; no ASCII-to-aspect remapping.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 51.42857142857143
+    },
+    {
+      "id": "biseptile",
+      "semantic_id": "aspect.biseptile",
+      "name": "Biseptile",
+      "category": "native-default-proposal",
+      "display_label": "S²",
+      "meaning": "Zodiacal aspect with exact native nominal angle 720 / 7 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "720 / 7",
+      "native_abbreviation": "bS",
+      "native_label": "bS",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0053",
+          "U+00B2"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S",
+          "SUPERSCRIPT TWO"
+        ],
+        "text": "S²",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(-65 0)\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"58\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M730 235 C730 135 900 135 900 235 C900 300 760 355 730 435 H905\"/></g></g>",
+      "note": "Raised figures denote the named multiple in this notation, not arithmetic exponentiation; standard letters retain ordinary text semantics.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 102.85714285714286
+    },
+    {
+      "id": "triseptile",
+      "semantic_id": "aspect.triseptile",
+      "name": "Triseptile",
+      "category": "native-default-proposal",
+      "display_label": "S³",
+      "meaning": "Zodiacal aspect with exact native nominal angle 1080 / 7 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "1080 / 7",
+      "native_abbreviation": "tS",
+      "native_label": "tS",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0053",
+          "U+00B3"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S",
+          "SUPERSCRIPT THREE"
+        ],
+        "text": "S³",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(-65 0)\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"58\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M735 190 C810 125 920 170 895 245 C885 280 835 295 800 295 C845 295 920 320 895 390 C875 455 780 465 730 420\"/></g></g>",
+      "note": "Raised figures denote the named multiple in this notation, not arithmetic exponentiation; standard letters retain ordinary text semantics.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 154.28571428571428
+    },
+    {
+      "id": "novile",
+      "semantic_id": "aspect.novile",
+      "name": "Novile",
+      "category": "native-default-proposal",
+      "display_label": "N",
+      "meaning": "Zodiacal aspect with exact native nominal angle 40 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "40",
+      "native_abbreviation": "N",
+      "native_label": "N",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+004E"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER N"
+        ],
+        "text": "N",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M260 810 V190 L740 810 V190\"/></g>",
+      "note": "Original letterform in a documented aspect-label convention; no ASCII-to-aspect remapping.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 40.0
+    },
+    {
+      "id": "binovile",
+      "semantic_id": "aspect.binovile",
+      "name": "Binovile",
+      "category": "native-default-proposal",
+      "display_label": "N²",
+      "meaning": "Zodiacal aspect with exact native nominal angle 80 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "80",
+      "native_abbreviation": "bN",
+      "native_label": "bN",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+004E",
+          "U+00B2"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER N",
+          "SUPERSCRIPT TWO"
+        ],
+        "text": "N²",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 V190 L620 810 V190\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"58\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M730 235 C730 135 900 135 900 235 C900 300 760 355 730 435 H905\"/></g></g>",
+      "note": "Raised figures denote the named multiple in this notation, not arithmetic exponentiation; standard letters retain ordinary text semantics.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 80.0
+    },
+    {
+      "id": "quadnovile",
+      "semantic_id": "aspect.quadnovile",
+      "name": "Quadnovile",
+      "category": "native-default-proposal",
+      "display_label": "N⁴",
+      "meaning": "Zodiacal aspect with exact native nominal angle 160 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "160",
+      "native_abbreviation": "qN",
+      "native_label": "qN",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+004E",
+          "U+2074"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER N",
+          "SUPERSCRIPT FOUR"
+        ],
+        "text": "N⁴",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 V190 L620 810 V190\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"58\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M865 160 L730 350 H915 M865 160 V440\"/></g></g>",
+      "note": "Raised figures denote the named multiple in this notation, not arithmetic exponentiation; standard letters retain ordinary text semantics.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 160.0
+    },
+    {
+      "id": "decile",
+      "semantic_id": "aspect.decile",
+      "name": "Decile",
+      "category": "native-default-proposal",
+      "display_label": "D",
+      "meaning": "Zodiacal aspect with exact native nominal angle 36 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "36",
+      "native_abbreviation": "⊼",
+      "native_label": "⊼",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0044"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER D"
+        ],
+        "text": "D",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g>",
+      "note": "Original letterform in a documented aspect-label convention; no ASCII-to-aspect remapping.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 36.0
+    },
+    {
+      "id": "tredecile",
+      "semantic_id": "aspect.tredecile",
+      "name": "Tredecile",
+      "category": "native-default-proposal",
+      "display_label": "D³",
+      "meaning": "Zodiacal aspect with exact native nominal angle 108 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "108",
+      "native_abbreviation": "Td",
+      "native_label": "Td",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0044",
+          "U+00B3"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER D",
+          "SUPERSCRIPT THREE"
+        ],
+        "text": "D³",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M210 200 V810 H350 C760 810 760 200 350 200 Z\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"58\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M735 190 C810 125 920 170 895 245 C885 280 835 295 800 295 C845 295 920 320 895 390 C875 455 780 465 730 420\"/></g></g>",
+      "note": "Raised figures denote the named multiple in this notation, not arithmetic exponentiation; standard letters retain ordinary text semantics.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 108.0
+    },
+    {
+      "id": "undecile",
+      "semantic_id": "aspect.undecile",
+      "name": "Undecile",
+      "category": "native-default-proposal",
+      "display_label": "U",
+      "meaning": "Zodiacal aspect with exact native nominal angle 360 / 11 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "360 / 11",
+      "native_abbreviation": "U",
+      "native_label": "U",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0055"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER U"
+        ],
+        "text": "U",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M255 200 V580 C255 890 745 890 745 580 V200\"/></g>",
+      "note": "Original letterform in a documented aspect-label convention; no ASCII-to-aspect remapping.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 32.72727272727273
+    },
+    {
+      "id": "quindecile",
+      "semantic_id": "aspect.quindecile",
+      "name": "Quindecile",
+      "category": "native-default-proposal",
+      "display_label": "Qd",
+      "meaning": "Zodiacal aspect with exact native nominal angle 24 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "24",
+      "native_abbreviation": "Qd",
+      "native_label": "Qd",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0051",
+          "U+0064"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER Q",
+          "LATIN SMALL LETTER D"
+        ],
+        "text": "Qd",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"330\" cy=\"495\" rx=\"180\" ry=\"295\"/><path d=\"M445 660 L610 835\"/><ellipse cx=\"735\" cy=\"625\" rx=\"100\" ry=\"130\"/><path d=\"M835 330 V755\"/></g>",
+      "note": "Native 24-degree identity. Qd is sourced to Moira, not asserted as a universal glyph. Never substitute the separate 165-degree convention.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 24.0
+    },
+    {
+      "id": "vigintile",
+      "semantic_id": "aspect.vigintile",
+      "name": "Vigintile",
+      "category": "native-default-proposal",
+      "display_label": "V",
+      "meaning": "Zodiacal aspect with exact native nominal angle 18 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "18",
+      "native_abbreviation": "V",
+      "native_label": "V",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "ordinary_text_sequence_not_dedicated_aspect_assignment",
+        "codepoints": [
+          "U+0056"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER V"
+        ],
+        "text": "V",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira",
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g>",
+      "note": "Original letterform in a documented aspect-label convention; no ASCII-to-aspect remapping.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 18.0
+    },
+    {
+      "id": "parallel",
+      "semantic_id": "aspect.parallel",
+      "name": "Parallel",
+      "category": "native-default-proposal",
+      "display_label": "Parallel",
+      "meaning": "Declination relationship at equal signed declination within a declared tolerance; not a zodiacal longitude angle.",
+      "angle_exact_degrees": null,
+      "native_abbreviation": null,
+      "native_label": "Parallel",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "contextual_astrological_use_of_existing_character",
+        "codepoints": [
+          "U+2225"
+        ],
+        "unicode_names": [
+          "PARALLEL TO"
+        ],
+        "text": "∥",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira-declination",
+        "faulks-letter",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M345 200 V810 M655 200 V810\"/></g>",
+      "note": "Contextual use of PARALLEL TO for equal signed declinations; not a fixed zodiacal longitude angle.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines."
+    },
+    {
+      "id": "contra-parallel",
+      "semantic_id": "aspect.contra-parallel",
+      "name": "Contra-parallel",
+      "category": "native-default-proposal",
+      "display_label": "Contra-parallel",
+      "meaning": "Declination relationship at equal magnitude and opposite sign within a declared tolerance; not a zodiacal longitude angle.",
+      "angle_exact_degrees": null,
+      "native_abbreviation": null,
+      "native_label": "Contra-Parallel",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "contextual_astrological_use_of_existing_character",
+        "codepoints": [
+          "U+2226"
+        ],
+        "unicode_names": [
+          "NOT PARALLEL TO"
+        ],
+        "text": "∦",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "moira-declination",
+        "faulks-letter",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M345 200 V810 M655 200 V810 M200 760 L800 250\"/></g>",
+      "note": "Contextual use of NOT PARALLEL TO; the mathematical name is not a computational definition of the astrological relation. A grid-form alternative is also shown.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines."
+    },
+    {
+      "id": "russian-vigintile",
+      "semantic_id": "aspect.vigintile",
+      "name": "Vigintile",
+      "category": "russian-convention",
+      "display_label": "Russian convention",
+      "meaning": "Zodiacal aspect with exact native nominal angle 18 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "18",
+      "native_abbreviation": "V",
+      "native_label": "V",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "assigned_regional_identity",
+        "codepoints": [
+          "U+2BF3"
+        ],
+        "unicode_names": [
+          "RUSSIAN ASTROLOGICAL SYMBOL VIGINTILE"
+        ],
+        "text": "⯳",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "faulks2016",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 210 H770 V585 H230 Z M500 585 L300 800 M500 585 L700 800\"/></g>",
+      "note": "Convention-specific alternate for the same angle; not imposed as the universal default.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 18.0
+    },
+    {
+      "id": "russian-novile",
+      "semantic_id": "aspect.novile",
+      "name": "Novile",
+      "category": "russian-convention",
+      "display_label": "Russian convention",
+      "meaning": "Zodiacal aspect with exact native nominal angle 40 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "40",
+      "native_abbreviation": "N",
+      "native_label": "N",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "assigned_regional_identity",
+        "codepoints": [
+          "U+2BF4"
+        ],
+        "unicode_names": [
+          "RUSSIAN ASTROLOGICAL SYMBOL NOVILE"
+        ],
+        "text": "⯴",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "faulks2016",
+        "ucd17"
+      ],
+      "source_stroke": 56,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M240 200 H760 L500 800 Z M240 800 H760 L500 200 Z\"/></g>",
+      "note": "Convention-specific alternate for the same angle; not imposed as the universal default.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 40.0
+    },
+    {
+      "id": "russian-quintile",
+      "semantic_id": "aspect.quintile",
+      "name": "Quintile",
+      "category": "russian-convention",
+      "display_label": "Russian convention",
+      "meaning": "Zodiacal aspect with exact native nominal angle 72 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "72",
+      "native_abbreviation": "Q",
+      "native_label": "Q",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "assigned_regional_identity",
+        "codepoints": [
+          "U+2BF5"
+        ],
+        "unicode_names": [
+          "RUSSIAN ASTROLOGICAL SYMBOL QUINTILE"
+        ],
+        "text": "⯵",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "faulks2016",
+        "ucd17"
+      ],
+      "source_stroke": 56,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M210 200 L500 800 790 200 M210 800 L500 200 790 800\"/></g>",
+      "note": "Convention-specific alternate for the same angle; not imposed as the universal default.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 72.0
+    },
+    {
+      "id": "russian-binovile",
+      "semantic_id": "aspect.binovile",
+      "name": "Binovile",
+      "category": "russian-convention",
+      "display_label": "Russian convention",
+      "meaning": "Zodiacal aspect with exact native nominal angle 80 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "80",
+      "native_abbreviation": "bN",
+      "native_label": "bN",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "assigned_regional_identity",
+        "codepoints": [
+          "U+2BF6"
+        ],
+        "unicode_names": [
+          "RUSSIAN ASTROLOGICAL SYMBOL BINOVILE"
+        ],
+        "text": "⯶",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "faulks2016",
+        "ucd17"
+      ],
+      "source_stroke": 56,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"56\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 200 H770 V610 H230 Z M500 200 V800 M320 800 H680\"/></g>",
+      "note": "Convention-specific alternate for the same angle; not imposed as the universal default.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 80.0
+    },
+    {
+      "id": "russian-sentagon-russian",
+      "semantic_id": "aspect.sentagon-russian",
+      "name": "Sentagon / Russian 100-degree aspect",
+      "category": "russian-convention",
+      "display_label": "Russian convention",
+      "meaning": "Separately identified aspect convention with nominal angle 100 degrees; it does not change Moira's existing aspect definitions.",
+      "angle_exact_degrees": "100",
+      "native_abbreviation": null,
+      "native_label": null,
+      "native_concept": false,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "assigned_regional_identity",
+        "codepoints": [
+          "U+2BF7"
+        ],
+        "unicode_names": [
+          "RUSSIAN ASTROLOGICAL SYMBOL SENTAGON"
+        ],
+        "text": "⯷",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "faulks2016",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 200 L770 800 H230 L770 200\"/></g>",
+      "note": "Separate regional encoded character; keep its assigned mapping. Sentagon at 100 degrees is comparison-only and is not a new native aspect.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 100.0
+    },
+    {
+      "id": "russian-tredecile",
+      "semantic_id": "aspect.tredecile",
+      "name": "Tredecile",
+      "category": "russian-convention",
+      "display_label": "Russian convention",
+      "meaning": "Zodiacal aspect with exact native nominal angle 108 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "108",
+      "native_abbreviation": "Td",
+      "native_label": "Td",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "assigned_regional_identity",
+        "codepoints": [
+          "U+2BF8"
+        ],
+        "unicode_names": [
+          "RUSSIAN ASTROLOGICAL SYMBOL TREDECILE"
+        ],
+        "text": "⯸",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "faulks2016",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 200 V800 M220 455 H780 M500 455 L235 770 M500 455 L765 770\"/></g>",
+      "note": "Convention-specific alternate for the same angle; not imposed as the universal default.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 108.0
+    },
+    {
+      "id": "quintile-pentagon",
+      "semantic_id": "aspect.quintile",
+      "name": "Quintile",
+      "category": "additional-form",
+      "display_label": "Pentagon convention",
+      "meaning": "Zodiacal aspect with exact native nominal angle 72 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "72",
+      "native_abbreviation": "Q",
+      "native_label": "Q",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "contextual_astrological_use_of_existing_character",
+        "codepoints": [
+          "U+2B20"
+        ],
+        "unicode_names": [
+          "WHITE PENTAGON"
+        ],
+        "text": "⬠",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 160 L825 400 700 800 H300 L175 400 Z\"/></g>",
+      "note": "Contextual WHITE PENTAGON candidate; not a dedicated astrological assignment.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 72.0
+    },
+    {
+      "id": "biquintile-plus-minus",
+      "semantic_id": "aspect.biquintile",
+      "name": "Biquintile",
+      "category": "additional-form",
+      "display_label": "Plus-over-minus convention",
+      "meaning": "Zodiacal aspect with exact native nominal angle 144 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "144",
+      "native_abbreviation": "bQ",
+      "native_label": "bQ",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "contextual_astrological_use_of_existing_character",
+        "codepoints": [
+          "U+00B1"
+        ],
+        "unicode_names": [
+          "PLUS-MINUS SIGN"
+        ],
+        "text": "±",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "suignard2017",
+        "astrolog-aspects",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 180 V580 M235 380 H765 M235 800 H765\"/></g>",
+      "note": "Contextual PLUS-MINUS SIGN use for biquintile; do not globally change ordinary mathematical plus-minus text.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 144.0
+    },
+    {
+      "id": "decile-up-tack",
+      "semantic_id": "aspect.decile",
+      "name": "Decile",
+      "category": "additional-form",
+      "display_label": "Up-tack convention",
+      "meaning": "Zodiacal aspect with exact native nominal angle 36 degrees; orb and motion policy remain outside the font.",
+      "angle_exact_degrees": "36",
+      "native_abbreviation": "⊼",
+      "native_label": "⊼",
+      "native_concept": true,
+      "mapping": {
+        "status": "planned_text_or_contextual_use",
+        "relation": "contextual_astrological_use_of_existing_character",
+        "codepoints": [
+          "U+22A5"
+        ],
+        "unicode_names": [
+          "UP TACK"
+        ],
+        "text": "⊥",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "suignard2017",
+        "ucd17"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 200 V800 M210 800 H790\"/></g>",
+      "note": "U+22A5 UP TACK is a documented contextual candidate, distinct from Moira's existing U+22BC NAND label. No native label is changed.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines.",
+      "angle_approx_degrees": 36.0
+    },
+    {
+      "id": "contra-parallel-grid",
+      "semantic_id": "aspect.contra-parallel",
+      "name": "Contra-parallel",
+      "category": "additional-form",
+      "display_label": "Grid convention",
+      "meaning": "Declination relationship at equal magnitude and opposite sign within a declared tolerance; not a zodiacal longitude angle.",
+      "angle_exact_degrees": null,
+      "native_abbreviation": null,
+      "native_label": "Contra-Parallel",
+      "native_concept": true,
+      "mapping": {
+        "status": "unresolved",
+        "relation": "no_mapping_selected",
+        "codepoints": [],
+        "unicode_names": [],
+        "text": null,
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "sources": [
+        "astrolog-manual"
+      ],
+      "source_stroke": 60,
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M345 200 V810 M655 200 V810 M200 355 H800 M200 655 H800\"/></g>",
+      "note": "Attested grid structure; no dedicated mapping selected and no alias to NUMBER SIGN or box-drawing characters is allocated.",
+      "status": "original_design_proposal_pending_owner_review",
+      "provenance": "New Moira coordinates; source structures consulted visually; no imported, extracted or traced font outlines."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-23",
+  "scope": "Seven extended centaurs; ten original studies",
+  "status": "awaiting_owner_visual_feedback",
+  "primary_candidates": [
+    "chariklo",
+    "asbolus",
+    "hylonome",
+    "thereus",
+    "bienor",
+    "elatus",
+    "cyllarus"
+  ],
+  "alternatives": [
+    "hylonome-alternate",
+    "elatus-alternate",
+    "thereus-alternate"
+  ],
+  "font_integrated": false,
+  "pua_allocations": 0,
+  "feature_slots": null,
+  "all_body_mappings_unresolved": true,
+  "prior_irene_lyre_revision_sha256": "10e9213c4f7093e2e77c8b43d98e3382cb4f2a542de17ba2bbc314142de7d185",
+  "carried_choices": {
+    "minor_aspects": "letter family default with alternatives",
+    "spirit_default": "circled S",
+    "spirit_alternate": "circled vertical bar",
+    "zero_default": "unslashed",
+    "zero_alternate": "slashed"
+  },
+  "remaining_p3_small_bodies": [
+    "smallbody.varuna",
+    "smallbody.ixion",
+    "smallbody.salacia",
+    "smallbody.varda",
+    "smallbody.lilith",
+    "smallbody.cupido",
+    "smallbody.eros",
+    "smallbody.nemesis"
+  ]
+}

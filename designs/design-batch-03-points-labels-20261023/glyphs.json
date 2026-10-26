@@ -1,0 +1,1059 @@
+{
+  "project": "Moira Astro",
+  "version": "design-batch-03-draft-01",
+  "date": "2026-10-23",
+  "form_studies": 26,
+  "default_proposals": 17,
+  "semantic_concepts": 17,
+  "letter_components_reused_read_only": [
+    "S",
+    "D",
+    "V"
+  ],
+  "unicode_version": "17.0.0",
+  "pua_allocations": 0,
+  "font_integration": false,
+  "actual_font_rendering": false,
+  "forms": [
+    {
+      "id": "lilith",
+      "semantic_id": "point.lilith.apogee",
+      "name": "Black Moon Lilith, model-qualified",
+      "display_label": "Lilith",
+      "group": "Points and lots",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Lunar-apogee point convention; consuming data must identify mean or osculating model. Not asteroid (1181) Lilith or a hypothetical second moon.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+26B8"
+        ],
+        "unicode_names": [
+          "BLACK MOON LILITH"
+        ],
+        "text": "⚸",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Black Moon Lilith, model-qualified",
+      "drawing": "<path d=\"M660 165 C425 130 250 250 250 405 C250 560 425 680 660 645 C460 555 460 255 660 165 Z\" fill=\"currentColor\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M450 605 V850 M305 750 H595\"/></g>",
+      "preview_drawing": null,
+      "proof_advance_units": 1000,
+      "sources": [
+        "unicode17",
+        "faulks2016",
+        "native-nodes"
+      ],
+      "note": "Same mark for mean/osculating usage; keep the model in data and a readable label. Not asteroid (1181) Lilith or a second moon.",
+      "subtitle": "Generic lunar-apogee mark",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "fortune",
+      "semantic_id": "lot.fortune",
+      "name": "Lot of Fortune",
+      "display_label": "Fortune",
+      "group": "Points and lots",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Named derived lot family Fortune; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1F774"
+        ],
+        "unicode_names": [
+          "LOT OF FORTUNE"
+        ],
+        "text": "🝴",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Lot of Fortune",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"285\"/><path d=\"M298 298 L702 702 M298 702 L702 298\"/></g>",
+      "preview_drawing": null,
+      "proof_advance_units": 1000,
+      "sources": [
+        "unicode17",
+        "miller2022",
+        "native-lots"
+      ],
+      "note": "Use the dedicated Fortune assignment in a future build. Legacy CIRCLED TIMES usage is recorded as a mapping alternative, not a different drawing.",
+      "subtitle": "Dedicated Lot of Fortune identity",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false,
+      "legacy_mapping_option": {
+        "status": "candidate_for_future_font",
+        "relation": "legacy_contextual_circled_times_substitute",
+        "codepoints": [
+          "U+2297"
+        ],
+        "unicode_names": [
+          "CIRCLED TIMES"
+        ],
+        "text": "⊗",
+        "pua_assignment": null,
+        "font_implemented": false
+      }
+    },
+    {
+      "id": "spirit",
+      "semantic_id": "lot.spirit",
+      "name": "Lot of Spirit",
+      "display_label": "Spirit",
+      "group": "Points and lots",
+      "category": "default-proposal",
+      "kind": "symbol",
+      "meaning": "Named derived lot family Spirit; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "proposed_contextual_use_of_circled_latin_S_not_dedicated_spirit_assignment",
+        "codepoints": [
+          "U+24C8"
+        ],
+        "unicode_names": [
+          "CIRCLED LATIN CAPITAL LETTER S"
+        ],
+        "text": "Ⓢ",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Spirit",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"290\"/></g><g transform=\"translate(500 500) scale(.55) translate(-500 -500)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"110\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g>",
+      "preview_drawing": null,
+      "proof_advance_units": 1000,
+      "sources": [
+        "miller2022",
+        "unicode17",
+        "native-lots"
+      ],
+      "note": "U+24C8 is a general circled Latin letter. This proposed Spirit convention needs owner review; preserve the semantic lot identity and the text fallback Spirit, including through compatibility normalization.",
+      "subtitle": "Circled-S proposal",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "lilith-diamond",
+      "semantic_id": "point.lilith.apogee",
+      "name": "Black Moon Lilith, model-qualified",
+      "display_label": "Lilith: diamond convention",
+      "group": "Points and lots",
+      "category": "model-convention-study",
+      "kind": "symbol",
+      "meaning": "Lunar-apogee point convention; consuming data must identify mean or osculating model. Not asteroid (1181) Lilith or a hypothetical second moon.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "model_convention_candidate_not_style_model_selector",
+        "codepoints": [
+          "U+2BDE"
+        ],
+        "unicode_names": [
+          "BLACK DIAMOND ON CROSS"
+        ],
+        "text": "⯞",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Black Moon Lilith, model-qualified",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 600 V850 M345 750 H655\"/></g><path d=\"M500 160 L735 395 500 630 265 395 Z\" fill=\"currentColor\"/>",
+      "preview_drawing": null,
+      "proof_advance_units": 1000,
+      "sources": [
+        "unicode17",
+        "faulks2016",
+        "native-nodes"
+      ],
+      "note": "Unicode annotates true Black Moon use, but does not define Moira's reduction. Never switch mean/osculating data with an appearance feature.",
+      "subtitle": "Model compatibility review required",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "spirit-vertical",
+      "semantic_id": "lot.spirit",
+      "name": "Lot of Spirit",
+      "display_label": "Spirit: vertical-bar convention",
+      "group": "Points and lots",
+      "category": "alternate-study",
+      "kind": "symbol",
+      "meaning": "Named derived lot family Spirit; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "contextual_geometric_use_not_dedicated_spirit_assignment",
+        "codepoints": [
+          "U+29B6"
+        ],
+        "unicode_names": [
+          "CIRCLED VERTICAL BAR"
+        ],
+        "text": "⦶",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Spirit",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"290\"/><path d=\"M500 230 V770\"/></g>",
+      "preview_drawing": null,
+      "proof_advance_units": 1000,
+      "sources": [
+        "unicode17",
+        "miller2022"
+      ],
+      "note": "General CIRCLED VERTICAL BAR character; an attested alternative convention, not a universal Spirit sign.",
+      "subtitle": "Circled vertical bar",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "spirit-text",
+      "semantic_id": "lot.spirit",
+      "name": "Lot of Spirit",
+      "display_label": "Spirit: readable label",
+      "group": "Points and lots",
+      "category": "alternate-study",
+      "kind": "label_sequence",
+      "meaning": "Named derived lot family Spirit; the source-specific formula, projector, day/night reversal and arc policy must accompany its identity.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0053",
+          "U+0070",
+          "U+0069",
+          "U+0072",
+          "U+0069",
+          "U+0074"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S",
+          "LATIN SMALL LETTER P",
+          "LATIN SMALL LETTER I",
+          "LATIN SMALL LETTER R",
+          "LATIN SMALL LETTER I",
+          "LATIN SMALL LETTER T"
+        ],
+        "text": "Spirit",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Spirit",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M285 420 V920 M285 500 C405 315 725 395 725 615 C725 845 410 900 285 720\"/></g></g></g><g transform=\"translate(1400 0)\"><g transform=\"translate(-370 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 425 V810\"/><circle cx=\"500\" cy=\"245\" r=\"36\" fill=\"currentColor\" stroke=\"none\"/></g></g></g><g transform=\"translate(1700 0)\"><g transform=\"translate(-275 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M320 810 V420 M320 555 C380 405 500 355 650 440\"/></g></g></g><g transform=\"translate(2190 0)\"><g transform=\"translate(-370 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 425 V810\"/><circle cx=\"500\" cy=\"245\" r=\"36\" fill=\"currentColor\" stroke=\"none\"/></g></g></g><g transform=\"translate(2490 0)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M470 220 V680 Q470 855 650 775 M335 425 H655\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(1050 500) scale(1.08) translate(-310 -500)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M285 420 V920 M285 500 C405 315 725 395 725 615 C725 845 410 900 285 720\"/></g></g></g><g transform=\"translate(1530 500) scale(1.08) translate(-130 -500)\"><g transform=\"translate(-370 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 425 V810\"/><circle cx=\"500\" cy=\"245\" r=\"36\" fill=\"currentColor\" stroke=\"none\"/></g></g></g><g transform=\"translate(1925 500) scale(1.08) translate(-225 -500)\"><g transform=\"translate(-275 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M320 810 V420 M320 555 C380 405 500 355 650 440\"/></g></g></g><g transform=\"translate(2320 500) scale(1.08) translate(-130 -500)\"><g transform=\"translate(-370 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 425 V810\"/><circle cx=\"500\" cy=\"245\" r=\"36\" fill=\"currentColor\" stroke=\"none\"/></g></g></g><g transform=\"translate(2705 500) scale(1.08) translate(-215 -500)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M470 220 V680 Q470 855 650 775 M335 425 H655\"/></g></g></g>",
+      "proof_advance_units": 2920,
+      "sources": [
+        "inventory",
+        "miller2022"
+      ],
+      "note": "Natural-width letters. A fallback/accessibility label is retained even if an icon is selected.",
+      "subtitle": "Ordinary text fallback",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "angle-asc",
+      "semantic_id": "angle.asc",
+      "name": "Ascendant",
+      "display_label": "Ascendant",
+      "group": "Angle labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Eastern rising ecliptic/horizon intersection for the declared observer and house policy.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0041",
+          "U+0053",
+          "U+0043"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER A",
+          "LATIN CAPITAL LETTER S",
+          "LATIN CAPITAL LETTER C"
+        ],
+        "text": "ASC",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "ASC",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 L500 190 780 810 M330 570 H670\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(1480 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 L500 190 780 810 M330 570 H670\"/></g></g></g><g transform=\"translate(1090 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(1830 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g>",
+      "proof_advance_units": 2180,
+      "sources": [
+        "inventory",
+        "native-houses"
+      ],
+      "note": "Ordinary Latin text sequence, not a dedicated angle-symbol scalar. Point/branch/house policy remains data.",
+      "subtitle": "Rising ecliptic/horizon point",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "angle-dsc",
+      "semantic_id": "angle.dsc",
+      "name": "Descendant",
+      "display_label": "Descendant",
+      "group": "Angle labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Point opposite the declared Ascendant.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0044",
+          "U+0053",
+          "U+0043"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER D",
+          "LATIN CAPITAL LETTER S",
+          "LATIN CAPITAL LETTER C"
+        ],
+        "text": "DSC",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "DSC",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(1480 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g></g></g><g transform=\"translate(1090 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(1830 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g>",
+      "proof_advance_units": 2180,
+      "sources": [
+        "inventory",
+        "native-houses"
+      ],
+      "note": "Ordinary Latin text sequence, not a dedicated angle-symbol scalar. Point/branch/house policy remains data.",
+      "subtitle": "Opposite the declared Ascendant",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "angle-mc",
+      "semantic_id": "angle.mc",
+      "name": "Midheaven",
+      "display_label": "Midheaven",
+      "group": "Angle labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Declared upper-meridian/ecliptic intersection; not automatically the tenth-house cusp in every system.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+004D",
+          "U+0043"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER M",
+          "LATIN CAPITAL LETTER C"
+        ],
+        "text": "MC",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "MC",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-75 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M180 810 V190 L500 595 820 190 V810\"/></g></g></g><g transform=\"translate(890 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(425 500) scale(1.08) translate(-425 -500)\"><g transform=\"translate(-75 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M180 810 V190 L500 595 820 190 V810\"/></g></g></g><g transform=\"translate(1240 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g>",
+      "proof_advance_units": 1590,
+      "sources": [
+        "inventory",
+        "native-houses"
+      ],
+      "note": "Ordinary Latin text sequence, not a dedicated angle-symbol scalar. Point/branch/house policy remains data.",
+      "subtitle": "Declared meridian/ecliptic point",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "angle-ic",
+      "semantic_id": "angle.ic",
+      "name": "Imum Coeli",
+      "display_label": "Imum Coeli",
+      "group": "Angle labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Point opposite the declared Midheaven; not automatically the fourth-house cusp in every system.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0049",
+          "U+0043"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER I",
+          "LATIN CAPITAL LETTER C"
+        ],
+        "text": "IC",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "IC",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M340 200 H660 M500 200 V810 M340 810 H660\"/></g></g></g><g transform=\"translate(470 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(215 500) scale(1.08) translate(-215 -500)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M340 200 H660 M500 200 V810 M340 810 H660\"/></g></g></g><g transform=\"translate(820 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 285 C680 165 430 150 305 315 C180 480 225 715 400 790 C530 845 690 805 770 705\"/></g></g></g>",
+      "proof_advance_units": 1170,
+      "sources": [
+        "inventory",
+        "native-houses"
+      ],
+      "note": "Ordinary Latin text sequence, not a dedicated angle-symbol scalar. Point/branch/house policy remains data.",
+      "subtitle": "Opposite the declared Midheaven",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "angle-vertex",
+      "semantic_id": "angle.vertex",
+      "name": "Vertex",
+      "display_label": "Vertex",
+      "group": "Angle labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Western intersection of the prime vertical with the ecliptic; preserve the admitted branch/polar policy.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0056",
+          "U+0058"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER V",
+          "LATIN CAPITAL LETTER X"
+        ],
+        "text": "VX",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "VX",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M240 200 L760 810 M240 810 L760 200\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(1090 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M240 200 L760 810 M240 810 L760 200\"/></g></g></g>",
+      "proof_advance_units": 1440,
+      "sources": [
+        "inventory",
+        "native-houses"
+      ],
+      "note": "Ordinary Latin text sequence, not a dedicated angle-symbol scalar. Point/branch/house policy remains data.",
+      "subtitle": "Western prime-vertical intersection",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "angle-anti-vertex",
+      "semantic_id": "angle.anti-vertex",
+      "name": "Anti-Vertex",
+      "display_label": "Anti-Vertex",
+      "group": "Angle labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Point opposite the declared Vertex.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0041",
+          "U+0056",
+          "U+0058"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER A",
+          "LATIN CAPITAL LETTER V",
+          "LATIN CAPITAL LETTER X"
+        ],
+        "text": "AVX",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "AVX",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 L500 190 780 810 M330 570 H670\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(1480 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M240 200 L760 810 M240 810 L760 200\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 L500 190 780 810 M330 570 H670\"/></g></g></g><g transform=\"translate(1090 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(1830 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M240 200 L760 810 M240 810 L760 200\"/></g></g></g>",
+      "proof_advance_units": 2180,
+      "sources": [
+        "inventory",
+        "native-houses"
+      ],
+      "note": "Ordinary Latin text sequence, not a dedicated angle-symbol scalar. Point/branch/house policy remains data.",
+      "subtitle": "Opposite the declared Vertex",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "angle-vertex-mixed",
+      "semantic_id": "angle.vertex",
+      "name": "Vertex",
+      "display_label": "Vertex: Vx",
+      "group": "Angle labels",
+      "category": "alternate-study",
+      "kind": "label_sequence",
+      "meaning": "Western intersection of the prime vertical with the ecliptic; preserve the admitted branch/polar policy.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0056",
+          "U+0078"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER V",
+          "LATIN SMALL LETTER X"
+        ],
+        "text": "Vx",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Vx",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(1015 500) scale(1.08) translate(-275 -500)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g>",
+      "proof_advance_units": 1290,
+      "sources": [
+        "astrolog-manual",
+        "inventory"
+      ],
+      "note": "Vx is documented by Astrolog. AVx is a Moira case-pair proposal derived from the planned AVX label, not claimed as a universal historical abbreviation.",
+      "subtitle": "Mixed-case label study",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "angle-anti-vertex-mixed",
+      "semantic_id": "angle.anti-vertex",
+      "name": "Anti-Vertex",
+      "display_label": "Anti-Vertex: AVx",
+      "group": "Angle labels",
+      "category": "alternate-study",
+      "kind": "label_sequence",
+      "meaning": "Point opposite the declared Vertex.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0041",
+          "U+0056",
+          "U+0078"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER A",
+          "LATIN CAPITAL LETTER V",
+          "LATIN SMALL LETTER X"
+        ],
+        "text": "AVx",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "AVx",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 L500 190 780 810 M330 570 H670\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(1480 0)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 L500 190 780 810 M330 570 H670\"/></g></g></g><g transform=\"translate(1090 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 200 L500 820 780 200\"/></g></g></g><g transform=\"translate(1755 500) scale(1.08) translate(-275 -500)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g>",
+      "proof_advance_units": 2030,
+      "sources": [
+        "astrolog-manual",
+        "inventory"
+      ],
+      "note": "Vx is documented by Astrolog. AVx is a Moira case-pair proposal derived from the planned AVX label, not claimed as a universal historical abbreviation.",
+      "subtitle": "Mixed-case label study",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-retrograde",
+      "semantic_id": "motion.retrograde",
+      "name": "Retrograde",
+      "display_label": "Retrograde",
+      "group": "Motion labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Negative longitudinal motion in a stated frame; marker does not choose that frame or a station threshold.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0052",
+          "U+0078"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER R",
+          "LATIN SMALL LETTER X"
+        ],
+        "text": "Rx",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Rx",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810\"/></g></g></g><g transform=\"translate(1015 500) scale(1.08) translate(-275 -500)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g>",
+      "proof_advance_units": 1290,
+      "sources": [
+        "inventory",
+        "native-stations",
+        "starzology"
+      ],
+      "note": "Readable planned marker; neither the label nor a font feature defines a rate threshold, tolerance, frame or event computation.",
+      "subtitle": "Negative longitudinal rate",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-direct",
+      "semantic_id": "motion.direct",
+      "name": "Direct",
+      "display_label": "Direct",
+      "group": "Motion labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Positive longitudinal motion in a stated frame.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0044"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER D"
+        ],
+        "text": "D",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "D",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g></g></g>",
+      "proof_advance_units": 700,
+      "sources": [
+        "inventory",
+        "native-stations"
+      ],
+      "note": "Readable planned marker; neither the label nor a font feature defines a rate threshold, tolerance, frame or event computation.",
+      "subtitle": "Positive longitudinal rate",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-stationary",
+      "semantic_id": "motion.stationary",
+      "name": "Stationary",
+      "display_label": "Stationary",
+      "group": "Motion labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Station state under an explicitly stated rate/event policy.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0053"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S"
+        ],
+        "text": "S",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "S",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g>",
+      "proof_advance_units": 700,
+      "sources": [
+        "inventory",
+        "native-stations",
+        "astrolog-manual"
+      ],
+      "note": "Readable planned marker; neither the label nor a font feature defines a rate threshold, tolerance, frame or event computation.",
+      "subtitle": "State under the declared policy",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-station-r",
+      "semantic_id": "motion.station-r",
+      "name": "Station retrograde",
+      "display_label": "Station retrograde",
+      "group": "Motion labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Named transition into retrograde motion under the event policy.",
+      "source_priority": "P2",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0053",
+          "U+0052"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S",
+          "LATIN CAPITAL LETTER R"
+        ],
+        "text": "SR",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "SR",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(1090 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810\"/></g></g></g>",
+      "proof_advance_units": 1440,
+      "sources": [
+        "inventory",
+        "native-stations"
+      ],
+      "note": "Readable planned marker; neither the label nor a font feature defines a rate threshold, tolerance, frame or event computation.",
+      "subtitle": "Transition into retrograde",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-station-d",
+      "semantic_id": "motion.station-d",
+      "name": "Station direct",
+      "display_label": "Station direct",
+      "group": "Motion labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Named transition into direct motion under the event policy.",
+      "source_priority": "P2",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0053",
+          "U+0044"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S",
+          "LATIN CAPITAL LETTER D"
+        ],
+        "text": "SD",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "SD",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(1090 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g></g></g>",
+      "proof_advance_units": 1440,
+      "sources": [
+        "inventory",
+        "native-stations"
+      ],
+      "note": "Readable planned marker; neither the label nor a font feature defines a rate threshold, tolerance, frame or event computation.",
+      "subtitle": "Transition into direct motion",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-applying",
+      "semantic_id": "motion.applying",
+      "name": "Applying",
+      "display_label": "Applying",
+      "group": "Motion labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Aspect-approach state under the selected event/relative-motion policy.",
+      "source_priority": "P2",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0041"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER A"
+        ],
+        "text": "A",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "A",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 L500 190 780 810 M330 570 H670\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 810 L500 190 780 810 M330 570 H670\"/></g></g></g>",
+      "proof_advance_units": 700,
+      "sources": [
+        "inventory",
+        "native-aspects"
+      ],
+      "note": "Readable planned marker; neither the label nor a font feature defines a rate threshold, tolerance, frame or event computation.",
+      "subtitle": "Approaching the selected aspect",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-separating",
+      "semantic_id": "motion.separating",
+      "name": "Separating",
+      "display_label": "Separating",
+      "group": "Motion labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Aspect-recession state under the selected event/relative-motion policy.",
+      "source_priority": "P2",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0053",
+          "U+0065",
+          "U+0070"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S",
+          "LATIN SMALL LETTER E",
+          "LATIN SMALL LETTER P"
+        ],
+        "text": "Sep",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Sep",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 610 H740 C760 360 330 320 270 560 C205 795 545 905 735 735\"/></g></g></g><g transform=\"translate(1400 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M285 420 V920 M285 500 C405 315 725 395 725 615 C725 845 410 900 285 720\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(1050 500) scale(1.08) translate(-310 -500)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 610 H740 C760 360 330 320 270 560 C205 795 545 905 735 735\"/></g></g></g><g transform=\"translate(1710 500) scale(1.08) translate(-310 -500)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M285 420 V920 M285 500 C405 315 725 395 725 615 C725 845 410 900 285 720\"/></g></g></g>",
+      "proof_advance_units": 2020,
+      "sources": [
+        "inventory",
+        "native-aspects"
+      ],
+      "note": "Readable planned marker; neither the label nor a font feature defines a rate threshold, tolerance, frame or event computation.",
+      "subtitle": "Receding from the selected aspect",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-exact",
+      "semantic_id": "motion.exact",
+      "name": "Exact aspect",
+      "display_label": "Exact aspect",
+      "group": "Motion labels",
+      "category": "default-proposal",
+      "kind": "label_sequence",
+      "meaning": "Exactness state under an explicit aspect/tolerance policy.",
+      "source_priority": "P2",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0045",
+          "U+0078",
+          "U+0061",
+          "U+0063",
+          "U+0074"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER E",
+          "LATIN SMALL LETTER X",
+          "LATIN SMALL LETTER A",
+          "LATIN SMALL LETTER C",
+          "LATIN SMALL LETTER T"
+        ],
+        "text": "Exact",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Exact",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 200 H270 V810 H760 M270 500 H680\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g><g transform=\"translate(1330 0)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M715 470 C580 335 300 395 280 600 C255 850 580 885 715 715 M715 415 V810\"/></g></g></g><g transform=\"translate(1990 0)\"><g transform=\"translate(-210 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M735 465 C605 335 325 385 290 585 C250 825 555 910 735 750\"/></g></g></g><g transform=\"translate(2610 0)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M470 220 V680 Q470 855 650 775 M335 425 H655\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M760 200 H270 V810 H760 M270 500 H680\"/></g></g></g><g transform=\"translate(1015 500) scale(1.08) translate(-275 -500)\"><g transform=\"translate(-225 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M275 410 L725 810 M275 810 L725 410\"/></g></g></g><g transform=\"translate(1640 500) scale(1.08) translate(-310 -500)\"><g transform=\"translate(-180 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M715 470 C580 335 300 395 280 600 C255 850 580 885 715 715 M715 415 V810\"/></g></g></g><g transform=\"translate(2280 500) scale(1.08) translate(-290 -500)\"><g transform=\"translate(-210 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M735 465 C605 335 325 385 290 585 C250 825 555 910 735 750\"/></g></g></g><g transform=\"translate(2825 500) scale(1.08) translate(-215 -500)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M470 220 V680 Q470 855 650 775 M335 425 H655\"/></g></g></g>",
+      "proof_advance_units": 3040,
+      "sources": [
+        "inventory",
+        "native-aspects"
+      ],
+      "note": "Readable planned marker; neither the label nor a font feature defines a rate threshold, tolerance, frame or event computation.",
+      "subtitle": "Exactness under the selected tolerance",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-rx-crossed",
+      "semantic_id": "motion.retrograde",
+      "name": "Retrograde",
+      "display_label": "Retrograde: crossed R",
+      "group": "Motion labels",
+      "category": "alternate-study",
+      "kind": "symbol",
+      "meaning": "Negative longitudinal motion in a stated frame; marker does not choose that frame or a station threshold.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "contextual_prescription_character_candidate_not_dedicated_retrograde_assignment",
+        "codepoints": [
+          "U+211E"
+        ],
+        "unicode_names": [
+          "PRESCRIPTION TAKE"
+        ],
+        "text": "℞",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "Retrograde",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810 M565 800 L805 565\"/></g>",
+      "preview_drawing": null,
+      "proof_advance_units": 1000,
+      "sources": [
+        "unicode17",
+        "inventory"
+      ],
+      "note": "Formally PRESCRIPTION TAKE. This is an explicit contextual alternative to ordinary Rx, not a remapping of every R.",
+      "subtitle": "Contextual prescription-character form",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-r",
+      "semantic_id": "motion.retrograde",
+      "name": "Retrograde",
+      "display_label": "Retrograde: R label",
+      "group": "Motion labels",
+      "category": "alternate-study",
+      "kind": "label_sequence",
+      "meaning": "Negative longitudinal motion in a stated frame; marker does not choose that frame or a station threshold.",
+      "source_priority": "P1",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0052"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER R"
+        ],
+        "text": "R",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "R",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810\"/></g></g></g>",
+      "proof_advance_units": 700,
+      "sources": [
+        "astrolog-manual"
+      ],
+      "note": "",
+      "subtitle": "Ordinary R convention",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-station-r-slash",
+      "semantic_id": "motion.station-r",
+      "name": "Station retrograde",
+      "display_label": "Station retrograde: S/R",
+      "group": "Motion labels",
+      "category": "alternate-study",
+      "kind": "label_sequence",
+      "meaning": "Named transition into retrograde motion under the event policy.",
+      "source_priority": "P2",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0053",
+          "U+002F",
+          "U+0052"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S",
+          "SOLIDUS",
+          "LATIN CAPITAL LETTER R"
+        ],
+        "text": "S/R",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "S/R",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M650 180 L350 820\"/></g></g></g><g transform=\"translate(1210 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(955 500) scale(1.08) translate(-215 -500)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M650 180 L350 820\"/></g></g></g><g transform=\"translate(1560 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 810 V200 H475 C775 200 775 500 475 500 H270 M475 500 L780 810\"/></g></g></g>",
+      "proof_advance_units": 1910,
+      "sources": [
+        "astrolog-manual",
+        "native-stations"
+      ],
+      "note": "",
+      "subtitle": "Slash-separated convention",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    },
+    {
+      "id": "motion-station-d-slash",
+      "semantic_id": "motion.station-d",
+      "name": "Station direct",
+      "display_label": "Station direct: S/D",
+      "group": "Motion labels",
+      "category": "alternate-study",
+      "kind": "label_sequence",
+      "meaning": "Named transition into direct motion under the event policy.",
+      "source_priority": "P2",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "ordinary_text_sequence",
+        "codepoints": [
+          "U+0053",
+          "U+002F",
+          "U+0044"
+        ],
+        "unicode_names": [
+          "LATIN CAPITAL LETTER S",
+          "SOLIDUS",
+          "LATIN CAPITAL LETTER D"
+        ],
+        "text": "S/D",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "plain_text_fallback": "S/D",
+      "drawing": "<g transform=\"translate(0 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(740 0)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M650 180 L350 820\"/></g></g></g><g transform=\"translate(1210 0)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g></g></g>",
+      "preview_drawing": "<g transform=\"translate(350 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M720 260 C635 155 350 155 270 335 C175 530 600 480 690 630 C790 830 430 890 255 740\"/></g></g></g><g transform=\"translate(955 500) scale(1.08) translate(-215 -500)\"><g transform=\"translate(-285 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M650 180 L350 820\"/></g></g></g><g transform=\"translate(1560 500) scale(1.08) translate(-350 -500)\"><g transform=\"translate(-150 0)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"60\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M270 200 V810 H445 C865 810 865 200 445 200 Z\"/></g></g></g>",
+      "proof_advance_units": 1910,
+      "sources": [
+        "astrolog-manual",
+        "native-stations"
+      ],
+      "note": "",
+      "subtitle": "Slash-separated convention",
+      "status": "new_review_proposal_not_owner_approved",
+      "font_integrated": false,
+      "model_selected_by_font": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "semantic_id": "lot.spirit",
+  "owner_feedback": "i really don't like using the word spirit for spirit",
+  "visible_word_form": "removed_from_current_review_options",
+  "supersedes_form_id": "spirit-text",
+  "remaining_proposals": [
+    "spirit",
+    "spirit-vertical"
+  ],
+  "default_proposal": "spirit",
+  "new_symbol_owner_approval": false,
+  "plain_text_name_and_accessibility_label": "Spirit",
+  "prior_packet_modified": false,
+  "font_modified": false
+}

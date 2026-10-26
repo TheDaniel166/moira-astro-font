@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-23",
+  "owner_instruction": "let's use the circled S as the default for Spirit and keep the circled vertical bar as an alternate",
+  "semantic_id": "lot.spirit",
+  "status": "owner_accepted_design_choice",
+  "default_form": "spirit",
+  "alternate_form": "spirit-vertical",
+  "word_shaped_form": "withdrawn",
+  "source_registry_path": "C:\\dev\\outputs\\moira-astro-design-batch-03-points-labels-20261023\\glyphs.json",
+  "source_registry_sha256": "a727f2a4302765a631a88ac85e2635eb44b38c6196a2f1763d2fb5209836012f",
+  "accepted_drawings": [
+    {
+      "id": "spirit",
+      "semantic_id": "lot.spirit",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "proposed_contextual_use_of_circled_latin_S_not_dedicated_spirit_assignment",
+        "codepoints": [
+          "U+24C8"
+        ],
+        "unicode_names": [
+          "CIRCLED LATIN CAPITAL LETTER S"
+        ],
+        "text": "Ⓢ",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "drawing_sha256": "8a68c1bb33d232ae723b9ad77146a93d906a171c53bcc9462a1e6b7332f7c6b2",
+      "geometry_changed": false
+    },
+    {
+      "id": "spirit-vertical",
+      "semantic_id": "lot.spirit",
+      "mapping": {
+        "status": "candidate_for_future_font",
+        "relation": "contextual_geometric_use_not_dedicated_spirit_assignment",
+        "codepoints": [
+          "U+29B6"
+        ],
+        "unicode_names": [
+          "CIRCLED VERTICAL BAR"
+        ],
+        "text": "⦶",
+        "pua_assignment": null,
+        "font_implemented": false
+      },
+      "drawing_sha256": "3823784d139193c143702a38ac8f83164d4cfac8183f488c5a54e460e3d805fb",
+      "geometry_changed": false
+    }
+  ],
+  "font_implemented": false,
+  "pua_allocated": false,
+  "other_batch03_forms_approved_by_this_choice": false,
+  "minor_aspect_letter_default_and_alternates": "previously_accepted_unchanged",
+  "new_batch04_notation_status": "draft_for_owner_review"
+}

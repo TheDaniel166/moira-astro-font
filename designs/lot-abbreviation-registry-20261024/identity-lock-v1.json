@@ -1,0 +1,3486 @@
+{
+  "registry_version": "1.0.0",
+  "source_sha256": "cd092ecfde39f44e09748d2a673991b894b9d12c53f1f3410a8cdd04a30305de",
+  "families": [
+    {
+      "id": "lot.accomplishment",
+      "name": "Accomplishment",
+      "code": "Acc",
+      "record_ids": [
+        "native-lot.accomplishment"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.accusation",
+      "name": "Accusation",
+      "code": "Acs",
+      "record_ids": [
+        "native-lot.accusation-firmicus",
+        "native-lot.accusation-valens"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.activity",
+      "name": "Activity",
+      "code": "Act",
+      "record_ids": [
+        "native-lot.activity-olympiodorus-1",
+        "native-lot.activity-olympiodorus-2",
+        "native-lot.activity-rhetorius"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.adultery",
+      "name": "Adultery",
+      "code": "Adl",
+      "record_ids": [
+        "native-lot.adultery-1",
+        "native-lot.adultery-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.advancement",
+      "name": "Advancement",
+      "code": "Adv",
+      "record_ids": [
+        "native-lot.advancement"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.agriculture",
+      "name": "Agriculture",
+      "code": "Agr",
+      "record_ids": [
+        "native-lot.agriculture"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.air-and-wind",
+      "name": "Air and Wind",
+      "code": "Aiw",
+      "record_ids": [
+        "native-lot.air-and-wind",
+        "native-lot.air-and-wind-mercury-in-virgo",
+        "native-lot.air-and-wind-mercury-in-gemini"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.allegiance",
+      "name": "Allegiance",
+      "code": "Alg",
+      "record_ids": [
+        "native-lot.allegiance"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.animals",
+      "name": "Animals",
+      "code": "Ani",
+      "record_ids": [
+        "native-lot.animals"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.appreciation",
+      "name": "Appreciation",
+      "code": "App",
+      "record_ids": [
+        "native-lot.appreciation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.apricots",
+      "name": "Apricots",
+      "code": "Apr",
+      "record_ids": [
+        "native-lot.apricots"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.aptness-aloofness",
+      "name": "Aptness, Aloofness",
+      "code": "Aal",
+      "record_ids": [
+        "native-lot.aptness-aloofness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.art",
+      "name": "Art",
+      "code": "Art",
+      "record_ids": [
+        "native-lot.art"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.assassination",
+      "name": "Assassination",
+      "code": "Asn",
+      "record_ids": [
+        "native-lot.assassination",
+        "native-lot.assassination-igj"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.association",
+      "name": "Association",
+      "code": "Asoc",
+      "record_ids": [
+        "native-lot.association-1",
+        "native-lot.association-2",
+        "native-lot.association-3"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.astrology",
+      "name": "Astrology",
+      "code": "Ast",
+      "record_ids": [
+        "native-lot.astrology"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.authority",
+      "name": "Authority",
+      "code": "Aut",
+      "record_ids": [
+        "native-lot.authority"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.authority-and-work",
+      "name": "Authority & Work",
+      "code": "Atw",
+      "record_ids": [
+        "native-lot.authority-work"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.authority-aid-and-conquering",
+      "name": "Authority, Aid & Conquering",
+      "code": "Aac",
+      "record_ids": [
+        "native-lot.authority-aid-conquering",
+        "native-lot.authority-aid-conquering-alt"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.barley",
+      "name": "Barley",
+      "code": "Brl",
+      "record_ids": [
+        "native-lot.barley"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.basis",
+      "name": "Basis",
+      "code": "Ba",
+      "record_ids": [
+        "native-lot.basis-firmicus",
+        "native-lot.basis-valens",
+        "native-lot.basis-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.battle",
+      "name": "Battle",
+      "code": "Btl",
+      "record_ids": [
+        "native-lot.battle"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.beans",
+      "name": "Beans",
+      "code": "Bns",
+      "record_ids": [
+        "native-lot.beans"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.beauty",
+      "name": "Beauty",
+      "code": "Bty",
+      "record_ids": [
+        "native-lot.beauty"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.behest",
+      "name": "Behest",
+      "code": "Bhs",
+      "record_ids": [
+        "native-lot.behest"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.being-in-a-foreign-land",
+      "name": "Being in a Foreign Land",
+      "code": "Bfl",
+      "record_ids": [
+        "native-lot.being-in-a-foreign-land"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.being-known-among-people",
+      "name": "Being Known Among People",
+      "code": "Bkp",
+      "record_ids": [
+        "native-lot.being-known-among-people"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.benevolence-assurance",
+      "name": "Benevolence, Assurance",
+      "code": "Bva",
+      "record_ids": [
+        "native-lot.benevolence-assurance"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.bequest",
+      "name": "Bequest",
+      "code": "Bqt",
+      "record_ids": [
+        "native-lot.bequest"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.bereavement",
+      "name": "Bereavement",
+      "code": "Brv",
+      "record_ids": [
+        "native-lot.bereavement"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.bigotry",
+      "name": "Bigotry",
+      "code": "Bgt",
+      "record_ids": [
+        "native-lot.bigotry"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.birth-pregnancy",
+      "name": "Birth/Pregnancy",
+      "code": "Brp",
+      "record_ids": [
+        "native-lot.birth-pregnancy"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.bitter-foods",
+      "name": "Bitter Foods",
+      "code": "Btf",
+      "record_ids": [
+        "native-lot.bitter-foods"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.bitter-purgatives",
+      "name": "Bitter Purgatives",
+      "code": "Btp",
+      "record_ids": [
+        "native-lot.bitter-purgatives-al-biruni"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.boy-lover-of-a-man",
+      "name": "Boy-Lover of a Man",
+      "code": "Blm",
+      "record_ids": [
+        "native-lot.boy-lover-of-a-man"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.burial",
+      "name": "Burial",
+      "code": "Bur",
+      "record_ids": [
+        "native-lot.burial"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.business",
+      "name": "Business",
+      "code": "Bus",
+      "record_ids": [
+        "native-lot.business-a",
+        "native-lot.business-b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.business-partnerships",
+      "name": "Business Partnerships",
+      "code": "Bup",
+      "record_ids": [
+        "native-lot.business-partnerships"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.business-buying-and-selling",
+      "name": "Business, Buying & Selling",
+      "code": "Bbs",
+      "record_ids": [
+        "native-lot.business-buying-selling"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.butter",
+      "name": "Butter",
+      "code": "Btr",
+      "record_ids": [
+        "native-lot.butter"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.cancer-disease",
+      "name": "Cancer (Disease)",
+      "code": "Cnd",
+      "record_ids": [
+        "native-lot.cancer-disease"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.catastrophe",
+      "name": "Catastrophe",
+      "code": "Cat",
+      "record_ids": [
+        "native-lot.catastrophe",
+        "native-lot.catastrophe-goldstein-jacobson"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.caution",
+      "name": "Caution",
+      "code": "Cau",
+      "record_ids": [
+        "native-lot.caution"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.change",
+      "name": "Change",
+      "code": "Chg",
+      "record_ids": [
+        "native-lot.change"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.charm-personality",
+      "name": "Charm, Personality",
+      "code": "Chp",
+      "record_ids": [
+        "native-lot.charm-personality"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.chick-peas",
+      "name": "Chick-peas",
+      "code": "Chk",
+      "record_ids": [
+        "native-lot.chick-peas"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.children",
+      "name": "Children",
+      "code": "Chd",
+      "record_ids": [
+        "native-lot.children",
+        "native-lot.children-firmicus",
+        "native-lot.children-firmicus-alt",
+        "native-lot.children-sahl-hermes"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.civil-office",
+      "name": "Civil Office",
+      "code": "Cvo",
+      "record_ids": [
+        "native-lot.civil-office"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.clouds",
+      "name": "Clouds",
+      "code": "Clo",
+      "record_ids": [
+        "native-lot.clouds"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.coincidence",
+      "name": "Coincidence",
+      "code": "Coi",
+      "record_ids": [
+        "native-lot.coincidence"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.cold",
+      "name": "Cold",
+      "code": "Cld",
+      "record_ids": [
+        "native-lot.cold"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.comfort",
+      "name": "Comfort",
+      "code": "Cmf",
+      "record_ids": [
+        "native-lot.comfort"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.commerce",
+      "name": "Commerce",
+      "code": "Com",
+      "record_ids": [
+        "native-lot.commerce",
+        "native-lot.commerce-jacobson"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.communication",
+      "name": "Communication",
+      "code": "Cmn",
+      "record_ids": [
+        "native-lot.communication"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.compulsion",
+      "name": "Compulsion",
+      "code": "Cmp",
+      "record_ids": [
+        "native-lot.compulsion"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.confidence",
+      "name": "Confidence",
+      "code": "Cnf",
+      "record_ids": [
+        "native-lot.confidence"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.conquest",
+      "name": "Conquest",
+      "code": "Cnq",
+      "record_ids": [
+        "native-lot.conquest"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.contentions-and-contenders",
+      "name": "Contentions and Contenders",
+      "code": "Ctc",
+      "record_ids": [
+        "native-lot.contentions-and-contenders"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.contentment-and-peace",
+      "name": "Contentment & Peace",
+      "code": "Ctp",
+      "record_ids": [
+        "native-lot.contentment-peace"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.contract",
+      "name": "Contract",
+      "code": "Ctr",
+      "record_ids": [
+        "native-lot.contract-1",
+        "native-lot.contract-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.controversy",
+      "name": "Controversy",
+      "code": "Ctv",
+      "record_ids": [
+        "native-lot.controversy"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.cooperation",
+      "name": "Cooperation",
+      "code": "Cop",
+      "record_ids": [
+        "native-lot.cooperation-jones",
+        "native-lot.cooperation-louis"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.corruptness",
+      "name": "Corruptness",
+      "code": "Crp",
+      "record_ids": [
+        "native-lot.corruptness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.cotton",
+      "name": "Cotton",
+      "code": "Cot",
+      "record_ids": [
+        "native-lot.cotton"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.courage",
+      "name": "Courage",
+      "code": "Co",
+      "record_ids": [
+        "native-lot.courage"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.courage-violence-and-combat",
+      "name": "Courage, Violence & Combat",
+      "code": "Cvc",
+      "record_ids": [
+        "native-lot.courage-violence-combat"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.craft",
+      "name": "Craft",
+      "code": "Crf",
+      "record_ids": [
+        "native-lot.craft"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.critical-year",
+      "name": "Critical Year",
+      "code": "Cry",
+      "record_ids": [
+        "native-lot.critical-year"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.cunning-deception-and-stratagems",
+      "name": "Cunning, Deception & Stratagems",
+      "code": "Cds",
+      "record_ids": [
+        "native-lot.cunning-deception-stratagems"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.curiosity",
+      "name": "Curiosity",
+      "code": "Cur",
+      "record_ids": [
+        "native-lot.curiosity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.daily-rains",
+      "name": "Daily Rains",
+      "code": "Dyr",
+      "record_ids": [
+        "native-lot.daily-rains"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.damage",
+      "name": "Damage",
+      "code": "Dmg",
+      "record_ids": [
+        "native-lot.damage",
+        "native-lot.damage-modern"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dates",
+      "name": "Dates",
+      "code": "Dat",
+      "record_ids": [
+        "native-lot.dates"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.death",
+      "name": "Death",
+      "code": "Dth",
+      "record_ids": [
+        "native-lot.death",
+        "native-lot.death-al-tabari-1",
+        "native-lot.death-al-tabari-2",
+        "native-lot.death-laurentianus",
+        "native-lot.death-olympiodorus",
+        "native-lot.death-persian",
+        "native-lot.death-rhetorius"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.death-of-brothers",
+      "name": "Death of Brothers",
+      "code": "Dbr",
+      "record_ids": [
+        "native-lot.death-of-brothers"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.death-of-the-father",
+      "name": "Death of the Father",
+      "code": "Dfa",
+      "record_ids": [
+        "native-lot.death-of-the-father"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.death-point",
+      "name": "Death Point",
+      "code": "Dpt",
+      "record_ids": [
+        "native-lot.death-point-emerson"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.debt",
+      "name": "Debt",
+      "code": "Dbt",
+      "record_ids": [
+        "native-lot.debt-valens",
+        "native-lot.debt-abu-mashar-via-al-biruni"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.deceit",
+      "name": "Deceit",
+      "code": "Dct",
+      "record_ids": [
+        "native-lot.deceit",
+        "native-lot.deceit-modern"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.delusion",
+      "name": "Delusion",
+      "code": "Dlu",
+      "record_ids": [
+        "native-lot.delusion"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dependence",
+      "name": "Dependence",
+      "code": "Dpn",
+      "record_ids": [
+        "native-lot.dependence"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.desire",
+      "name": "Desire",
+      "code": "Dsr",
+      "record_ids": [
+        "native-lot.desire"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.desire-and-sexual-attraction",
+      "name": "Desire & Sexual Attraction",
+      "code": "Dsa",
+      "record_ids": [
+        "native-lot.desire-sexual-attraction"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.destiny",
+      "name": "Destiny",
+      "code": "Dst",
+      "record_ids": [
+        "native-lot.destiny"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.destroyer",
+      "name": "Destroyer",
+      "code": "Dty",
+      "record_ids": [
+        "native-lot.destroyer"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.destruction",
+      "name": "Destruction",
+      "code": "Dtn",
+      "record_ids": [
+        "native-lot.destruction",
+        "native-lot.destruction-jones"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dignity",
+      "name": "Dignity",
+      "code": "Dgn",
+      "record_ids": [
+        "native-lot.dignity",
+        "native-lot.dignity-b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.disappointment",
+      "name": "Disappointment",
+      "code": "Dis",
+      "record_ids": [
+        "native-lot.disappointment"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.discernment-and-education",
+      "name": "Discernment & Education",
+      "code": "Dce",
+      "record_ids": [
+        "native-lot.discernment-education"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.discord",
+      "name": "Discord",
+      "code": "Dsc",
+      "record_ids": [
+        "native-lot.discord"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.disinterest-boredom",
+      "name": "Disinterest/Boredom",
+      "code": "Dib",
+      "record_ids": [
+        "native-lot.disinterest-boredom"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dismissal-or-resignation",
+      "name": "Dismissal or Resignation",
+      "code": "Dmr",
+      "record_ids": [
+        "native-lot.dismissal-or-resignation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.disputes",
+      "name": "Disputes",
+      "code": "Dsp",
+      "record_ids": [
+        "native-lot.disputes"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dissappointment-endings",
+      "name": "Dissappointment, Endings",
+      "code": "Dse",
+      "record_ids": [
+        "native-lot.dissappointment-endings"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dissociation",
+      "name": "Dissociation",
+      "code": "Dss",
+      "record_ids": [
+        "native-lot.dissociation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.distress-upset",
+      "name": "Distress, Upset",
+      "code": "Dtu",
+      "record_ids": [
+        "native-lot.distress-upset"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.divination",
+      "name": "Divination",
+      "code": "Dvn",
+      "record_ids": [
+        "native-lot.divination"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.divorce",
+      "name": "Divorce",
+      "code": "Dvc",
+      "record_ids": [
+        "native-lot.divorce",
+        "native-lot.divorce-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dramatization",
+      "name": "Dramatization",
+      "code": "Drz",
+      "record_ids": [
+        "native-lot.dramatization"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dreams",
+      "name": "Dreams",
+      "code": "Drm",
+      "record_ids": [
+        "native-lot.dreams-a",
+        "native-lot.dreams-b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.dwelling",
+      "name": "Dwelling",
+      "code": "Dwl",
+      "record_ids": [
+        "native-lot.dwelling"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.earth",
+      "name": "Earth",
+      "code": "Ear",
+      "record_ids": [
+        "native-lot.earth"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.eccentricity",
+      "name": "Eccentricity",
+      "code": "Ecc",
+      "record_ids": [
+        "native-lot.eccentricity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.enemies",
+      "name": "Enemies",
+      "code": "Enm",
+      "record_ids": [
+        "native-lot.enemies-ancients-olympiodorus-a",
+        "native-lot.enemies-firmicus",
+        "native-lot.enemies-hermes",
+        "native-lot.enemies-laurentianus",
+        "native-lot.enemies-olympiodorus-b",
+        "native-lot.enemies-olympiodorus-c"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.energy-sex-drive-and-stimulation",
+      "name": "Energy, Sex Drive & Stimulation",
+      "code": "Ess",
+      "record_ids": [
+        "native-lot.energy-sex-drive-stimulation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.entanglement-and-hardship",
+      "name": "Entanglement and Hardship",
+      "code": "Ehd",
+      "record_ids": [
+        "native-lot.entanglement-and-hardship"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.entertainment",
+      "name": "Entertainment",
+      "code": "Ent",
+      "record_ids": [
+        "native-lot.entertainment"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.eros",
+      "name": "Eros",
+      "code": "Er",
+      "record_ids": [
+        "native-lot.eros-firmicus",
+        "native-lot.eros-hermetic",
+        "native-lot.eros-olympiodorus-a",
+        "native-lot.eros-olympiodorus-b",
+        "native-lot.eros-paulus",
+        "native-lot.eros-valens"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.estates",
+      "name": "Estates",
+      "code": "Est",
+      "record_ids": [
+        "native-lot.estates"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.exaltation",
+      "name": "Exaltation",
+      "code": "Ex",
+      "record_ids": [
+        "native-lot.exaltation-day",
+        "native-lot.exaltation-night"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.exhaustion-of-bodies",
+      "name": "Exhaustion of Bodies",
+      "code": "Ehb",
+      "record_ids": [
+        "native-lot.exhaustion-of-bodies"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.exile",
+      "name": "Exile",
+      "code": "Exi",
+      "record_ids": [
+        "native-lot.exile-a",
+        "native-lot.exile-b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.expected-birth",
+      "name": "Expected Birth",
+      "code": "Expb",
+      "record_ids": [
+        "native-lot.expected-birth-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.faithfulness",
+      "name": "Faithfulness",
+      "code": "Fth",
+      "record_ids": [
+        "native-lot.faithfulness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.false-love",
+      "name": "False Love",
+      "code": "Flv",
+      "record_ids": [
+        "native-lot.false-love"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.fame",
+      "name": "Fame",
+      "code": "Fme",
+      "record_ids": [
+        "native-lot.fame"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.fame-and-reputation",
+      "name": "Fame and Reputation",
+      "code": "Fmr",
+      "record_ids": [
+        "native-lot.fame-and-reputation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.fame-wisdom",
+      "name": "Fame, Wisdom",
+      "code": "Fmw",
+      "record_ids": [
+        "native-lot.fame-wisdom"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.family",
+      "name": "Family",
+      "code": "Fam",
+      "record_ids": [
+        "native-lot.family"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.farming",
+      "name": "Farming",
+      "code": "Frm",
+      "record_ids": [
+        "native-lot.farming-a",
+        "native-lot.farming-b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.fascination",
+      "name": "Fascination",
+      "code": "Fsc",
+      "record_ids": [
+        "native-lot.fascination"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.fatality",
+      "name": "Fatality",
+      "code": "Ftl",
+      "record_ids": [
+        "native-lot.fatality"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.father",
+      "name": "Father",
+      "code": "Fa",
+      "record_ids": [
+        "native-lot.father",
+        "native-lot.father-alt-1",
+        "native-lot.father-alt-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.faults-and-lusts",
+      "name": "Faults and Lusts",
+      "code": "Fls",
+      "record_ids": [
+        "native-lot.faults-and-lusts"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.female-children",
+      "name": "Female Children",
+      "code": "Fch",
+      "record_ids": [
+        "native-lot.female-children-dorotheus",
+        "native-lot.female-children-valens"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.finding-lost-objects",
+      "name": "Finding Lost Objects",
+      "code": "Flo",
+      "record_ids": [
+        "native-lot.finding-lost-objects"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.fire",
+      "name": "Fire",
+      "code": "Fir",
+      "record_ids": [
+        "native-lot.fire"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.flax",
+      "name": "Flax",
+      "code": "Flx",
+      "record_ids": [
+        "native-lot.flax"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.foolhardiness",
+      "name": "Foolhardiness",
+      "code": "Fhd",
+      "record_ids": [
+        "native-lot.foolhardiness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.fortune",
+      "name": "Fortune",
+      "code": "Fo",
+      "record_ids": [
+        "native-lot.fortune"
+      ],
+      "default_visual": "preserved_fortune_symbol"
+    },
+    {
+      "id": "lot.found-wealth",
+      "name": "Found Wealth",
+      "code": "Fow",
+      "record_ids": [
+        "native-lot.found-wealth"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.fraud",
+      "name": "Fraud",
+      "code": "Frd",
+      "record_ids": [
+        "native-lot.fraud"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.freedmen-and-servants",
+      "name": "Freedmen and Servants",
+      "code": "Fsv",
+      "record_ids": [
+        "native-lot.freedmen-and-servants"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.freedom",
+      "name": "Freedom",
+      "code": "Fre",
+      "record_ids": [
+        "native-lot.freedom"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.friends",
+      "name": "Friends",
+      "code": "Frn",
+      "record_ids": [
+        "native-lot.friends",
+        "native-lot.friends-firmicus",
+        "native-lot.friends-modern-2",
+        "native-lot.friends-modern",
+        "native-lot.friends-olympiodorus-1-a",
+        "native-lot.friends-olympiodorus-1-b",
+        "native-lot.friends-olympiodorus-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.gender-of-unknown-unborn",
+      "name": "Gender (of unknown/unborn)",
+      "code": "Gnd",
+      "record_ids": [
+        "native-lot.gender-of-unknown-unborn"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.genius",
+      "name": "Genius",
+      "code": "Gen",
+      "record_ids": [
+        "native-lot.genius"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.gossip",
+      "name": "Gossip",
+      "code": "Gos",
+      "record_ids": [
+        "native-lot.gossip"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.grandfathers",
+      "name": "Grandfathers",
+      "code": "Gfa",
+      "record_ids": [
+        "native-lot.grandfathers",
+        "native-lot.grandfathers-alt-1",
+        "native-lot.grandfathers-alt-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.grapes",
+      "name": "Grapes",
+      "code": "Grp",
+      "record_ids": [
+        "native-lot.grapes"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.grief",
+      "name": "Grief",
+      "code": "Grf",
+      "record_ids": [
+        "native-lot.grief-1a",
+        "native-lot.grief-1b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.guidance",
+      "name": "Guidance",
+      "code": "Gui",
+      "record_ids": [
+        "native-lot.guidance"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.happiness",
+      "name": "Happiness",
+      "code": "Hap",
+      "record_ids": [
+        "native-lot.happiness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.happiness-and-wedding",
+      "name": "Happiness and Wedding",
+      "code": "Haw",
+      "record_ids": [
+        "native-lot.happiness-and-wedding"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.heaviness",
+      "name": "Heaviness",
+      "code": "Hvy",
+      "record_ids": [
+        "native-lot.heaviness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.higher-education",
+      "name": "Higher Education",
+      "code": "Hed",
+      "record_ids": [
+        "native-lot.higher-education"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.homeland",
+      "name": "Homeland",
+      "code": "Hml",
+      "record_ids": [
+        "native-lot.homeland-a",
+        "native-lot.homeland-b",
+        "native-lot.homeland-c"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.homosexuality",
+      "name": "Homosexuality",
+      "code": "Hsx",
+      "record_ids": [
+        "native-lot.homosexuality"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.honey",
+      "name": "Honey",
+      "code": "Hon",
+      "record_ids": [
+        "native-lot.honey"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.hope",
+      "name": "Hope",
+      "code": "Hop",
+      "record_ids": [
+        "native-lot.hope"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.identity",
+      "name": "Identity",
+      "code": "Idn",
+      "record_ids": [
+        "native-lot.identity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.if-an-event-will-come-about",
+      "name": "If an Event Will Come About",
+      "code": "Iec",
+      "record_ids": [
+        "native-lot.if-an-event-will-come-about"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.if-an-outcome-will-be-useful",
+      "name": "If an Outcome Will be Useful",
+      "code": "Iou",
+      "record_ids": [
+        "native-lot.if-an-outcome-will-be-useful"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.illness",
+      "name": "Illness",
+      "code": "Iln",
+      "record_ids": [
+        "native-lot.illness-ancients",
+        "native-lot.illness-dorotheus-chinese",
+        "native-lot.illness-dorotheus",
+        "native-lot.illness-laurentianus"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.impression",
+      "name": "Impression",
+      "code": "Imp",
+      "record_ids": [
+        "native-lot.impression"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.imprisonment",
+      "name": "Imprisonment",
+      "code": "Ipr",
+      "record_ids": [
+        "native-lot.imprisonment-modern",
+        "native-lot.imprisonment-a",
+        "native-lot.imprisonment-b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.imprisonment-sorrow-and-captivity",
+      "name": "Imprisonment, Sorrow & Captivity",
+      "code": "Isc",
+      "record_ids": [
+        "native-lot.imprisonment-sorrow-captivity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.increase",
+      "name": "Increase",
+      "code": "Inc",
+      "record_ids": [
+        "native-lot.increase"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.indecency-and-lust",
+      "name": "Indecency and Lust",
+      "code": "Inl",
+      "record_ids": [
+        "native-lot.indecency-and-lust"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.indian-peas",
+      "name": "Indian Peas",
+      "code": "Inp",
+      "record_ids": [
+        "native-lot.indian-peas"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.individuality",
+      "name": "Individuality",
+      "code": "Ind",
+      "record_ids": [
+        "native-lot.individuality"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.influence",
+      "name": "Influence",
+      "code": "Inf",
+      "record_ids": [
+        "native-lot.influence"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.inheritance",
+      "name": "Inheritance",
+      "code": "Inh",
+      "record_ids": [
+        "native-lot.inheritance",
+        "native-lot.inheritance-1",
+        "native-lot.inheritance-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.initiative",
+      "name": "Initiative",
+      "code": "Ini",
+      "record_ids": [
+        "native-lot.initiative"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.injury",
+      "name": "Injury",
+      "code": "Inj",
+      "record_ids": [
+        "native-lot.injury-1",
+        "native-lot.injury-2",
+        "native-lot.injury-3"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.injury-to-business",
+      "name": "Injury to Business",
+      "code": "Ijb",
+      "record_ids": [
+        "native-lot.injury-to-business"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.insincerity",
+      "name": "Insincerity",
+      "code": "Ins",
+      "record_ids": [
+        "native-lot.insincerity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.inspiration",
+      "name": "Inspiration",
+      "code": "Isp",
+      "record_ids": [
+        "native-lot.inspiration"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.integrity",
+      "name": "Integrity",
+      "code": "Itg",
+      "record_ids": [
+        "native-lot.integrity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.intellectuality",
+      "name": "Intellectuality",
+      "code": "Itl",
+      "record_ids": [
+        "native-lot.intellectuality"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.intrusion",
+      "name": "Intrusion",
+      "code": "Itr",
+      "record_ids": [
+        "native-lot.intrusion"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.iron",
+      "name": "Iron",
+      "code": "Irn",
+      "record_ids": [
+        "native-lot.iron"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.job-and-authority",
+      "name": "Job & Authority",
+      "code": "Jba",
+      "record_ids": [
+        "native-lot.job-authority"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.judgment",
+      "name": "Judgment",
+      "code": "Jdg",
+      "record_ids": [
+        "native-lot.judgment-1a",
+        "native-lot.judgment-1b",
+        "native-lot.judgment-1c",
+        "native-lot.judgment-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.killing",
+      "name": "Killing",
+      "code": "Klg",
+      "record_ids": [
+        "native-lot.killing"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.kings-rulers",
+      "name": "Kings, Rulers",
+      "code": "Knr",
+      "record_ids": [
+        "native-lot.kings-rulers"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.kinship",
+      "name": "Kinship",
+      "code": "Kin",
+      "record_ids": [
+        "native-lot.kinship"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.knowledge-and-meditation",
+      "name": "Knowledge & Meditation",
+      "code": "Knm",
+      "record_ids": [
+        "native-lot.knowledge-meditation",
+        "native-lot.knowledge-meditation-al-qabisi"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.knowledge-true-or-false",
+      "name": "Knowledge, True or False",
+      "code": "Ktf",
+      "record_ids": [
+        "native-lot.knowledge-true-or-false-abu-mashar-via-al-biruni"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.labor",
+      "name": "Labor",
+      "code": "Lab",
+      "record_ids": [
+        "native-lot.labor"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.lawsuit",
+      "name": "Lawsuit",
+      "code": "Law",
+      "record_ids": [
+        "native-lot.lawsuit"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.legalizing-contracts-marriage",
+      "name": "Legalizing Contracts/Marriage",
+      "code": "Lcm",
+      "record_ids": [
+        "native-lot.legalizing-contracts-marriage"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.lentils",
+      "name": "Lentils",
+      "code": "Lnt",
+      "record_ids": [
+        "native-lot.lentils"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.life",
+      "name": "Life",
+      "code": "Lif",
+      "record_ids": [
+        "native-lot.life-female",
+        "native-lot.life-male",
+        "native-lot.life-1",
+        "native-lot.life-2a",
+        "native-lot.life-2b",
+        "native-lot.life-2c",
+        "native-lot.life-2d"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.life-or-death-of-absent",
+      "name": "Life or Death of Absent",
+      "code": "Lda",
+      "record_ids": [
+        "native-lot.life-or-death-of-absent"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.lineage",
+      "name": "Lineage",
+      "code": "Lin",
+      "record_ids": [
+        "native-lot.lineage"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.livelihood",
+      "name": "Livelihood",
+      "code": "Liv",
+      "record_ids": [
+        "native-lot.livelihood-dorotheus",
+        "native-lot.livelihood-2",
+        "native-lot.livelihood-3",
+        "native-lot.livelihood-4"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.loans",
+      "name": "Loans",
+      "code": "Loa",
+      "record_ids": [
+        "native-lot.loans"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.logic-and-reason",
+      "name": "Logic & Reason",
+      "code": "Lgr",
+      "record_ids": [
+        "native-lot.logic-reason"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.loneliness",
+      "name": "Loneliness",
+      "code": "Lnl",
+      "record_ids": [
+        "native-lot.loneliness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.longevity",
+      "name": "Longevity",
+      "code": "Lng",
+      "record_ids": [
+        "native-lot.longevity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.lords-and-masters",
+      "name": "Lords and Masters",
+      "code": "Ldm",
+      "record_ids": [
+        "native-lot.lords-and-masters"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.lost-animal",
+      "name": "Lost Animal",
+      "code": "Lsa",
+      "record_ids": [
+        "native-lot.lost-animal"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.love",
+      "name": "Love",
+      "code": "Lov",
+      "record_ids": [
+        "native-lot.love-modern"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.love-and-entertainment",
+      "name": "Love & Entertainment",
+      "code": "Lve",
+      "record_ids": [
+        "native-lot.love-entertainment"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.love-and-marriage",
+      "name": "Love & Marriage",
+      "code": "Lvm",
+      "record_ids": [
+        "native-lot.love-marriage-louis",
+        "native-lot.love-marriage-modern"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.lover-of-a-woman",
+      "name": "Lover of a Woman",
+      "code": "Lvw",
+      "record_ids": [
+        "native-lot.lover-of-a-woman"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.lovers",
+      "name": "Lovers",
+      "code": "Lvrs",
+      "record_ids": [
+        "native-lot.lovers",
+        "native-lot.lovers-modern"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.luck",
+      "name": "Luck",
+      "code": "Luc",
+      "record_ids": [
+        "native-lot.luck"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.madness",
+      "name": "Madness",
+      "code": "Mad",
+      "record_ids": [
+        "native-lot.madness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.male-children",
+      "name": "Male Children",
+      "code": "Mch",
+      "record_ids": [
+        "native-lot.male-children-dorotheus-chinese",
+        "native-lot.male-children-dorotheus",
+        "native-lot.male-children-hermes",
+        "native-lot.male-children-persian-theophilus",
+        "native-lot.male-children-valens"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.manual-workers-and-commercial-activities",
+      "name": "Manual Workers & Commercial Activities",
+      "code": "Mwc",
+      "record_ids": [
+        "native-lot.manual-workers-commercial-activities"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.marriage",
+      "name": "Marriage",
+      "code": "Ma",
+      "record_ids": [
+        "native-lot.marriage-firmicus",
+        "native-lot.marriage-horary",
+        "native-lot.marriage-men-dorotheus",
+        "native-lot.marriage-men-valens",
+        "native-lot.marriage-valens",
+        "native-lot.marriage-women-dorotheus",
+        "native-lot.marriage-women-valens"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.meat",
+      "name": "Meat",
+      "code": "Mea",
+      "record_ids": [
+        "native-lot.meat"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.melons",
+      "name": "Melons",
+      "code": "Mel",
+      "record_ids": [
+        "native-lot.melons"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.memory",
+      "name": "Memory",
+      "code": "Mem",
+      "record_ids": [
+        "native-lot.memory"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.military-expedition",
+      "name": "Military Expedition",
+      "code": "Mle",
+      "record_ids": [
+        "native-lot.military-expedition"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.military-service",
+      "name": "Military Service",
+      "code": "Mls",
+      "record_ids": [
+        "native-lot.military-service-firmicus",
+        "native-lot.military-service-laurentianus",
+        "native-lot.military-service-olympiodorus-1"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.mind-captivity",
+      "name": "Mind, Captivity",
+      "code": "Mcp",
+      "record_ids": [
+        "native-lot.mind-captivity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.mind-understanding",
+      "name": "Mind, Understanding",
+      "code": "Mun",
+      "record_ids": [
+        "native-lot.mind-understanding-female",
+        "native-lot.mind-understanding-male"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.miracles",
+      "name": "Miracles",
+      "code": "Mir",
+      "record_ids": [
+        "native-lot.miracles"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.misinterpretation",
+      "name": "Misinterpretation",
+      "code": "Msi",
+      "record_ids": [
+        "native-lot.misinterpretation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.mistress-of-a-man",
+      "name": "Mistress of a Man",
+      "code": "Msm",
+      "record_ids": [
+        "native-lot.mistress-of-a-man"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.mistress-of-a-woman",
+      "name": "Mistress of a Woman",
+      "code": "Msw",
+      "record_ids": [
+        "native-lot.mistress-of-a-woman"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.misunderstanding",
+      "name": "Misunderstanding",
+      "code": "Msu",
+      "record_ids": [
+        "native-lot.misunderstanding"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.mother",
+      "name": "Mother",
+      "code": "Mo",
+      "record_ids": [
+        "native-lot.mother",
+        "native-lot.mother-modern"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.mother-and-family",
+      "name": "Mother & Family",
+      "code": "Mof",
+      "record_ids": [
+        "native-lot.mother-family"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.nature-of-the-planets",
+      "name": "Nature of the Planets",
+      "code": "Npl",
+      "record_ids": [
+        "native-lot.nature-of-the-planets-moon",
+        "native-lot.nature-of-the-planets-sun"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.navigation",
+      "name": "Navigation",
+      "code": "Nav",
+      "record_ids": [
+        "native-lot.navigation-hellenistic",
+        "native-lot.navigation-medieval"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.necessity",
+      "name": "Necessity",
+      "code": "Nc",
+      "record_ids": [
+        "native-lot.necessity-firmicus",
+        "native-lot.necessity-hermetic",
+        "native-lot.necessity-paulus",
+        "native-lot.necessity-persian",
+        "native-lot.necessity-valens"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.necessity-and-hindering-of-needs",
+      "name": "Necessity & Hindering of Needs",
+      "code": "Nhn",
+      "record_ids": [
+        "native-lot.necessity-hindering-of-needs"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.need-and-desire",
+      "name": "Need & Desire",
+      "code": "Nds",
+      "record_ids": [
+        "native-lot.need-desire"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.negotiation",
+      "name": "Negotiation",
+      "code": "Neg",
+      "record_ids": [
+        "native-lot.negotiation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.nemesis",
+      "name": "Nemesis",
+      "code": "Nm",
+      "record_ids": [
+        "native-lot.nemesis",
+        "native-lot.nemesis-firmicus"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.noxious-place",
+      "name": "Noxious Place",
+      "code": "Nxp",
+      "record_ids": [
+        "native-lot.noxious-place",
+        "native-lot.noxious-place-alt"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.number-of-siblings",
+      "name": "Number of Siblings",
+      "code": "Nsb",
+      "record_ids": [
+        "native-lot.number-of-siblings"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.nuts",
+      "name": "Nuts",
+      "code": "Nut",
+      "record_ids": [
+        "native-lot.nuts-al-biruni",
+        "native-lot.nuts-al-qabisi-latin"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.occultism",
+      "name": "Occultism",
+      "code": "Occ",
+      "record_ids": [
+        "native-lot.occultism"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.office",
+      "name": "Office",
+      "code": "Ofc",
+      "record_ids": [
+        "native-lot.office"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.office-and-carrying-out-orders",
+      "name": "Office & Carrying Out Orders",
+      "code": "Oco",
+      "record_ids": [
+        "native-lot.office-carrying-out-orders"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.office-and-king",
+      "name": "Office & King",
+      "code": "Ofk",
+      "record_ids": [
+        "native-lot.office-king"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.offspring",
+      "name": "Offspring",
+      "code": "Ofs",
+      "record_ids": [
+        "native-lot.offspring"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.oil",
+      "name": "Oil",
+      "code": "Oil",
+      "record_ids": [
+        "native-lot.oil"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.olives",
+      "name": "Olives",
+      "code": "Olv",
+      "record_ids": [
+        "native-lot.olives"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.onions",
+      "name": "Onions",
+      "code": "Oni",
+      "record_ids": [
+        "native-lot.onions"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.opportunity",
+      "name": "Opportunity",
+      "code": "Opp",
+      "record_ids": [
+        "native-lot.opportunity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.organization",
+      "name": "Organization",
+      "code": "Org",
+      "record_ids": [
+        "native-lot.organization"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.originality",
+      "name": "Originality",
+      "code": "Ori",
+      "record_ids": [
+        "native-lot.originality"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.ostracism-and-loss",
+      "name": "Ostracism & Loss",
+      "code": "Osl",
+      "record_ids": [
+        "native-lot.ostracism-loss"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.outcomes",
+      "name": "Outcomes",
+      "code": "Out",
+      "record_ids": [
+        "native-lot.outcomes"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.outcomes-of-affairs",
+      "name": "Outcomes of Affairs",
+      "code": "Oaf",
+      "record_ids": [
+        "native-lot.outcomes-of-affairs"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.parents",
+      "name": "Parents",
+      "code": "Par",
+      "record_ids": [
+        "native-lot.parents"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.passion",
+      "name": "Passion",
+      "code": "Pas",
+      "record_ids": [
+        "native-lot.passion"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.passion-emotion-and-affection",
+      "name": "Passion, Emotion & Affection",
+      "code": "Pea",
+      "record_ids": [
+        "native-lot.passion-emotion-affection"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.peace-among-soldiers",
+      "name": "Peace Among Soldiers",
+      "code": "Psl",
+      "record_ids": [
+        "native-lot.peace-among-soldiers"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.perversion",
+      "name": "Perversion",
+      "code": "Prv",
+      "record_ids": [
+        "native-lot.perversion"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.play-activity-rapid-change",
+      "name": "Play, Activity, Rapid Change",
+      "code": "Parc",
+      "record_ids": [
+        "native-lot.play-activity-rapid-change"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.plenty-and-abundance-of-good",
+      "name": "Plenty & Abundance of Good",
+      "code": "Pag",
+      "record_ids": [
+        "native-lot.plenty-abundance-of-good"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.poisons",
+      "name": "Poisons",
+      "code": "Poi",
+      "record_ids": [
+        "native-lot.poisons"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.popularity",
+      "name": "Popularity",
+      "code": "Pop",
+      "record_ids": [
+        "native-lot.popularity-jones",
+        "native-lot.popularity-louis"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.power",
+      "name": "Power",
+      "code": "Pow",
+      "record_ids": [
+        "native-lot.power"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.prejudice",
+      "name": "Prejudice",
+      "code": "Prj",
+      "record_ids": [
+        "native-lot.prejudice"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.prisoners",
+      "name": "Prisoners",
+      "code": "Prs",
+      "record_ids": [
+        "native-lot.prisoners-day",
+        "native-lot.prisoners-night"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.property-management",
+      "name": "Property Management",
+      "code": "Prm",
+      "record_ids": [
+        "native-lot.property-management"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.prosperity",
+      "name": "Prosperity",
+      "code": "Pro",
+      "record_ids": [
+        "native-lot.prosperity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.pulse",
+      "name": "Pulse",
+      "code": "Pul",
+      "record_ids": [
+        "native-lot.pulse"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.pungent-spicy-foods",
+      "name": "Pungent/Spicy Foods",
+      "code": "Psf",
+      "record_ids": [
+        "native-lot.pungent-spicy-foods"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.punishment",
+      "name": "Punishment",
+      "code": "Pnh",
+      "record_ids": [
+        "native-lot.punishment-hellenistic",
+        "native-lot.punishment-medieval"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.purchase",
+      "name": "Purchase",
+      "code": "Pur",
+      "record_ids": [
+        "native-lot.purchase-1a",
+        "native-lot.purchase-1b",
+        "native-lot.purchase-2a",
+        "native-lot.purchase-2b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.purgative-and-salty-medicines",
+      "name": "Purgative & Salty Medicines",
+      "code": "Pslt",
+      "record_ids": [
+        "native-lot.purgative-salty-medicines"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.purgative-and-sour-medicines",
+      "name": "Purgative & Sour Medicines",
+      "code": "Psor",
+      "record_ids": [
+        "native-lot.purgative-sour-medicines"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.purgative-and-sweet-medicines",
+      "name": "Purgative & Sweet Medicines",
+      "code": "Pswt",
+      "record_ids": [
+        "native-lot.purgative-sweet-medicines"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.purgatives",
+      "name": "Purgatives",
+      "code": "Pgv",
+      "record_ids": [
+        "native-lot.purgatives-al-biruni"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.race-and-race-consciousness",
+      "name": "Race & Race Consciousness",
+      "code": "Rrc",
+      "record_ids": [
+        "native-lot.race-race-consciousness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.radical-change",
+      "name": "Radical Change",
+      "code": "Rch",
+      "record_ids": [
+        "native-lot.radical-change"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.rain",
+      "name": "Rain",
+      "code": "Rai",
+      "record_ids": [
+        "native-lot.rain-annual",
+        "native-lot.rain-ibn-ezra"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.real-estate",
+      "name": "Real Estate",
+      "code": "Rle",
+      "record_ids": [
+        "native-lot.real-estate-al-tabari",
+        "native-lot.real-estate-hermes",
+        "native-lot.real-estate-persian"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.reason-and-depth-of-thought",
+      "name": "Reason & Depth of Thought",
+      "code": "Rdt",
+      "record_ids": [
+        "native-lot.reason-depth-of-thought"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.reincarnation",
+      "name": "Reincarnation",
+      "code": "Rei",
+      "record_ids": [
+        "native-lot.reincarnation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.release-luck",
+      "name": "Release, Luck",
+      "code": "Rlk",
+      "record_ids": [
+        "native-lot.release-luck"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.releaser",
+      "name": "Releaser",
+      "code": "Rlr",
+      "record_ids": [
+        "native-lot.releaser"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.religion-piety",
+      "name": "Religion/Piety",
+      "code": "Rlp",
+      "record_ids": [
+        "native-lot.religion-piety"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.repression",
+      "name": "Repression",
+      "code": "Rep",
+      "record_ids": [
+        "native-lot.repression"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.revelation",
+      "name": "Revelation",
+      "code": "Rev",
+      "record_ids": [
+        "native-lot.revelation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.reward",
+      "name": "Reward",
+      "code": "Rew",
+      "record_ids": [
+        "native-lot.reward-1",
+        "native-lot.reward-2a",
+        "native-lot.reward-2b",
+        "native-lot.reward-3"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.rice",
+      "name": "Rice",
+      "code": "Ric",
+      "record_ids": [
+        "native-lot.rice"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.rice-and-millet",
+      "name": "Rice & Millet",
+      "code": "Rim",
+      "record_ids": [
+        "native-lot.rice-millet"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.royal-lot",
+      "name": "Royal Lot",
+      "code": "Ryl",
+      "record_ids": [
+        "native-lot.royal-lot-al-tabari",
+        "native-lot.royal-lot-theophilus"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.rulership",
+      "name": "Rulership",
+      "code": "Rul",
+      "record_ids": [
+        "native-lot.rulership-1",
+        "native-lot.rulership-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.rulership-and-authority",
+      "name": "Rulership & Authority",
+      "code": "Rua",
+      "record_ids": [
+        "native-lot.rulership-authority-1"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.rumors",
+      "name": "Rumors",
+      "code": "Rum",
+      "record_ids": [
+        "native-lot.rumors"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.rumors-true-or-false",
+      "name": "Rumors, True or False",
+      "code": "Rtf",
+      "record_ids": [
+        "native-lot.rumors-true-or-false"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sale",
+      "name": "Sale",
+      "code": "Sal",
+      "record_ids": [
+        "native-lot.sale-1",
+        "native-lot.sale-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.salt",
+      "name": "Salt",
+      "code": "Slt",
+      "record_ids": [
+        "native-lot.salt"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.salty-things",
+      "name": "Salty Things",
+      "code": "Sth",
+      "record_ids": [
+        "native-lot.salty-things"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.secret-enemies",
+      "name": "Secret Enemies",
+      "code": "Sen",
+      "record_ids": [
+        "native-lot.secret-enemies"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.secrets",
+      "name": "Secrets",
+      "code": "Sec",
+      "record_ids": [
+        "native-lot.secrets"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.security",
+      "name": "Security",
+      "code": "Scu",
+      "record_ids": [
+        "native-lot.security"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.self-undoing",
+      "name": "Self-Undoing",
+      "code": "Sfu",
+      "record_ids": [
+        "native-lot.self-undoing"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sensitivity",
+      "name": "Sensitivity",
+      "code": "Sns",
+      "record_ids": [
+        "native-lot.sensitivity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sentiment",
+      "name": "Sentiment",
+      "code": "Snt",
+      "record_ids": [
+        "native-lot.sentiment"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sesame",
+      "name": "Sesame",
+      "code": "Ses",
+      "record_ids": [
+        "native-lot.sesame-1",
+        "native-lot.sesame-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.ship-owning",
+      "name": "Ship-Owning",
+      "code": "Sho",
+      "record_ids": [
+        "native-lot.ship-owning"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.short-journeys",
+      "name": "Short Journeys",
+      "code": "Shj",
+      "record_ids": [
+        "native-lot.short-journeys"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.siblings",
+      "name": "Siblings",
+      "code": "Sib",
+      "record_ids": [
+        "native-lot.siblings",
+        "native-lot.siblings-firmicus",
+        "native-lot.siblings-persian"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.siblings-number",
+      "name": "Siblings (Number)",
+      "code": "Sbn",
+      "record_ids": [
+        "native-lot.siblings-number"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.silk",
+      "name": "Silk",
+      "code": "Slk",
+      "record_ids": [
+        "native-lot.silk"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sisters",
+      "name": "Sisters",
+      "code": "Sis",
+      "record_ids": [
+        "native-lot.sisters"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.slander",
+      "name": "Slander",
+      "code": "Sln",
+      "record_ids": [
+        "native-lot.slander"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.slaves",
+      "name": "Slaves",
+      "code": "Slv",
+      "record_ids": [
+        "native-lot.slaves-dorotheus",
+        "native-lot.slaves-hephaistio",
+        "native-lot.slaves-3",
+        "native-lot.slaves-4a",
+        "native-lot.slaves-4b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.slyness",
+      "name": "Slyness",
+      "code": "Sly",
+      "record_ids": [
+        "native-lot.slyness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.soldiers-and-policemen",
+      "name": "Soldiers & Policemen",
+      "code": "Sop",
+      "record_ids": [
+        "native-lot.soldiers-policemen"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sons",
+      "name": "Sons",
+      "code": "Son",
+      "record_ids": [
+        "native-lot.sons"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sons-in-law",
+      "name": "Sons-in-Law",
+      "code": "Sil",
+      "record_ids": [
+        "native-lot.sons-in-law"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.souls-freedom",
+      "name": "Soul's Freedom",
+      "code": "Sof",
+      "record_ids": [
+        "native-lot.soul-s-freedom"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sour-foods",
+      "name": "Sour Foods",
+      "code": "Sor",
+      "record_ids": [
+        "native-lot.sour-foods"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sowing",
+      "name": "Sowing",
+      "code": "Sow",
+      "record_ids": [
+        "native-lot.sowing"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.speculation",
+      "name": "Speculation",
+      "code": "Spe",
+      "record_ids": [
+        "native-lot.speculation-1",
+        "native-lot.speculation-2"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.spirit",
+      "name": "Spirit",
+      "code": "Sp",
+      "record_ids": [
+        "native-lot.spirit"
+      ],
+      "default_visual": "preserved_spirit_symbol"
+    },
+    {
+      "id": "lot.stability",
+      "name": "Stability",
+      "code": "Sta",
+      "record_ids": [
+        "native-lot.stability"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.strength",
+      "name": "Strength",
+      "code": "Str",
+      "record_ids": [
+        "native-lot.strength"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.strength-of-the-body",
+      "name": "Strength of the Body",
+      "code": "Stbo",
+      "record_ids": [
+        "native-lot.strength-of-the-body"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.substance-and-possessions",
+      "name": "Substance and Possessions",
+      "code": "Sbp",
+      "record_ids": [
+        "native-lot.substance-and-possessions"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.success",
+      "name": "Success",
+      "code": "Suc",
+      "record_ids": [
+        "native-lot.success"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.success-in-investment",
+      "name": "Success in Investment",
+      "code": "Siv",
+      "record_ids": [
+        "native-lot.success-in-investment"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.successful-issue",
+      "name": "Successful Issue",
+      "code": "Sci",
+      "record_ids": [
+        "native-lot.successful-issue"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sudden-luck",
+      "name": "Sudden Luck",
+      "code": "Sdl",
+      "record_ids": [
+        "native-lot.sudden-luck"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sudden-parting",
+      "name": "Sudden Parting",
+      "code": "Sdp",
+      "record_ids": [
+        "native-lot.sudden-parting"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.suffering",
+      "name": "Suffering",
+      "code": "Suf",
+      "record_ids": [
+        "native-lot.suffering"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sugar",
+      "name": "Sugar",
+      "code": "Sug",
+      "record_ids": [
+        "native-lot.sugar-al-biruni",
+        "native-lot.sugar-al-qabisi-latin"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.suicide",
+      "name": "Suicide",
+      "code": "Sui",
+      "record_ids": [
+        "native-lot.suicide-1",
+        "native-lot.suicide-2",
+        "native-lot.suicide-3"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.surgery-and-accident",
+      "name": "Surgery & Accident",
+      "code": "Sga",
+      "record_ids": [
+        "native-lot.surgery-accident"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.surprise",
+      "name": "Surprise",
+      "code": "Sur",
+      "record_ids": [
+        "native-lot.surprise"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.sweet-foods",
+      "name": "Sweet Foods",
+      "code": "Swf",
+      "record_ids": [
+        "native-lot.sweet-foods"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.tales-knowledge-of-rumors",
+      "name": "Tales, Knowledge of Rumors",
+      "code": "Tkr",
+      "record_ids": [
+        "native-lot.tales-knowledge-of-rumors"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.temperament",
+      "name": "Temperament",
+      "code": "Tmp",
+      "record_ids": [
+        "native-lot.temperament"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.the-creditor",
+      "name": "The Creditor",
+      "code": "Tcr",
+      "record_ids": [
+        "native-lot.the-creditor"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.the-fugitive",
+      "name": "The Fugitive",
+      "code": "Tfg",
+      "record_ids": [
+        "native-lot.the-fugitive"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.the-husband",
+      "name": "The Husband",
+      "code": "Thu",
+      "record_ids": [
+        "native-lot.the-husband"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.the-king",
+      "name": "The King",
+      "code": "Tkg",
+      "record_ids": [
+        "native-lot.the-king-theophilus"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.the-master",
+      "name": "The Master",
+      "code": "Tma",
+      "record_ids": [
+        "native-lot.the-master"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.the-month",
+      "name": "The Month",
+      "code": "Tmo",
+      "record_ids": [
+        "native-lot.the-month"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.the-praised-and-commended",
+      "name": "The Praised & Commended",
+      "code": "Tpc",
+      "record_ids": [
+        "native-lot.the-praised-commended"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.theft",
+      "name": "Theft",
+      "code": "Thf",
+      "record_ids": [
+        "native-lot.theft-olympiodorus",
+        "native-lot.theft-valens"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.those-honored-and-known-among-people",
+      "name": "Those Honored & Known Among People",
+      "code": "Thkp",
+      "record_ids": [
+        "native-lot.those-honored-known-among-people"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.those-suddenly-elevated",
+      "name": "Those Suddenly Elevated",
+      "code": "Tse",
+      "record_ids": [
+        "native-lot.those-suddenly-elevated"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.time-for-action",
+      "name": "Time for Action",
+      "code": "Tfa",
+      "record_ids": [
+        "native-lot.time-for-action"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.time-occupied-by-action",
+      "name": "Time Occupied by Action",
+      "code": "Toba",
+      "record_ids": [
+        "native-lot.time-occupied-by-action"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.time-of-attainment",
+      "name": "Time of Attainment",
+      "code": "Toa",
+      "record_ids": [
+        "native-lot.time-of-attainment"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.time-of-children",
+      "name": "Time of Children",
+      "code": "Toc",
+      "record_ids": [
+        "native-lot.time-of-children"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.timidity",
+      "name": "Timidity",
+      "code": "Tim",
+      "record_ids": [
+        "native-lot.timidity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.torture",
+      "name": "Torture",
+      "code": "Tor",
+      "record_ids": [
+        "native-lot.torture"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.transformation",
+      "name": "Transformation",
+      "code": "Trf",
+      "record_ids": [
+        "native-lot.transformation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.travel",
+      "name": "Travel",
+      "code": "Trv",
+      "record_ids": [
+        "native-lot.travel",
+        "native-lot.travel-firmicus",
+        "native-lot.travel-modern"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.travel-by-air",
+      "name": "Travel by Air",
+      "code": "Tva",
+      "record_ids": [
+        "native-lot.travel-by-air-louis"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.treachery",
+      "name": "Treachery",
+      "code": "Tre",
+      "record_ids": [
+        "native-lot.treachery"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.underground-things",
+      "name": "Underground Things",
+      "code": "Ugt",
+      "record_ids": [
+        "native-lot.underground-things-a",
+        "native-lot.underground-things-b",
+        "native-lot.underground-things-c"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.undertaking-some-effort",
+      "name": "Undertaking Some Effort",
+      "code": "Use",
+      "record_ids": [
+        "native-lot.undertaking-some-effort"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.unpreparedness",
+      "name": "Unpreparedness",
+      "code": "Unp",
+      "record_ids": [
+        "native-lot.unpreparedness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.unusual-events",
+      "name": "Unusual Events",
+      "code": "Unu",
+      "record_ids": [
+        "native-lot.unusual-events"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.vanity",
+      "name": "Vanity",
+      "code": "Van",
+      "record_ids": [
+        "native-lot.vanity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.venture",
+      "name": "Venture",
+      "code": "Ven",
+      "record_ids": [
+        "native-lot.venture"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.victory",
+      "name": "Victory",
+      "code": "Vi",
+      "record_ids": [
+        "native-lot.victory",
+        "native-lot.victory-olympiodorus"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.visitation",
+      "name": "Visitation",
+      "code": "Vst",
+      "record_ids": [
+        "native-lot.visitation"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.vitality",
+      "name": "Vitality",
+      "code": "Vit",
+      "record_ids": [
+        "native-lot.vitality"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.vocation-and-status",
+      "name": "Vocation & Status",
+      "code": "Vcs",
+      "record_ids": [
+        "native-lot.vocation-status"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.war",
+      "name": "War",
+      "code": "War",
+      "record_ids": [
+        "native-lot.war-al-tabari"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.waste-and-extravagance",
+      "name": "Waste & Extravagance",
+      "code": "Wex",
+      "record_ids": [
+        "native-lot.waste-extravagance"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.wastefulness",
+      "name": "Wastefulness",
+      "code": "Wst",
+      "record_ids": [
+        "native-lot.wastefulness"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.water-commodity",
+      "name": "Water (Commodity)",
+      "code": "Wac",
+      "record_ids": [
+        "native-lot.water-commodity"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.water-element",
+      "name": "Water (Element)",
+      "code": "Wae",
+      "record_ids": [
+        "native-lot.water-element"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.watermelons",
+      "name": "Watermelons",
+      "code": "Wml",
+      "record_ids": [
+        "native-lot.watermelons-al-biruni"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.waters",
+      "name": "Waters",
+      "code": "Wtr",
+      "record_ids": [
+        "native-lot.waters"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.wealth",
+      "name": "Wealth",
+      "code": "Wea",
+      "record_ids": [
+        "native-lot.wealth-a",
+        "native-lot.wealth-b"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.wedding",
+      "name": "Wedding",
+      "code": "Wed",
+      "record_ids": [
+        "native-lot.wedding"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.wheat",
+      "name": "Wheat",
+      "code": "Wht",
+      "record_ids": [
+        "native-lot.wheat",
+        "native-lot.wheat-al-biruni"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.whether-someones-rule-will-come-to-pass",
+      "name": "Whether Someone's Rule Will Come to Pass",
+      "code": "Wrcp",
+      "record_ids": [
+        "native-lot.whether-someone-s-rule-will-come-to-pass"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.widowhood",
+      "name": "Widowhood",
+      "code": "Wid",
+      "record_ids": [
+        "native-lot.widowhood"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.womans-abstinence",
+      "name": "Woman's Abstinence",
+      "code": "Wab",
+      "record_ids": [
+        "native-lot.woman-s-abstinence"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.work-of-truth",
+      "name": "Work of Truth",
+      "code": "Wot",
+      "record_ids": [
+        "native-lot.work-of-truth"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    },
+    {
+      "id": "lot.work-which-must-be-done",
+      "name": "Work Which Must be Done",
+      "code": "Wmd",
+      "record_ids": [
+        "native-lot.work-which-must-be-done"
+      ],
+      "default_visual": "open_lozenge_plus_code"
+    }
+  ]
+}

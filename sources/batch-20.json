@@ -1,0 +1,431 @@
+{
+  "project": "Moira Astro",
+  "batch": 20,
+  "draft": 1,
+  "date": "2026-10-25",
+  "new_symbol_masters": 3,
+  "font_integrated": false,
+  "forms": [
+    {
+      "id": "point.east-point",
+      "name": "East Point / equatorial Ascendant",
+      "short_label": "EP",
+      "form_name": "Equatorial cross with split arm",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"64\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"390\" cy=\"500\" r=\"240\"/><path d=\"M390 260 V740 M150 500 H630 M630 500 L820 300 M630 500 L820 700\"/></g>",
+      "origin": "moira_original_redrawing_of_attested_modern_form",
+      "source_form": "Kerykeion own glyph atlas East Point: circled cross with a split arm. Original Moira coordinates and proportions, not copied contours.",
+      "meaning": "Equatorial-Ascendant convention: the ecliptic direction whose right ascension is ARMC + 90 degrees, under a declared frame and branch.",
+      "definition_policy": {
+        "required_metadata": [
+          "definition_id",
+          "frame",
+          "equinox_or_epoch",
+          "branch_convention"
+        ],
+        "native_implementation_selected": false,
+        "model_selected_by_font": false,
+        "schematic_geometry": true,
+        "orientation_is_page_convention": true,
+        "definition_id": "equatorial-ascendant.hour-circle",
+        "geometric_role": "ecliptic_intersection_at_ra_armc_plus_90",
+        "latitude_term": "zero-latitude Ascendant definition",
+        "not_horizon_east": true,
+        "native_alignment": "Source-level projection difference recorded; no runtime alignment claim"
+      },
+      "concept": "A circled equatorial cross with a split arm; the full name keeps the projection explicit.",
+      "source_location": "Kerykeion glyph atlas; Munkasey printed pp53/62; Astrodienst section 6.3",
+      "counters": [
+        [
+          285,
+          390
+        ],
+        [
+          495,
+          390
+        ],
+        [
+          285,
+          610
+        ],
+        [
+          495,
+          610
+        ]
+      ],
+      "gaps": [
+        [
+          760,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          150,
+          500
+        ],
+        [
+          390,
+          260
+        ],
+        [
+          390,
+          500
+        ],
+        [
+          390,
+          740
+        ],
+        [
+          630,
+          500
+        ],
+        [
+          725,
+          400
+        ],
+        [
+          725,
+          600
+        ]
+      ],
+      "contours": 5,
+      "source_record": {
+        "id": "point.east-point",
+        "name": "East Point / equatorial Ascendant",
+        "family": "Angles and chart points",
+        "record_kind": "astrological_concept",
+        "meaning": "Named equatorial-Ascendant convention; retain a stated geometric definition.",
+        "sources": [
+          "m-houses"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable label EP; dedicated form undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "East Point / equatorial Ascendant",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact geometric convention before admitting a dedicated glyph."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "drawing_sha256": "885ae3a14d50c0458b40f06a7267e3378e3ce9d235a9f9bbe391f371b244d85d",
+      "advance": 1000,
+      "source_stroke": 64,
+      "plain_text_fallback": "East Point / equatorial Ascendant",
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "contains_letter_components": false,
+      "native_model_modified": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P4",
+      "status": "symbol_design_proposal_pending_owner_review",
+      "asset": "masters/point.east-point.svg"
+    },
+    {
+      "id": "point.west-point",
+      "name": "West Point",
+      "short_label": "WP",
+      "form_name": "Opposed equatorial cross",
+      "drawing": "<g transform=\"matrix(-1 0 0 -1 1000 1000)\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"64\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"390\" cy=\"500\" r=\"240\"/><path d=\"M390 260 V740 M150 500 H630 M630 500 L820 300 M630 500 L820 700\"/></g></g>",
+      "origin": "moira_original_derived_partner",
+      "source_form": "Original Moira 180-degree partner of the East Point drawing; no independent historical West Point glyph claim.",
+      "meaning": "Equatorial Descendant convention: the ecliptic point 180 degrees from the selected equatorial Ascendant.",
+      "definition_policy": {
+        "required_metadata": [
+          "definition_id",
+          "frame",
+          "equinox_or_epoch",
+          "branch_convention"
+        ],
+        "native_implementation_selected": false,
+        "model_selected_by_font": false,
+        "schematic_geometry": true,
+        "orientation_is_page_convention": true,
+        "definition_id": "equatorial-descendant.opposite-of-selected-east-point",
+        "geometric_role": "opposite_ecliptic_direction",
+        "paired_definition_id": "equatorial-ascendant.hour-circle",
+        "paired_point": "point.east-point",
+        "longitude_offset_degrees": 180,
+        "not_horizon_west": true,
+        "native_alignment": "No new engine implementation or result asserted"
+      },
+      "concept": "The exact half-turn partner of East Point; both remain tied to the same definition.",
+      "source_location": "Original inventory opposite relation; Munkasey printed p62 Equatorial ASC/DES pairing",
+      "counters": [
+        [
+          715,
+          610
+        ],
+        [
+          505,
+          610
+        ],
+        [
+          715,
+          390
+        ],
+        [
+          505,
+          390
+        ]
+      ],
+      "gaps": [
+        [
+          240,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          850,
+          500
+        ],
+        [
+          610,
+          740
+        ],
+        [
+          610,
+          500
+        ],
+        [
+          610,
+          260
+        ],
+        [
+          370,
+          500
+        ],
+        [
+          275,
+          600
+        ],
+        [
+          275,
+          400
+        ]
+      ],
+      "contours": 5,
+      "source_record": {
+        "id": "point.west-point",
+        "name": "West Point",
+        "family": "Angles and chart points",
+        "record_kind": "astrological_concept",
+        "meaning": "Opposite of the selected East Point convention.",
+        "sources": [
+          "m-houses"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable label WP; dedicated form undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "West Point",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact geometric convention before admitting a dedicated glyph."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "drawing_sha256": "8b0d85074e192182e608d4e79b78f996b51951f90d2edc106b7da1a9977c2db9",
+      "advance": 1000,
+      "source_stroke": 64,
+      "plain_text_fallback": "West Point",
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "contains_letter_components": false,
+      "native_model_modified": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P4",
+      "status": "symbol_design_proposal_pending_owner_review",
+      "asset": "masters/point.west-point.svg"
+    },
+    {
+      "id": "point.polar-ascendant",
+      "name": "Polar Ascendant",
+      "short_label": "PA",
+      "form_name": "Open co-polar crossing with selected knot",
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"64\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M390 210 C190 300 190 700 390 790 M610 210 C810 300 810 700 610 790 M210 620 L790 380\"/></g><circle cx=\"724\" cy=\"407\" r=\"70\" fill=\"currentColor\"/>",
+      "origin": "moira_original_invented_symbol",
+      "source_form": "No unique nonletter primary form established in the inspected sources. Original Moira symbol, not a historical sigil.",
+      "meaning": "Munkasey-qualified Polar Ascendant: the selected western ecliptic intersection of the co-polar axis circle, with definition and branch metadata retained.",
+      "definition_policy": {
+        "required_metadata": [
+          "definition_id",
+          "frame",
+          "equinox_or_epoch",
+          "branch_convention"
+        ],
+        "native_implementation_selected": false,
+        "model_selected_by_font": false,
+        "schematic_geometry": true,
+        "orientation_is_page_convention": true,
+        "definition_id": "munkasey.polar-ascendant.co-polar-axis-west",
+        "geometric_role": "selected_western_copolar_ecliptic_intersection",
+        "governing_circle": "co-polar axis circle",
+        "selection": "western intersection",
+        "not_geographic_pole_ascendant": true,
+        "not_celestial_or_ecliptic_pole": true,
+        "native_alignment": "Notation proposal only; no new native calculation selected"
+      },
+      "concept": "An open loop crossing and a selected knot; it denotes a qualified intersection, not a pole.",
+      "source_location": "Munkasey original article, printed pp61-62; Astrodienst section 6.3 as a separate implementation witness",
+      "counters": [
+        [
+          470,
+          340
+        ],
+        [
+          510,
+          650
+        ]
+      ],
+      "gaps": [
+        [
+          500,
+          210
+        ],
+        [
+          500,
+          790
+        ],
+        [
+          860,
+          500
+        ]
+      ],
+      "positive": [
+        [
+          390,
+          210
+        ],
+        [
+          610,
+          210
+        ],
+        [
+          390,
+          790
+        ],
+        [
+          610,
+          790
+        ],
+        [
+          240,
+          500
+        ],
+        [
+          760,
+          500
+        ],
+        [
+          500,
+          500
+        ],
+        [
+          724,
+          407
+        ],
+        [
+          210,
+          620
+        ],
+        [
+          790,
+          380
+        ]
+      ],
+      "contours": 1,
+      "source_record": {
+        "id": "point.polar-ascendant",
+        "name": "Polar Ascendant",
+        "family": "Angles and chart points",
+        "record_kind": "astrological_concept",
+        "meaning": "A named derived Ascendant convention requiring its own geometric source.",
+        "sources": [
+          "m-houses"
+        ],
+        "mapping": {
+          "status": "unresolved",
+          "relation": "no_mapping_selected",
+          "codepoints": [],
+          "unicode_names": [],
+          "text": "",
+          "pua_assignment": null
+        },
+        "release_priority": "P4",
+        "target_release": "research-backlog",
+        "design_status": "candidate",
+        "default_form": "Readable label PA; dedicated form undecided.",
+        "alternate_forms": [],
+        "plain_text_fallback": "Polar Ascendant",
+        "identifiers": {},
+        "blockers": [
+          "Resolve the exact geometric convention before admitting a dedicated glyph."
+        ],
+        "notes": [],
+        "current_font_entry": false,
+        "glyph_asset": null,
+        "review_gate": "Confirm meaning and form by name, review at 14/18/24/32 px, then verify encoding/copy separately."
+      },
+      "drawing_sha256": "6766e9eb554b4f14526c224714f72056bbb630759708ece7bf24b3e65432c0fe",
+      "advance": 1000,
+      "source_stroke": 64,
+      "plain_text_fallback": "Polar Ascendant",
+      "historical_symbol_claim": false,
+      "default_selected": false,
+      "font_integrated": false,
+      "contains_letter_components": false,
+      "native_model_modified": false,
+      "model_selected_by_font": false,
+      "character": null,
+      "codepoint": null,
+      "unicode_name": null,
+      "pua_assignment": null,
+      "token_allocation": null,
+      "feature_allocation": null,
+      "release_priority": "P4",
+      "status": "symbol_design_proposal_pending_owner_review",
+      "asset": "masters/point.polar-ascendant.svg"
+    }
+  ]
+}

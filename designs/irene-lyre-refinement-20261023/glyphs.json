@@ -1,0 +1,137 @@
+{
+  "project": "Moira Astro",
+  "date": "2026-10-23",
+  "scope": "Irene and Parthenope lyre optical refinement",
+  "form_studies": 2,
+  "font_integrated": false,
+  "prior_forms": "C:\\dev\\outputs\\moira-astro-design-batch-07-historical-asteroids-20261023\\glyphs.json",
+  "forms": [
+    {
+      "id": "irene",
+      "semantic_id": "smallbody.irene",
+      "name": "Irene",
+      "minor_planet_number": 14,
+      "meaning": "Physical numbered asteroid (14) Irene",
+      "category": "default-proposal",
+      "form_name": "Dove, branch and star",
+      "codepoint": "U+1CEC7",
+      "unicode_name": "IRENE",
+      "mapping": {
+        "status": "assigned",
+        "relation": "assigned_identity",
+        "codepoints": [
+          "U+1CEC7"
+        ],
+        "unicode_names": [
+          "IRENE"
+        ],
+        "text": "𜻇",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"50\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M805 530 C710 780 400 850 260 645 C215 590 210 540 215 495 L150 470 L230 435 C245 335 370 335 405 455 C455 630 510 690 635 680 M820 270 C685 250 595 350 585 520\"/><g stroke-width=\"46\"><path d=\"M150 470 L125 780 M138 620 L70 665 M131 710 L70 755\"/></g><g stroke-width=\"48\"><path d=\"M315 97 L315 273 M238.79 141 L391.21 229 M238.79 229 L391.21 141\"/></g></g>",
+      "source_stroke": 50,
+      "description": "Simplified open dove silhouette, separate raised wing, leftward branch and isolated upper star.",
+      "historical_evidence_figures": [
+        35,
+        36
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-supplement",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical convention; nineteenth-century examples reproduced and discussed in Bala and Miller (2023). Reference glyph is not a required outline.",
+      "inventory_native_catalog_naif_id": 2000014,
+      "jpl_current_spkid": "20000014",
+      "jpl_fullname": "14 Irene (A851 KA)",
+      "status": "optical_refinement_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/irene.svg",
+      "revision": "chart-size-01",
+      "prior_registry_sha256": "1d3fdc9238144885b9486ed8b9b95d08e0030ddb857214f374ce7ea7397a718d",
+      "changes": [
+        "Removed the overlapping lower body curve and short interior curl.",
+        "Moved the branch away from the body; leaves occupy the open left margin.",
+        "Separated the star from the head within the same 1000-unit proof cell."
+      ],
+      "stroke_details": {
+        "body": 50,
+        "branch": 46,
+        "star": 48
+      }
+    },
+    {
+      "id": "parthenope-form-two",
+      "semantic_id": "smallbody.parthenope",
+      "name": "Parthenope",
+      "minor_planet_number": 11,
+      "meaning": "Physical numbered asteroid (11) Parthenope",
+      "category": "alternate-proposal",
+      "form_name": "Historical lyre",
+      "codepoint": "U+1F77A",
+      "unicode_name": "PARTHENOPE FORM TWO",
+      "mapping": {
+        "status": "assigned",
+        "relation": "alternate_character",
+        "codepoints": [
+          "U+1F77A"
+        ],
+        "unicode_names": [
+          "PARTHENOPE FORM TWO"
+        ],
+        "text": "🝺",
+        "pua_assignment": null
+      },
+      "drawing": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"48\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 300 C230 130 100 130 100 300 C100 420 200 450 200 600 Q200 850 500 850 Q800 850 800 600 C800 450 900 420 900 300 C900 130 770 130 770 300 M230 300 H770\"/><path d=\"M320 300 V816.228\"/><path d=\"M440 300 V847.214\"/><path d=\"M560 300 V847.214\"/><path d=\"M680 300 V816.228\"/></g>",
+      "source_stroke": 48,
+      "description": "Broad lyre with four separated strings, one bowl and outward upper hooks.",
+      "historical_evidence_figures": [
+        29,
+        34,
+        36
+      ],
+      "sources": [
+        "unicode17-ucd",
+        "unicode17-alchemical",
+        "bala-miller2023",
+        "jpl-identity",
+        "master-inventory"
+      ],
+      "outline_provenance": "New Moira coordinates authored from symbol structure. No reference-font extraction, contour import or tracing.",
+      "form_provenance": "Historical lyre convention. The 2023 proposal credits its lyre reference drawing to Denis Moskowitz; these are independently authored Moira coordinates.",
+      "inventory_native_catalog_naif_id": 2000011,
+      "jpl_current_spkid": "20000011",
+      "jpl_fullname": "11 Parthenope (A850 JA)",
+      "status": "optical_refinement_for_owner_review",
+      "font_integrated": false,
+      "feature_slot": null,
+      "pua_assignment": null,
+      "release_priority": "P2",
+      "asset": "masters/parthenope-form-two.svg",
+      "revision": "chart-size-01",
+      "prior_registry_sha256": "1d3fdc9238144885b9486ed8b9b95d08e0030ddb857214f374ce7ea7397a718d",
+      "changes": [
+        "Replaced doubled nested side/bottom contours with one continuous frame.",
+        "Opened the margins between the frame and four strings.",
+        "Kept the lyre convention, body identity and U+1F77A assignment."
+      ],
+      "stroke_details": {
+        "frame": 48,
+        "strings": 48
+      },
+      "string_centers": [
+        320,
+        440,
+        560,
+        680
+      ],
+      "clear_parallel_string_gap_units": 72
+    }
+  ]
+}

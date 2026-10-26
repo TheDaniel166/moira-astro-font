@@ -1,0 +1,853 @@
+{
+  "project": "Moira Astro",
+  "version": "0.1.0-design-pilot",
+  "date": "2026-10-23",
+  "status": "draft vector design pilot",
+  "license": "Undecided; no public distribution license selected",
+  "count": 30,
+  "units": 1000,
+  "stroke": 44,
+  "note": "Unicode records intended semantic mapping; no font binary/cmap is supplied. SVG drawings do not supply text shaping or copy behavior.",
+  "glyphs": [
+    {
+      "index": 1,
+      "id": "aries",
+      "name": "Aries",
+      "family": "zodiac",
+      "unicode": "U+2648",
+      "codepoint": 9800,
+      "character": "♈",
+      "form": "Paired horns with a common vertical stem",
+      "accessible_name": "Aries",
+      "fallback": "Aries",
+      "asset": "masters/aries.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M500 810 V445 C500 270 392 185 285 215 C155 250 180 440 285 440 M500 445 C500 270 608 185 715 215 C845 250 820 440 715 440\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Aries\"><title>Moira Astro — Aries</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 810 V445 C500 270 392 185 285 215 C155 250 180 440 285 440 M500 445 C500 270 608 185 715 215 C845 250 820 440 715 440\"/></g></svg>"
+    },
+    {
+      "index": 2,
+      "id": "taurus",
+      "name": "Taurus",
+      "family": "zodiac",
+      "unicode": "U+2649",
+      "codepoint": 9801,
+      "character": "♉",
+      "form": "Circle and open paired horns",
+      "accessible_name": "Taurus",
+      "fallback": "Taurus",
+      "asset": "masters/taurus.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"500\" cy=\"580\" r=\"220\"/><path d=\"M220 190 C235 315 340 360 500 360 C660 360 765 315 780 190\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Taurus\"><title>Moira Astro — Taurus</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"580\" r=\"220\"/><path d=\"M220 190 C235 315 340 360 500 360 C660 360 765 315 780 190\"/></g></svg>"
+    },
+    {
+      "index": 3,
+      "id": "gemini",
+      "name": "Gemini",
+      "family": "zodiac",
+      "unicode": "U+264A",
+      "codepoint": 9802,
+      "character": "♊",
+      "form": "Twin stems with bowed connecting bars",
+      "accessible_name": "Gemini",
+      "fallback": "Gemini",
+      "asset": "masters/gemini.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M230 205 Q500 295 770 205 M230 795 Q500 705 770 795 M335 235 V765 M665 235 V765\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Gemini\"><title>Moira Astro — Gemini</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 205 Q500 295 770 205 M230 795 Q500 705 770 795 M335 235 V765 M665 235 V765\"/></g></svg>"
+    },
+    {
+      "index": 4,
+      "id": "cancer",
+      "name": "Cancer",
+      "family": "zodiac",
+      "unicode": "U+264B",
+      "codepoint": 9803,
+      "character": "♋",
+      "form": "Opposed circular forms and enclosing arcs",
+      "accessible_name": "Cancer",
+      "fallback": "Cancer",
+      "asset": "masters/cancer.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"315\" cy=\"380\" r=\"115\"/><circle cx=\"685\" cy=\"620\" r=\"115\"/><path d=\"M200 380 C200 190 610 155 795 350 M800 620 C800 810 390 845 205 650\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Cancer\"><title>Moira Astro — Cancer</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"315\" cy=\"380\" r=\"115\"/><circle cx=\"685\" cy=\"620\" r=\"115\"/><path d=\"M200 380 C200 190 610 155 795 350 M800 620 C800 810 390 845 205 650\"/></g></svg>"
+    },
+    {
+      "index": 5,
+      "id": "leo",
+      "name": "Leo",
+      "family": "zodiac",
+      "unicode": "U+264C",
+      "codepoint": 9804,
+      "character": "♌",
+      "form": "Small circle, tall loop and open tail",
+      "accessible_name": "Leo",
+      "fallback": "Leo",
+      "asset": "masters/leo.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"285\" cy=\"595\" r=\"115\"/><path d=\"M383 535 C475 405 335 185 505 185 C685 185 660 390 600 510 C510 695 590 805 705 780 Q790 760 815 670\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Leo\"><title>Moira Astro — Leo</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"285\" cy=\"595\" r=\"115\"/><path d=\"M383 535 C475 405 335 185 505 185 C685 185 660 390 600 510 C510 695 590 805 705 780 Q790 760 815 670\"/></g></svg>"
+    },
+    {
+      "index": 6,
+      "id": "virgo",
+      "name": "Virgo",
+      "family": "zodiac",
+      "unicode": "U+264D",
+      "codepoint": 9805,
+      "character": "♍",
+      "form": "Three stems with an enclosed, crossing final loop",
+      "accessible_name": "Virgo",
+      "fallback": "Virgo",
+      "asset": "masters/virgo.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M175 310 V735 M175 425 C175 250 370 250 370 425 V735 M370 425 C370 250 565 250 565 425 V620 C565 810 800 805 815 545 C830 335 665 345 665 520 C665 680 735 750 820 805\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Virgo\"><title>Moira Astro — Virgo</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M175 310 V735 M175 425 C175 250 370 250 370 425 V735 M370 425 C370 250 565 250 565 425 V620 C565 810 800 805 815 545 C830 335 665 345 665 520 C665 680 735 750 820 805\"/></g></svg>"
+    },
+    {
+      "index": 7,
+      "id": "libra",
+      "name": "Libra",
+      "family": "zodiac",
+      "unicode": "U+264E",
+      "codepoint": 9806,
+      "character": "♎",
+      "form": "Balanced rising arch over a separate baseline",
+      "accessible_name": "Libra",
+      "fallback": "Libra",
+      "asset": "masters/libra.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M180 755 H820 M180 590 H345 C210 360 390 220 500 220 C610 220 790 360 655 590 H820\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Libra\"><title>Moira Astro — Libra</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M180 755 H820 M180 590 H345 C210 360 390 220 500 220 C610 220 790 360 655 590 H820\"/></g></svg>"
+    },
+    {
+      "index": 8,
+      "id": "scorpio",
+      "name": "Scorpio",
+      "family": "zodiac",
+      "unicode": "U+264F",
+      "codepoint": 9807,
+      "character": "♏",
+      "form": "Three stems and an outward arrow tail",
+      "accessible_name": "Scorpio",
+      "fallback": "Scorpio",
+      "asset": "masters/scorpio.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M175 310 V745 M175 425 C175 250 370 250 370 425 V745 M370 425 C370 250 565 250 565 425 V640 Q565 735 665 735 H825 M735 645 L825 735 735 825\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Scorpio\"><title>Moira Astro — Scorpio</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M175 310 V745 M175 425 C175 250 370 250 370 425 V745 M370 425 C370 250 565 250 565 425 V640 Q565 735 665 735 H825 M735 645 L825 735 735 825\"/></g></svg>"
+    },
+    {
+      "index": 9,
+      "id": "sagittarius",
+      "name": "Sagittarius",
+      "family": "zodiac",
+      "unicode": "U+2650",
+      "codepoint": 9808,
+      "character": "♐",
+      "form": "Northeast arrow with a crossbar",
+      "accessible_name": "Sagittarius",
+      "fallback": "Sagittarius",
+      "asset": "masters/sagittarius.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M220 780 L780 220 M470 220 H780 V530 M270 420 L580 730\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Sagittarius\"><title>Moira Astro — Sagittarius</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M220 780 L780 220 M470 220 H780 V530 M270 420 L580 730\"/></g></svg>"
+    },
+    {
+      "index": 10,
+      "id": "capricorn",
+      "name": "Capricorn",
+      "family": "zodiac",
+      "unicode": "U+2651",
+      "codepoint": 9809,
+      "character": "♑",
+      "form": "Horned double entrance and a crossing lower loop",
+      "accessible_name": "Capricorn",
+      "fallback": "Capricorn",
+      "asset": "masters/capricorn.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M175 690 V355 C175 230 310 220 360 355 L550 715 C620 855 820 795 820 650 C820 500 595 485 595 650 C595 800 735 815 820 750 M360 355 C410 235 540 240 550 375 L565 520\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Capricorn\"><title>Moira Astro — Capricorn</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M175 690 V355 C175 230 310 220 360 355 L550 715 C620 855 820 795 820 650 C820 500 595 485 595 650 C595 800 735 815 820 750 M360 355 C410 235 540 240 550 375 L565 520\"/></g></svg>"
+    },
+    {
+      "index": 11,
+      "id": "aquarius",
+      "name": "Aquarius",
+      "family": "zodiac",
+      "unicode": "U+2652",
+      "codepoint": 9810,
+      "character": "♒",
+      "form": "Two evenly spaced angular waves",
+      "accessible_name": "Aquarius",
+      "fallback": "Aquarius",
+      "asset": "masters/aquarius.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M165 420 L300 285 435 420 570 285 705 420 840 285 M165 715 L300 580 435 715 570 580 705 715 840 580\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Aquarius\"><title>Moira Astro — Aquarius</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M165 420 L300 285 435 420 570 285 705 420 840 285 M165 715 L300 580 435 715 570 580 705 715 840 580\"/></g></svg>"
+    },
+    {
+      "index": 12,
+      "id": "pisces",
+      "name": "Pisces",
+      "family": "zodiac",
+      "unicode": "U+2653",
+      "codepoint": 9811,
+      "character": "♓",
+      "form": "Opposed inward bows joined through the middle",
+      "accessible_name": "Pisces",
+      "fallback": "Pisces",
+      "asset": "masters/pisces.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M225 200 C495 350 495 650 225 800 M775 200 C505 350 505 650 775 800 M185 500 H815\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Pisces\"><title>Moira Astro — Pisces</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M225 200 C495 350 495 650 225 800 M775 200 C505 350 505 650 775 800 M185 500 H815\"/></g></svg>"
+    },
+    {
+      "index": 13,
+      "id": "sun",
+      "name": "Sun",
+      "family": "body",
+      "unicode": "U+2609",
+      "codepoint": 9737,
+      "character": "☉",
+      "form": "Circled central point",
+      "accessible_name": "Sun",
+      "fallback": "Sun",
+      "asset": "masters/sun.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"500\" cy=\"500\" r=\"285\"/><circle cx=\"500\" cy=\"500\" r=\"43\" fill=\"currentColor\" stroke=\"none\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Sun\"><title>Moira Astro — Sun</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"285\"/><circle cx=\"500\" cy=\"500\" r=\"43\" fill=\"currentColor\" stroke=\"none\"/></g></svg>"
+    },
+    {
+      "index": 14,
+      "id": "moon",
+      "name": "Moon",
+      "family": "body",
+      "unicode": "U+263E",
+      "codepoint": 9790,
+      "character": "☾",
+      "form": "Left crescent, opening to the right; U+263E",
+      "accessible_name": "Moon",
+      "fallback": "Moon",
+      "asset": "masters/moon.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M655 185 C405 160 230 305 230 500 C230 695 405 840 655 815 C395 700 395 300 655 185 Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Moon\"><title>Moira Astro — Moon</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M655 185 C405 160 230 305 230 500 C230 695 405 840 655 815 C395 700 395 300 655 185 Z\"/></g></svg>"
+    },
+    {
+      "index": 15,
+      "id": "mercury",
+      "name": "Mercury",
+      "family": "body",
+      "unicode": "U+263F",
+      "codepoint": 9791,
+      "character": "☿",
+      "form": "Upper crescent, circle and lower cross",
+      "accessible_name": "Mercury",
+      "fallback": "Mercury",
+      "asset": "masters/mercury.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"500\" cy=\"450\" r=\"180\"/><path d=\"M315 170 C315 310 685 310 685 170 M500 630 V840 M360 735 H640\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Mercury\"><title>Moira Astro — Mercury</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"450\" r=\"180\"/><path d=\"M315 170 C315 310 685 310 685 170 M500 630 V840 M360 735 H640\"/></g></svg>"
+    },
+    {
+      "index": 16,
+      "id": "venus",
+      "name": "Venus",
+      "family": "body",
+      "unicode": "U+2640",
+      "codepoint": 9792,
+      "character": "♀",
+      "form": "Circle over a cross",
+      "accessible_name": "Venus",
+      "fallback": "Venus",
+      "asset": "masters/venus.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"500\" cy=\"390\" r=\"215\"/><path d=\"M500 605 V835 M350 735 H650\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Venus\"><title>Moira Astro — Venus</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"390\" r=\"215\"/><path d=\"M500 605 V835 M350 735 H650\"/></g></svg>"
+    },
+    {
+      "index": 17,
+      "id": "mars",
+      "name": "Mars",
+      "family": "body",
+      "unicode": "U+2642",
+      "codepoint": 9794,
+      "character": "♂",
+      "form": "Circle with a northeast arrow",
+      "accessible_name": "Mars",
+      "fallback": "Mars",
+      "asset": "masters/mars.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"405\" cy=\"595\" r=\"225\"/><path d=\"M565 435 L805 195 M565 195 H805 V435\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Mars\"><title>Moira Astro — Mars</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"405\" cy=\"595\" r=\"225\"/><path d=\"M565 435 L805 195 M565 195 H805 V435\"/></g></svg>"
+    },
+    {
+      "index": 18,
+      "id": "jupiter",
+      "name": "Jupiter",
+      "family": "body",
+      "unicode": "U+2643",
+      "codepoint": 9795,
+      "character": "♃",
+      "form": "Open curved numeral form crossed by a long stem",
+      "accessible_name": "Jupiter",
+      "fallback": "Jupiter",
+      "asset": "masters/jupiter.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M230 345 C230 175 470 145 470 325 C470 465 345 560 215 620 H790 M645 190 V820\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Jupiter\"><title>Moira Astro — Jupiter</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M230 345 C230 175 470 145 470 325 C470 465 345 560 215 620 H790 M645 190 V820\"/></g></svg>"
+    },
+    {
+      "index": 19,
+      "id": "saturn",
+      "name": "Saturn",
+      "family": "body",
+      "unicode": "U+2644",
+      "codepoint": 9796,
+      "character": "♄",
+      "form": "Upper cross with an open hooked lower bowl",
+      "accessible_name": "Saturn",
+      "fallback": "Saturn",
+      "asset": "masters/saturn.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M350 180 V700 M205 325 H525 M350 535 C465 305 755 365 690 570 C645 705 570 770 650 810 Q715 840 780 765\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Saturn\"><title>Moira Astro — Saturn</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M350 180 V700 M205 325 H525 M350 535 C465 305 755 365 690 570 C645 705 570 770 650 810 Q715 840 780 765\"/></g></svg>"
+    },
+    {
+      "index": 20,
+      "id": "uranus",
+      "name": "Uranus",
+      "family": "body",
+      "unicode": "U+2645",
+      "codepoint": 9797,
+      "character": "♅",
+      "form": "H form with a suspended circle; U+2645",
+      "accessible_name": "Uranus",
+      "fallback": "Uranus",
+      "asset": "masters/uranus.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M240 205 V585 M760 205 V585 M240 395 H760 M500 205 V675\"/><circle cx=\"500\" cy=\"775\" r=\"100\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Uranus\"><title>Moira Astro — Uranus</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M240 205 V585 M760 205 V585 M240 395 H760 M500 205 V675\"/><circle cx=\"500\" cy=\"775\" r=\"100\"/></g></svg>"
+    },
+    {
+      "index": 21,
+      "id": "neptune",
+      "name": "Neptune",
+      "family": "body",
+      "unicode": "U+2646",
+      "codepoint": 9798,
+      "character": "♆",
+      "form": "Three upward prongs over a lower cross",
+      "accessible_name": "Neptune",
+      "fallback": "Neptune",
+      "asset": "masters/neptune.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M245 235 V370 C245 620 755 620 755 370 V235 M500 170 V835 M350 735 H650 M170 310 L245 235 320 310 M680 310 L755 235 830 310 M425 245 L500 170 575 245\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Neptune\"><title>Moira Astro — Neptune</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M245 235 V370 C245 620 755 620 755 370 V235 M500 170 V835 M350 735 H650 M170 310 L245 235 320 310 M680 310 L755 235 830 310 M425 245 L500 170 575 245\"/></g></svg>"
+    },
+    {
+      "index": 22,
+      "id": "pluto",
+      "name": "Pluto",
+      "family": "body",
+      "unicode": "U+2647",
+      "codepoint": 9799,
+      "character": "♇",
+      "form": "PL monogram; U+2647; alternate orb form deferred",
+      "accessible_name": "Pluto",
+      "fallback": "Pluto",
+      "asset": "masters/pluto.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M315 815 V190 H535 C800 190 800 525 535 525 H315 M315 815 H735\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Pluto\"><title>Moira Astro — Pluto</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M315 815 V190 H535 C800 190 800 525 535 525 H315 M315 815 H735\"/></g></svg>"
+    },
+    {
+      "index": 23,
+      "id": "earth",
+      "name": "Earth",
+      "family": "body",
+      "unicode": "U+2641",
+      "codepoint": 9793,
+      "character": "♁",
+      "form": "Cross inscribed in a circle; U+2641",
+      "accessible_name": "Earth",
+      "fallback": "Earth",
+      "asset": "masters/earth.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"500\" cy=\"500\" r=\"285\"/><path d=\"M215 500 H785 M500 215 V785\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Earth\"><title>Moira Astro — Earth</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"500\" cy=\"500\" r=\"285\"/><path d=\"M215 500 H785 M500 215 V785\"/></g></svg>"
+    },
+    {
+      "index": 24,
+      "id": "ascending-node",
+      "name": "Ascending node",
+      "family": "node",
+      "unicode": "U+260A",
+      "codepoint": 9738,
+      "character": "☊",
+      "form": "Upward arch ending in two open circular terminals",
+      "accessible_name": "Ascending node",
+      "fallback": "Ascending node",
+      "asset": "masters/ascending-node.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"260\" cy=\"680\" r=\"85\"/><circle cx=\"740\" cy=\"680\" r=\"85\"/><path d=\"M260 595 V455 C260 145 740 145 740 455 V595\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Ascending node\"><title>Moira Astro — Ascending node</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"260\" cy=\"680\" r=\"85\"/><circle cx=\"740\" cy=\"680\" r=\"85\"/><path d=\"M260 595 V455 C260 145 740 145 740 455 V595\"/></g></svg>"
+    },
+    {
+      "index": 25,
+      "id": "descending-node",
+      "name": "Descending node",
+      "family": "node",
+      "unicode": "U+260B",
+      "codepoint": 9739,
+      "character": "☋",
+      "form": "Downward arch ending in two open circular terminals",
+      "accessible_name": "Descending node",
+      "fallback": "Descending node",
+      "asset": "masters/descending-node.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"260\" cy=\"320\" r=\"85\"/><circle cx=\"740\" cy=\"320\" r=\"85\"/><path d=\"M260 405 V545 C260 855 740 855 740 545 V405\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Descending node\"><title>Moira Astro — Descending node</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"260\" cy=\"320\" r=\"85\"/><circle cx=\"740\" cy=\"320\" r=\"85\"/><path d=\"M260 405 V545 C260 855 740 855 740 545 V405\"/></g></svg>"
+    },
+    {
+      "index": 26,
+      "id": "conjunction",
+      "name": "Conjunction",
+      "family": "aspect",
+      "unicode": "U+260C",
+      "codepoint": 9740,
+      "character": "☌",
+      "form": "Circle with a plain northeast stem",
+      "accessible_name": "Conjunction",
+      "fallback": "Conjunction",
+      "asset": "masters/conjunction.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"395\" cy=\"605\" r=\"205\"/><path d=\"M540 460 L795 205\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Conjunction\"><title>Moira Astro — Conjunction</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"395\" cy=\"605\" r=\"205\"/><path d=\"M540 460 L795 205\"/></g></svg>"
+    },
+    {
+      "index": 27,
+      "id": "opposition",
+      "name": "Opposition",
+      "family": "aspect",
+      "unicode": "U+260D",
+      "codepoint": 9741,
+      "character": "☍",
+      "form": "Two opposed circles with a joining stem",
+      "accessible_name": "Opposition",
+      "fallback": "Opposition",
+      "asset": "masters/opposition.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<circle cx=\"315\" cy=\"685\" r=\"145\"/><circle cx=\"685\" cy=\"315\" r=\"145\"/><path d=\"M418 582 L582 418\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Opposition\"><title>Moira Astro — Opposition</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"315\" cy=\"685\" r=\"145\"/><circle cx=\"685\" cy=\"315\" r=\"145\"/><path d=\"M418 582 L582 418\"/></g></svg>"
+    },
+    {
+      "index": 28,
+      "id": "trine",
+      "name": "Trine",
+      "family": "aspect",
+      "unicode": "U+25B3",
+      "codepoint": 9651,
+      "character": "△",
+      "form": "Open upward triangle",
+      "accessible_name": "Trine",
+      "fallback": "Trine",
+      "asset": "masters/trine.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M500 190 L835 785 H165 Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Trine\"><title>Moira Astro — Trine</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 190 L835 785 H165 Z\"/></g></svg>"
+    },
+    {
+      "index": 29,
+      "id": "square",
+      "name": "Square",
+      "family": "aspect",
+      "unicode": "U+25A1",
+      "codepoint": 9633,
+      "character": "□",
+      "form": "Open square",
+      "accessible_name": "Square",
+      "fallback": "Square",
+      "asset": "masters/square.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M215 215 H785 V785 H215 Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Square\"><title>Moira Astro — Square</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M215 215 H785 V785 H215 Z\"/></g></svg>"
+    },
+    {
+      "index": 30,
+      "id": "sextile",
+      "name": "Sextile",
+      "family": "aspect",
+      "unicode": "U+26B9",
+      "codepoint": 9913,
+      "character": "⚹",
+      "form": "Six-rayed asterisk with equally spaced arms",
+      "accessible_name": "Sextile",
+      "fallback": "Sextile",
+      "asset": "masters/sextile.svg",
+      "review_status": "draft",
+      "meaning_status": "traditional symbol identity",
+      "outline_provenance": "Original Moira Astro pilot geometry; authored directly in build_glyphs.py; no imported or traced font outlines",
+      "metrics": {
+        "viewbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "advance": 1000,
+        "stroke": 44
+      },
+      "body": "<path d=\"M500 185 V815 M227 342 L773 658 M227 658 L773 342\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\" role=\"img\" aria-label=\"Sextile\"><title>Moira Astro — Sextile</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"44\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M500 185 V815 M227 342 L773 658 M227 658 L773 342\"/></g></svg>"
+    }
+  ]
+}

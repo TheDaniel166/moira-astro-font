@@ -2,7 +2,7 @@
 window.MOIRA_FIXTURES = {
   "schema_version": 1,
   "project": "Moira Astro",
-  "font_version": "0.13.2-alpha.1",
+  "font_version": "0.14.0-alpha.1",
   "license": "OFL-1.1",
   "copyright": "Copyright 2026 Moira Astro contributors. Original glyph designs.",
   "notice": "Declared layout fixtures. No ephemeris, natal-chart, native-model or lot-formula calculation.",

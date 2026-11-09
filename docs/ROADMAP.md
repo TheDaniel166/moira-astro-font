@@ -4,7 +4,7 @@ Copyright 2026 Moira Astro contributors. Licensed under SIL OFL 1.1; see [OFL.tx
 
 ## Standalone project foundation
 
-The 0.13.2-alpha.1 baseline has complete TTX source, preserved SVG design history, reconciled inventory, embedded OFL licensing and source/encoding regression checks. The repository adds a dedicated home and Windows/Linux CI. Public beta publication remains a separate step.
+The 0.14.0-alpha.1 baseline has complete TTX source, preserved SVG design history, reconciled inventory, embedded OFL licensing and source/encoding regression checks. The repository adds a dedicated home and Windows/Linux CI. Public beta publication remains a separate step.
 
 ## Complete-chart pilot
 
@@ -14,7 +14,7 @@ The implementation provides light/dark themes, font-format selection, keyboard-a
 
 ## Character guide and picker
 
-The [guide](../guide/index.html) covers all 725 usable forms with name/alias/category/source searches, Unicode and exact-token copying, Word aliases, variant links and model/witness notes. Feature-only slashed zero and blank spacing retain their actual encoding behavior. The font binaries, drawing history and native model remain unchanged. Generation and regression commands are recorded in [the guide documentation](CHARACTER_GUIDE.md).
+The [guide](../guide/index.html) covers all 745 usable forms with name/alias/category/source searches, Unicode and exact-token copying, Word aliases, variant links and model/witness notes. Feature-only slashed zero and blank spacing retain their actual encoding behavior. The font binaries, drawing history and native model remain unchanged. Generation and regression commands are recorded in [the guide documentation](CHARACTER_GUIDE.md).
 
 ## Next: website symbol-font adoption
 

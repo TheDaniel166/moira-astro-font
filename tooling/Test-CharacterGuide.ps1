@@ -23,7 +23,7 @@ try {
     if($LASTEXITCODE -ne 0){throw 'Guide did not become ready'}
     & agent-browser --session $sessionName set viewport 1360 1100 | Out-Null
     & agent-browser --session $sessionName screenshot (Join-Path $reviewRoot 'desktop-preview.png') | Out-Null
-    Require-Guide 'window.MOIRA_GUIDE.getState().resultIds.length===725 && window.MOIRA_GUIDE.getState().visibleIds.length===24' 'Initial index/pagination is incorrect'
+    Require-Guide 'window.MOIRA_GUIDE.getState().resultIds.length===745 && window.MOIRA_GUIDE.getState().visibleIds.length===24' 'Initial index/pagination is incorrect'
     & agent-browser --session $sessionName click '#load-more' | Out-Null
     Require-Guide 'window.MOIRA_GUIDE.getState().visibleIds.length===48' 'Load-more did not expose another page'
     & agent-browser --session $sessionName click '[data-category="lots"]' | Out-Null
@@ -68,7 +68,7 @@ try {
     Require-Guide 'window.MOIRA_GUIDE.getState().resultIds.length===0 && !document.getElementById("empty-state").hidden && !document.getElementById("selection-notice").hidden' 'Empty/outside-selection states are unclear'
     & agent-browser --session $sessionName screenshot (Join-Path $reviewRoot 'empty-preview.png') --full | Out-Null
     & agent-browser --session $sessionName click '#empty-reset' | Out-Null
-    Require-Guide 'window.MOIRA_GUIDE.getState().query==="" && window.MOIRA_GUIDE.getState().category==="all" && window.MOIRA_GUIDE.getState().resultIds.length===725' 'Reset did not restore the complete index'
+    Require-Guide 'window.MOIRA_GUIDE.getState().query==="" && window.MOIRA_GUIDE.getState().category==="all" && window.MOIRA_GUIDE.getState().resultIds.length===745' 'Reset did not restore the complete index'
     & agent-browser --session $sessionName click '[data-select-entry="glyph.uni2648"]' | Out-Null
     & agent-browser --session $sessionName fill '#guide-search' Sun | Out-Null
     & agent-browser --session $sessionName click '[data-select-entry="glyph.uni2609"]' | Out-Null

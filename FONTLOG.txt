@@ -9,6 +9,12 @@ Project: original astrology symbol font; regular weight.
 The master inventory has been covered through Batch 21. Coverage refers to
 the selected inventory, not every symbol or historical convention ever used.
 
+2026-11-09  0.14.0-alpha.1 / internal revision 0.950
+  Integrated Batch 23: twenty aspect multiples, reached by explicit [astro:*]
+  discretionary tokens only. No Unicode mappings were added or changed.
+  Added raised figures 5, 7 and 9 to the existing 2, 3 and 4 notation.
+  Preserved all 726 earlier glyphs, 225 mappings and 711 optional tokens.
+
 2026-10-26  0.13.2-alpha.1 / internal revision 0.942
   Applied SIL Open Font License 1.1, with Reserved Font Name Moira.
   Embedded the full license and URL; retained the existing copyright holder.

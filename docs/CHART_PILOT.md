@@ -6,7 +6,7 @@ Open [the demonstration](../demo/chart-pilot/index.html) locally, or serve the r
 
 ## Review content
 
-The pilot uses the unchanged 0.13.2 font in two deliberately constructed fixtures. The distributed fixture exercises the major aspect families. The crowded fixture places six bodies at 63–69 degrees. Actual angle anchors remain fixed; exterior callout lanes separate labels without changing the positions. Twelve equal 30-degree display sectors and a 15-degree origin are explicit fixture geometry. All displayed positions and motion states are fixture data.
+The pilot uses the 0.14.0 font in two deliberately constructed fixtures. The distributed fixture exercises the major aspect families. The crowded fixture places six bodies at 63–69 degrees. Actual angle anchors remain fixed; exterior callout lanes separate labels without changing the positions. Twelve equal 30-degree display sectors and a 15-degree origin are explicit fixture geometry. All displayed positions and motion states are fixture data.
 
 The companion tables include full position/model labels, aspect angles/separations/orbs, Fortune, circled-S Spirit, longer lot names and the four-letter `Parc` abbreviation. Dense minor-body marks use 24 px. Historical Sirius, Regulus and Vega forms retain their full Agrippa 1533 witness at 32 px; the separate Regulus chart form uses 24 px. Four satellite compositions retain their names, 24 px parent, 14 px ordinary Roman designation, 4 px gap and common baseline. The size strip distinguishes 14 px stress from reviewed 18/24/32 px use.
 

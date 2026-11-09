@@ -74,7 +74,7 @@ def run():
         def handle_data(self,data):self.text.append(data)
         def handle_starttag(self,tag,attrs):
             if tag=='span':self.label=dict(attrs).get('aria-label')
-    bulk=evidence['bulk'];check('All 725 browser detail flows',{r['id'] for r in bulk}==set(by_id) and len(bulk)==725)
+    bulk=evidence['bulk'];check('All 745 browser detail flows',{r['id'] for r in bulk}==set(by_id) and len(bulk)==745)
     copy_count=0
     for row in bulk:
         entry=by_id[row['id']];preview=entry['preview'];tag='Bulk '+entry['id']

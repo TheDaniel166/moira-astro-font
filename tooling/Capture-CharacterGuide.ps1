@@ -62,5 +62,5 @@ try {
     $after=Guide-Inputs
     if(($before | ConvertTo-Json -Compress) -ne ($after | ConvertTo-Json -Compress)){throw 'Guide sources changed during capture; repeat final capture'}
     [ordered]@{status='CAPTURED';inputs=$after;captures=$captures;bulk=$bulk;clipboard='Recorded writeText calls in isolated browser; no system clipboard modification'} | ConvertTo-Json -Depth 45 | Set-Content -LiteralPath (Join-Path $reviewRoot 'browser-captures.json') -Encoding utf8
-    Write-Output 'Captured 48 guide states and all 725 detail/copy flows; independent validation remains required'
+    Write-Output 'Captured 48 guide states and all 745 detail/copy flows; independent validation remains required'
 } finally { & agent-browser --session $sessionName close | Out-Null }

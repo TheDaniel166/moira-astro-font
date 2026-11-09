@@ -19,10 +19,10 @@ def run():
         if not ok:raise AssertionError(name)
     data=read(ASSETS/'catalog.json');registry=read(ROOT/'entry-map.json')
     entries=data['entries'];by_id={e['id']:e for e in entries};by_glyph={e['glyph_name']:e for e in entries}
-    check('725 unique public forms',len(entries)==len(by_id)==len(by_glyph)==725)
+    check('745 unique public forms',len(entries)==len(by_id)==len(by_glyph)==745)
     check('Active font version',data['font_version']==registry['version'])
     check('Current OFL/RFN',data['license']=='OFL-1.1' and data['reserved_font_names']==['Moira'])
-    check('Summary',data['summary']==dict(forms=725,glyphs=726,mapped_characters=225,canonical_tokens=579,compatibility_aliases=132,text_sequences=17))
+    check('Summary',data['summary']==dict(forms=745,glyphs=746,mapped_characters=225,canonical_tokens=599,compatibility_aliases=132,text_sequences=17))
     match=re.search(r'window\.MOIRA_CATALOG\s*=\s*(\{.*\})\s*;', (ASSETS/'catalog.js').read_text('utf-8'),re.S)
     check('Classic script payload equals JSON',bool(match) and json.loads(match.group(1))==data)
     with tempfile.TemporaryDirectory(prefix='moira-guide-build-') as tmp:
@@ -91,7 +91,7 @@ def run():
         inputs={n:hashlib.sha256((ROOT/n).read_bytes()).hexdigest() for n in ['guide/assets/catalog.json','guide/assets/catalog.js','tooling/build_character_guide.py','entry-map.json','inventory/inventory.json','fonts/MoiraAstro-Regular.ttf','fonts/MoiraAstro-Regular.woff2']},results=checks)
     target=ROOT/'build/character-guide/catalog-checks.json';target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
-    print(f'PASS: {len(checks):,} guide checks; {previews_checked:,} previews and {routes_checked:,} route shapes; all 725 forms preserved')
+    print(f'PASS: {len(checks):,} guide checks; {previews_checked:,} previews and {routes_checked:,} route shapes; all 745 forms preserved')
     return result
 
 if __name__=='__main__':run()

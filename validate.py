@@ -32,7 +32,7 @@ def validate():
     contract = read(ROOT/'source/baseline-contract.json')
     registry = read(ROOT/'entry-map.json')
     tokens = registry['family_entries']+registry['extra_entries']+registry['batch_entries']
-    check('Exactly 711 unique optional routes', len(tokens)==len({e['token'] for e in tokens})==711)
+    check('Exactly 731 unique optional routes', len(tokens)==len({e['token'] for e in tokens})==731)
     check('35 direct registry routes', len(registry['character_entries'])==35)
     check('OFL registry declaration', registry['license']=='OFL-1.1' and registry['reserved_font_names']==['Moira'])
     ofl = (ROOT/'OFL.txt').read_text('utf-8')
@@ -40,7 +40,7 @@ def validate():
     check('Full OFL text included', all(t in ofl for t in ['26 February 2007','PREAMBLE','DEFINITIONS','PERMISSION & CONDITIONS','TERMINATION','DISCLAIMER']))
     for fmt in ['ttf','woff2']:
         f = TTFont(ROOT/f'fonts/MoiraAstro-Regular.{fmt}', recalcTimestamp=False)
-        check(fmt+' glyph order', f.getGlyphOrder()==contract['glyph_order'] and len(f.getGlyphOrder())==726)
+        check(fmt+' glyph order', f.getGlyphOrder()==contract['glyph_order'] and len(f.getGlyphOrder())==746)
         check(fmt+' cmap count', len(f.getBestCmap())==225)
         for name,digest in contract['glyphs'].items():
             check(fmt+' frozen outline, hinting and metrics '+name, glyph_digest(f,name)==digest)
@@ -51,9 +51,9 @@ def validate():
             actual=getattr(f['head'], attr)
             if attr=='flags' and fmt=='woff2': actual &= ~0x800; value &= ~0x800
             check(fmt+' stable head '+attr, actual==value)
-        check(fmt+' revision', abs(f['head'].fontRevision-.942)<1/65536)
+        check(fmt+' revision', abs(f['head'].fontRevision-.95)<1/65536)
         check(fmt+' embedding unrestricted', f['OS/2'].fsType==0)
-        check(fmt+' version', f['name'].getDebugName(5)=='Version 0.942; Moira Astro 0.13.2-alpha.1')
+        check(fmt+' version', f['name'].getDebugName(5)=='Version 0.950; Moira Astro 0.14.0-alpha.1')
         for record in f['name'].names:
             if record.nameID==13: check(fmt+' full embedded OFL '+str((record.platformID,record.platEncID,record.langID)),record.toUnicode().strip()==ofl.strip())
             if record.nameID==14: check(fmt+' license URL '+str((record.platformID,record.platEncID,record.langID)),record.toUnicode()=='https://openfontlicense.org/')
@@ -79,8 +79,8 @@ def validate():
         check(fmt+' unslashed zero remains default',gids('0',False)==[f.getGlyphID(cmap[ord('0')])])
         check(fmt+' zero feature still selects alternate',shape('0',{'zero':True})!=shape('0',{'zero':False}))
         f.close()
-    result=dict(status='PASS',version='0.13.2-alpha.1',checks=len(checks),results=checks,
-                glyphs=726,mapped_characters=225,optional_tokens=711,direct_registry_routes=35,
+    result=dict(status='PASS',version='0.14.0-alpha.1',checks=len(checks),results=checks,
+                glyphs=746,mapped_characters=225,optional_tokens=731,direct_registry_routes=35,
                 byte_identical_rebuilds=True,
                 inputs={p:sha(ROOT/p) for p in ['source/MoiraAstro-Regular.ttx','source/baseline-contract.json','entry-map.json','aliases.json','OFL.txt','build.py','validate.py']},
                 artifacts={f'fonts/{n}':sha(ROOT/'fonts'/n) for n in a})

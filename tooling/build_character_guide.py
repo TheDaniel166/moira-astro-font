@@ -222,7 +222,7 @@ def build(output):
         notice='Graphic access routes preserve Unicode/token text. Named identities, model qualifiers and formula choices remain separate.',
         summary=dict(forms=len(result),glyphs=len(font.getGlyphOrder()),mapped_characters=len(cmap),canonical_tokens=len(canonical),compatibility_aliases=len(aliases),text_sequences=sequence_count),
         categories=[dict(id=k,label=v,count=counts[k]) for k,v in CATEGORIES if counts[k]],entries=result)
-    assert len(result)==725 and sequence_count==17 and {e['glyph_name'] for e in result}==set(font.getGlyphOrder())-{'.notdef'}
+    assert len(result)==745 and sequence_count==17 and {e['glyph_name'] for e in result}==set(font.getGlyphOrder())-{'.notdef'}
     output=Path(output);output.mkdir(parents=True,exist_ok=True)
     text=json.dumps(data,ensure_ascii=False,indent=2)+'\n'
     (output/'catalog.json').write_text(text,encoding='utf-8',newline='\n')
@@ -232,4 +232,4 @@ def build(output):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,default=ROOT/'guide/assets');args=parser.parse_args()
     data=build(args.output)
-    print(f"Built {data['summary']['forms']} guide forms: 225 Unicode mappings, 579 canonical tokens, 132 aliases and 17 text sequences; fonts unchanged")
+    print(f"Built {data['summary']['forms']} guide forms: 225 Unicode mappings, 599 canonical tokens, 132 aliases and 17 text sequences; fonts unchanged")

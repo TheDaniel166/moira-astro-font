@@ -6,7 +6,7 @@ Open [the guide](../guide/index.html) locally or serve the repository with `pyth
 
 ## Coverage and use
 
-The catalog describes **725 usable forms**, including spacing and the slashed-zero feature alternate. The unencoded missing-glyph marker is excluded. It retains all **225 Unicode mappings, 579 canonical tokens, 132 compatibility aliases and 17 supported text-presentation sequences**. One drawing can carry more than one named/model-qualified context; those contexts remain explicit.
+The catalog describes **745 usable forms**, including spacing and the slashed-zero feature alternate. The unencoded missing-glyph marker is excluded. It retains all **225 Unicode mappings, 599 canonical tokens, 132 compatibility aliases and 17 supported text-presentation sequences**. One drawing can carry more than one named/model-qualified context; those contexts remain explicit.
 
 Search by name, alias, meaning, category, source title, codepoint, character or exact token. The index starts with the default zodiac/body forms and paginates its results. Choose a form to read its definition, witness, context, related graphics and copy routes. Detail navigation supports deep links and browser history. Mobile dialogs retain a clear heading, restore focus to the originating result, and preserve the reading position when closed.
 
@@ -37,7 +37,7 @@ python -B tooling/check_guide_browser.py
 ./tooling/Test-CharacterGuide.ps1
 ```
 
-The capture records 48 combinations of desktop/tablet/phone width, theme, font format and representative edge cases. It also opens all 725 detail forms and activates all 954 copy routes against a recorded clipboard API, preserving the user's system clipboard. The independent validator checks actual advances and glyph features, exact payloads/receipts, source-preserving HTML/CSS examples, complete results and visible TTF/WOFF2 glyph pixels. Fingerprints reject source changes during a capture.
+The capture records 48 combinations of desktop/tablet/phone width, theme, font format and representative edge cases. It also opens all 745 detail forms and activates all 974 copy routes against a recorded clipboard API, preserving the user's system clipboard. The independent validator checks actual advances and glyph features, exact payloads/receipts, source-preserving HTML/CSS examples, complete results and visible TTF/WOFF2 glyph pixels. Fingerprints reject source changes during a capture.
 
 Native-control checks cover pagination, searches/categories, format/size/theme, feature-only and Word routes, rapid-copy feedback, denied-copy manual visibility/selection, real history/deep-link recovery, mobile focus return/heading reset, and isolated missing-font/missing-data states. Review reports and screenshots stay under ignored `build/character-guide/`.
 

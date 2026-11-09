@@ -2,11 +2,11 @@
 
 An original astrology symbol font, licensed under the [SIL Open Font License 1.1](OFL.txt), with **Moira** as the Reserved Font Name.
 
-Current development baseline: **0.13.2-alpha.1** — 726 glyphs, 225 mapped characters, 711 optional tokens and 35 direct-character registry routes. The standalone project includes a complete-chart presentation pilot. Public beta publication remains a separate milestone.
+Current development baseline: **0.14.0-alpha.1** — 746 glyphs, 225 mapped characters, 731 optional tokens and 35 direct-character registry routes. The standalone project includes a complete-chart presentation pilot. Public beta publication remains a separate milestone.
 
 ## Try the font
 
-- [Searchable character guide and picker](guide/index.html) — all 725 usable forms, meanings, related variants and exact copy routes. See [the guide documentation](docs/CHARACTER_GUIDE.md).
+- [Searchable character guide and picker](guide/index.html) — all 745 usable forms, meanings, related variants and exact copy routes. See [the guide documentation](docs/CHARACTER_GUIDE.md).
 - [TrueType font](fonts/MoiraAstro-Regular.ttf)
 - [WOFF2 webfont](fonts/MoiraAstro-Regular.woff2)
 - [Browser specimen](index.html) — open this file locally after cloning, or serve the repository with `python -m http.server 8000` and visit `http://localhost:8000/`.

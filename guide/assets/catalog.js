@@ -2,7 +2,7 @@
 window.MOIRA_CATALOG = {
   "schema_version": 1,
   "project": "Moira Astro",
-  "font_version": "0.13.2-alpha.1",
+  "font_version": "0.14.0-alpha.1",
   "license": "OFL-1.1",
   "copyright": "Copyright 2026 Moira Astro contributors. Original glyph designs.",
   "reserved_font_names": [
@@ -10,10 +10,10 @@ window.MOIRA_CATALOG = {
   ],
   "notice": "Graphic access routes preserve Unicode/token text. Named identities, model qualifiers and formula choices remain separate.",
   "summary": {
-    "forms": 725,
-    "glyphs": 726,
+    "forms": 745,
+    "glyphs": 746,
     "mapped_characters": 225,
-    "canonical_tokens": 579,
+    "canonical_tokens": 599,
     "compatibility_aliases": 132,
     "text_sequences": 17
   },
@@ -31,7 +31,7 @@ window.MOIRA_CATALOG = {
     {
       "id": "aspects",
       "label": "Aspects",
-      "count": 34
+      "count": 54
     },
     {
       "id": "lots",
@@ -8678,6 +8678,57 @@ window.MOIRA_CATALOG = {
       "search_text": "Binovile Zodiacal aspect with exact native nominal angle 80 degrees; orb and motion policy remain outside the font. Aspects Standard form Russian convention RUSSIAN ASTROLOGICAL SYMBOL BINOVILE U+2BF6 aspect.binovile [astro:russian-binovile] [astro:russianbinovile] ⯶ Unicode 17.0.0 UnicodeData Unicode 17.0.0 annotated NamesList https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt"
     },
     {
+      "id": "glyph.astro.aspect.biquindecile",
+      "glyph_name": "astro.aspect.biquindecile",
+      "name": "Biquindecile",
+      "meaning": "Biquindecile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Biquindecile",
+        "Qd with raised 2",
+        "Biquindecile (48°)"
+      ],
+      "semantic_ids": [
+        "aspect.biquindecile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:biquindecile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:biquindecile]",
+          "kind": "token",
+          "text": "[astro:biquindecile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.biquindecile",
+      "search_text": "Biquindecile Biquindecile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Qd with raised 2 Biquindecile (48°) aspect.biquindecile [astro:biquindecile]"
+    },
+    {
       "id": "glyph.astro.biquintile",
       "glyph_name": "astro.biquintile",
       "name": "Biquintile",
@@ -8889,6 +8940,57 @@ window.MOIRA_CATALOG = {
       "rank": 140,
       "source_record_id": "biseptile",
       "search_text": "Biseptile Zodiacal aspect with exact native nominal angle 720 / 7 degrees; orb and motion policy remain outside the font. Aspects Standard form S² aspect.biseptile [astro:biseptile] Unicode 17.0.0 UnicodeData Unicode 17.0.0 annotated NamesList https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt"
+    },
+    {
+      "id": "glyph.astro.aspect.biundecile",
+      "glyph_name": "astro.aspect.biundecile",
+      "name": "Biundecile",
+      "meaning": "Biundecile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Biundecile",
+        "U with raised 2",
+        "Biundecile (65.45°)"
+      ],
+      "semantic_ids": [
+        "aspect.biundecile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:biundecile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:biundecile]",
+          "kind": "token",
+          "text": "[astro:biundecile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.biundecile",
+      "search_text": "Biundecile Biundecile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form U with raised 2 Biundecile (65.45°) aspect.biundecile [astro:biundecile]"
     },
     {
       "id": "glyph.astro.contra-parallel-grid",
@@ -9290,6 +9392,57 @@ window.MOIRA_CATALOG = {
       "search_text": "Hexadecile Hexadecile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Semioctile (22.5-degree convention) Nested angles Hexadecile (22.5°) aspect.hexadecile Separately identified aspect convention with nominal angle 360/16 degrees; it does not change Moira's existing aspect definitions. [astro:hexadecile]"
     },
     {
+      "id": "glyph.astro.aspect.nonavigintile",
+      "glyph_name": "astro.aspect.nonavigintile",
+      "name": "Nonavigintile",
+      "meaning": "Nonavigintile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Nonavigintile",
+        "V with raised 9",
+        "Nonavigintile (162°)"
+      ],
+      "semantic_ids": [
+        "aspect.nonavigintile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:nonavigintile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:nonavigintile]",
+          "kind": "token",
+          "text": "[astro:nonavigintile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.nonavigintile",
+      "search_text": "Nonavigintile Nonavigintile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form V with raised 9 Nonavigintile (162°) aspect.nonavigintile [astro:nonavigintile]"
+    },
+    {
       "id": "glyph.astro.novile",
       "glyph_name": "astro.novile",
       "name": "Novile",
@@ -9603,6 +9756,108 @@ window.MOIRA_CATALOG = {
       "search_text": "Quadnovile Zodiacal aspect with exact native nominal angle 160 degrees; orb and motion policy remain outside the font. Aspects Standard form N⁴ aspect.quadnovile [astro:quadnovile] Unicode 17.0.0 UnicodeData Unicode 17.0.0 annotated NamesList https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt"
     },
     {
+      "id": "glyph.astro.aspect.quadraquindecile",
+      "glyph_name": "astro.aspect.quadraquindecile",
+      "name": "Quadraquindecile",
+      "meaning": "Quadraquindecile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Quadraquindecile",
+        "Qd with raised 4",
+        "Quadraquindecile (96°)"
+      ],
+      "semantic_ids": [
+        "aspect.quadraquindecile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:quadraquindecile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:quadraquindecile]",
+          "kind": "token",
+          "text": "[astro:quadraquindecile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.quadraquindecile",
+      "search_text": "Quadraquindecile Quadraquindecile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Qd with raised 4 Quadraquindecile (96°) aspect.quadraquindecile [astro:quadraquindecile]"
+    },
+    {
+      "id": "glyph.astro.aspect.quadriundecile",
+      "glyph_name": "astro.aspect.quadriundecile",
+      "name": "Quadriundecile",
+      "meaning": "Quadriundecile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Quadriundecile",
+        "U with raised 4",
+        "Quadriundecile (130.91°)"
+      ],
+      "semantic_ids": [
+        "aspect.quadriundecile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:quadriundecile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:quadriundecile]",
+          "kind": "token",
+          "text": "[astro:quadriundecile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.quadriundecile",
+      "search_text": "Quadriundecile Quadriundecile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form U with raised 4 Quadriundecile (130.91°) aspect.quadriundecile [astro:quadriundecile]"
+    },
+    {
       "id": "glyph.astro.quindecile",
       "glyph_name": "astro.quindecile",
       "name": "Quindecile",
@@ -9666,6 +9921,210 @@ window.MOIRA_CATALOG = {
       "rank": 140,
       "source_record_id": "quindecile",
       "search_text": "Quindecile Zodiacal aspect with exact native nominal angle 24 degrees; orb and motion policy remain outside the font. Aspects Standard form Qd aspect.quindecile [astro:quindecile] Unicode 17.0.0 UnicodeData Unicode 17.0.0 annotated NamesList https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt"
+    },
+    {
+      "id": "glyph.astro.aspect.quinqueundecile",
+      "glyph_name": "astro.aspect.quinqueundecile",
+      "name": "Quinqueundecile",
+      "meaning": "Quinqueundecile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Quinqueundecile",
+        "U with raised 5",
+        "Quinqueundecile (163.64°)"
+      ],
+      "semantic_ids": [
+        "aspect.quinqueundecile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:quinqueundecile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:quinqueundecile]",
+          "kind": "token",
+          "text": "[astro:quinqueundecile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.quinqueundecile",
+      "search_text": "Quinqueundecile Quinqueundecile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form U with raised 5 Quinqueundecile (163.64°) aspect.quinqueundecile [astro:quinqueundecile]"
+    },
+    {
+      "id": "glyph.astro.aspect.quinseminovile",
+      "glyph_name": "astro.aspect.quinseminovile",
+      "name": "Quinseminovile",
+      "meaning": "Quinseminovile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Quinseminovile",
+        "Seminovile diamond with raised 5",
+        "Quinseminovile (100°)"
+      ],
+      "semantic_ids": [
+        "aspect.quinseminovile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:quinseminovile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:quinseminovile]",
+          "kind": "token",
+          "text": "[astro:quinseminovile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.quinseminovile",
+      "search_text": "Quinseminovile Quinseminovile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Seminovile diamond with raised 5 Quinseminovile (100°) aspect.quinseminovile [astro:quinseminovile]"
+    },
+    {
+      "id": "glyph.astro.aspect.quinsemioctile",
+      "glyph_name": "astro.aspect.quinsemioctile",
+      "name": "Quinsemioctile",
+      "meaning": "Quinsemioctile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Quinsemioctile",
+        "Nested angles with raised 5",
+        "Quinsemioctile (112.5°)"
+      ],
+      "semantic_ids": [
+        "aspect.quinsemioctile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:quinsemioctile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:quinsemioctile]",
+          "kind": "token",
+          "text": "[astro:quinsemioctile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.quinsemioctile",
+      "search_text": "Quinsemioctile Quinsemioctile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Nested angles with raised 5 Quinsemioctile (112.5°) aspect.quinsemioctile [astro:quinsemioctile]"
+    },
+    {
+      "id": "glyph.astro.aspect.quinsemiseptile",
+      "glyph_name": "astro.aspect.quinsemiseptile",
+      "name": "Quinsemiseptile",
+      "meaning": "Quinsemiseptile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Quinsemiseptile",
+        "Small s before S with raised 5",
+        "Quinsemiseptile (128.57°)"
+      ],
+      "semantic_ids": [
+        "aspect.quinsemiseptile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:quinsemiseptile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:quinsemiseptile]",
+          "kind": "token",
+          "text": "[astro:quinsemiseptile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.quinsemiseptile",
+      "search_text": "Quinsemiseptile Quinsemiseptile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Small s before S with raised 5 Quinsemiseptile (128.57°) aspect.quinsemiseptile [astro:quinsemiseptile]"
     },
     {
       "id": "glyph.astro.quintile",
@@ -9997,6 +10456,57 @@ window.MOIRA_CATALOG = {
       "search_text": "Seminovile Seminovile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Cleft diamond Seminovile (20°) aspect.seminovile Separately identified aspect convention with nominal angle 360/18 degrees; it does not change Moira's existing aspect definitions. [astro:seminovile]"
     },
     {
+      "id": "glyph.astro.aspect.semiseptile",
+      "glyph_name": "astro.aspect.semiseptile",
+      "name": "Semiseptile",
+      "meaning": "Semiseptile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Semiseptile",
+        "Small s before S",
+        "Semiseptile (25.71°)"
+      ],
+      "semantic_ids": [
+        "aspect.semiseptile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:semiseptile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:semiseptile]",
+          "kind": "token",
+          "text": "[astro:semiseptile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.semiseptile",
+      "search_text": "Semiseptile Semiseptile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Small s before S Semiseptile (25.71°) aspect.semiseptile [astro:semiseptile]"
+    },
+    {
       "id": "glyph.uni2BF7",
       "glyph_name": "uni2BF7",
       "name": "Sentagon / Russian 100-degree aspect",
@@ -10100,6 +10610,57 @@ window.MOIRA_CATALOG = {
       "search_text": "Sentagon / Russian 100-degree aspect Separately identified aspect convention with nominal angle 100 degrees; it does not change Moira's existing aspect definitions. Aspects Standard form Russian convention RUSSIAN ASTROLOGICAL SYMBOL SENTAGON U+2BF7 aspect.sentagon-russian [astro:russian-sentagon] [astro:russiansentagon] ⯷ Unicode 17.0.0 UnicodeData Unicode 17.0.0 annotated NamesList Michel Suignard, L2/17-020R2 / WG2 N4811 https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt https://www.unicode.org/wg2/docs/n4811-fdbk-extra-aspect-sym.pdf"
     },
     {
+      "id": "glyph.astro.aspect.septaquindecile",
+      "glyph_name": "astro.aspect.septaquindecile",
+      "name": "Septaquindecile",
+      "meaning": "Septaquindecile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Septaquindecile",
+        "Qd with raised 7",
+        "Septaquindecile (168°)"
+      ],
+      "semantic_ids": [
+        "aspect.septaquindecile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:septaquindecile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:septaquindecile]",
+          "kind": "token",
+          "text": "[astro:septaquindecile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.septaquindecile",
+      "search_text": "Septaquindecile Septaquindecile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Qd with raised 7 Septaquindecile (168°) aspect.septaquindecile [astro:septaquindecile]"
+    },
+    {
       "id": "glyph.astro.septile",
       "glyph_name": "astro.septile",
       "name": "Septile",
@@ -10163,6 +10724,312 @@ window.MOIRA_CATALOG = {
       "rank": 140,
       "source_record_id": "septile",
       "search_text": "Septile Zodiacal aspect with exact native nominal angle 360 / 7 degrees; orb and motion policy remain outside the font. Aspects Standard form S aspect.septile [astro:septile] Unicode 17.0.0 UnicodeData Unicode 17.0.0 annotated NamesList https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt"
+    },
+    {
+      "id": "glyph.astro.aspect.septseminovile",
+      "glyph_name": "astro.aspect.septseminovile",
+      "name": "Septseminovile",
+      "meaning": "Septseminovile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Septseminovile",
+        "Seminovile diamond with raised 7",
+        "Septseminovile (140°)"
+      ],
+      "semantic_ids": [
+        "aspect.septseminovile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:septseminovile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:septseminovile]",
+          "kind": "token",
+          "text": "[astro:septseminovile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.septseminovile",
+      "search_text": "Septseminovile Septseminovile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Seminovile diamond with raised 7 Septseminovile (140°) aspect.septseminovile [astro:septseminovile]"
+    },
+    {
+      "id": "glyph.astro.aspect.septsemioctile",
+      "glyph_name": "astro.aspect.septsemioctile",
+      "name": "Septsemioctile",
+      "meaning": "Septsemioctile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Septsemioctile",
+        "Nested angles with raised 7",
+        "Septsemioctile (157.5°)"
+      ],
+      "semantic_ids": [
+        "aspect.septsemioctile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:septsemioctile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:septsemioctile]",
+          "kind": "token",
+          "text": "[astro:septsemioctile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.septsemioctile",
+      "search_text": "Septsemioctile Septsemioctile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Nested angles with raised 7 Septsemioctile (157.5°) aspect.septsemioctile [astro:septsemioctile]"
+    },
+    {
+      "id": "glyph.astro.aspect.septvigintile",
+      "glyph_name": "astro.aspect.septvigintile",
+      "name": "Septvigintile",
+      "meaning": "Septvigintile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Septvigintile",
+        "V with raised 7",
+        "Septvigintile (126°)"
+      ],
+      "semantic_ids": [
+        "aspect.septvigintile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:septvigintile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:septvigintile]",
+          "kind": "token",
+          "text": "[astro:septvigintile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.septvigintile",
+      "search_text": "Septvigintile Septvigintile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form V with raised 7 Septvigintile (126°) aspect.septvigintile [astro:septvigintile]"
+    },
+    {
+      "id": "glyph.astro.aspect.sesquioctile",
+      "glyph_name": "astro.aspect.sesquioctile",
+      "name": "Sesquioctile",
+      "meaning": "Sesquioctile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Sesquioctile",
+        "Nested angles with raised 3",
+        "Sesquioctile (67.5°)"
+      ],
+      "semantic_ids": [
+        "aspect.sesquioctile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:sesquioctile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:sesquioctile]",
+          "kind": "token",
+          "text": "[astro:sesquioctile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.sesquioctile",
+      "search_text": "Sesquioctile Sesquioctile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Nested angles with raised 3 Sesquioctile (67.5°) aspect.sesquioctile [astro:sesquioctile]"
+    },
+    {
+      "id": "glyph.astro.aspect.squile",
+      "glyph_name": "astro.aspect.squile",
+      "name": "Squile",
+      "meaning": "Squile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Squile",
+        "Untion mark with raised 5",
+        "Squile (75°)"
+      ],
+      "semantic_ids": [
+        "aspect.squile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:squile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:squile]",
+          "kind": "token",
+          "text": "[astro:squile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.squile",
+      "search_text": "Squile Squile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Untion mark with raised 5 Squile (75°) aspect.squile [astro:squile]"
+    },
+    {
+      "id": "glyph.astro.aspect.squine",
+      "glyph_name": "astro.aspect.squine",
+      "name": "Squine",
+      "meaning": "Squine aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Squine",
+        "Untion mark with raised 7",
+        "Squine (105°)"
+      ],
+      "semantic_ids": [
+        "aspect.squine"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:squine]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:squine]",
+          "kind": "token",
+          "text": "[astro:squine]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.squine",
+      "search_text": "Squine Squine aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Untion mark with raised 7 Squine (105°) aspect.squine [astro:squine]"
     },
     {
       "id": "glyph.astro.aspect.tao",
@@ -10393,6 +11260,57 @@ window.MOIRA_CATALOG = {
       "search_text": "Tredecile Zodiacal aspect with exact native nominal angle 108 degrees; orb and motion policy remain outside the font. Aspects Standard form Russian convention RUSSIAN ASTROLOGICAL SYMBOL TREDECILE U+2BF8 aspect.tredecile [astro:russian-tredecile] [astro:russiantredecile] ⯸ Unicode 17.0.0 UnicodeData Unicode 17.0.0 annotated NamesList https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt"
     },
     {
+      "id": "glyph.astro.aspect.trisemiseptile",
+      "glyph_name": "astro.aspect.trisemiseptile",
+      "name": "Trisemiseptile",
+      "meaning": "Trisemiseptile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Trisemiseptile",
+        "Small s before S with raised 3",
+        "Trisemiseptile (77.14°)"
+      ],
+      "semantic_ids": [
+        "aspect.trisemiseptile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:trisemiseptile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:trisemiseptile]",
+          "kind": "token",
+          "text": "[astro:trisemiseptile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.trisemiseptile",
+      "search_text": "Trisemiseptile Trisemiseptile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form Small s before S with raised 3 Trisemiseptile (77.14°) aspect.trisemiseptile [astro:trisemiseptile]"
+    },
+    {
       "id": "glyph.astro.triseptile",
       "glyph_name": "astro.triseptile",
       "name": "Triseptile",
@@ -10456,6 +11374,108 @@ window.MOIRA_CATALOG = {
       "rank": 140,
       "source_record_id": "triseptile",
       "search_text": "Triseptile Zodiacal aspect with exact native nominal angle 1080 / 7 degrees; orb and motion policy remain outside the font. Aspects Standard form S³ aspect.triseptile [astro:triseptile] Unicode 17.0.0 UnicodeData Unicode 17.0.0 annotated NamesList https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt https://www.unicode.org/Public/17.0.0/ucd/NamesList.txt"
+    },
+    {
+      "id": "glyph.astro.aspect.triundecile",
+      "glyph_name": "astro.aspect.triundecile",
+      "name": "Triundecile",
+      "meaning": "Triundecile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Triundecile",
+        "U with raised 3",
+        "Triundecile (98.18°)"
+      ],
+      "semantic_ids": [
+        "aspect.triundecile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:triundecile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:triundecile]",
+          "kind": "token",
+          "text": "[astro:triundecile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.triundecile",
+      "search_text": "Triundecile Triundecile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form U with raised 3 Triundecile (98.18°) aspect.triundecile [astro:triundecile]"
+    },
+    {
+      "id": "glyph.astro.aspect.trivigintile",
+      "glyph_name": "astro.aspect.trivigintile",
+      "name": "Trivigintile",
+      "meaning": "Trivigintile aspect notation, angle-qualified; no interpretation or orb selected.",
+      "category": "aspects",
+      "category_label": "Aspects",
+      "aliases": [
+        "Trivigintile",
+        "V with raised 3",
+        "Trivigintile (54°)"
+      ],
+      "semantic_ids": [
+        "aspect.trivigintile"
+      ],
+      "contexts": [],
+      "preview": {
+        "text": "[astro:trivigintile]",
+        "features": {
+          "dlig": true,
+          "zero": false
+        }
+      },
+      "recommended_em": 18,
+      "form_label": "Standard form",
+      "origin_label": "Original Moira symbol",
+      "witness": null,
+      "notes": [],
+      "related_ids": [],
+      "routes": [
+        {
+          "id": "token:[astro:trivigintile]",
+          "kind": "token",
+          "text": "[astro:trivigintile]",
+          "label": "Canonical token",
+          "codepoints": [],
+          "unicode_names": [],
+          "features": {
+            "dlig": true,
+            "zero": false
+          },
+          "requires_feature": "dlig",
+          "note": "This route selects the drawing. Keep its named identity and any model or formula qualifiers in your chart data."
+        }
+      ],
+      "sources": [],
+      "spacing": false,
+      "rank": 140,
+      "source_record_id": "aspect.trivigintile",
+      "search_text": "Trivigintile Trivigintile aspect notation, angle-qualified; no interpretation or orb selected. Aspects Standard form V with raised 3 Trivigintile (54°) aspect.trivigintile [astro:trivigintile]"
     },
     {
       "id": "glyph.astro.undecile",

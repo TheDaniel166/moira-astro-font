@@ -745,3 +745,23 @@
 ,,⯝,U+2BDD,White Moon Selena,astro.hypothetical.selena,718,613,direct_unicode
 ,,⯟,U+2BDF,True Light Moon Arta,astro.hypothetical.arta,719,856,direct_unicode
 ,,⛎,U+26CE,Ophiuchus / modern convention,astro.zodiac.ophiuchus_modern,722,1094,direct_unicode
+[astro:semiseptile],,,,Semiseptile,astro.aspect.semiseptile,726,893,explicit_original_aspect_token
+[astro:trisemiseptile],,,,Trisemiseptile,astro.aspect.trisemiseptile,727,1132,explicit_original_aspect_token
+[astro:quinsemiseptile],,,,Quinsemiseptile,astro.aspect.quinsemiseptile,728,1132,explicit_original_aspect_token
+[astro:quinseminovile],,,,Quinseminovile,astro.aspect.quinseminovile,729,1141,explicit_original_aspect_token
+[astro:septseminovile],,,,Septseminovile,astro.aspect.septseminovile,730,1140,explicit_original_aspect_token
+[astro:biquindecile],,,,Biquindecile,astro.aspect.biquindecile,731,1111,explicit_original_aspect_token
+[astro:quadraquindecile],,,,Quadraquindecile,astro.aspect.quadraquindecile,732,1122,explicit_original_aspect_token
+[astro:septaquindecile],,,,Septaquindecile,astro.aspect.septaquindecile,733,1111,explicit_original_aspect_token
+[astro:trivigintile],,,,Trivigintile,astro.aspect.trivigintile,734,1063,explicit_original_aspect_token
+[astro:septvigintile],,,,Septvigintile,astro.aspect.septvigintile,735,1062,explicit_original_aspect_token
+[astro:nonavigintile],,,,Nonavigintile,astro.aspect.nonavigintile,736,1058,explicit_original_aspect_token
+[astro:biundecile],,,,Biundecile,astro.aspect.biundecile,737,1040,explicit_original_aspect_token
+[astro:triundecile],,,,Triundecile,astro.aspect.triundecile,738,1041,explicit_original_aspect_token
+[astro:quadriundecile],,,,Quadriundecile,astro.aspect.quadriundecile,739,1051,explicit_original_aspect_token
+[astro:quinqueundecile],,,,Quinqueundecile,astro.aspect.quinqueundecile,740,1041,explicit_original_aspect_token
+[astro:sesquioctile],,,,Sesquioctile,astro.aspect.sesquioctile,741,1076,explicit_original_aspect_token
+[astro:quinsemioctile],,,,Quinsemioctile,astro.aspect.quinsemioctile,742,1076,explicit_original_aspect_token
+[astro:septsemioctile],,,,Septsemioctile,astro.aspect.septsemioctile,743,1075,explicit_original_aspect_token
+[astro:squile],,,,Squile,astro.aspect.squile,744,1130,explicit_original_aspect_token
+[astro:squine],,,,Squine,astro.aspect.squine,745,1129,explicit_original_aspect_token

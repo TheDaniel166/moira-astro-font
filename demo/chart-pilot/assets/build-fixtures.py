@@ -34,7 +34,7 @@ for n,key in enumerate(['balanced','crowded']):
 stars=[]
 for token in ['[astro:star-sirius-1533-historical]','[astro:star-regulus-1533-historical]','[astro:star-vega-1533-historical]','[astro:star-regulus-1533-chart]']:
     e=by_token[token];stars.append(dict(id=e['glyph_name'],name=e['name'],symbol=token,witness=e['witness'],variant=e['variant'],em=32 if e['variant']=='historical' else 24))
-data=dict(schema_version=1,project='Moira Astro',font_version='0.13.2-alpha.1',license='OFL-1.1',
+data=dict(schema_version=1,project='Moira Astro',font_version='0.14.0-alpha.1',license='OFL-1.1',
     copyright='Copyright 2026 Moira Astro contributors. Original glyph designs.',
     notice='Declared layout fixtures. No ephemeris, natal-chart, native-model or lot-formula calculation.',
     signs=[dict(name=n,symbol=s) for n,s in zip(['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'],'♈♉♊♋♌♍♎♏♐♑♒♓')],

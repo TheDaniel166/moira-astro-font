@@ -39,7 +39,7 @@ def run():
               'tooling/build_character_guide.py','tests/check_character_guide.py']
     for name in required:check('Required project file '+name,(ROOT/name).is_file())
     registry=json.loads((ROOT/'entry-map.json').read_text('utf-8'))
-    check('Current OFL registry',registry['version']=='0.13.2-alpha.1' and registry['license']=='OFL-1.1')
+    check('Current OFL registry',registry['version']=='0.14.0-alpha.1' and registry['license']=='OFL-1.1')
     inventory=json.loads((ROOT/'inventory/inventory.json').read_text('utf-8'))
     check('327 reconciled records',inventory['summary']['inventory_records']==327)
     class Links(HTMLParser):
